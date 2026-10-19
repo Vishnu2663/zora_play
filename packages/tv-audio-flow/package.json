@@ -15,7 +15,7 @@
     "typescript"
   ],
   "license": "MIT",
-  "author": "TV Audio Flow contributors",
+  "author": "Vishnu",
   "type": "module",
   "sideEffects": false,
   "exports": {
