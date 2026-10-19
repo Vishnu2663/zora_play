@@ -1,0 +1,174 @@
+{
+  "metadata": {
+    "kind": "animal-facts",
+    "model": "apac.amazon.nova-lite-v1:0",
+    "region": "ap-south-1",
+    "date": "2026-10-18T15:51:00.949Z",
+    "promptVersion": "1.0.0",
+    "systemPrompt": "You write lines for a TV buddy that talks to children aged 3 to 8.\nRules for EVERY line:\n- Use very simple English. Short sentences. Words a 4 year old knows.\n- Be warm, gentle and silly. Nothing scary, rude, mean, political, romantic, medical or religious.\n- No brand names, no names of real people, no places that need a map.\n- Never ask the child for personal data (name, age, address, school, photos).\n- No digits. Write numbers as words. No links, no emails, no emojis.\n- Only use these marks: letters, spaces, commas, full stops, question marks, exclamation marks, apostrophes.\nReturn ONLY valid JSON. No markdown, no commentary.",
+    "guardrail": "1kcus2m06r9m:1",
+    "note": "Written by an AI model. Lines are pending until a human approves them."
+  },
+  "lines": [
+    {
+      "id": "gen-animal-facts-0a813d9e0e",
+      "kind": "animal-facts",
+      "text": "Dogs love to play fetch.",
+      "animal": "dog",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-lite-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-18T15:51:00.948Z",
+        "promptVersion": "1.0.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "857052218d13cc87",
+          "date": "2026-10-18T16:08:36.684Z"
+        }
+      },
+      "review": {
+        "reviewer": "Your Name",
+        "date": "2026-10-18T15:52:49.166Z"
+      }
+    },
+    {
+      "id": "gen-animal-facts-15f6830f60",
+      "kind": "animal-facts",
+      "text": "Cats like to nap all day.",
+      "animal": "cat",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-lite-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-18T15:51:00.948Z",
+        "promptVersion": "1.0.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "cc0ad08f25a58fcf",
+          "date": "2026-10-18T16:08:37.154Z"
+        }
+      },
+      "review": {
+        "reviewer": "Your Name",
+        "date": "2026-10-18T15:52:55.427Z"
+      }
+    },
+    {
+      "id": "gen-animal-facts-90aa0a70ae",
+      "kind": "animal-facts",
+      "text": "Sheep like to munch grass.",
+      "animal": "sheep",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-lite-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-18T15:51:00.948Z",
+        "promptVersion": "1.0.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "b2379b1ffb9d75b0",
+          "date": "2026-10-18T16:08:37.462Z"
+        }
+      },
+      "review": {
+        "reviewer": "Your Name",
+        "date": "2026-10-18T15:52:57.265Z"
+      }
+    },
+    {
+      "id": "gen-animal-facts-7d5a8047c8",
+      "kind": "animal-facts",
+      "text": "Goats love to eat leaves.",
+      "animal": "goat",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-lite-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-18T15:51:00.948Z",
+        "promptVersion": "1.0.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "38c6f599efaf58fa",
+          "date": "2026-10-18T16:08:37.838Z"
+        }
+      },
+      "review": {
+        "reviewer": "Your Name",
+        "date": "2026-10-18T15:52:58.925Z"
+      }
+    },
+    {
+      "id": "gen-animal-facts-b98c4263cf",
+      "kind": "animal-facts",
+      "text": "Horses love to run free.",
+      "animal": "horse",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-lite-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-18T15:51:00.948Z",
+        "promptVersion": "1.0.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "732e5939e5048d28",
+          "date": "2026-10-18T16:08:38.216Z"
+        }
+      },
+      "review": {
+        "reviewer": "Your Name",
+        "date": "2026-10-18T15:53:00.109Z"
+      }
+    }
+  ]
+}

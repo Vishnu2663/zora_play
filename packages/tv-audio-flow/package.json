@@ -1,0 +1,56 @@
+{
+  "name": "tv-audio-flow",
+  "version": "0.1.0",
+  "description": "Cancellation-safe, strictly sequential audio sequencing (clips + delays) for TV, kiosk and kids' web apps. Framework-agnostic, adapter-driven, typed errors.",
+  "keywords": [
+    "audio",
+    "sequence",
+    "sequencer",
+    "playlist",
+    "cancellation",
+    "html-audio",
+    "webview",
+    "smart-tv",
+    "fire-tv",
+    "typescript"
+  ],
+  "license": "MIT",
+  "author": "TV Audio Flow contributors",
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./web": {
+      "types": "./dist/web/index.d.ts",
+      "import": "./dist/web/index.js"
+    },
+    "./testing": {
+      "types": "./dist/testing/index.d.ts",
+      "import": "./dist/testing/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "clean": "node -e \"require('node:fs').rmSync('dist',{recursive:true,force:true})\"",
+    "build": "npm run clean && tsc -p tsconfig.build.json",
+    "typecheck": "tsc -p tsconfig.json",
+    "test": "node --test \"test/*.test.ts\"",
+    "examples": "node examples/rhyme-playback.ts && node examples/animal-quiz.ts",
+    "check": "npm run typecheck && npm test && npm run build && npm run examples",
+    "prepack": "npm run build"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "typescript": "~5.9.3"
+  }
+}

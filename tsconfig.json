@@ -1,0 +1,19 @@
+{
+  // Strict typecheck for the platform-agnostic core (engine, games, rhymes).
+  // The UI is bundled by esbuild; see README for typechecking it with @types/react.
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "strict": true,
+    "noEmit": true,
+    "allowImportingTsExtensions": true,
+    "verbatimModuleSyntax": true,
+    "erasableSyntaxOnly": true,
+    "noUnusedLocals": true,
+    "noFallthroughCasesInSwitch": true,
+    "lib": ["ES2022"],
+    "skipLibCheck": true
+  },
+  "include": ["src/core/**/*.ts"]
+}

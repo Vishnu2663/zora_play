@@ -1,0 +1,29 @@
+node_modules/
+dist/
+*.log
+.DS_Store
+.env
+.env.*
+!.env.example
+__pycache__/
+# Vega build outputs if the Vega project is placed alongside
+build/
+*.vpkg
+# Fire TV / Android build outputs and local config
+firetv/.gradle/
+firetv/app/build/
+firetv/local.properties
+firetv/app/src/main/assets/
+firetv/build/
+*.apk
+# the vendored audio library ships with its built dist/
+!packages/tv-audio-flow/dist/
+# AWS credentials / local config (never commit)
+.aws/
+aws-exports*
+*.pem
+credentials
+
+# Vega wrapper: assets are a copy of dist/ made at build time
+vega-app/assets/
+vega-app/buildinfo.json

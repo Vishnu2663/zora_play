@@ -1,0 +1,1583 @@
+{
+  "count": 263,
+  "phrases": [
+    {
+      "id": "hi-im-zora-play-want-bd787d",
+      "text": "Hi! I'm Zora Play! Want to play?",
+      "speak": "Hi! I'm Zora Play! Want to play?",
+      "source": "responses.SAY.welcome"
+    },
+    {
+      "id": "hello-friend-what-shall-we-217e31",
+      "text": "Hello, friend! What shall we do?",
+      "speak": "Hello, friend! What shall we do?",
+      "source": "responses.SAY.welcome"
+    },
+    {
+      "id": "zora-plays-here-pick-something-252377",
+      "text": "Zora Play's here! Pick something fun!",
+      "speak": "Zora Play's here! Pick something fun!",
+      "source": "responses.SAY.welcome"
+    },
+    {
+      "id": "good-morning-i-just-woke-aca800",
+      "text": "Good morning! I just woke up. Yawn!",
+      "speak": "Good morning! I just woke up. Yawn!",
+      "source": "responses.SAY.welcomeMorning"
+    },
+    {
+      "id": "its-nearly-night-time-lets-9c3b1a",
+      "text": "It's nearly night-time. Let's do something cosy!",
+      "speak": "It's nearly night-time. Let's do something cosy!",
+      "source": "responses.SAY.welcomeNight"
+    },
+    {
+      "id": "hi-hi-happy-to-see-0c7915",
+      "text": "Hi hi! Happy to see you!",
+      "speak": "Hi hi! Happy to see you!",
+      "source": "responses.SAY.greet"
+    },
+    {
+      "id": "hello-there-wave-wave-af6827",
+      "text": "Hello there! Wave wave!",
+      "speak": "Hello there! Wave wave!",
+      "source": "responses.SAY.greet"
+    },
+    {
+      "id": "hey-im-ready-to-play-5037ee",
+      "text": "Hey! I'm ready to play!",
+      "speak": "Hey! I'm ready to play!",
+      "source": "responses.SAY.greet"
+    },
+    {
+      "id": "lets-wiggle-0a6240",
+      "text": "Let's wiggle!",
+      "speak": "Let's wiggle!",
+      "source": "responses.SAY.danceNormal"
+    },
+    {
+      "id": "dance-party-84d23b",
+      "text": "Dance party!",
+      "speak": "Dance party!",
+      "source": "responses.SAY.danceNormal"
+    },
+    {
+      "id": "shake-your-tail-598d81",
+      "text": "Shake your tail!",
+      "speak": "Shake your tail!",
+      "source": "responses.SAY.danceNormal"
+    },
+    {
+      "id": "beep-boop-robot-mode-5849d5",
+      "text": "Beep boop! Robot mode!",
+      "speak": "Beep boop! Robot mode!",
+      "source": "responses.SAY.danceRobot"
+    },
+    {
+      "id": "i-am-a-dancing-robot-fbb323",
+      "text": "I am... a dancing robot!",
+      "speak": "I am... a dancing robot!",
+      "source": "responses.SAY.danceRobot"
+    },
+    {
+      "id": "silly-wiggles-b47ed1",
+      "text": "Silly wiggles!",
+      "speak": "Silly wiggles!",
+      "source": "responses.SAY.danceFunny"
+    },
+    {
+      "id": "wobble-wobble-3bc130",
+      "text": "Wobble wobble!",
+      "speak": "Wobble wobble!",
+      "source": "responses.SAY.danceFunny"
+    },
+    {
+      "id": "noodle-dance-ea31bc",
+      "text": "Noodle dance!",
+      "speak": "Noodle dance!",
+      "source": "responses.SAY.danceFunny"
+    },
+    {
+      "id": "nice-and-slow-b93f2f",
+      "text": "Nice and slow...",
+      "speak": "Nice and slow...",
+      "source": "responses.SAY.danceSlow"
+    },
+    {
+      "id": "floaty-dance-66ae4f",
+      "text": "Floaty dance...",
+      "speak": "Floaty dance...",
+      "source": "responses.SAY.danceSlow"
+    },
+    {
+      "id": "super-speed-wiggles-a35635",
+      "text": "Super-speed wiggles!",
+      "speak": "Super-speed wiggles!",
+      "source": "responses.SAY.faster"
+    },
+    {
+      "id": "zoom-zoom-6ef83f",
+      "text": "Zoom zoom!",
+      "speak": "Zoom zoom!",
+      "source": "responses.SAY.faster"
+    },
+    {
+      "id": "faster-faster-20cc5c",
+      "text": "Faster faster!",
+      "speak": "Faster faster!",
+      "source": "responses.SAY.faster"
+    },
+    {
+      "id": "thats-my-fastest-whoosh-f92dc8",
+      "text": "That's my fastest! Whoosh!",
+      "speak": "That's my fastest! Whoosh!",
+      "source": "responses.SAY.fastest"
+    },
+    {
+      "id": "slowing-down-dc7a88",
+      "text": "Slowing down...",
+      "speak": "Slowing down...",
+      "source": "responses.SAY.slower"
+    },
+    {
+      "id": "easy-does-it-7e7d58",
+      "text": "Easy does it...",
+      "speak": "Easy does it...",
+      "source": "responses.SAY.slower"
+    },
+    {
+      "id": "thats-my-slowest-sloooow-c1bd96",
+      "text": "That's my slowest. Sloooow.",
+      "speak": "That's my slowest. Sloooow.",
+      "source": "responses.SAY.slowest"
+    },
+    {
+      "id": "one-more-time-816ca2",
+      "text": "One more time!",
+      "speak": "One more time!",
+      "source": "responses.SAY.again"
+    },
+    {
+      "id": "again-again-2d3051",
+      "text": "Again! Again!",
+      "speak": "Again! Again!",
+      "source": "responses.SAY.again"
+    },
+    {
+      "id": "here-we-go-again-6ef5fb",
+      "text": "Here we go again!",
+      "speak": "Here we go again!",
+      "source": "responses.SAY.again"
+    },
+    {
+      "id": "okay-stopping-now-081cae",
+      "text": "Okay, stopping now!",
+      "speak": "Okay, stopping now!",
+      "source": "responses.SAY.stop"
+    },
+    {
+      "id": "freeze-30c707",
+      "text": "Freeze!",
+      "speak": "Freeze!",
+      "source": "responses.SAY.stop"
+    },
+    {
+      "id": "all-stopped-d69c19",
+      "text": "All stopped!",
+      "speak": "All stopped!",
+      "source": "responses.SAY.stop"
+    },
+    {
+      "id": "pausing-66dfb0",
+      "text": "Pausing!",
+      "speak": "Pausing!",
+      "source": "responses.SAY.pause"
+    },
+    {
+      "id": "and-back-we-go-d90072",
+      "text": "And back we go!",
+      "speak": "And back we go!",
+      "source": "responses.SAY.resume"
+    },
+    {
+      "id": "la-la-la-song-time-27b509",
+      "text": "La la la! Song time!",
+      "speak": "La la la! Song time!",
+      "source": "responses.SAY.sing"
+    },
+    {
+      "id": "lets-sing-together-5f49a2",
+      "text": "Let's sing together!",
+      "speak": "Let's sing together!",
+      "source": "responses.SAY.sing"
+    },
+    {
+      "id": "boing-776514",
+      "text": "Boing!",
+      "speak": "Boing!",
+      "source": "responses.SAY.jump"
+    },
+    {
+      "id": "up-i-go-683968",
+      "text": "Up I go!",
+      "speak": "Up I go!",
+      "source": "responses.SAY.jump"
+    },
+    {
+      "id": "hop-hop-f16267",
+      "text": "Hop hop!",
+      "speak": "Hop hop!",
+      "source": "responses.SAY.jump"
+    },
+    {
+      "id": "wave-wave-b22730",
+      "text": "Wave wave!",
+      "speak": "Wave wave!",
+      "source": "responses.SAY.wave"
+    },
+    {
+      "id": "hiii-30c5a0",
+      "text": "Hiii!",
+      "speak": "Hiii!",
+      "source": "responses.SAY.wave"
+    },
+    {
+      "id": "clap-clap-clap-261e22",
+      "text": "Clap clap clap!",
+      "speak": "Clap clap clap!",
+      "source": "responses.SAY.clap"
+    },
+    {
+      "id": "yay-60a9df",
+      "text": "Yay!",
+      "speak": "Yay!",
+      "source": "responses.SAY.clap"
+    },
+    {
+      "id": "wheee-25325b",
+      "text": "Wheee!",
+      "speak": "Wheee!",
+      "source": "responses.SAY.spin"
+    },
+    {
+      "id": "round-and-round-fc9b13",
+      "text": "Round and round!",
+      "speak": "Round and round!",
+      "source": "responses.SAY.spin"
+    },
+    {
+      "id": "yawn-nap-time-zzz-e824a3",
+      "text": "Yawn... nap time. Zzz.",
+      "speak": "Yawn... nap time. Zzz.",
+      "source": "responses.SAY.sleep"
+    },
+    {
+      "id": "night-night-zzz-ca9916",
+      "text": "Night night... Zzz.",
+      "speak": "Night night... Zzz.",
+      "source": "responses.SAY.sleep"
+    },
+    {
+      "id": "im-awake-good-morning-688d93",
+      "text": "I'm awake! Good morning!",
+      "speak": "I'm awake! Good morning!",
+      "source": "responses.SAY.wake"
+    },
+    {
+      "id": "yawn-i-feel-sparkly-aef89b",
+      "text": "Yawn! I feel sparkly!",
+      "speak": "Yawn! I feel sparkly!",
+      "source": "responses.SAY.wake"
+    },
+    {
+      "id": "im-already-awake-silly-735283",
+      "text": "I'm already awake! Silly!",
+      "speak": "I'm already awake! Silly!",
+      "source": "responses.SAY.alreadyAwake"
+    },
+    {
+      "id": "hee-hee-hee-3bf290",
+      "text": "Hee hee hee!",
+      "speak": "Hee hee hee!",
+      "source": "responses.SAY.laugh"
+    },
+    {
+      "id": "ha-ha-that-tickles-e835d4",
+      "text": "Ha ha! That tickles!",
+      "speak": "Ha ha! That tickles!",
+      "source": "responses.SAY.laugh"
+    },
+    {
+      "id": "lets-play-pick-a-game-aebbde",
+      "text": "Let's play! Pick a game!",
+      "speak": "Let's play! Pick a game!",
+      "source": "responses.SAY.play"
+    },
+    {
+      "id": "game-time-8c22c0",
+      "text": "Game time!",
+      "speak": "Game time!",
+      "source": "responses.SAY.play"
+    },
+    {
+      "id": "i-can-dance-sing-play-f709d1",
+      "text": "I can dance, sing, play games, and take big calm breaths!",
+      "speak": "I can dance, sing, play games, and take big calm breaths!",
+      "source": "responses.SAY.help"
+    },
+    {
+      "id": "surprise-cd2a0f",
+      "text": "Surprise!",
+      "speak": "Surprise!",
+      "source": "responses.SAY.surprise"
+    },
+    {
+      "id": "ta-da-5edd0f",
+      "text": "Ta-da!",
+      "speak": "Ta-da!",
+      "source": "responses.SAY.surprise"
+    },
+    {
+      "id": "lets-take-calm-breaths-in-06b888",
+      "text": "Let's take calm breaths. In... and out.",
+      "speak": "Let's take calm breaths. In... and out.",
+      "source": "responses.SAY.breathe"
+    },
+    {
+      "id": "hmm-i-dont-know-that-0bfc31",
+      "text": "Hmm, I don't know that one yet. Try dance, sing or play!",
+      "speak": "Hmm, I don't know that one yet. Try dance, sing or play!",
+      "source": "responses.SAY.unknown"
+    },
+    {
+      "id": "ooh-i-can-dance-sing-ea6c89",
+      "text": "Ooh, I can dance, sing or play. Which one?",
+      "speak": "Ooh, I can dance, sing or play. Which one?",
+      "source": "responses.SAY.unknown"
+    },
+    {
+      "id": "ooh-two-things-which-first-45a6e3",
+      "text": "Ooh, two things! Which first?",
+      "speak": "Ooh, two things! Which first?",
+      "source": "responses.SAY.clarify"
+    },
+    {
+      "id": "what-should-i-do-again-ccfded",
+      "text": "What should I do again? Try dance!",
+      "speak": "What should I do again? Try dance!",
+      "source": "responses.SAY.nothingToRepeat"
+    },
+    {
+      "id": "faster-at-what-ask-me-c64725",
+      "text": "Faster at what? Ask me to dance first!",
+      "speak": "Faster at what? Ask me to dance first!",
+      "source": "responses.SAY.nothingToSpeedUp"
+    },
+    {
+      "id": "i-can-say-hello-thank-5c0eb1",
+      "text": "I can say hello, thank you, good night, or roar!",
+      "speak": "I can say hello, thank you, good night, or roar!",
+      "source": "responses.SAY.sayWhat"
+    },
+    {
+      "id": "thats-private-lets-keep-it-45b849",
+      "text": "That's private. Let's keep it for your grown-up, okay?",
+      "speak": "That's private. Let's keep it for your grown-up, okay?",
+      "source": "responses.SAY.private"
+    },
+    {
+      "id": "zzz-say-wake-up-0b9377",
+      "text": "Zzz... (say \"wake up!\")",
+      "speak": "Zzz... Say, wake up!",
+      "source": "responses.SAY.sleepingHint"
+    },
+    {
+      "id": "good-try-lets-try-another-14fdb9",
+      "text": "Good try! Let's try another one.",
+      "speak": "Good try! Let's try another one.",
+      "source": "responses.SAY.goodTry"
+    },
+    {
+      "id": "almost-try-again-d042f7",
+      "text": "Almost! Try again!",
+      "speak": "Almost! Try again!",
+      "source": "responses.SAY.goodTry"
+    },
+    {
+      "id": "ooh-close-one-again-51a580",
+      "text": "Ooh, close one! Again?",
+      "speak": "Ooh, close one! Again?",
+      "source": "responses.SAY.goodTry"
+    },
+    {
+      "id": "yes-you-got-it-f1abac",
+      "text": "Yes! You got it!",
+      "speak": "Yes! You got it!",
+      "source": "responses.SAY.correct"
+    },
+    {
+      "id": "wow-great-job-4e12a0",
+      "text": "Wow, great job!",
+      "speak": "Wow, great job!",
+      "source": "responses.SAY.correct"
+    },
+    {
+      "id": "super-smart-2f3272",
+      "text": "Super smart!",
+      "speak": "Super smart!",
+      "source": "responses.SAY.correct"
+    },
+    {
+      "id": "brilliant-7ad24c",
+      "text": "Brilliant!",
+      "speak": "Brilliant!",
+      "source": "responses.SAY.correct"
+    },
+    {
+      "id": "you-did-it-you-earned-000617",
+      "text": "You did it! You earned a shiny scale!",
+      "speak": "You did it! You earned a shiny scale!",
+      "source": "responses.SAY.gameDone"
+    },
+    {
+      "id": "all-done-here-is-a-38d87d",
+      "text": "All done! Here is a shiny scale!",
+      "speak": "All done! Here is a shiny scale!",
+      "source": "responses.SAY.gameDone"
+    },
+    {
+      "id": "im-getting-sleepy-time-to-92b665",
+      "text": "I'm getting sleepy... time to rest our eyes soon.",
+      "speak": "I'm getting sleepy... time to rest our eyes soon.",
+      "source": "responses.SAY.bedtime"
+    },
+    {
+      "id": "im-sorry-youre-feeling-sad-976399",
+      "text": "I'm sorry you're feeling sad. Want to take a deep breath, or play a little game?",
+      "speak": "I'm sorry you're feeling sad. Want to take a deep breath, or play a little game?",
+      "source": "responses.FEELING_REPLY.sad"
+    },
+    {
+      "id": "its-okay-to-feel-scared-6e2919",
+      "text": "It's okay to feel scared. A grown-up can help too. Shall we take a slow, calm breath?",
+      "speak": "It's okay to feel scared. A grown-up can help too. Shall we take a slow, calm breath?",
+      "source": "responses.FEELING_REPLY.scared"
+    },
+    {
+      "id": "feeling-grumpy-is-okay-lets-13ef9d",
+      "text": "Feeling grumpy is okay. Let's blow it out with a big calm breath!",
+      "speak": "Feeling grumpy is okay. Let's blow it out with a big calm breath!",
+      "source": "responses.FEELING_REPLY.angry"
+    },
+    {
+      "id": "sleepy-me-too-maybe-a-86013f",
+      "text": "Sleepy? Me too. Maybe a quiet song?",
+      "speak": "Sleepy? Me too. Maybe a quiet song?",
+      "source": "responses.FEELING_REPLY.tired"
+    },
+    {
+      "id": "bored-lets-play-a-game-80e7ad",
+      "text": "Bored? Let's play a game!",
+      "speak": "Bored? Let's play a game!",
+      "source": "responses.FEELING_REPLY.bored"
+    },
+    {
+      "id": "yay-happy-dance-be5c21",
+      "text": "Yay! Happy dance!",
+      "speak": "Yay! Happy dance!",
+      "source": "responses.FEELING_REPLY.happy"
+    },
+    {
+      "id": "why-did-the-cat-sit-6765d1",
+      "text": "Why did the cat sit on the computer?",
+      "speak": "Why did the cat sit on the computer?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "to-watch-the-mouse-fd9bfe",
+      "text": "To watch the mouse!",
+      "speak": "To watch the mouse!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "what-is-a-puppys-favorite-c81608",
+      "text": "What is a puppy's favorite snack?",
+      "speak": "What is a puppy's favorite snack?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "pup-corn-bb29c1",
+      "text": "Pup-corn!",
+      "speak": "Pup-corn!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "why-did-the-chicken-cross-ae9e0a",
+      "text": "Why did the chicken cross the road?",
+      "speak": "Why did the chicken cross the road?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "to-get-to-the-other-2b7928",
+      "text": "To get to the other side!",
+      "speak": "To get to the other side!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "what-do-you-call-a-27991f",
+      "text": "What do you call a bear with no teeth?",
+      "speak": "What do you call a bear with no teeth?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "a-gummy-bear-35acfa",
+      "text": "A gummy bear!",
+      "speak": "A gummy bear!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "what-goes-up-when-the-d84ba1",
+      "text": "What goes up when the rain comes down?",
+      "speak": "What goes up when the rain comes down?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "an-umbrella-6031d3",
+      "text": "An umbrella!",
+      "speak": "An umbrella!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "why-did-the-scarecrow-win-74c110",
+      "text": "Why did the scarecrow win an award?",
+      "speak": "Why did the scarecrow win an award?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "because-he-was-outstanding-in-e1c564",
+      "text": "Because he was outstanding in his field!",
+      "speak": "Because he was outstanding in his field!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "what-do-you-call-a-334955",
+      "text": "What do you call a bear with no socks?",
+      "speak": "What do you call a bear with no socks?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "barefoot-3c3e26",
+      "text": "Barefoot!",
+      "speak": "Barefoot!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "why-did-the-bicycle-fall-35b1ba",
+      "text": "Why did the bicycle fall over?",
+      "speak": "Why did the bicycle fall over?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "it-was-two-tired-aa1a4b",
+      "text": "It was two tired!",
+      "speak": "It was two tired!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "what-do-you-call-a-3013f7",
+      "text": "What do you call a fake noodle?",
+      "speak": "What do you call a fake noodle?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "an-impasta-c7a615",
+      "text": "An impasta!",
+      "speak": "An impasta!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "why-did-the-cookie-go-605bc1",
+      "text": "Why did the cookie go to the nurse?",
+      "speak": "Why did the cookie go to the nurse?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "because-it-felt-crummy-e6d0f6",
+      "text": "Because it felt crummy!",
+      "speak": "Because it felt crummy!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "why-did-the-tomato-turn-39e6ee",
+      "text": "Why did the tomato turn red?",
+      "speak": "Why did the tomato turn red?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "because-it-saw-the-salad-d4ed1a",
+      "text": "Because it saw the salad dressing!",
+      "speak": "Because it saw the salad dressing!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "what-do-you-call-a-0972e5",
+      "text": "What do you call a duck that gets all A's?",
+      "speak": "What do you call a duck that gets all A's?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "a-wise-quacker-f8c83b",
+      "text": "A wise quacker!",
+      "speak": "A wise quacker!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "what-did-the-zero-say-db7f34",
+      "text": "What did the zero say to the eight?",
+      "speak": "What did the zero say to the eight?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "nice-belt-d66466",
+      "text": "Nice belt!",
+      "speak": "Nice belt!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "why-did-the-music-teacher-54410a",
+      "text": "Why did the music teacher need a ladder?",
+      "speak": "Why did the music teacher need a ladder?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "to-reach-the-high-notes-87105f",
+      "text": "To reach the high notes!",
+      "speak": "To reach the high notes!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "why-do-bees-have-sticky-465318",
+      "text": "Why do bees have sticky hair?",
+      "speak": "Why do bees have sticky hair?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "because-they-use-honeycombs-eb3988",
+      "text": "Because they use honeycombs!",
+      "speak": "Because they use honeycombs!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "what-do-you-call-a-04e2a0",
+      "text": "What do you call a bear with no ears?",
+      "speak": "What do you call a bear with no ears?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "b-e70c2d",
+      "text": "B!",
+      "speak": "B!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "what-is-yellow-and-goes-e11491",
+      "text": "What is yellow and goes beep beep?",
+      "speak": "What is yellow and goes beep beep?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "a-taxi-e8dba1",
+      "text": "A taxi!",
+      "speak": "A taxi!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "what-has-a-head-a-30956f",
+      "text": "What has a head, a tail, but no body?",
+      "speak": "What has a head, a tail, but no body?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "a-coin-700b66",
+      "text": "A coin!",
+      "speak": "A coin!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "hello-hello-my-friend-e37bee",
+      "text": "Hello! Hello, my friend!",
+      "speak": "Hello! Hello, my friend!",
+      "source": "responses.PHRASE_REPLY"
+    },
+    {
+      "id": "good-morning-sunshine-1f8045",
+      "text": "Good morning, sunshine!",
+      "speak": "Good morning, sunshine!",
+      "source": "responses.PHRASE_REPLY"
+    },
+    {
+      "id": "good-night-sweet-dreams-549bd1",
+      "text": "Good night! Sweet dreams.",
+      "speak": "Good night! Sweet dreams.",
+      "source": "responses.PHRASE_REPLY"
+    },
+    {
+      "id": "thank-you-you-are-so-a947f5",
+      "text": "Thank you! You are so kind.",
+      "speak": "Thank you! You are so kind.",
+      "source": "responses.PHRASE_REPLY"
+    },
+    {
+      "id": "aww-big-warm-hug-bd363b",
+      "text": "Aww! Big warm hug!",
+      "speak": "Aww! Big warm hug!",
+      "source": "responses.PHRASE_REPLY"
+    },
+    {
+      "id": "you-are-awesome-fa0a4b",
+      "text": "YOU are awesome!",
+      "speak": "YOU are awesome!",
+      "source": "responses.PHRASE_REPLY"
+    },
+    {
+      "id": "lets-play-b4558e",
+      "text": "Let's play!",
+      "speak": "Let's play!",
+      "source": "responses.PHRASE_REPLY"
+    },
+    {
+      "id": "bye-bye-wave-wave-fd62a7",
+      "text": "Bye bye! Wave wave!",
+      "speak": "Bye bye! Wave wave!",
+      "source": "responses.PHRASE_REPLY"
+    },
+    {
+      "id": "i-can-do-it-and-220481",
+      "text": "I can do it! And so can you!",
+      "speak": "I can do it! And so can you!",
+      "source": "responses.PHRASE_REPLY"
+    },
+    {
+      "id": "happy-birthday-to-you-e20fe9",
+      "text": "Happy birthday to you!",
+      "speak": "Happy birthday to you!",
+      "source": "responses.PHRASE_REPLY"
+    },
+    {
+      "id": "well-done-high-five-6c5164",
+      "text": "Well done! High five!",
+      "speak": "Well done! High five!",
+      "source": "responses.PHRASE_REPLY"
+    },
+    {
+      "id": "rawr-that-was-a-tiny-f620d4",
+      "text": "RAWR! ...that was a tiny roar.",
+      "speak": "Rawr! That was a tiny roar.",
+      "source": "responses.PHRASE_REPLY"
+    },
+    {
+      "id": "yay-we-sang-it-0e6868",
+      "text": "Yay! We sang it!",
+      "speak": "Yay! We sang it!",
+      "source": "ui"
+    },
+    {
+      "id": "ha-ha-ha-ha-348e20",
+      "text": "Ha, ha, ha, ha!",
+      "speak": "Ha, ha, ha, ha!",
+      "source": "ui"
+    },
+    {
+      "id": "pick-any-one-of-these-37872e",
+      "text": "Pick any one of these!",
+      "speak": "Pick any one of these!",
+      "source": "ui"
+    },
+    {
+      "id": "press-an-instrument-to-play-eccdb8",
+      "text": "Press an instrument to play it!",
+      "speak": "Press an instrument to play it!",
+      "source": "ui"
+    },
+    {
+      "id": "fresh-start-hello-again-239539",
+      "text": "Fresh start! Hello again!",
+      "speak": "Fresh start! Hello again!",
+      "source": "ui"
+    },
+    {
+      "id": "bye-bye-see-you-soon-1c111b",
+      "text": "Bye bye! See you soon!",
+      "speak": "Bye bye! See you soon!",
+      "source": "ui"
+    },
+    {
+      "id": "who-says-this-3e59b5",
+      "text": "Who says this?",
+      "speak": "Who says this?",
+      "source": "ui"
+    },
+    {
+      "id": "yes-4e9f35",
+      "text": "Yes!",
+      "speak": "Yes!",
+      "source": "ui"
+    },
+    {
+      "id": "your-turn-what-did-i-fe77aa",
+      "text": "Your turn! What did I do?",
+      "speak": "Your turn! What did I do?",
+      "source": "ui"
+    },
+    {
+      "id": "good-try-watch-again-9d279f",
+      "text": "Good try! Watch again!",
+      "speak": "Good try! Watch again!",
+      "source": "ui"
+    },
+    {
+      "id": "watch-closely-two-moves-e8c5f1",
+      "text": "Watch closely! Two moves!",
+      "speak": "Watch closely! Two moves!",
+      "source": "ui"
+    },
+    {
+      "id": "pick-4-moves-then-press-a62a62",
+      "text": "Pick 4 moves, then press Go!",
+      "speak": "Pick 4 moves, then press Go!",
+      "source": "ui"
+    },
+    {
+      "id": "pick-a-move-first-e585df",
+      "text": "Pick a move first!",
+      "speak": "Pick a move first!",
+      "source": "ui"
+    },
+    {
+      "id": "here-comes-your-dance-3a7d07",
+      "text": "Here comes YOUR dance!",
+      "speak": "Here comes YOUR dance!",
+      "source": "ui"
+    },
+    {
+      "id": "ahh-all-calm-you-did-6c11d7",
+      "text": "Ahh. All calm. You did great!",
+      "speak": "Ahh. All calm. You did great!",
+      "source": "ui"
+    },
+    {
+      "id": "breathe-in-through-your-nose-13241c",
+      "text": "Breathe in through your nose... and blow out slowly.",
+      "speak": "Breathe in through your nose... and blow out slowly.",
+      "source": "ui"
+    },
+    {
+      "id": "close-your-eyes-dream-of-23a5b1",
+      "text": "Close your eyes. Dream of the moon.",
+      "speak": "Close your eyes. Dream of the moon.",
+      "source": "ui"
+    },
+    {
+      "id": "soft-blanket-snug-and-warm-2b6289",
+      "text": "Soft blanket, snug and warm.",
+      "speak": "Soft blanket, snug and warm.",
+      "source": "ui"
+    },
+    {
+      "id": "slow-breaths-one-two-three-15bcbc",
+      "text": "Slow breaths, one, two, three.",
+      "speak": "Slow breaths, one, two, three.",
+      "source": "ui"
+    },
+    {
+      "id": "stars-twinkle-night-is-here-dda919",
+      "text": "Stars twinkle, night is here.",
+      "speak": "Stars twinkle, night is here.",
+      "source": "ui"
+    },
+    {
+      "id": "moon-is-bright-it-guides-b1a7db",
+      "text": "Moon is bright, it guides us.",
+      "speak": "Moon is bright, it guides us.",
+      "source": "ui"
+    },
+    {
+      "id": "find-the-circle-b9a9df",
+      "text": "Find the circle!",
+      "speak": "Find the circle!",
+      "source": "template:Find the ${shape}!"
+    },
+    {
+      "id": "find-the-square-5d1bee",
+      "text": "Find the square!",
+      "speak": "Find the square!",
+      "source": "template:Find the ${shape}!"
+    },
+    {
+      "id": "find-the-triangle-0f93b5",
+      "text": "Find the triangle!",
+      "speak": "Find the triangle!",
+      "source": "template:Find the ${shape}!"
+    },
+    {
+      "id": "find-the-star-3cf9d1",
+      "text": "Find the star!",
+      "speak": "Find the star!",
+      "source": "template:Find the ${shape}!"
+    },
+    {
+      "id": "find-the-heart-2b2341",
+      "text": "Find the heart!",
+      "speak": "Find the heart!",
+      "source": "template:Find the ${shape}!"
+    },
+    {
+      "id": "find-the-diamond-edb1bd",
+      "text": "Find the diamond!",
+      "speak": "Find the diamond!",
+      "source": "template:Find the ${shape}!"
+    },
+    {
+      "id": "milos-lullaby-1dcb65",
+      "text": "Milo's Lullaby",
+      "speak": "Milo's Lullaby",
+      "source": "template:Rhyme title"
+    },
+    {
+      "id": "milos-robot-smiley-188129",
+      "text": "Milo's Robot Smiley",
+      "speak": "Milo's Robot Smiley",
+      "source": "template:Rhyme title"
+    },
+    {
+      "id": "march-with-milo-76ee44",
+      "text": "March with Milo",
+      "speak": "March with Milo",
+      "source": "template:Rhyme title"
+    },
+    {
+      "id": "float-like-a-feather-94f007",
+      "text": "Float Like a Feather",
+      "speak": "Float Like a Feather",
+      "source": "template:Rhyme title"
+    },
+    {
+      "id": "milos-dragon-tap-57eb43",
+      "text": "Milo's Dragon Tap",
+      "speak": "Milo's Dragon Tap",
+      "source": "template:Rhyme title"
+    },
+    {
+      "id": "lets-learn-the-alphabet-8199fc",
+      "text": "Let's learn the alphabet!",
+      "speak": "Let's learn the alphabet!",
+      "source": "template:Alphabet lines"
+    },
+    {
+      "id": "well-done-you-learned-the-4f039c",
+      "text": "Well done! You learned the whole alphabet!",
+      "speak": "Well done! You learned the whole alphabet!",
+      "source": "template:Alphabet lines"
+    },
+    {
+      "id": "a-for-apple-7d2d39",
+      "text": "A for Apple.",
+      "speak": "A, for Apple.",
+      "source": "template:Alphabet lines"
+    },
+    {
+      "id": "b-for-ball-44b671",
+      "text": "B for Ball.",
+      "speak": "B for Ball.",
+      "source": "template:Alphabet lines"
+    },
+    {
+      "id": "c-for-cat-0a7128",
+      "text": "C for Cat.",
+      "speak": "C for Cat.",
+      "source": "template:Alphabet lines"
+    },
+    {
+      "id": "d-for-dog-312e11",
+      "text": "D for Dog.",
+      "speak": "D for Dog.",
+      "source": "template:Alphabet lines"
+    },
+    {
+      "id": "e-for-elephant-9dcbe2",
+      "text": "E for Elephant.",
+      "speak": "E for Elephant.",
+      "source": "template:Alphabet lines"
+    },
+    {
+      "id": "f-for-fish-4be953",
+      "text": "F for Fish.",
+      "speak": "F for Fish.",
+      "source": "template:Alphabet lines"
+    },
+    {
+      "id": "g-for-grapes-058e13",
+      "text": "G for Grapes.",
+      "speak": "G for Grapes.",
+      "source": "template:Alphabet lines"
+    },
+    {
+      "id": "h-for-hat-e467a7",
+      "text": "H for Hat.",
+      "speak": "H for Hat.",
+      "source": "template:Alphabet lines"
+    },
+    {
+      "id": "i-for-ice-cream-6d8501",
+      "text": "I for Ice cream.",
+      "speak": "I for Ice cream.",
+      "source": "template:Alphabet lines"
+    },
+    {
+      "id": "j-for-jar-c79ae6",
+      "text": "J for Jar.",
+      "speak": "J for Jar.",
+      "source": "template:Alphabet lines"
+    },
+    {
+      "id": "k-for-kite-327825",
+      "text": "K for Kite.",
+      "speak": "K for Kite.",
+      "source": "template:Alphabet lines"
+    },
+    {
+      "id": "l-for-lion-4e0b53",
+      "text": "L for Lion.",
+      "speak": "L for Lion.",
+      "source": "template:Alphabet lines"
+    },
+    {
+      "id": "m-for-moon-7d66a3",
+      "text": "M for Moon.",
+      "speak": "M for Moon.",
+      "source": "template:Alphabet lines"
+    },
+    {
+      "id": "n-for-nest-0bf70f",
+      "text": "N for Nest.",
+      "speak": "N for Nest.",
+      "source": "template:Alphabet lines"
+    },
+    {
+      "id": "o-for-orange-db806f",
+      "text": "O for Orange.",
+      "speak": "O for Orange.",
+      "source": "template:Alphabet lines"
+    },
+    {
+      "id": "p-for-pig-660fb4",
+      "text": "P for Pig.",
+      "speak": "P for Pig.",
+      "source": "template:Alphabet lines"
+    },
+    {
+      "id": "q-for-queen-6266e3",
+      "text": "Q for Queen.",
+      "speak": "Q for Queen.",
+      "source": "template:Alphabet lines"
+    },
+    {
+      "id": "r-for-rainbow-a3afbc",
+      "text": "R for Rainbow.",
+      "speak": "R for Rainbow.",
+      "source": "template:Alphabet lines"
+    },
+    {
+      "id": "s-for-sun-261992",
+      "text": "S for Sun.",
+      "speak": "S for Sun.",
+      "source": "template:Alphabet lines"
+    },
+    {
+      "id": "t-for-tree-42ff66",
+      "text": "T for Tree.",
+      "speak": "T for Tree.",
+      "source": "template:Alphabet lines"
+    },
+    {
+      "id": "u-for-umbrella-b7317c",
+      "text": "U for Umbrella.",
+      "speak": "U for Umbrella.",
+      "source": "template:Alphabet lines"
+    },
+    {
+      "id": "v-for-van-efbb60",
+      "text": "V for Van.",
+      "speak": "V for Van.",
+      "source": "template:Alphabet lines"
+    },
+    {
+      "id": "w-for-whale-dcf5d0",
+      "text": "W for Whale.",
+      "speak": "W for Whale.",
+      "source": "template:Alphabet lines"
+    },
+    {
+      "id": "x-for-xylophone-6aa8e2",
+      "text": "X for Xylophone.",
+      "speak": "X for Xylophone.",
+      "source": "template:Alphabet lines"
+    },
+    {
+      "id": "y-for-yo-yo-d06333",
+      "text": "Y for Yo-yo.",
+      "speak": "Y for Yo-yo.",
+      "source": "template:Alphabet lines"
+    },
+    {
+      "id": "z-for-zebra-e44465",
+      "text": "Z for Zebra.",
+      "speak": "Z for Zebra.",
+      "source": "template:Alphabet lines"
+    },
+    {
+      "id": "watch-zora-2f3cbf",
+      "text": "Watch Zora!",
+      "speak": "Watch Zora!",
+      "source": "template:Watch ${avatar}!"
+    },
+    {
+      "id": "watch-mimi-fac1e6",
+      "text": "Watch Mimi!",
+      "speak": "Watch Mimi!",
+      "source": "template:Watch ${avatar}!"
+    },
+    {
+      "id": "watch-bruno-20a7a2",
+      "text": "Watch Bruno!",
+      "speak": "Watch Bruno!",
+      "source": "template:Watch ${avatar}!"
+    },
+    {
+      "id": "watch-teddy-9889ae",
+      "text": "Watch Teddy!",
+      "speak": "Watch Teddy!",
+      "source": "template:Watch ${avatar}!"
+    },
+    {
+      "id": "hi-im-zora-want-to-e24e3f",
+      "text": "Hi! I'm Zora! Want to play?",
+      "speak": "Hi! I'm Zora! Want to play?",
+      "source": "template:Welcome with the buddy name"
+    },
+    {
+      "id": "zoras-here-pick-something-fun-a37501",
+      "text": "Zora's here! Pick something fun!",
+      "speak": "Zora's here! Pick something fun!",
+      "source": "template:Welcome with the buddy name"
+    },
+    {
+      "id": "hi-im-mimi-want-to-18331f",
+      "text": "Hi! I'm Mimi! Want to play?",
+      "speak": "Hi! I'm Mimi! Want to play?",
+      "source": "template:Welcome with the buddy name"
+    },
+    {
+      "id": "mimis-here-pick-something-fun-487378",
+      "text": "Mimi's here! Pick something fun!",
+      "speak": "Mimi's here! Pick something fun!",
+      "source": "template:Welcome with the buddy name"
+    },
+    {
+      "id": "hi-im-bruno-want-to-5a42ed",
+      "text": "Hi! I'm Bruno! Want to play?",
+      "speak": "Hi! I'm Bruno! Want to play?",
+      "source": "template:Welcome with the buddy name"
+    },
+    {
+      "id": "brunos-here-pick-something-fun-6dbf75",
+      "text": "Bruno's here! Pick something fun!",
+      "speak": "Bruno's here! Pick something fun!",
+      "source": "template:Welcome with the buddy name"
+    },
+    {
+      "id": "hi-im-teddy-want-to-7a574b",
+      "text": "Hi! I'm Teddy! Want to play?",
+      "speak": "Hi! I'm Teddy! Want to play?",
+      "source": "template:Welcome with the buddy name"
+    },
+    {
+      "id": "teddys-here-pick-something-fun-d567cc",
+      "text": "Teddy's here! Pick something fun!",
+      "speak": "Teddy's here! Pick something fun!",
+      "source": "template:Welcome with the buddy name"
+    },
+    {
+      "id": "hi-im-zora-the-dino-f28027",
+      "text": "Hi! I'm Zora the dino!",
+      "speak": "Hi! I'm Zora the dino!",
+      "source": "template:Avatar intro"
+    },
+    {
+      "id": "hi-im-mimi-the-cat-013463",
+      "text": "Hi! I'm Mimi the cat!",
+      "speak": "Hi! I'm Mimi the cat!",
+      "source": "template:Avatar intro"
+    },
+    {
+      "id": "hi-im-bruno-the-dog-da1df1",
+      "text": "Hi! I'm Bruno the dog!",
+      "speak": "Hi! I'm Bruno the dog!",
+      "source": "template:Avatar intro"
+    },
+    {
+      "id": "hi-im-teddy-the-bear-7078c9",
+      "text": "Hi! I'm Teddy the bear!",
+      "speak": "Hi! I'm Teddy the bear!",
+      "source": "template:Avatar intro"
+    },
+    {
+      "id": "lets-sing-some-rhymes-675d8c",
+      "text": "Let's sing some rhymes!",
+      "speak": "Let's sing some rhymes!",
+      "source": "template:Rhyme intro"
+    },
+    {
+      "id": "yes-its-a-dog-0b7d47",
+      "text": "Yes! It's a dog!",
+      "speak": "Yes! It's a dog!",
+      "source": "template:Yes! It's ${animal}!"
+    },
+    {
+      "id": "yes-its-a-cat-f2a569",
+      "text": "Yes! It's a cat!",
+      "speak": "Yes! It's a cat!",
+      "source": "template:Yes! It's ${animal}!"
+    },
+    {
+      "id": "yes-its-a-sheep-be2e94",
+      "text": "Yes! It's a sheep!",
+      "speak": "Yes! It's a sheep!",
+      "source": "template:Yes! It's ${animal}!"
+    },
+    {
+      "id": "yes-its-a-goat-1c1e31",
+      "text": "Yes! It's a goat!",
+      "speak": "Yes! It's a goat!",
+      "source": "template:Yes! It's ${animal}!"
+    },
+    {
+      "id": "yes-its-a-horse-1d4ec6",
+      "text": "Yes! It's a horse!",
+      "speak": "Yes! It's a horse!",
+      "source": "template:Yes! It's ${animal}!"
+    },
+    {
+      "id": "yes-its-a-rooster-f788a8",
+      "text": "Yes! It's a rooster!",
+      "speak": "Yes! It's a rooster!",
+      "source": "template:Yes! It's ${animal}!"
+    },
+    {
+      "id": "yes-its-a-hen-1fc027",
+      "text": "Yes! It's a hen!",
+      "speak": "Yes! It's a hen!",
+      "source": "template:Yes! It's ${animal}!"
+    },
+    {
+      "id": "yes-its-a-frog-8cedf8",
+      "text": "Yes! It's a frog!",
+      "speak": "Yes! It's a frog!",
+      "source": "template:Yes! It's ${animal}!"
+    },
+    {
+      "id": "yes-its-a-lion-2d222b",
+      "text": "Yes! It's a lion!",
+      "speak": "Yes! It's a lion!",
+      "source": "template:Yes! It's ${animal}!"
+    },
+    {
+      "id": "yes-its-an-elephant-ab26f0",
+      "text": "Yes! It's an elephant!",
+      "speak": "Yes! It's an elephant!",
+      "source": "template:Yes! It's ${animal}!"
+    },
+    {
+      "id": "yes-its-an-owl-ad91b4",
+      "text": "Yes! It's an owl!",
+      "speak": "Yes! It's an owl!",
+      "source": "template:Yes! It's ${animal}!"
+    },
+    {
+      "id": "dogs-wag-their-tails-when-308de1",
+      "text": "Dogs wag their tails when they are happy.",
+      "speak": "Dogs wag their tails when they are happy.",
+      "source": "template:${fun fact}"
+    },
+    {
+      "id": "dogs-love-to-play-fetch-25b3e4",
+      "text": "Dogs love to play fetch.",
+      "speak": "Dogs love to play fetch.",
+      "source": "template:${fun fact}"
+    },
+    {
+      "id": "cats-purr-when-they-feel-915989",
+      "text": "Cats purr when they feel cosy.",
+      "speak": "Cats purr when they feel cosy.",
+      "source": "template:${fun fact}"
+    },
+    {
+      "id": "cats-like-to-nap-all-d05619",
+      "text": "Cats like to nap all day.",
+      "speak": "Cats like to nap all day.",
+      "source": "template:${fun fact}"
+    },
+    {
+      "id": "sheep-have-soft-woolly-coats-2f3f13",
+      "text": "Sheep have soft, woolly coats.",
+      "speak": "Sheep have soft, woolly coats.",
+      "source": "template:${fun fact}"
+    },
+    {
+      "id": "sheep-like-to-munch-grass-80b000",
+      "text": "Sheep like to munch grass.",
+      "speak": "Sheep like to munch grass.",
+      "source": "template:${fun fact}"
+    },
+    {
+      "id": "goats-are-great-at-climbing-10835f",
+      "text": "Goats are great at climbing.",
+      "speak": "Goats are great at climbing.",
+      "source": "template:${fun fact}"
+    },
+    {
+      "id": "goats-love-to-eat-leaves-ea6788",
+      "text": "Goats love to eat leaves.",
+      "speak": "Goats love to eat leaves.",
+      "source": "template:${fun fact}"
+    },
+    {
+      "id": "horses-can-run-very-fast-b39372",
+      "text": "Horses can run very fast.",
+      "speak": "Horses can run very fast.",
+      "source": "template:${fun fact}"
+    },
+    {
+      "id": "horses-love-to-run-free-03c0b9",
+      "text": "Horses love to run free.",
+      "speak": "Horses love to run free.",
+      "source": "template:${fun fact}"
+    },
+    {
+      "id": "roosters-crow-when-the-sun-5090d2",
+      "text": "Roosters crow when the sun comes up.",
+      "speak": "Roosters crow when the sun comes up.",
+      "source": "template:${fun fact}"
+    },
+    {
+      "id": "hens-lay-eggs-6dbbd8",
+      "text": "Hens lay eggs.",
+      "speak": "Hens lay eggs.",
+      "source": "template:${fun fact}"
+    },
+    {
+      "id": "frogs-can-jump-really-far-02ac01",
+      "text": "Frogs can jump really far.",
+      "speak": "Frogs can jump really far.",
+      "source": "template:${fun fact}"
+    },
+    {
+      "id": "a-lion-has-a-big-f54d5c",
+      "text": "A lion has a big, fluffy mane.",
+      "speak": "A lion has a big, fluffy mane.",
+      "source": "template:${fun fact}"
+    },
+    {
+      "id": "elephants-use-their-trunks-like-0e8edd",
+      "text": "Elephants use their trunks like a hand.",
+      "speak": "Elephants use their trunks like a hand.",
+      "source": "template:${fun fact}"
+    },
+    {
+      "id": "owls-are-awake-at-night-e6aa9c",
+      "text": "Owls are awake at night.",
+      "speak": "Owls are awake at night.",
+      "source": "template:${fun fact}"
+    },
+    {
+      "id": "lets-learn-animal-sounds-6d06b5",
+      "text": "Let's learn animal sounds!",
+      "speak": "Let's learn animal sounds!",
+      "source": "template:Animal Sounds lines"
+    },
+    {
+      "id": "who-makes-this-noise-1c7cf8",
+      "text": "Who makes this noise?",
+      "speak": "Who makes this noise?",
+      "source": "template:Animal Sounds lines"
+    },
+    {
+      "id": "good-try-lets-listen-again-cc106a",
+      "text": "Good try! Let's listen again.",
+      "speak": "Good try! Let's listen again.",
+      "source": "template:Animal Sounds lines"
+    },
+    {
+      "id": "hi-friend-let-us-have-284f90",
+      "text": "Hi friend! Let us have a chat.",
+      "speak": "Hi friend! Let us have a chat.",
+      "source": "template:Talk lines"
+    },
+    {
+      "id": "pick-something-to-talk-about-299b45",
+      "text": "Pick something to talk about.",
+      "speak": "Pick something to talk about.",
+      "source": "template:Talk lines"
+    },
+    {
+      "id": "this-tv-has-no-microphone-203413",
+      "text": "This TV has no microphone for me, so pick what you want to say with your remote.",
+      "speak": "This TV has no microphone for me, so pick what you want to say with your remote.",
+      "source": "template:Talk lines"
+    },
+    {
+      "id": "i-cannot-answer-that-one-3f4723",
+      "text": "I cannot answer that one yet. Try one of the buttons!",
+      "speak": "I cannot answer that one yet. Try one of the buttons!",
+      "source": "template:Talk lines"
+    },
+    {
+      "id": "yes-let-us-learn-about-be1973",
+      "text": "Yes! Let us learn about animals!",
+      "speak": "Yes! Let us learn about animals!",
+      "source": "template:Talk lines"
+    },
+    {
+      "id": "a-dog-says-bow-wow-1954ca",
+      "text": "A dog says bow wow.",
+      "speak": "A dog says bow wow.",
+      "source": "template:Talk lines"
+    },
+    {
+      "id": "a-cat-says-meow-6886f9",
+      "text": "A cat says meow.",
+      "speak": "A cat says meow.",
+      "source": "template:Talk lines"
+    },
+    {
+      "id": "shall-we-play-animal-sounds-b85546",
+      "text": "Shall we play Animal Sounds?",
+      "speak": "Shall we play Animal Sounds?",
+      "source": "template:Talk lines"
+    },
+    {
+      "id": "yes-count-with-me-c91311",
+      "text": "Yes! Count with me!",
+      "speak": "Yes! Count with me!",
+      "source": "template:Talk lines"
+    },
+    {
+      "id": "one-ba2719",
+      "text": "One.",
+      "speak": "One.",
+      "source": "template:Talk lines"
+    },
+    {
+      "id": "two-be2488",
+      "text": "Two.",
+      "speak": "Two.",
+      "source": "template:Talk lines"
+    },
+    {
+      "id": "three-888603",
+      "text": "Three.",
+      "speak": "Three.",
+      "source": "template:Talk lines"
+    },
+    {
+      "id": "four-2f69f5",
+      "text": "Four.",
+      "speak": "Four.",
+      "source": "template:Talk lines"
+    },
+    {
+      "id": "five-aeb443",
+      "text": "Five!",
+      "speak": "Five!",
+      "source": "template:Talk lines"
+    },
+    {
+      "id": "great-counting-76a82d",
+      "text": "Great counting!",
+      "speak": "Great counting!",
+      "source": "template:Talk lines"
+    },
+    {
+      "id": "my-favourite-colour-is-orange-8d2108",
+      "text": "My favourite colour is orange, like my scales!",
+      "speak": "My favourite colour is orange, like my scales!",
+      "source": "template:Talk lines"
+    },
+    {
+      "id": "what-is-your-favourite-colour-ece3ff",
+      "text": "What is your favourite colour?",
+      "speak": "What is your favourite colour?",
+      "source": "template:Talk lines"
+    },
+    {
+      "id": "yes-let-us-dance-together-922159",
+      "text": "Yes! Let us dance together!",
+      "speak": "Yes! Let us dance together!",
+      "source": "template:Talk lines"
+    },
+    {
+      "id": "yes-please-let-us-sing-b5a2dd",
+      "text": "Yes please! Let us sing a rhyme.",
+      "speak": "Yes please! Let us sing a rhyme.",
+      "source": "template:Talk lines"
+    },
+    {
+      "id": "my-favourite-colour-is-pink-911a62",
+      "text": "My favourite colour is pink, like my little nose!",
+      "speak": "My favourite colour is pink, like my little nose!",
+      "source": "template:Talk lines"
+    },
+    {
+      "id": "my-favourite-colour-is-brown-2b7933",
+      "text": "My favourite colour is brown, like my floppy ears!",
+      "speak": "My favourite colour is brown, like my floppy ears!",
+      "source": "template:Talk lines"
+    },
+    {
+      "id": "my-favourite-colour-is-yellow-c0fbfb",
+      "text": "My favourite colour is yellow, like sweet honey!",
+      "speak": "My favourite colour is yellow, like sweet honey!",
+      "source": "template:Talk lines"
+    },
+    {
+      "id": "what-is-your-favourite-toy-698c08",
+      "text": "What is your favourite toy? Mine is a teddy bear.",
+      "speak": "What is your favourite toy? Mine is a teddy bear.",
+      "source": "template:Talk lines"
+    },
+    {
+      "id": "are-you-happy-today-i-16c843",
+      "text": "Are you happy today? I feel happy too!",
+      "speak": "Are you happy today? I feel happy too!",
+      "source": "template:Talk lines"
+    },
+    {
+      "id": "lets-be-kind-to-our-8fbbf5",
+      "text": "Let's be kind to our friends. Kindness makes the world bright.",
+      "speak": "Let's be kind to our friends. Kindness makes the world bright.",
+      "source": "template:Talk lines"
+    },
+    {
+      "id": "helping-at-home-is-fun-3dfed9",
+      "text": "Helping at home is fun. Can you help pick up toys?",
+      "speak": "Helping at home is fun. Can you help pick up toys?",
+      "source": "template:Talk lines"
+    },
+    {
+      "id": "playing-outside-is-so-much-442979",
+      "text": "Playing outside is so much fun! What is your favourite game?",
+      "speak": "Playing outside is so much fun! What is your favourite game?",
+      "source": "template:Talk lines"
+    }
+  ]
+}

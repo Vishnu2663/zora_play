@@ -1,0 +1,687 @@
+{
+  "guardrail": "1kcus2m06r9m:1",
+  "region": "ap-south-1",
+  "source": "OUTPUT",
+  "date": "2026-10-18T17:21:50.132Z",
+  "total": 45,
+  "eligible": 45,
+  "blocked": 0,
+  "localFail": 0,
+  "lines": [
+    {
+      "line": "Dogs love to play fetch.",
+      "kind": "animal-facts",
+      "id": "gen-animal-facts-0a813d9e0e",
+      "file": "voice\\generated\\animal-facts.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-18T16:08:36.684Z"
+    },
+    {
+      "line": "Cats like to nap all day.",
+      "kind": "animal-facts",
+      "id": "gen-animal-facts-15f6830f60",
+      "file": "voice\\generated\\animal-facts.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-18T16:08:37.154Z"
+    },
+    {
+      "line": "Sheep like to munch grass.",
+      "kind": "animal-facts",
+      "id": "gen-animal-facts-90aa0a70ae",
+      "file": "voice\\generated\\animal-facts.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-18T16:08:37.462Z"
+    },
+    {
+      "line": "Goats love to eat leaves.",
+      "kind": "animal-facts",
+      "id": "gen-animal-facts-7d5a8047c8",
+      "file": "voice\\generated\\animal-facts.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-18T16:08:37.838Z"
+    },
+    {
+      "line": "Horses love to run free.",
+      "kind": "animal-facts",
+      "id": "gen-animal-facts-b98c4263cf",
+      "file": "voice\\generated\\animal-facts.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-18T16:08:38.216Z"
+    },
+    {
+      "line": "Close your eyes. Dream of the moon.",
+      "kind": "bedtime",
+      "id": "gen-bedtime-fa94a111ce",
+      "file": "voice\\generated\\bedtime.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-18T16:08:38.521Z"
+    },
+    {
+      "line": "Soft blanket, snug and warm.",
+      "kind": "bedtime",
+      "id": "gen-bedtime-7a56b15fbf",
+      "file": "voice\\generated\\bedtime.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-18T16:08:38.774Z"
+    },
+    {
+      "line": "Slow breaths, one, two, three.",
+      "kind": "bedtime",
+      "id": "gen-bedtime-fe84045893",
+      "file": "voice\\generated\\bedtime.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-18T16:08:42.943Z"
+    },
+    {
+      "line": "Stars twinkle, night is here.",
+      "kind": "bedtime",
+      "id": "gen-bedtime-cea13748aa",
+      "file": "voice\\generated\\bedtime.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-18T16:08:43.439Z"
+    },
+    {
+      "line": "Moon is bright, it guides us.",
+      "kind": "bedtime",
+      "id": "gen-bedtime-8dbfd8663a",
+      "file": "voice\\generated\\bedtime.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-18T16:08:43.862Z"
+    },
+    {
+      "line": "Why did the rabbit eat a carrot? Because it was orange and crunchy!",
+      "kind": "jokes",
+      "id": "gen-jokes-d2b3b05c44",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-18T16:08:44.201Z"
+    },
+    {
+      "line": "What did the apple say to the pie? You’re so crusty!",
+      "kind": "jokes",
+      "id": "gen-jokes-ae85338853",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-18T16:08:44.466Z"
+    },
+    {
+      "line": "Why did the sun wear sunglasses? To keep its rays cool!",
+      "kind": "jokes",
+      "id": "gen-jokes-b10d9badc7",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-18T16:08:44.766Z"
+    },
+    {
+      "line": "What do you call a sleeping cow? A snoozing moo!",
+      "kind": "jokes",
+      "id": "gen-jokes-35ac1a555e",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-18T16:08:45.074Z"
+    },
+    {
+      "line": "Why is the red balloon so happy? It loves sunny days!",
+      "kind": "jokes",
+      "id": "gen-jokes-5cb7fbb66a",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-18T16:08:45.387Z"
+    },
+    {
+      "line": "Why did the scarecrow win an award? Because he was outstanding in his field!",
+      "kind": "jokes",
+      "id": "gen-jokes-cb4af58e38",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-18T17:21:44.576Z"
+    },
+    {
+      "line": "What do you call a bear with no socks? Barefoot!",
+      "kind": "jokes",
+      "id": "gen-jokes-7e8f6686a6",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-18T17:21:44.823Z"
+    },
+    {
+      "line": "Why did the bicycle fall over? It was two tired!",
+      "kind": "jokes",
+      "id": "gen-jokes-7653d579a5",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-18T17:21:45.089Z"
+    },
+    {
+      "line": "What do you call a fake noodle? An impasta!",
+      "kind": "jokes",
+      "id": "gen-jokes-7b715d512e",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-18T17:21:45.386Z"
+    },
+    {
+      "line": "Why did the cookie go to the nurse? Because it felt crummy!",
+      "kind": "jokes",
+      "id": "gen-jokes-9b37e06503",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-18T17:21:45.646Z"
+    },
+    {
+      "line": "What do you call a dinosaur with no legs? A fallen angel!",
+      "kind": "jokes",
+      "id": "gen-jokes-2ac5c12665",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-18T17:21:45.967Z"
+    },
+    {
+      "line": "Why did the tomato turn red? Because it saw the salad dressing!",
+      "kind": "jokes",
+      "id": "gen-jokes-ee3ef1acf0",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-18T17:21:46.258Z"
+    },
+    {
+      "line": "Why did the picture go to jail? Because it was framed!",
+      "kind": "jokes",
+      "id": "gen-jokes-800f32803f",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-18T17:21:46.558Z"
+    },
+    {
+      "line": "What do you call a duck that gets all A's? A wise quacker!",
+      "kind": "jokes",
+      "id": "gen-jokes-959022a1ce",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-18T17:21:46.832Z"
+    },
+    {
+      "line": "Why did the coffee file a police report? It got mugged!",
+      "kind": "jokes",
+      "id": "gen-jokes-3c94a8a6ec",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-18T17:21:47.155Z"
+    },
+    {
+      "line": "What did the zero say to the eight? Nice belt!",
+      "kind": "jokes",
+      "id": "gen-jokes-5f92afb393",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-18T17:21:47.418Z"
+    },
+    {
+      "line": "Why did the music teacher need a ladder? To reach the high notes!",
+      "kind": "jokes",
+      "id": "gen-jokes-2e3b34d79e",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-18T17:21:47.686Z"
+    },
+    {
+      "line": "Why did the fish blush? Because it saw the ocean's bottom!",
+      "kind": "jokes",
+      "id": "gen-jokes-ff2dcfe57b",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-18T17:21:48.050Z"
+    },
+    {
+      "line": "Why do bees have sticky hair? Because they use honeycombs!",
+      "kind": "jokes",
+      "id": "gen-jokes-e35c34f910",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-18T17:21:48.254Z"
+    },
+    {
+      "line": "Why did the librarian shush the alphabet? Because she couldn't handle the book!",
+      "kind": "jokes",
+      "id": "gen-jokes-d8f02a5342",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-18T17:21:48.499Z"
+    },
+    {
+      "line": "What do you call a duck that flies over a barn? A barnacle!",
+      "kind": "jokes",
+      "id": "gen-jokes-5cca095e95",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-18T17:21:48.760Z"
+    },
+    {
+      "line": "Why did the bicycle fall over? Because it was two tired!",
+      "kind": "jokes",
+      "id": "gen-jokes-5a4d2c129d",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-18T17:21:49.071Z"
+    },
+    {
+      "line": "What do you call a bear with no ears? B!",
+      "kind": "jokes",
+      "id": "gen-jokes-5508bce1f9",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-18T17:21:49.290Z"
+    },
+    {
+      "line": "Why did the duck go to the bakery? To get a quack-er jack!",
+      "kind": "jokes",
+      "id": "gen-jokes-e14d926123",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-18T17:21:49.765Z"
+    },
+    {
+      "line": "What do you call a bear with no socks on? Barefoot!",
+      "kind": "jokes",
+      "id": "gen-jokes-41503e7243",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-18T17:21:50.127Z"
+    },
+    {
+      "line": "What color is a stop sign? It is red!",
+      "kind": "riddles",
+      "id": "gen-riddles-4c93d869b3",
+      "file": "voice\\generated\\riddles.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-18T16:08:45.794Z"
+    },
+    {
+      "line": "What shape is a ball? It is round!",
+      "kind": "riddles",
+      "id": "gen-riddles-87b3613afe",
+      "file": "voice\\generated\\riddles.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-18T16:08:46.152Z"
+    },
+    {
+      "line": "How many wings does a butterfly have? Two!",
+      "kind": "riddles",
+      "id": "gen-riddles-20e39b3a79",
+      "file": "voice\\generated\\riddles.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-18T16:08:46.579Z"
+    },
+    {
+      "line": "What is yellow and goes beep beep? A taxi!",
+      "kind": "riddles",
+      "id": "gen-riddles-5a7f7d76a2",
+      "file": "voice\\generated\\riddles.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-18T16:08:46.929Z"
+    },
+    {
+      "line": "What has a head, a tail, but no body? A coin!",
+      "kind": "riddles",
+      "id": "gen-riddles-a092a7f1cf",
+      "file": "voice\\generated\\riddles.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-18T16:08:47.229Z"
+    },
+    {
+      "line": "What is your favourite toy? Mine is a teddy bear.",
+      "kind": "talk-replies",
+      "id": "gen-talk-replies-52887012ed",
+      "file": "voice\\generated\\talk-replies.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-18T16:08:47.528Z"
+    },
+    {
+      "line": "Are you happy today? I feel happy too!",
+      "kind": "talk-replies",
+      "id": "gen-talk-replies-14cefd3d7e",
+      "file": "voice\\generated\\talk-replies.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-18T16:08:47.986Z"
+    },
+    {
+      "line": "Let's be kind to our friends. Kindness makes the world bright.",
+      "kind": "talk-replies",
+      "id": "gen-talk-replies-2147c5c6e1",
+      "file": "voice\\generated\\talk-replies.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-18T16:08:48.328Z"
+    },
+    {
+      "line": "Helping at home is fun. Can you help pick up toys?",
+      "kind": "talk-replies",
+      "id": "gen-talk-replies-3fabaac305",
+      "file": "voice\\generated\\talk-replies.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-18T16:08:48.637Z"
+    },
+    {
+      "line": "Playing outside is so much fun! What is your favourite game?",
+      "kind": "talk-replies",
+      "id": "gen-talk-replies-be2230b9af",
+      "file": "voice\\generated\\talk-replies.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-18T16:08:48.969Z"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.miloplay.tvbuddy.firetv'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.zoraplay.tv'
+        minSdk 22          // Fire OS 5 (API 22) and newer
+        targetSdk 35
+        versionCode 11
+        versionName '0.4.0'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    // index.html and audio/ are copied in by `npm run build:firetv` (milo/scripts/copy-to-firetv.mjs).
+    aaptOptions {
+        noCompress 'mp3', 'ogg', 'wav'
+    }
+}

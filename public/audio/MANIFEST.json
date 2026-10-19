@@ -1,0 +1,308 @@
+{
+  "$comment": "Every audio file shipped with Milo has a record here. status: ready = real file present and verified non-silent; pending = needed, not yet produced; awaiting recording = needs a human recording (e.g. sung vocals). scripts/verify-audio.mjs enforces this.",
+  "files": [
+    {
+      "path": "probe/tone-440.wav",
+      "title": "Diagnostics test tone, 440 Hz, 0.8 s",
+      "creator": "Generated with ffmpeg (lavfi sine source) for this project",
+      "sourceUrl": null,
+      "license": "CC0-1.0 (generated test signal, no creative content)",
+      "attribution": "none required",
+      "intendedUse": "Audio diagnostics only: tests HTMLAudioElement WAV playback in the Vega WebView",
+      "status": "ready"
+    },
+    {
+      "path": "probe/tone-440.mp3",
+      "title": "Diagnostics test tone, 440 Hz, 0.8 s (MP3)",
+      "creator": "Generated with ffmpeg (libmp3lame) from probe/tone-440.wav",
+      "sourceUrl": null,
+      "license": "CC0-1.0 (generated test signal, no creative content)",
+      "attribution": "none required",
+      "intendedUse": "Audio diagnostics only: tests MP3 playback, fetch and decodeAudioData",
+      "status": "ready"
+    },
+    {
+      "path": "probe/tone-440.ogg",
+      "title": "Diagnostics test tone, 440 Hz, 0.8 s (Ogg Vorbis)",
+      "creator": "Generated with ffmpeg (libvorbis) from probe/tone-440.wav",
+      "sourceUrl": null,
+      "license": "CC0-1.0 (generated test signal, no creative content)",
+      "attribution": "none required",
+      "intendedUse": "Audio diagnostics only: tests Ogg Vorbis playback",
+      "status": "ready"
+    },
+    {
+      "path": "animals/cat.mp3",
+      "title": "cat sound (real recording)",
+      "creator": "Wikimedia Commons contributor; file \"Meow of a Siamese cat - freemaster2.wav\" (see page for author)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Meow_of_a_Siamese_cat_-_freemaster2.wav",
+      "license": "CC0",
+      "attribution": "none required (CC0); credit kept here",
+      "intendedUse": "Animal Sounds game",
+      "processing": "loudest 1516 ms cut from the source, faded, loudness-normalised, mono MP3 96 kbps (scripts/prepare-animals.py)",
+      "status": "ready"
+    },
+    {
+      "path": "animals/sheep.mp3",
+      "title": "sheep sound (real recording)",
+      "creator": "Wikimedia Commons contributor; file \"Sheep bleat.ogg\" (see page for author)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sheep_bleat.ogg",
+      "license": "CC0",
+      "attribution": "none required (CC0); credit kept here",
+      "intendedUse": "Animal Sounds game",
+      "processing": "loudest 497 ms cut from the source, faded, loudness-normalised, mono MP3 96 kbps (scripts/prepare-animals.py)",
+      "status": "ready"
+    },
+    {
+      "path": "animals/elephant.mp3",
+      "title": "elephant sound (real recording)",
+      "creator": "Wikimedia Commons contributor; file \"Elephant voice - trumpeting.ogg\" (see page for author)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Elephant_voice_-_trumpeting.ogg",
+      "license": "CC0",
+      "attribution": "none required (CC0); credit kept here",
+      "intendedUse": "Animal Sounds game",
+      "processing": "loudest 1436 ms cut from the source, faded, loudness-normalised, mono MP3 96 kbps (scripts/prepare-animals.py)",
+      "status": "ready"
+    },
+    {
+      "path": "animals/horse.mp3",
+      "title": "horse sound (real recording)",
+      "creator": "Wikimedia Commons contributor; file \"Wiehern.ogg\" (see page for author)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wiehern.ogg",
+      "license": "Public domain",
+      "attribution": "none required (Public domain); credit kept here",
+      "intendedUse": "Animal Sounds game",
+      "processing": "loudest 2270 ms cut from the source, faded, loudness-normalised, mono MP3 96 kbps (scripts/prepare-animals.py)",
+      "status": "ready"
+    },
+    {
+      "path": "animals/rooster.mp3",
+      "title": "rooster sound (real recording)",
+      "creator": "Wikimedia Commons contributor; file \"Medium rooster crowing.ogg\" (see page for author)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Medium_rooster_crowing.ogg",
+      "license": "Public domain",
+      "attribution": "none required (Public domain); credit kept here",
+      "intendedUse": "Animal Sounds game",
+      "processing": "loudest 3394 ms cut from the source, faded, loudness-normalised, mono MP3 96 kbps (scripts/prepare-animals.py)",
+      "status": "ready"
+    },
+    {
+      "path": "animals/hen.mp3",
+      "title": "hen sound (real recording)",
+      "creator": "Wikimedia Commons contributor; file \"Hen announcing shes lain an egg.ogg\" (see page for author)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hen_announcing_shes_lain_an_egg.ogg",
+      "license": "Public domain",
+      "attribution": "none required (Public domain); credit kept here",
+      "intendedUse": "Animal Sounds game",
+      "processing": "loudest 3200 ms cut from the source, faded, loudness-normalised, mono MP3 96 kbps (scripts/prepare-animals.py)",
+      "status": "ready"
+    },
+    {
+      "path": "animals/goat.mp3",
+      "title": "goat sound (real recording)",
+      "creator": "Wikimedia Commons contributor; file \"Herd of goats bleating.ogg\" (see page for author)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Herd_of_goats_bleating.ogg",
+      "license": "Public domain",
+      "attribution": "none required (Public domain); credit kept here",
+      "intendedUse": "Animal Sounds game",
+      "processing": "loudest 2800 ms cut from the source, faded, loudness-normalised, mono MP3 96 kbps (scripts/prepare-animals.py)",
+      "status": "ready"
+    },
+    {
+      "path": "animals/frog.mp3",
+      "title": "frog sound (real recording of a tree frog call)",
+      "creator": "Rabe19 on Wikimedia Commons; file \"Laubfrosch Balzruf.OGG\" (a strong, steady croaking call)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Laubfrosch_Balzruf.OGG",
+      "license": "Public domain",
+      "attribution": "none required (Public domain); credit kept here",
+      "intendedUse": "Animal Sounds game",
+      "processing": "2.6 s from the start of the call (0.3 s in), faded, loudness-normalised, mono MP3 96 kbps",
+      "status": "ready"
+    },
+    {
+      "path": "animals/lion.mp3",
+      "title": "lion sound (real recording)",
+      "creator": "Wikimedia Commons contributor; file \"Lion raring-sound1TamilNadu178.ogg\" (see page for author)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lion_raring-sound1TamilNadu178.ogg",
+      "license": "Public domain",
+      "attribution": "none required (Public domain); credit kept here",
+      "intendedUse": "Animal Sounds game",
+      "processing": "loudest 3700 ms cut from the source, faded, loudness-normalised, mono MP3 96 kbps (scripts/prepare-animals.py)",
+      "status": "ready"
+    },
+    {
+      "path": "animals/dog.mp3",
+      "title": "dog sound (real recording of barking)",
+      "creator": "Kineticsquid on Wikimedia Commons; file \"Voice Test Error.wav\" (several clear barks)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Voice_Test_Error.wav",
+      "license": "CC0",
+      "attribution": "none required (CC0); credit kept here",
+      "intendedUse": "Animal Sounds game",
+      "processing": "2.4 s window with the clearest series of barks (2.55 s into the source), faded, loudness-normalised, mono MP3 96 kbps",
+      "status": "ready"
+    },
+    {
+      "path": "animals/owl.mp3",
+      "title": "owl sound (real recording of a little owl)",
+      "creator": "Wikimedia Commons contributor; file \"Steinkauz.OGG\" (see page for author)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Steinkauz.OGG",
+      "license": "Public domain",
+      "attribution": "none required (Public domain); credit kept here",
+      "intendedUse": "Animal Sounds game",
+      "processing": "loudest 2.7 s cut from a 65 s recording, faded, loudness-normalised, mono MP3 96 kbps (scripts/prepare-animals.py)",
+      "status": "ready"
+    },
+    {
+      "path": "music/home-theme.mp3",
+      "title": "Home theme loop (energetic, 126 bpm, 15 s, seamless)",
+      "creator": "Generated for this project by scripts/gen-theme.py (synthesised drums, bass, chords and an original pentatonic hook)",
+      "sourceUrl": null,
+      "license": "CC0-1.0 (original, generated; no samples or third-party music)",
+      "attribution": "none required",
+      "intendedUse": "Looping background music on the Home screen",
+      "status": "ready"
+    },
+    {
+      "path": "music/alphabet-tune.mp3",
+      "title": "Alphabets background tune (gentle marimba loop, 104 bpm, 18 s)",
+      "creator": "Generated for this project by scripts/gen-alphabet-tune.py (synthesised marimba, bass, pad, shaker; original tune)",
+      "sourceUrl": null,
+      "license": "CC0-1.0 (original, generated; no samples or third-party music)",
+      "attribution": "none required",
+      "intendedUse": "Looping background tune while the buddy teaches the alphabet",
+      "status": "ready"
+    },
+    {
+      "path": "music/dance-song.mp3",
+      "title": "Dance Studio music: the whole song \"Wiggle with Milo\" as one seamless loop (20 bars)",
+      "creator": "The project owner's song, made with Suno \"Wiggle with Milo\", prepared by scripts/cut-dance-song.py",
+      "sourceUrl": null,
+      "license": "Generated with Suno by the project owner on a paid Suno plan (commercial-use rights under Suno's terms); lyrics written with ChatGPT and edited by the owner. Used in this project; not offered for reuse under the MIT license.",
+      "attribution": "Music made with Suno; lyrics written with ChatGPT",
+      "intendedUse": "Looping music for Dance Studio",
+      "status": "ready"
+    },
+    {
+      "path": "rhymes/lullaby.mp3",
+      "title": "Milo's Lullaby (Rhyme Room song)",
+      "creator": "The project owner's song, made with Suno, made with Suno (karthick16)",
+      "sourceUrl": null,
+      "license": "Generated with Suno by the project owner on a paid Suno plan (commercial-use rights under Suno's terms); lyrics written with ChatGPT and edited by the owner. Used in this project; not offered for reuse under the MIT license.",
+      "attribution": "Music made with Suno; lyrics written with ChatGPT",
+      "intendedUse": "Rhyme Room song with karaoke lyrics",
+      "status": "ready"
+    },
+    {
+      "path": "rhymes/lullaby.json",
+      "title": "Milo's Lullaby lyric timings",
+      "creator": "scripts/prepare-songs.py (speech-recognition alignment of the owner's lyrics)",
+      "sourceUrl": null,
+      "license": "CC0-1.0",
+      "attribution": "none",
+      "intendedUse": "Lyric highlighting",
+      "status": "ready"
+    },
+    {
+      "path": "rhymes/robot.mp3",
+      "title": "Milo's Robot Smiley (Rhyme Room song)",
+      "creator": "The project owner's song, made with Suno, made with Suno (karthick16)",
+      "sourceUrl": null,
+      "license": "Generated with Suno by the project owner on a paid Suno plan (commercial-use rights under Suno's terms); lyrics written with ChatGPT and edited by the owner. Used in this project; not offered for reuse under the MIT license.",
+      "attribution": "Music made with Suno; lyrics written with ChatGPT",
+      "intendedUse": "Rhyme Room song with karaoke lyrics",
+      "status": "ready"
+    },
+    {
+      "path": "rhymes/robot.json",
+      "title": "Milo's Robot Smiley lyric timings",
+      "creator": "scripts/prepare-songs.py (speech-recognition alignment of the owner's lyrics)",
+      "sourceUrl": null,
+      "license": "CC0-1.0",
+      "attribution": "none",
+      "intendedUse": "Lyric highlighting",
+      "status": "ready"
+    },
+    {
+      "path": "rhymes/march.mp3",
+      "title": "March with Milo (Rhyme Room song)",
+      "creator": "The project owner's song, made with Suno, made with Suno (karthick16)",
+      "sourceUrl": null,
+      "license": "Generated with Suno by the project owner on a paid Suno plan (commercial-use rights under Suno's terms); lyrics written with ChatGPT and edited by the owner. Used in this project; not offered for reuse under the MIT license.",
+      "attribution": "Music made with Suno; lyrics written with ChatGPT",
+      "intendedUse": "Rhyme Room song with karaoke lyrics",
+      "status": "ready"
+    },
+    {
+      "path": "rhymes/march.json",
+      "title": "March with Milo lyric timings",
+      "creator": "scripts/prepare-songs.py (speech-recognition alignment of the owner's lyrics)",
+      "sourceUrl": null,
+      "license": "CC0-1.0",
+      "attribution": "none",
+      "intendedUse": "Lyric highlighting",
+      "status": "ready"
+    },
+    {
+      "path": "rhymes/feather.mp3",
+      "title": "Float Like a Feather (Rhyme Room song)",
+      "creator": "The project owner's song, made with Suno, made with Suno (karthick16)",
+      "sourceUrl": null,
+      "license": "Generated with Suno by the project owner on a paid Suno plan (commercial-use rights under Suno's terms); lyrics written with ChatGPT and edited by the owner. Used in this project; not offered for reuse under the MIT license.",
+      "attribution": "Music made with Suno; lyrics written with ChatGPT",
+      "intendedUse": "Rhyme Room song with karaoke lyrics",
+      "status": "ready"
+    },
+    {
+      "path": "rhymes/feather.json",
+      "title": "Float Like a Feather lyric timings",
+      "creator": "scripts/prepare-songs.py (speech-recognition alignment of the owner's lyrics)",
+      "sourceUrl": null,
+      "license": "CC0-1.0",
+      "attribution": "none",
+      "intendedUse": "Lyric highlighting",
+      "status": "ready"
+    },
+    {
+      "path": "rhymes/tap.mp3",
+      "title": "Milo's Dragon Tap (Rhyme Room song)",
+      "creator": "The project owner's song, made with Suno, made with Suno (karthick16)",
+      "sourceUrl": null,
+      "license": "Generated with Suno by the project owner on a paid Suno plan (commercial-use rights under Suno's terms); lyrics written with ChatGPT and edited by the owner. Used in this project; not offered for reuse under the MIT license.",
+      "attribution": "Music made with Suno; lyrics written with ChatGPT",
+      "intendedUse": "Rhyme Room song with karaoke lyrics",
+      "status": "ready"
+    },
+    {
+      "path": "rhymes/tap.json",
+      "title": "Milo's Dragon Tap lyric timings",
+      "creator": "scripts/prepare-songs.py (speech-recognition alignment of the owner's lyrics)",
+      "sourceUrl": null,
+      "license": "CC0-1.0",
+      "attribution": "none",
+      "intendedUse": "Lyric highlighting",
+      "status": "ready"
+    },
+    {
+      "path": "music/dance-maker.mp3",
+      "title": "Dance Maker music: the whole song \"Silly Face, Silly Toes\" as one seamless loop (21 bars)",
+      "creator": "The project owner's song, made with Suno, made with Suno (karthick16), prepared by scripts/cut-dance-song.py",
+      "sourceUrl": null,
+      "license": "Generated with Suno by the project owner on a paid Suno plan (commercial-use rights under Suno's terms); lyrics written with ChatGPT and edited by the owner. Used in this project; not offered for reuse under the MIT license.",
+      "attribution": "Music made with Suno; lyrics written with ChatGPT",
+      "intendedUse": "Looping music while a Dance Maker dance plays",
+      "status": "ready"
+    }
+  ],
+  "voices": [
+    {
+      "id": "piper-en_US-ljspeech-medium",
+      "engine": "Piper TTS (MIT, https://github.com/rhasspy/piper)",
+      "modelUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "modelCard": "Dataset: LJ Speech (https://keithito.com/LJ-Speech-Dataset/), license: public domain. Trained from scratch (not fine-tuned from the Lessac checkpoint). piper-voices repository license: MIT.",
+      "caveat": "Piper phonemizes with espeak-ng (GPL-3.0). Piper's maintainer has said he is unsure whether this affects generated audio (github.com/rhasspy/piper/discussions/271). Generated clips are treated as derived from a public-domain voice; review before commercial distribution.",
+      "intendedUse": "Offline, build-time generation of Milo's spoken dialogue clips (public/audio/voice/)"
+    }
+  ],
+  "music": [],
+  "$pendingAnimals": "cow, duck, pig, monkey: no real Public-domain/CC0 recording could be sourced (Wikimedia Commons search returned only spoken words for these). Not faked: they are excluded from the game until real files are added."
+}

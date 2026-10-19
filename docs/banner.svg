@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 480" role="img" aria-label="Zora Play: Talk. Play. Dance. Learn.">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6EC4F5"/><stop offset="1" stop-color="#CFEBFF"/></linearGradient>
+    <radialGradient id="sun" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#FFF4B8"/><stop offset="1" stop-color="#FFD23F"/></radialGradient>
+    <linearGradient id="hill" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9BD36B"/><stop offset="1" stop-color="#7DBB55"/></linearGradient>
+    <radialGradient id="body3d" cx=".35" cy=".28" r=".85"><stop offset="0" stop-color="#FFC27A"/><stop offset=".55" stop-color="#F28C38"/><stop offset="1" stop-color="#C9601A"/></radialGradient>
+    <radialGradient id="belly3d" cx=".4" cy=".25" r=".9"><stop offset="0" stop-color="#FFF6E2"/><stop offset="1" stop-color="#F2CF9A"/></radialGradient>
+    <radialGradient id="teal3d" cx=".35" cy=".3" r=".8"><stop offset="0" stop-color="#6FE0D0"/><stop offset="1" stop-color="#1E8F82"/></radialGradient>
+    <radialGradient id="eye3d" cx=".4" cy=".3" r=".8"><stop offset="0" stop-color="#5A4034"/><stop offset="1" stop-color="#1A100B"/></radialGradient>
+    <radialGradient id="red3d" cx=".35" cy=".3" r=".8"><stop offset="0" stop-color="#FF8F7A"/><stop offset="1" stop-color="#B8321F"/></radialGradient>
+    <radialGradient id="yel3d" cx=".35" cy=".3" r=".8"><stop offset="0" stop-color="#FFF08A"/><stop offset="1" stop-color="#E0A800"/></radialGradient>
+    <radialGradient id="blu3d" cx=".35" cy=".3" r=".8"><stop offset="0" stop-color="#9AD3F5"/><stop offset="1" stop-color="#2F78AD"/></radialGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="150%"><feGaussianBlur stdDeviation="9"/></filter>
+  </defs>
+  <rect width="1600" height="480" fill="url(#sky)"/>
+  <circle cx="1000" cy="90" r="56" fill="url(#sun)"/>
+  <g fill="#fff" opacity=".9"><ellipse cx="1180" cy="120" rx="90" ry="34"/><ellipse cx="1240" cy="98" rx="60" ry="30"/><ellipse cx="420" cy="70" rx="80" ry="28"/><ellipse cx="470" cy="52" rx="50" ry="24"/></g>
+  <path d="M0 400 Q 400 330 800 390 T 1600 360 L1600 480 L0 480 Z" fill="url(#hill)"/>
+  <!-- party balloons -->
+  <g>
+    <path d="M118 250 L 112 360 M 168 236 L 170 350 M 214 256 L 224 362" stroke="#fff" stroke-width="3" fill="none"/>
+    <ellipse cx="118" cy="214" rx="34" ry="42" fill="url(#red3d)"/><ellipse cx="168" cy="196" rx="34" ry="42" fill="url(#yel3d)"/><ellipse cx="214" cy="218" rx="34" ry="42" fill="url(#blu3d)"/>
+    <ellipse cx="106" cy="200" rx="9" ry="14" fill="#fff" opacity=".45"/><ellipse cx="156" cy="182" rx="9" ry="14" fill="#fff" opacity=".45"/><ellipse cx="202" cy="204" rx="9" ry="14" fill="#fff" opacity=".45"/>
+    <g fill="#E85D8A"><circle cx="70" cy="140" r="7"/><circle cx="262" cy="150" r="7" fill="#2BB3A3"/><circle cx="300" cy="200" r="6" fill="#F28C38"/></g>
+  </g>
+  <!-- title -->
+  <text x="330" y="236" font-family="'Baloo 2','Nunito','Arial Rounded MT Bold','Trebuchet MS',Arial,sans-serif" font-size="150" font-weight="900" fill="#3A2418" opacity=".18" transform="translate(6 8)">Zora Play</text>
+  <text x="330" y="236" font-family="'Baloo 2','Nunito','Arial Rounded MT Bold','Trebuchet MS',Arial,sans-serif" font-size="150" font-weight="900" fill="#fff" stroke="#3A2418" stroke-width="3" paint-order="stroke">Zora Play</text>
+  <text x="336" y="306" font-family="'Baloo 2','Nunito','Arial Rounded MT Bold','Trebuchet MS',Arial,sans-serif" font-size="52" font-weight="800" fill="#3A2418">Talk. Play. Dance. Learn.</text>
+  <text x="336" y="356" font-family="'Nunito','Trebuchet MS',Arial,sans-serif" font-size="32" font-weight="700" fill="#3A2418" opacity=".8">Your interactive TV buddy for Fire TV and Amazon Vega</text>
+  <!-- little dino buddy, shaded to look 3D -->
+  <g transform="translate(1250 150)">
+    <ellipse cx="110" cy="248" rx="96" ry="16" fill="#2E5A1E" opacity=".45" filter="url(#soft)"/>
+    <path d="M150 196 Q 232 196 246 128 Q 208 152 172 142 Z" fill="#C9601A"/>
+    <path d="M160 190 Q 222 188 238 140 Q 206 158 176 150 Z" fill="url(#body3d)"/>
+    <path d="M208 160 l 28 -34 l 6 36 z" fill="url(#teal3d)"/>
+    <!-- wings -->
+    <path d="M30 120 Q -14 96 -4 50 Q 36 70 58 108 Z" fill="url(#teal3d)" opacity=".95"/><path d="M190 120 Q 234 96 224 50 Q 184 70 162 108 Z" fill="url(#teal3d)" opacity=".95"/>
+    <!-- feet -->
+    <ellipse cx="62" cy="236" rx="34" ry="16" fill="#C9601A"/><ellipse cx="62" cy="231" rx="32" ry="14" fill="url(#body3d)"/>
+    <ellipse cx="138" cy="236" rx="34" ry="16" fill="#C9601A"/><ellipse cx="138" cy="231" rx="32" ry="14" fill="url(#body3d)"/>
+    <!-- body -->
+    <ellipse cx="100" cy="160" rx="80" ry="84" fill="url(#body3d)"/>
+    <ellipse cx="100" cy="176" rx="48" ry="58" fill="url(#belly3d)"/>
+    <path d="M66 156 Q 100 168 134 156 M 62 182 Q 100 196 138 182 M 70 208 Q 100 218 130 208" stroke="#E7C58F" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <!-- arms -->
+    <path d="M32 156 Q 2 140 6 106" stroke="#C9601A" stroke-width="26" stroke-linecap="round" fill="none"/><path d="M32 152 Q 4 136 8 106" stroke="url(#body3d)" stroke-width="22" stroke-linecap="round" fill="none"/>
+    <path d="M168 156 Q 198 140 194 106" stroke="#C9601A" stroke-width="26" stroke-linecap="round" fill="none"/><path d="M168 152 Q 196 136 192 106" stroke="url(#body3d)" stroke-width="22" stroke-linecap="round" fill="none"/>
+    <circle cx="8" cy="102" r="13" fill="#FFE9C7"/><circle cx="192" cy="102" r="13" fill="#FFE9C7"/>
+    <!-- head -->
+    <path d="M42 30 L 52 -6 L 78 18 Z" fill="#FFD9A0"/><path d="M158 30 L 148 -6 L 122 18 Z" fill="#FFD9A0"/>
+    <circle cx="70" cy="2" r="12" fill="url(#teal3d)"/><circle cx="92" cy="-4" r="13" fill="url(#teal3d)"/><circle cx="114" cy="2" r="12" fill="url(#teal3d)"/>
+    <ellipse cx="100" cy="66" rx="74" ry="64" fill="url(#body3d)"/>
+    <ellipse cx="78" cy="38" rx="30" ry="16" fill="#fff" opacity=".28" transform="rotate(-18 78 38)"/>
+    <ellipse cx="68" cy="66" rx="19" ry="22" fill="#fff"/><ellipse cx="132" cy="66" rx="19" ry="22" fill="#fff"/>
+    <circle cx="71" cy="70" r="12" fill="url(#eye3d)"/><circle cx="129" cy="70" r="12" fill="url(#eye3d)"/><circle cx="76" cy="64" r="4.5" fill="#fff"/><circle cx="134" cy="64" r="4.5" fill="#fff"/>
+    <ellipse cx="100" cy="98" rx="33" ry="22" fill="#FFB273"/><ellipse cx="100" cy="90" rx="20" ry="8" fill="#FFD3A8" opacity=".6"/>
+    <circle cx="90" cy="92" r="3" fill="#B5541A"/><circle cx="110" cy="92" r="3" fill="#B5541A"/>
+    <path d="M80 106 Q 100 126 120 106" stroke="#5B2410" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <ellipse cx="44" cy="96" rx="12" ry="8" fill="#FF8FA3" opacity=".65"/><ellipse cx="156" cy="96" rx="12" ry="8" fill="#FF8FA3" opacity=".65"/>
+  </g>
+</svg>

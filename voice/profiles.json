@@ -1,0 +1,26 @@
+{
+  "$comment": "Per-avatar voice profiles applied with ffmpeg to the single base Piper voice (pitch/formant shift + speed). They are different voices in tone and speed, not different speakers.",
+  "baseVoice": "piper-en_US-ljspeech-medium",
+  "characters": {
+    "dino": {
+      "pitch": 1.18,
+      "tempo": 1.0,
+      "description": "Zora the baby dragon: bright, a little higher than the base voice"
+    },
+    "cat": {
+      "pitch": 1.34,
+      "tempo": 1.06,
+      "description": "Mimi the kitten: light, high and quick"
+    },
+    "dog": {
+      "pitch": 0.96,
+      "tempo": 0.98,
+      "description": "Bruno the pup: warm and a bit lower"
+    },
+    "bear": {
+      "pitch": 0.8,
+      "tempo": 0.92,
+      "description": "Teddy the bear: deep, slow and cuddly"
+    }
+  }
+}

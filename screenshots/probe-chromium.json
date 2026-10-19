@@ -1,0 +1,14 @@
+{
+  "runtime": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/141.0.7390.37 Safari/537.36",
+  "rows": [
+    "FAIL speechSynthesis speaks | onerror: synthesis-failed \u00b7 20 ms",
+    "PASS <audio> plays bundled MP3 | canPlayType=probably; played to end; duration=0.80s; max currentTime=0.80s \u00b7 919 ms",
+    "PASS <audio> plays bundled WAV | canPlayType=maybe; played to end; duration=0.80s; max currentTime=0.80s \u00b7 905 ms",
+    "PASS <audio> plays bundled Ogg | canPlayType=probably; played to end; duration=0.80s; max currentTime=0.80s \u00b7 905 ms",
+    "PASS <audio> plays data: URI WAV | canPlayType=maybe; played to end; duration=0.40s; max currentTime=0.40s \u00b7 507 ms",
+    "FAIL fetch() reads bundled file | Failed to fetch \u00b7 2 ms",
+    "PASS Web Audio plays a tone | state=running, sampleRate=44100, clock advanced 0.40 s \u00b7 390 ms",
+    "SKIPPED Web Audio decodes bundled MP3 | fetch failed, nothing to decode \u00b7 0 ms",
+    "PASS localStorage persists values | write/read/remove OK (persistence across app restarts: check after relaunch) \u00b7 0 ms"
+  ]
+}

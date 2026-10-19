@@ -1,0 +1,6 @@
+node_modules/
+*.tgz
+coverage/
+.DS_Store
+*.log
+# dist/ is committed in this vendored copy so a fresh clone needs no build step

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Shown by the system the instant the app starts, before the WebView exists. -->
+    <style name="Theme.Milo" parent="@android:style/Theme.NoTitleBar.Fullscreen">
+        <item name="android:windowBackground">@drawable/splash</item>
+    </style>
+</resources>

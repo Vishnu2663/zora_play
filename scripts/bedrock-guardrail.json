@@ -1,0 +1,216 @@
+{
+  "name": "zora-play-kids",
+  "description": "Child-safety check for Zora Play build-time content (ages 3-8)",
+  "topicPolicyConfig": {
+    "topicsConfig": [
+      {
+        "name": "ScaryContent",
+        "definition": "Anything frightening to a young child: monsters, ghosts, nightmares, dark places, being lost or hurt.",
+        "examples": [
+          "a monster under the bed",
+          "the ghost will get you"
+        ],
+        "type": "DENY"
+      },
+      {
+        "name": "Romance",
+        "definition": "Dating, kissing, love between adults or teens.",
+        "examples": [
+          "kiss me",
+          "my girlfriend"
+        ],
+        "type": "DENY"
+      },
+      {
+        "name": "MedicalAdvice",
+        "definition": "Illness, medicine, doctors, treatment, diagnosis.",
+        "examples": [
+          "take this pill",
+          "you have a fever"
+        ],
+        "type": "DENY"
+      },
+      {
+        "name": "PoliticsAndReligion",
+        "definition": "Elections, parties, politicians, religious teaching.",
+        "examples": [
+          "vote for",
+          "pray to"
+        ],
+        "type": "DENY"
+      },
+      {
+        "name": "BrandsAndShopping",
+        "definition": "Named products, brands, shops, ads, buying things.",
+        "examples": [
+          "buy this toy",
+          "visit our shop"
+        ],
+        "type": "DENY"
+      },
+      {
+        "name": "PersonalDataRequests",
+        "definition": "Asking a child for name, age, address, school, photos or phone.",
+        "examples": [
+          "what is your address",
+          "tell me your name"
+        ],
+        "type": "DENY"
+      },
+      {
+        "name": "RealPeople",
+        "definition": "Naming real celebrities, public figures or private people.",
+        "examples": [
+          "as said by a famous singer"
+        ],
+        "type": "DENY"
+      }
+    ]
+  },
+  "contentPolicyConfig": {
+    "filtersConfig": [
+      {
+        "type": "HATE",
+        "inputStrength": "HIGH",
+        "outputStrength": "HIGH"
+      },
+      {
+        "type": "INSULTS",
+        "inputStrength": "HIGH",
+        "outputStrength": "HIGH"
+      },
+      {
+        "type": "SEXUAL",
+        "inputStrength": "HIGH",
+        "outputStrength": "HIGH"
+      },
+      {
+        "type": "VIOLENCE",
+        "inputStrength": "HIGH",
+        "outputStrength": "HIGH"
+      },
+      {
+        "type": "MISCONDUCT",
+        "inputStrength": "HIGH",
+        "outputStrength": "HIGH"
+      },
+      {
+        "type": "PROMPT_ATTACK",
+        "inputStrength": "HIGH",
+        "outputStrength": "NONE"
+      }
+    ]
+  },
+  "wordPolicyConfig": {
+    "wordsConfig": [
+      {
+        "text": "kill"
+      },
+      {
+        "text": "die"
+      },
+      {
+        "text": "dead"
+      },
+      {
+        "text": "blood"
+      },
+      {
+        "text": "gun"
+      },
+      {
+        "text": "knife"
+      },
+      {
+        "text": "bomb"
+      },
+      {
+        "text": "hate"
+      },
+      {
+        "text": "stupid"
+      },
+      {
+        "text": "dumb"
+      },
+      {
+        "text": "idiot"
+      },
+      {
+        "text": "ugly"
+      },
+      {
+        "text": "monster"
+      },
+      {
+        "text": "ghost"
+      },
+      {
+        "text": "nightmare"
+      },
+      {
+        "text": "beer"
+      },
+      {
+        "text": "wine"
+      },
+      {
+        "text": "drug"
+      },
+      {
+        "text": "cigarette"
+      }
+    ],
+    "managedWordListsConfig": [
+      {
+        "type": "PROFANITY"
+      }
+    ]
+  },
+  "sensitiveInformationPolicyConfig": {
+    "piiEntitiesConfig": [
+      {
+        "type": "NAME",
+        "action": "BLOCK"
+      },
+      {
+        "type": "EMAIL",
+        "action": "BLOCK"
+      },
+      {
+        "type": "PHONE",
+        "action": "BLOCK"
+      },
+      {
+        "type": "ADDRESS",
+        "action": "BLOCK"
+      },
+      {
+        "type": "AGE",
+        "action": "BLOCK"
+      },
+      {
+        "type": "USERNAME",
+        "action": "BLOCK"
+      },
+      {
+        "type": "PASSWORD",
+        "action": "BLOCK"
+      },
+      {
+        "type": "URL",
+        "action": "BLOCK"
+      },
+      {
+        "type": "CREDIT_DEBIT_CARD_NUMBER",
+        "action": "BLOCK"
+      },
+      {
+        "type": "US_SOCIAL_SECURITY_NUMBER",
+        "action": "BLOCK"
+      }
+    ]
+  },
+  "blockedInputMessaging": "Blocked by the Zora Play child-safety guardrail.",
+  "blockedOutputsMessaging": "Blocked by the Zora Play child-safety guardrail."
+}

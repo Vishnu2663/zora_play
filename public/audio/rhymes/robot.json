@@ -1,0 +1,250 @@
+{
+ "id": "robot",
+ "title": "Milo's Robot Smiley",
+ "audio": "audio/rhymes/robot.mp3",
+ "durationMs": 55960,
+ "vocals": "the owner's own song (Suno)",
+ "lines": [
+  {
+   "text": "Beep-beep, Milo's robot crew,",
+   "start": 6.56,
+   "end": 9.04,
+   "words": [
+    {
+     "w": "Beep-beep,",
+     "s": 6.56,
+     "e": 7.66
+    },
+    {
+     "w": "Milo's",
+     "s": 7.86,
+     "e": 8.26
+    },
+    {
+     "w": "robot",
+     "s": 8.26,
+     "e": 8.64
+    },
+    {
+     "w": "crew,",
+     "s": 8.64,
+     "e": 9.04
+    }
+   ]
+  },
+  {
+   "text": "Robot arms are ready, how about you?",
+   "start": 9.04,
+   "end": 13.5,
+   "words": [
+    {
+     "w": "Robot",
+     "s": 9.04,
+     "e": 10.14
+    },
+    {
+     "w": "arms",
+     "s": 10.22,
+     "e": 10.58
+    },
+    {
+     "w": "are",
+     "s": 10.58,
+     "e": 10.9
+    },
+    {
+     "w": "ready,",
+     "s": 10.9,
+     "e": 11.82
+    },
+    {
+     "w": "how",
+     "s": 11.82,
+     "e": 12.14
+    },
+    {
+     "w": "about",
+     "s": 12.14,
+     "e": 12.54
+    },
+    {
+     "w": "you?",
+     "s": 12.54,
+     "e": 13.5
+    }
+   ]
+  },
+  {
+   "text": "Step-step forward, step-step back,",
+   "start": 13.5,
+   "end": 15.66,
+   "words": [
+    {
+     "w": "Step-step",
+     "s": 13.5,
+     "e": 13.9
+    },
+    {
+     "w": "forward,",
+     "s": 13.9,
+     "e": 14.56
+    },
+    {
+     "w": "step-step",
+     "s": 14.56,
+     "e": 14.96
+    },
+    {
+     "w": "back,",
+     "s": 14.96,
+     "e": 15.66
+    }
+   ]
+  },
+  {
+   "text": "Make your elbows click-clack-clack!",
+   "start": 15.66,
+   "end": 17.64,
+   "words": [
+    {
+     "w": "Make",
+     "s": 15.66,
+     "e": 15.8
+    },
+    {
+     "w": "your",
+     "s": 15.8,
+     "e": 16.22
+    },
+    {
+     "w": "elbows",
+     "s": 16.22,
+     "e": 16.54
+    },
+    {
+     "w": "click-clack-clack!",
+     "s": 16.54,
+     "e": 17.64
+    }
+   ]
+  },
+  {
+   "text": "Robot left, robot right,",
+   "start": 18.46,
+   "end": 20.42,
+   "words": [
+    {
+     "w": "Robot",
+     "s": 18.46,
+     "e": 18.64
+    },
+    {
+     "w": "left,",
+     "s": 18.64,
+     "e": 19.36
+    },
+    {
+     "w": "robot",
+     "s": 19.36,
+     "e": 19.7
+    },
+    {
+     "w": "right,",
+     "s": 19.7,
+     "e": 20.42
+    }
+   ]
+  },
+  {
+   "text": "Robot arms reach up so high!",
+   "start": 20.42,
+   "end": 22.52,
+   "words": [
+    {
+     "w": "Robot",
+     "s": 20.42,
+     "e": 20.8
+    },
+    {
+     "w": "arms",
+     "s": 20.8,
+     "e": 21.1
+    },
+    {
+     "w": "reach",
+     "s": 21.1,
+     "e": 21.36
+    },
+    {
+     "w": "up",
+     "s": 21.36,
+     "e": 21.6
+    },
+    {
+     "w": "so",
+     "s": 21.6,
+     "e": 21.94
+    },
+    {
+     "w": "high!",
+     "s": 21.94,
+     "e": 22.52
+    }
+   ]
+  },
+  {
+   "text": "Beep-beep, freeze in place,",
+   "start": 22.52,
+   "end": 24.06,
+   "words": [
+    {
+     "w": "Beep-beep,",
+     "s": 22.52,
+     "e": 22.96
+    },
+    {
+     "w": "freeze",
+     "s": 22.96,
+     "e": 23.2
+    },
+    {
+     "w": "in",
+     "s": 23.2,
+     "e": 23.54
+    },
+    {
+     "w": "place,",
+     "s": 23.54,
+     "e": 24.06
+    }
+   ]
+  },
+  {
+   "text": "Milo's robot smiley face!",
+   "start": 24.06,
+   "end": 26.66,
+   "words": [
+    {
+     "w": "Milo's",
+     "s": 24.06,
+     "e": 24.56
+    },
+    {
+     "w": "robot",
+     "s": 24.56,
+     "e": 24.98
+    },
+    {
+     "w": "smiley",
+     "s": 24.98,
+     "e": 25.66
+    },
+    {
+     "w": "face!",
+     "s": 25.66,
+     "e": 26.66
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,45 @@
+{
+  "name": "milo-tv-buddy",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Zora Play - Your Interactive TV Buddy. Original buddies (a baby dragon, a kitten, a pup and a bear) for Fire TV (Fire OS web app; Vega OS via WebView is optional).",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "test": "node --test \"test/*.test.ts\"",
+    "typecheck": "tsc -p tsconfig.json",
+    "build": "node scripts/build.mjs",
+    "build:vega": "node scripts/build.mjs && node scripts/copy-to-vega.mjs",
+    "e2e": "python3 scripts/e2e.py",
+    "tour": "node scripts/tour.mjs",
+    "serve": "python3 -m http.server 8080 -d dist",
+    "vega:check": "node scripts/check-vega.mjs",
+    "typecheck:ui": "node scripts/typecheck-ui.mjs",
+    "voice:phrases": "node scripts/export-phrases.mjs",
+    "voice:generate": "node scripts/export-phrases.mjs && python3 scripts/gen-voice.py",
+    "voice:report": "node scripts/verify-audio.mjs",
+    "test:voice": "python3 test/test_gen_voice.py -v",
+    "build:firetv": "node scripts/build.mjs && node scripts/copy-to-firetv.mjs",
+    "firetv": "bash scripts/firetv-run.sh",
+    "bedrock:generate": "node scripts/bedrock-generate.mjs",
+    "bedrock:check": "node scripts/bedrock-check.mjs",
+    "bedrock:review": "node scripts/review-lines.mjs",
+    "bedrock:import": "node scripts/import-approved.mjs"
+  },
+  "devDependencies": {
+    "@aws-sdk/client-bedrock-runtime": "^3.1152.0",
+    "@types/react": "^19.3.0",
+    "@types/three": "0.160.0",
+    "esbuild": "^0.25.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "typescript": "^5.6.0"
+  },
+  "dependencies": {
+    "three": "0.160.1",
+    "tv-audio-flow": "file:packages/tv-audio-flow"
+  }
+}

@@ -1,0 +1,5277 @@
+{
+ "voices": {
+  "dino": {
+   "hi-im-zora-play-want-bd787d": {
+    "file": "audio/voice/dino/hi-im-zora-play-want-bd787d.mp3",
+    "ms": 2058,
+    "text": "Hi! I'm Zora Play! Want to play?"
+   },
+   "hello-friend-what-shall-we-217e31": {
+    "file": "audio/voice/dino/hello-friend-what-shall-we-217e31.mp3",
+    "ms": 1873,
+    "text": "Hello, friend! What shall we do?"
+   },
+   "zora-plays-here-pick-something-252377": {
+    "file": "audio/voice/dino/zora-plays-here-pick-something-252377.mp3",
+    "ms": 2336,
+    "text": "Zora Play's here! Pick something fun!"
+   },
+   "good-morning-i-just-woke-aca800": {
+    "file": "audio/voice/dino/good-morning-i-just-woke-aca800.mp3",
+    "ms": 2039,
+    "text": "Good morning! I just woke up. Yawn!"
+   },
+   "its-nearly-night-time-lets-9c3b1a": {
+    "file": "audio/voice/dino/its-nearly-night-time-lets-9c3b1a.mp3",
+    "ms": 2996,
+    "text": "It's nearly night-time. Let's do something cosy!"
+   },
+   "hi-hi-happy-to-see-0c7915": {
+    "file": "audio/voice/dino/hi-hi-happy-to-see-0c7915.mp3",
+    "ms": 1704,
+    "text": "Hi hi! Happy to see you!"
+   },
+   "hello-there-wave-wave-af6827": {
+    "file": "audio/voice/dino/hello-there-wave-wave-af6827.mp3",
+    "ms": 1483,
+    "text": "Hello there! Wave wave!"
+   },
+   "hey-im-ready-to-play-5037ee": {
+    "file": "audio/voice/dino/hey-im-ready-to-play-5037ee.mp3",
+    "ms": 1473,
+    "text": "Hey! I'm ready to play!"
+   },
+   "lets-wiggle-0a6240": {
+    "file": "audio/voice/dino/lets-wiggle-0a6240.mp3",
+    "ms": 829,
+    "text": "Let's wiggle!"
+   },
+   "dance-party-84d23b": {
+    "file": "audio/voice/dino/dance-party-84d23b.mp3",
+    "ms": 928,
+    "text": "Dance party!"
+   },
+   "shake-your-tail-598d81": {
+    "file": "audio/voice/dino/shake-your-tail-598d81.mp3",
+    "ms": 952,
+    "text": "Shake your tail!"
+   },
+   "beep-boop-robot-mode-5849d5": {
+    "file": "audio/voice/dino/beep-boop-robot-mode-5849d5.mp3",
+    "ms": 1903,
+    "text": "Beep boop! Robot mode!"
+   },
+   "i-am-a-dancing-robot-fbb323": {
+    "file": "audio/voice/dino/i-am-a-dancing-robot-fbb323.mp3",
+    "ms": 1651,
+    "text": "I am... a dancing robot!"
+   },
+   "silly-wiggles-b47ed1": {
+    "file": "audio/voice/dino/silly-wiggles-b47ed1.mp3",
+    "ms": 1005,
+    "text": "Silly wiggles!"
+   },
+   "wobble-wobble-3bc130": {
+    "file": "audio/voice/dino/wobble-wobble-3bc130.mp3",
+    "ms": 787,
+    "text": "Wobble wobble!"
+   },
+   "noodle-dance-ea31bc": {
+    "file": "audio/voice/dino/noodle-dance-ea31bc.mp3",
+    "ms": 1056,
+    "text": "Noodle dance!"
+   },
+   "nice-and-slow-b93f2f": {
+    "file": "audio/voice/dino/nice-and-slow-b93f2f.mp3",
+    "ms": 1047,
+    "text": "Nice and slow..."
+   },
+   "super-speed-wiggles-a35635": {
+    "file": "audio/voice/dino/super-speed-wiggles-a35635.mp3",
+    "ms": 1513,
+    "text": "Super-speed wiggles!"
+   },
+   "zoom-zoom-6ef83f": {
+    "file": "audio/voice/dino/zoom-zoom-6ef83f.mp3",
+    "ms": 886,
+    "text": "Zoom zoom!"
+   },
+   "faster-faster-20cc5c": {
+    "file": "audio/voice/dino/faster-faster-20cc5c.mp3",
+    "ms": 947,
+    "text": "Faster faster!"
+   },
+   "thats-my-fastest-whoosh-f92dc8": {
+    "file": "audio/voice/dino/thats-my-fastest-whoosh-f92dc8.mp3",
+    "ms": 1390,
+    "text": "That's my fastest! Whoosh!"
+   },
+   "slowing-down-dc7a88": {
+    "file": "audio/voice/dino/slowing-down-dc7a88.mp3",
+    "ms": 1129,
+    "text": "Slowing down..."
+   },
+   "easy-does-it-7e7d58": {
+    "file": "audio/voice/dino/easy-does-it-7e7d58.mp3",
+    "ms": 955,
+    "text": "Easy does it..."
+   },
+   "thats-my-slowest-sloooow-c1bd96": {
+    "file": "audio/voice/dino/thats-my-slowest-sloooow-c1bd96.mp3",
+    "ms": 1870,
+    "text": "That's my slowest. Sloooow."
+   },
+   "one-more-time-816ca2": {
+    "file": "audio/voice/dino/one-more-time-816ca2.mp3",
+    "ms": 1023,
+    "text": "One more time!"
+   },
+   "again-again-2d3051": {
+    "file": "audio/voice/dino/again-again-2d3051.mp3",
+    "ms": 890,
+    "text": "Again! Again!"
+   },
+   "here-we-go-again-6ef5fb": {
+    "file": "audio/voice/dino/here-we-go-again-6ef5fb.mp3",
+    "ms": 1203,
+    "text": "Here we go again!"
+   },
+   "okay-stopping-now-081cae": {
+    "file": "audio/voice/dino/okay-stopping-now-081cae.mp3",
+    "ms": 1395,
+    "text": "Okay, stopping now!"
+   },
+   "freeze-30c707": {
+    "file": "audio/voice/dino/freeze-30c707.mp3",
+    "ms": 729,
+    "text": "Freeze!"
+   },
+   "all-stopped-d69c19": {
+    "file": "audio/voice/dino/all-stopped-d69c19.mp3",
+    "ms": 831,
+    "text": "All stopped!"
+   },
+   "pausing-66dfb0": {
+    "file": "audio/voice/dino/pausing-66dfb0.mp3",
+    "ms": 561,
+    "text": "Pausing!"
+   },
+   "and-back-we-go-d90072": {
+    "file": "audio/voice/dino/and-back-we-go-d90072.mp3",
+    "ms": 1272,
+    "text": "And back we go!"
+   },
+   "la-la-la-song-time-27b509": {
+    "file": "audio/voice/dino/la-la-la-song-time-27b509.mp3",
+    "ms": 1448,
+    "text": "La la la! Song time!"
+   },
+   "lets-sing-together-5f49a2": {
+    "file": "audio/voice/dino/lets-sing-together-5f49a2.mp3",
+    "ms": 1032,
+    "text": "Let's sing together!"
+   },
+   "boing-776514": {
+    "file": "audio/voice/dino/boing-776514.mp3",
+    "ms": 479,
+    "text": "Boing!"
+   },
+   "up-i-go-683968": {
+    "file": "audio/voice/dino/up-i-go-683968.mp3",
+    "ms": 797,
+    "text": "Up I go!"
+   },
+   "hop-hop-f16267": {
+    "file": "audio/voice/dino/hop-hop-f16267.mp3",
+    "ms": 576,
+    "text": "Hop hop!"
+   },
+   "wave-wave-b22730": {
+    "file": "audio/voice/dino/wave-wave-b22730.mp3",
+    "ms": 855,
+    "text": "Wave wave!"
+   },
+   "hiii-30c5a0": {
+    "file": "audio/voice/dino/hiii-30c5a0.mp3",
+    "ms": 550,
+    "text": "Hiii!"
+   },
+   "clap-clap-clap-261e22": {
+    "file": "audio/voice/dino/clap-clap-clap-261e22.mp3",
+    "ms": 1058,
+    "text": "Clap clap clap!"
+   },
+   "yay-60a9df": {
+    "file": "audio/voice/dino/yay-60a9df.mp3",
+    "ms": 376,
+    "text": "Yay!"
+   },
+   "wheee-25325b": {
+    "file": "audio/voice/dino/wheee-25325b.mp3",
+    "ms": 394,
+    "text": "Wheee!"
+   },
+   "round-and-round-fc9b13": {
+    "file": "audio/voice/dino/round-and-round-fc9b13.mp3",
+    "ms": 1135,
+    "text": "Round and round!"
+   },
+   "yawn-nap-time-zzz-e824a3": {
+    "file": "audio/voice/dino/yawn-nap-time-zzz-e824a3.mp3",
+    "ms": 1956,
+    "text": "Yawn... nap time. Zzz."
+   },
+   "night-night-zzz-ca9916": {
+    "file": "audio/voice/dino/night-night-zzz-ca9916.mp3",
+    "ms": 1491,
+    "text": "Night night... Zzz."
+   },
+   "im-awake-good-morning-688d93": {
+    "file": "audio/voice/dino/im-awake-good-morning-688d93.mp3",
+    "ms": 1406,
+    "text": "I'm awake! Good morning!"
+   },
+   "yawn-i-feel-sparkly-aef89b": {
+    "file": "audio/voice/dino/yawn-i-feel-sparkly-aef89b.mp3",
+    "ms": 1475,
+    "text": "Yawn! I feel sparkly!"
+   },
+   "im-already-awake-silly-735283": {
+    "file": "audio/voice/dino/im-already-awake-silly-735283.mp3",
+    "ms": 1513,
+    "text": "I'm already awake! Silly!"
+   },
+   "hee-hee-hee-3bf290": {
+    "file": "audio/voice/dino/hee-hee-hee-3bf290.mp3",
+    "ms": 747,
+    "text": "Hee hee hee!"
+   },
+   "ha-ha-that-tickles-e835d4": {
+    "file": "audio/voice/dino/ha-ha-that-tickles-e835d4.mp3",
+    "ms": 1217,
+    "text": "Ha ha! That tickles!"
+   },
+   "lets-play-pick-a-game-aebbde": {
+    "file": "audio/voice/dino/lets-play-pick-a-game-aebbde.mp3",
+    "ms": 1475,
+    "text": "Let's play! Pick a game!"
+   },
+   "game-time-8c22c0": {
+    "file": "audio/voice/dino/game-time-8c22c0.mp3",
+    "ms": 919,
+    "text": "Game time!"
+   },
+   "surprise-cd2a0f": {
+    "file": "audio/voice/dino/surprise-cd2a0f.mp3",
+    "ms": 835,
+    "text": "Surprise!"
+   },
+   "ta-da-5edd0f": {
+    "file": "audio/voice/dino/ta-da-5edd0f.mp3",
+    "ms": 681,
+    "text": "Ta-da!"
+   },
+   "hmm-i-dont-know-that-0bfc31": {
+    "file": "audio/voice/dino/hmm-i-dont-know-that-0bfc31.mp3",
+    "ms": 2812,
+    "text": "Hmm, I don't know that one yet. Try dance, sing or play!"
+   },
+   "ooh-i-can-dance-sing-ea6c89": {
+    "file": "audio/voice/dino/ooh-i-can-dance-sing-ea6c89.mp3",
+    "ms": 2418,
+    "text": "Ooh, I can dance, sing or play. Which one?"
+   },
+   "ooh-two-things-which-first-45a6e3": {
+    "file": "audio/voice/dino/ooh-two-things-which-first-45a6e3.mp3",
+    "ms": 1838,
+    "text": "Ooh, two things! Which first?"
+   },
+   "what-should-i-do-again-ccfded": {
+    "file": "audio/voice/dino/what-should-i-do-again-ccfded.mp3",
+    "ms": 2135,
+    "text": "What should I do again? Try dance!"
+   },
+   "faster-at-what-ask-me-c64725": {
+    "file": "audio/voice/dino/faster-at-what-ask-me-c64725.mp3",
+    "ms": 2611,
+    "text": "Faster at what? Ask me to dance first!"
+   },
+   "i-can-say-hello-thank-5c0eb1": {
+    "file": "audio/voice/dino/i-can-say-hello-thank-5c0eb1.mp3",
+    "ms": 2953,
+    "text": "I can say hello, thank you, good night, or roar!"
+   },
+   "thats-private-lets-keep-it-45b849": {
+    "file": "audio/voice/dino/thats-private-lets-keep-it-45b849.mp3",
+    "ms": 2855,
+    "text": "That's private. Let's keep it for your grown-up, okay?"
+   },
+   "zzz-say-wake-up-0b9377": {
+    "file": "audio/voice/dino/zzz-say-wake-up-0b9377.mp3",
+    "ms": 1617,
+    "text": "Zzz... (say \"wake up!\")"
+   },
+   "good-try-lets-try-another-14fdb9": {
+    "file": "audio/voice/dino/good-try-lets-try-another-14fdb9.mp3",
+    "ms": 1902,
+    "text": "Good try! Let's try another one."
+   },
+   "almost-try-again-d042f7": {
+    "file": "audio/voice/dino/almost-try-again-d042f7.mp3",
+    "ms": 1203,
+    "text": "Almost! Try again!"
+   },
+   "ooh-close-one-again-51a580": {
+    "file": "audio/voice/dino/ooh-close-one-again-51a580.mp3",
+    "ms": 1289,
+    "text": "Ooh, close one! Again?"
+   },
+   "yes-you-got-it-f1abac": {
+    "file": "audio/voice/dino/yes-you-got-it-f1abac.mp3",
+    "ms": 1114,
+    "text": "Yes! You got it!"
+   },
+   "wow-great-job-4e12a0": {
+    "file": "audio/voice/dino/wow-great-job-4e12a0.mp3",
+    "ms": 1111,
+    "text": "Wow, great job!"
+   },
+   "super-smart-2f3272": {
+    "file": "audio/voice/dino/super-smart-2f3272.mp3",
+    "ms": 982,
+    "text": "Super smart!"
+   },
+   "brilliant-7ad24c": {
+    "file": "audio/voice/dino/brilliant-7ad24c.mp3",
+    "ms": 648,
+    "text": "Brilliant!"
+   },
+   "you-did-it-you-earned-000617": {
+    "file": "audio/voice/dino/you-did-it-you-earned-000617.mp3",
+    "ms": 2103,
+    "text": "You did it! You earned a shiny scale!"
+   },
+   "all-done-here-is-a-38d87d": {
+    "file": "audio/voice/dino/all-done-here-is-a-38d87d.mp3",
+    "ms": 2110,
+    "text": "All done! Here is a shiny scale!"
+   },
+   "im-getting-sleepy-time-to-92b665": {
+    "file": "audio/voice/dino/im-getting-sleepy-time-to-92b665.mp3",
+    "ms": 3329,
+    "text": "I'm getting sleepy... time to rest our eyes soon."
+   },
+   "sleepy-me-too-maybe-a-86013f": {
+    "file": "audio/voice/dino/sleepy-me-too-maybe-a-86013f.mp3",
+    "ms": 2462,
+    "text": "Sleepy? Me too. Maybe a quiet song?"
+   },
+   "bored-lets-play-a-game-80e7ad": {
+    "file": "audio/voice/dino/bored-lets-play-a-game-80e7ad.mp3",
+    "ms": 1492,
+    "text": "Bored? Let's play a game!"
+   },
+   "yay-happy-dance-be5c21": {
+    "file": "audio/voice/dino/yay-happy-dance-be5c21.mp3",
+    "ms": 1093,
+    "text": "Yay! Happy dance!"
+   },
+   "good-morning-sunshine-1f8045": {
+    "file": "audio/voice/dino/good-morning-sunshine-1f8045.mp3",
+    "ms": 1357,
+    "text": "Good morning, sunshine!"
+   },
+   "thank-you-you-are-so-a947f5": {
+    "file": "audio/voice/dino/thank-you-you-are-so-a947f5.mp3",
+    "ms": 1621,
+    "text": "Thank you! You are so kind."
+   },
+   "you-are-awesome-fa0a4b": {
+    "file": "audio/voice/dino/you-are-awesome-fa0a4b.mp3",
+    "ms": 796,
+    "text": "YOU are awesome!"
+   },
+   "lets-play-b4558e": {
+    "file": "audio/voice/dino/lets-play-b4558e.mp3",
+    "ms": 689,
+    "text": "Let's play!"
+   },
+   "bye-bye-wave-wave-fd62a7": {
+    "file": "audio/voice/dino/bye-bye-wave-wave-fd62a7.mp3",
+    "ms": 1484,
+    "text": "Bye bye! Wave wave!"
+   },
+   "i-can-do-it-and-220481": {
+    "file": "audio/voice/dino/i-can-do-it-and-220481.mp3",
+    "ms": 1979,
+    "text": "I can do it! And so can you!"
+   },
+   "happy-birthday-to-you-e20fe9": {
+    "file": "audio/voice/dino/happy-birthday-to-you-e20fe9.mp3",
+    "ms": 1271,
+    "text": "Happy birthday to you!"
+   },
+   "well-done-high-five-6c5164": {
+    "file": "audio/voice/dino/well-done-high-five-6c5164.mp3",
+    "ms": 1253,
+    "text": "Well done! High five!"
+   },
+   "rawr-that-was-a-tiny-f620d4": {
+    "file": "audio/voice/dino/rawr-that-was-a-tiny-f620d4.mp3",
+    "ms": 1864,
+    "text": "RAWR! ...that was a tiny roar."
+   },
+   "yay-we-sang-it-0e6868": {
+    "file": "audio/voice/dino/yay-we-sang-it-0e6868.mp3",
+    "ms": 955,
+    "text": "Yay! We sang it!"
+   },
+   "fresh-start-hello-again-239539": {
+    "file": "audio/voice/dino/fresh-start-hello-again-239539.mp3",
+    "ms": 1569,
+    "text": "Fresh start! Hello again!"
+   },
+   "bye-bye-see-you-soon-1c111b": {
+    "file": "audio/voice/dino/bye-bye-see-you-soon-1c111b.mp3",
+    "ms": 1949,
+    "text": "Bye bye! See you soon!"
+   },
+   "who-says-this-3e59b5": {
+    "file": "audio/voice/dino/who-says-this-3e59b5.mp3",
+    "ms": 1053,
+    "text": "Who says this?"
+   },
+   "yes-4e9f35": {
+    "file": "audio/voice/dino/yes-4e9f35.mp3",
+    "ms": 577,
+    "text": "Yes!"
+   },
+   "your-turn-what-did-i-fe77aa": {
+    "file": "audio/voice/dino/your-turn-what-did-i-fe77aa.mp3",
+    "ms": 1864,
+    "text": "Your turn! What did I do?"
+   },
+   "good-try-watch-again-9d279f": {
+    "file": "audio/voice/dino/good-try-watch-again-9d279f.mp3",
+    "ms": 1353,
+    "text": "Good try! Watch again!"
+   },
+   "watch-closely-two-moves-e8c5f1": {
+    "file": "audio/voice/dino/watch-closely-two-moves-e8c5f1.mp3",
+    "ms": 1816,
+    "text": "Watch closely! Two moves!"
+   },
+   "pick-4-moves-then-press-a62a62": {
+    "file": "audio/voice/dino/pick-4-moves-then-press-a62a62.mp3",
+    "ms": 2071,
+    "text": "Pick 4 moves, then press Go!"
+   },
+   "pick-a-move-first-e585df": {
+    "file": "audio/voice/dino/pick-a-move-first-e585df.mp3",
+    "ms": 1167,
+    "text": "Pick a move first!"
+   },
+   "here-comes-your-dance-3a7d07": {
+    "file": "audio/voice/dino/here-comes-your-dance-3a7d07.mp3",
+    "ms": 1407,
+    "text": "Here comes YOUR dance!"
+   },
+   "ahh-all-calm-you-did-6c11d7": {
+    "file": "audio/voice/dino/ahh-all-calm-you-did-6c11d7.mp3",
+    "ms": 1767,
+    "text": "Ahh. All calm. You did great!"
+   },
+   "find-the-circle-b9a9df": {
+    "file": "audio/voice/dino/find-the-circle-b9a9df.mp3",
+    "ms": 964,
+    "text": "Find the circle!"
+   },
+   "find-the-square-5d1bee": {
+    "file": "audio/voice/dino/find-the-square-5d1bee.mp3",
+    "ms": 974,
+    "text": "Find the square!"
+   },
+   "find-the-triangle-0f93b5": {
+    "file": "audio/voice/dino/find-the-triangle-0f93b5.mp3",
+    "ms": 962,
+    "text": "Find the triangle!"
+   },
+   "find-the-star-3cf9d1": {
+    "file": "audio/voice/dino/find-the-star-3cf9d1.mp3",
+    "ms": 979,
+    "text": "Find the star!"
+   },
+   "find-the-heart-2b2341": {
+    "file": "audio/voice/dino/find-the-heart-2b2341.mp3",
+    "ms": 890,
+    "text": "Find the heart!"
+   },
+   "find-the-diamond-edb1bd": {
+    "file": "audio/voice/dino/find-the-diamond-edb1bd.mp3",
+    "ms": 1080,
+    "text": "Find the diamond!"
+   },
+   "lets-learn-the-alphabet-8199fc": {
+    "file": "audio/voice/dino/lets-learn-the-alphabet-8199fc.mp3",
+    "ms": 1443,
+    "text": "Let's learn the alphabet!"
+   },
+   "well-done-you-learned-the-4f039c": {
+    "file": "audio/voice/dino/well-done-you-learned-the-4f039c.mp3",
+    "ms": 2450,
+    "text": "Well done! You learned the whole alphabet!"
+   },
+   "a-for-apple-7d2d39": {
+    "file": "audio/voice/dino/a-for-apple-7d2d39.mp3",
+    "ms": 902,
+    "text": "A for Apple."
+   },
+   "b-for-ball-44b671": {
+    "file": "audio/voice/dino/b-for-ball-44b671.mp3",
+    "ms": 1105,
+    "text": "B for Ball."
+   },
+   "c-for-cat-0a7128": {
+    "file": "audio/voice/dino/c-for-cat-0a7128.mp3",
+    "ms": 978,
+    "text": "C for Cat."
+   },
+   "d-for-dog-312e11": {
+    "file": "audio/voice/dino/d-for-dog-312e11.mp3",
+    "ms": 957,
+    "text": "D for Dog."
+   },
+   "e-for-elephant-9dcbe2": {
+    "file": "audio/voice/dino/e-for-elephant-9dcbe2.mp3",
+    "ms": 1010,
+    "text": "E for Elephant."
+   },
+   "f-for-fish-4be953": {
+    "file": "audio/voice/dino/f-for-fish-4be953.mp3",
+    "ms": 1083,
+    "text": "F for Fish."
+   },
+   "g-for-grapes-058e13": {
+    "file": "audio/voice/dino/g-for-grapes-058e13.mp3",
+    "ms": 1125,
+    "text": "G for Grapes."
+   },
+   "h-for-hat-e467a7": {
+    "file": "audio/voice/dino/h-for-hat-e467a7.mp3",
+    "ms": 929,
+    "text": "H for Hat."
+   },
+   "i-for-ice-cream-6d8501": {
+    "file": "audio/voice/dino/i-for-ice-cream-6d8501.mp3",
+    "ms": 1270,
+    "text": "I for Ice cream."
+   },
+   "j-for-jar-c79ae6": {
+    "file": "audio/voice/dino/j-for-jar-c79ae6.mp3",
+    "ms": 1116,
+    "text": "J for Jar."
+   },
+   "k-for-kite-327825": {
+    "file": "audio/voice/dino/k-for-kite-327825.mp3",
+    "ms": 1055,
+    "text": "K for Kite."
+   },
+   "l-for-lion-4e0b53": {
+    "file": "audio/voice/dino/l-for-lion-4e0b53.mp3",
+    "ms": 1207,
+    "text": "L for Lion."
+   },
+   "m-for-moon-7d66a3": {
+    "file": "audio/voice/dino/m-for-moon-7d66a3.mp3",
+    "ms": 1064,
+    "text": "M for Moon."
+   },
+   "n-for-nest-0bf70f": {
+    "file": "audio/voice/dino/n-for-nest-0bf70f.mp3",
+    "ms": 1069,
+    "text": "N for Nest."
+   },
+   "o-for-orange-db806f": {
+    "file": "audio/voice/dino/o-for-orange-db806f.mp3",
+    "ms": 995,
+    "text": "O for Orange."
+   },
+   "p-for-pig-660fb4": {
+    "file": "audio/voice/dino/p-for-pig-660fb4.mp3",
+    "ms": 911,
+    "text": "P for Pig."
+   },
+   "q-for-queen-6266e3": {
+    "file": "audio/voice/dino/q-for-queen-6266e3.mp3",
+    "ms": 1058,
+    "text": "Q for Queen."
+   },
+   "r-for-rainbow-a3afbc": {
+    "file": "audio/voice/dino/r-for-rainbow-a3afbc.mp3",
+    "ms": 1251,
+    "text": "R for Rainbow."
+   },
+   "s-for-sun-261992": {
+    "file": "audio/voice/dino/s-for-sun-261992.mp3",
+    "ms": 826,
+    "text": "S for Sun."
+   },
+   "t-for-tree-42ff66": {
+    "file": "audio/voice/dino/t-for-tree-42ff66.mp3",
+    "ms": 930,
+    "text": "T for Tree."
+   },
+   "u-for-umbrella-b7317c": {
+    "file": "audio/voice/dino/u-for-umbrella-b7317c.mp3",
+    "ms": 1276,
+    "text": "U for Umbrella."
+   },
+   "v-for-van-efbb60": {
+    "file": "audio/voice/dino/v-for-van-efbb60.mp3",
+    "ms": 1033,
+    "text": "V for Van."
+   },
+   "w-for-whale-dcf5d0": {
+    "file": "audio/voice/dino/w-for-whale-dcf5d0.mp3",
+    "ms": 1275,
+    "text": "W for Whale."
+   },
+   "x-for-xylophone-6aa8e2": {
+    "file": "audio/voice/dino/x-for-xylophone-6aa8e2.mp3",
+    "ms": 1360,
+    "text": "X for Xylophone."
+   },
+   "y-for-yo-yo-d06333": {
+    "file": "audio/voice/dino/y-for-yo-yo-d06333.mp3",
+    "ms": 1251,
+    "text": "Y for Yo-yo."
+   },
+   "z-for-zebra-e44465": {
+    "file": "audio/voice/dino/z-for-zebra-e44465.mp3",
+    "ms": 1301,
+    "text": "Z for Zebra."
+   },
+   "hi-im-zora-the-dino-f28027": {
+    "file": "audio/voice/dino/hi-im-zora-the-dino-f28027.mp3",
+    "ms": 1504,
+    "text": "Hi! I'm Zora the dino!"
+   },
+   "hi-im-mimi-the-cat-013463": {
+    "file": "audio/voice/dino/hi-im-mimi-the-cat-013463.mp3",
+    "ms": 1543,
+    "text": "Hi! I'm Mimi the cat!"
+   },
+   "hi-im-bruno-the-dog-da1df1": {
+    "file": "audio/voice/dino/hi-im-bruno-the-dog-da1df1.mp3",
+    "ms": 1555,
+    "text": "Hi! I'm Bruno the dog!"
+   },
+   "hi-im-teddy-the-bear-7078c9": {
+    "file": "audio/voice/dino/hi-im-teddy-the-bear-7078c9.mp3",
+    "ms": 1442,
+    "text": "Hi! I'm Teddy the bear!"
+   },
+   "lets-sing-some-rhymes-675d8c": {
+    "file": "audio/voice/dino/lets-sing-some-rhymes-675d8c.mp3",
+    "ms": 1763,
+    "text": "Let's sing some rhymes!"
+   },
+   "yes-its-a-dog-0b7d47": {
+    "file": "audio/voice/dino/yes-its-a-dog-0b7d47.mp3",
+    "ms": 864,
+    "text": "Yes! It's a dog!"
+   },
+   "yes-its-a-cat-f2a569": {
+    "file": "audio/voice/dino/yes-its-a-cat-f2a569.mp3",
+    "ms": 1044,
+    "text": "Yes! It's a cat!"
+   },
+   "yes-its-a-sheep-be2e94": {
+    "file": "audio/voice/dino/yes-its-a-sheep-be2e94.mp3",
+    "ms": 994,
+    "text": "Yes! It's a sheep!"
+   },
+   "yes-its-a-goat-1c1e31": {
+    "file": "audio/voice/dino/yes-its-a-goat-1c1e31.mp3",
+    "ms": 1023,
+    "text": "Yes! It's a goat!"
+   },
+   "yes-its-a-horse-1d4ec6": {
+    "file": "audio/voice/dino/yes-its-a-horse-1d4ec6.mp3",
+    "ms": 1206,
+    "text": "Yes! It's a horse!"
+   },
+   "yes-its-a-rooster-f788a8": {
+    "file": "audio/voice/dino/yes-its-a-rooster-f788a8.mp3",
+    "ms": 1041,
+    "text": "Yes! It's a rooster!"
+   },
+   "yes-its-a-hen-1fc027": {
+    "file": "audio/voice/dino/yes-its-a-hen-1fc027.mp3",
+    "ms": 847,
+    "text": "Yes! It's a hen!"
+   },
+   "yes-its-a-frog-8cedf8": {
+    "file": "audio/voice/dino/yes-its-a-frog-8cedf8.mp3",
+    "ms": 980,
+    "text": "Yes! It's a frog!"
+   },
+   "yes-its-a-lion-2d222b": {
+    "file": "audio/voice/dino/yes-its-a-lion-2d222b.mp3",
+    "ms": 1125,
+    "text": "Yes! It's a lion!"
+   },
+   "yes-its-an-elephant-ab26f0": {
+    "file": "audio/voice/dino/yes-its-an-elephant-ab26f0.mp3",
+    "ms": 1277,
+    "text": "Yes! It's an elephant!"
+   },
+   "yes-its-an-owl-ad91b4": {
+    "file": "audio/voice/dino/yes-its-an-owl-ad91b4.mp3",
+    "ms": 1103,
+    "text": "Yes! It's an owl!"
+   },
+   "dogs-wag-their-tails-when-308de1": {
+    "file": "audio/voice/dino/dogs-wag-their-tails-when-308de1.mp3",
+    "ms": 2800,
+    "text": "Dogs wag their tails when they are happy."
+   },
+   "cats-purr-when-they-feel-915989": {
+    "file": "audio/voice/dino/cats-purr-when-they-feel-915989.mp3",
+    "ms": 2046,
+    "text": "Cats purr when they feel cosy."
+   },
+   "sheep-have-soft-woolly-coats-2f3f13": {
+    "file": "audio/voice/dino/sheep-have-soft-woolly-coats-2f3f13.mp3",
+    "ms": 1929,
+    "text": "Sheep have soft, woolly coats."
+   },
+   "goats-are-great-at-climbing-10835f": {
+    "file": "audio/voice/dino/goats-are-great-at-climbing-10835f.mp3",
+    "ms": 1642,
+    "text": "Goats are great at climbing."
+   },
+   "horses-can-run-very-fast-b39372": {
+    "file": "audio/voice/dino/horses-can-run-very-fast-b39372.mp3",
+    "ms": 1899,
+    "text": "Horses can run very fast."
+   },
+   "roosters-crow-when-the-sun-5090d2": {
+    "file": "audio/voice/dino/roosters-crow-when-the-sun-5090d2.mp3",
+    "ms": 2080,
+    "text": "Roosters crow when the sun comes up."
+   },
+   "hens-lay-eggs-6dbbd8": {
+    "file": "audio/voice/dino/hens-lay-eggs-6dbbd8.mp3",
+    "ms": 1252,
+    "text": "Hens lay eggs."
+   },
+   "frogs-can-jump-really-far-02ac01": {
+    "file": "audio/voice/dino/frogs-can-jump-really-far-02ac01.mp3",
+    "ms": 1806,
+    "text": "Frogs can jump really far."
+   },
+   "a-lion-has-a-big-f54d5c": {
+    "file": "audio/voice/dino/a-lion-has-a-big-f54d5c.mp3",
+    "ms": 1903,
+    "text": "A lion has a big, fluffy mane."
+   },
+   "elephants-use-their-trunks-like-0e8edd": {
+    "file": "audio/voice/dino/elephants-use-their-trunks-like-0e8edd.mp3",
+    "ms": 2252,
+    "text": "Elephants use their trunks like a hand."
+   },
+   "owls-are-awake-at-night-e6aa9c": {
+    "file": "audio/voice/dino/owls-are-awake-at-night-e6aa9c.mp3",
+    "ms": 1601,
+    "text": "Owls are awake at night."
+   },
+   "lets-learn-animal-sounds-6d06b5": {
+    "file": "audio/voice/dino/lets-learn-animal-sounds-6d06b5.mp3",
+    "ms": 1771,
+    "text": "Let's learn animal sounds!"
+   },
+   "who-makes-this-noise-1c7cf8": {
+    "file": "audio/voice/dino/who-makes-this-noise-1c7cf8.mp3",
+    "ms": 1505,
+    "text": "Who makes this noise?"
+   },
+   "good-try-lets-listen-again-cc106a": {
+    "file": "audio/voice/dino/good-try-lets-listen-again-cc106a.mp3",
+    "ms": 1673,
+    "text": "Good try! Let's listen again."
+   },
+   "hi-friend-let-us-have-284f90": {
+    "file": "audio/voice/dino/hi-friend-let-us-have-284f90.mp3",
+    "ms": 1749,
+    "text": "Hi friend! Let us have a chat."
+   },
+   "pick-something-to-talk-about-299b45": {
+    "file": "audio/voice/dino/pick-something-to-talk-about-299b45.mp3",
+    "ms": 1707,
+    "text": "Pick something to talk about."
+   },
+   "this-tv-has-no-microphone-203413": {
+    "file": "audio/voice/dino/this-tv-has-no-microphone-203413.mp3",
+    "ms": 4540,
+    "text": "This TV has no microphone for me, so pick what you want to say with your remote."
+   },
+   "i-cannot-answer-that-one-3f4723": {
+    "file": "audio/voice/dino/i-cannot-answer-that-one-3f4723.mp3",
+    "ms": 3222,
+    "text": "I cannot answer that one yet. Try one of the buttons!"
+   },
+   "yes-let-us-learn-about-be1973": {
+    "file": "audio/voice/dino/yes-let-us-learn-about-be1973.mp3",
+    "ms": 1965,
+    "text": "Yes! Let us learn about animals!"
+   },
+   "a-dog-says-bow-wow-1954ca": {
+    "file": "audio/voice/dino/a-dog-says-bow-wow-1954ca.mp3",
+    "ms": 1909,
+    "text": "A dog says bow wow."
+   },
+   "a-cat-says-meow-6886f9": {
+    "file": "audio/voice/dino/a-cat-says-meow-6886f9.mp3",
+    "ms": 1365,
+    "text": "A cat says meow."
+   },
+   "shall-we-play-animal-sounds-b85546": {
+    "file": "audio/voice/dino/shall-we-play-animal-sounds-b85546.mp3",
+    "ms": 2137,
+    "text": "Shall we play Animal Sounds?"
+   },
+   "yes-count-with-me-c91311": {
+    "file": "audio/voice/dino/yes-count-with-me-c91311.mp3",
+    "ms": 1173,
+    "text": "Yes! Count with me!"
+   },
+   "one-ba2719": {
+    "file": "audio/voice/dino/one-ba2719.mp3",
+    "ms": 332,
+    "text": "One."
+   },
+   "two-be2488": {
+    "file": "audio/voice/dino/two-be2488.mp3",
+    "ms": 384,
+    "text": "Two."
+   },
+   "three-888603": {
+    "file": "audio/voice/dino/three-888603.mp3",
+    "ms": 451,
+    "text": "Three."
+   },
+   "four-2f69f5": {
+    "file": "audio/voice/dino/four-2f69f5.mp3",
+    "ms": 447,
+    "text": "Four."
+   },
+   "five-aeb443": {
+    "file": "audio/voice/dino/five-aeb443.mp3",
+    "ms": 586,
+    "text": "Five!"
+   },
+   "great-counting-76a82d": {
+    "file": "audio/voice/dino/great-counting-76a82d.mp3",
+    "ms": 910,
+    "text": "Great counting!"
+   },
+   "my-favourite-colour-is-orange-8d2108": {
+    "file": "audio/voice/dino/my-favourite-colour-is-orange-8d2108.mp3",
+    "ms": 2984,
+    "text": "My favourite colour is orange, like my scales!"
+   },
+   "what-is-your-favourite-colour-ece3ff": {
+    "file": "audio/voice/dino/what-is-your-favourite-colour-ece3ff.mp3",
+    "ms": 1586,
+    "text": "What is your favourite colour?"
+   },
+   "yes-let-us-dance-together-922159": {
+    "file": "audio/voice/dino/yes-let-us-dance-together-922159.mp3",
+    "ms": 1604,
+    "text": "Yes! Let us dance together!"
+   },
+   "yes-please-let-us-sing-b5a2dd": {
+    "file": "audio/voice/dino/yes-please-let-us-sing-b5a2dd.mp3",
+    "ms": 2123,
+    "text": "Yes please! Let us sing a rhyme."
+   },
+   "press-an-instrument-to-play-eccdb8": {
+    "file": "audio/voice/dino/press-an-instrument-to-play-eccdb8.mp3",
+    "ms": 1906,
+    "text": "Press an instrument to play it!"
+   },
+   "watch-zora-2f3cbf": {
+    "file": "audio/voice/dino/watch-zora-2f3cbf.mp3",
+    "ms": 977,
+    "text": "Watch Zora!"
+   },
+   "watch-mimi-fac1e6": {
+    "file": "audio/voice/dino/watch-mimi-fac1e6.mp3",
+    "ms": 882,
+    "text": "Watch Mimi!"
+   },
+   "watch-bruno-20a7a2": {
+    "file": "audio/voice/dino/watch-bruno-20a7a2.mp3",
+    "ms": 994,
+    "text": "Watch Bruno!"
+   },
+   "watch-teddy-9889ae": {
+    "file": "audio/voice/dino/watch-teddy-9889ae.mp3",
+    "ms": 764,
+    "text": "Watch Teddy!"
+   },
+   "hi-im-zora-want-to-e24e3f": {
+    "file": "audio/voice/dino/hi-im-zora-want-to-e24e3f.mp3",
+    "ms": 1831,
+    "text": "Hi! I'm Zora! Want to play?"
+   },
+   "zoras-here-pick-something-fun-a37501": {
+    "file": "audio/voice/dino/zoras-here-pick-something-fun-a37501.mp3",
+    "ms": 1930,
+    "text": "Zora's here! Pick something fun!"
+   },
+   "hi-im-mimi-want-to-18331f": {
+    "file": "audio/voice/dino/hi-im-mimi-want-to-18331f.mp3",
+    "ms": 1776,
+    "text": "Hi! I'm Mimi! Want to play?"
+   },
+   "mimis-here-pick-something-fun-487378": {
+    "file": "audio/voice/dino/mimis-here-pick-something-fun-487378.mp3",
+    "ms": 1862,
+    "text": "Mimi's here! Pick something fun!"
+   },
+   "hi-im-bruno-want-to-5a42ed": {
+    "file": "audio/voice/dino/hi-im-bruno-want-to-5a42ed.mp3",
+    "ms": 1700,
+    "text": "Hi! I'm Bruno! Want to play?"
+   },
+   "brunos-here-pick-something-fun-6dbf75": {
+    "file": "audio/voice/dino/brunos-here-pick-something-fun-6dbf75.mp3",
+    "ms": 1998,
+    "text": "Bruno's here! Pick something fun!"
+   },
+   "hi-im-teddy-want-to-7a574b": {
+    "file": "audio/voice/dino/hi-im-teddy-want-to-7a574b.mp3",
+    "ms": 1508,
+    "text": "Hi! I'm Teddy! Want to play?"
+   },
+   "teddys-here-pick-something-fun-d567cc": {
+    "file": "audio/voice/dino/teddys-here-pick-something-fun-d567cc.mp3",
+    "ms": 1853,
+    "text": "Teddy's here! Pick something fun!"
+   },
+   "hello-hello-my-friend-e37bee": {
+    "file": "audio/voice/dino/hello-hello-my-friend-e37bee.mp3",
+    "ms": 1520,
+    "text": "Hello! Hello, my friend!"
+   },
+   "im-sorry-youre-feeling-sad-976399": {
+    "file": "audio/voice/dino/im-sorry-youre-feeling-sad-976399.mp3",
+    "ms": 4163,
+    "text": "I'm sorry you're feeling sad. Want to take a deep breath, or play a little game?"
+   },
+   "why-did-the-cat-sit-6765d1": {
+    "file": "audio/voice/dino/why-did-the-cat-sit-6765d1.mp3",
+    "ms": 2620,
+    "text": "Why did the cat sit on the computer?"
+   },
+   "to-watch-the-mouse-fd9bfe": {
+    "file": "audio/voice/dino/to-watch-the-mouse-fd9bfe.mp3",
+    "ms": 1406,
+    "text": "To watch the mouse!"
+   },
+   "what-is-a-puppys-favorite-c81608": {
+    "file": "audio/voice/dino/what-is-a-puppys-favorite-c81608.mp3",
+    "ms": 2509,
+    "text": "What is a puppy's favorite snack?"
+   },
+   "pup-corn-bb29c1": {
+    "file": "audio/voice/dino/pup-corn-bb29c1.mp3",
+    "ms": 923,
+    "text": "Pup-corn!"
+   },
+   "why-did-the-chicken-cross-ae9e0a": {
+    "file": "audio/voice/dino/why-did-the-chicken-cross-ae9e0a.mp3",
+    "ms": 2303,
+    "text": "Why did the chicken cross the road?"
+   },
+   "to-get-to-the-other-2b7928": {
+    "file": "audio/voice/dino/to-get-to-the-other-2b7928.mp3",
+    "ms": 1621,
+    "text": "To get to the other side!"
+   },
+   "what-do-you-call-a-27991f": {
+    "file": "audio/voice/dino/what-do-you-call-a-27991f.mp3",
+    "ms": 2702,
+    "text": "What do you call a bear with no teeth?"
+   },
+   "a-gummy-bear-35acfa": {
+    "file": "audio/voice/dino/a-gummy-bear-35acfa.mp3",
+    "ms": 1188,
+    "text": "A gummy bear!"
+   },
+   "what-goes-up-when-the-d84ba1": {
+    "file": "audio/voice/dino/what-goes-up-when-the-d84ba1.mp3",
+    "ms": 2799,
+    "text": "What goes up when the rain comes down?"
+   },
+   "an-umbrella-6031d3": {
+    "file": "audio/voice/dino/an-umbrella-6031d3.mp3",
+    "ms": 954,
+    "text": "An umbrella!"
+   },
+   "my-favourite-colour-is-pink-911a62": {
+    "file": "audio/voice/dino/my-favourite-colour-is-pink-911a62.mp3",
+    "ms": 3248,
+    "text": "My favourite colour is pink, like my little nose!"
+   },
+   "my-favourite-colour-is-brown-2b7933": {
+    "file": "audio/voice/dino/my-favourite-colour-is-brown-2b7933.mp3",
+    "ms": 3211,
+    "text": "My favourite colour is brown, like my floppy ears!"
+   },
+   "my-favourite-colour-is-yellow-c0fbfb": {
+    "file": "audio/voice/dino/my-favourite-colour-is-yellow-c0fbfb.mp3",
+    "ms": 2775,
+    "text": "My favourite colour is yellow, like sweet honey!"
+   },
+   "milos-lullaby-1dcb65": {
+    "file": "audio/voice/dino/milos-lullaby-1dcb65.mp3",
+    "ms": 1312,
+    "text": "Milo's Lullaby"
+   },
+   "milos-robot-smiley-188129": {
+    "file": "audio/voice/dino/milos-robot-smiley-188129.mp3",
+    "ms": 1899,
+    "text": "Milo's Robot Smiley"
+   },
+   "march-with-milo-76ee44": {
+    "file": "audio/voice/dino/march-with-milo-76ee44.mp3",
+    "ms": 1219,
+    "text": "March with Milo"
+   },
+   "float-like-a-feather-94f007": {
+    "file": "audio/voice/dino/float-like-a-feather-94f007.mp3",
+    "ms": 1287,
+    "text": "Float Like a Feather"
+   },
+   "milos-dragon-tap-57eb43": {
+    "file": "audio/voice/dino/milos-dragon-tap-57eb43.mp3",
+    "ms": 1342,
+    "text": "Milo's Dragon Tap"
+   },
+   "pick-any-one-of-these-37872e": {
+    "file": "audio/voice/dino/pick-any-one-of-these-37872e.mp3",
+    "ms": 1299,
+    "text": "Pick any one of these!"
+   },
+   "what-is-yellow-and-goes-e11491": {
+    "file": "audio/voice/dino/what-is-yellow-and-goes-e11491.mp3",
+    "ms": 2510,
+    "text": "What is yellow and goes beep beep?"
+   },
+   "a-taxi-e8dba1": {
+    "file": "audio/voice/dino/a-taxi-e8dba1.mp3",
+    "ms": 942,
+    "text": "A taxi!"
+   },
+   "what-has-a-head-a-30956f": {
+    "file": "audio/voice/dino/what-has-a-head-a-30956f.mp3",
+    "ms": 2736,
+    "text": "What has a head, a tail, but no body?"
+   },
+   "a-coin-700b66": {
+    "file": "audio/voice/dino/a-coin-700b66.mp3",
+    "ms": 944,
+    "text": "A coin!"
+   },
+   "close-your-eyes-dream-of-23a5b1": {
+    "file": "audio/voice/dino/close-your-eyes-dream-of-23a5b1.mp3",
+    "ms": 2204,
+    "text": "Close your eyes. Dream of the moon."
+   },
+   "soft-blanket-snug-and-warm-2b6289": {
+    "file": "audio/voice/dino/soft-blanket-snug-and-warm-2b6289.mp3",
+    "ms": 2480,
+    "text": "Soft blanket, snug and warm."
+   },
+   "slow-breaths-one-two-three-15bcbc": {
+    "file": "audio/voice/dino/slow-breaths-one-two-three-15bcbc.mp3",
+    "ms": 2697,
+    "text": "Slow breaths, one, two, three."
+   },
+   "stars-twinkle-night-is-here-dda919": {
+    "file": "audio/voice/dino/stars-twinkle-night-is-here-dda919.mp3",
+    "ms": 1964,
+    "text": "Stars twinkle, night is here."
+   },
+   "moon-is-bright-it-guides-b1a7db": {
+    "file": "audio/voice/dino/moon-is-bright-it-guides-b1a7db.mp3",
+    "ms": 2300,
+    "text": "Moon is bright, it guides us."
+   },
+   "dogs-love-to-play-fetch-25b3e4": {
+    "file": "audio/voice/dino/dogs-love-to-play-fetch-25b3e4.mp3",
+    "ms": 1835,
+    "text": "Dogs love to play fetch."
+   },
+   "cats-like-to-nap-all-d05619": {
+    "file": "audio/voice/dino/cats-like-to-nap-all-d05619.mp3",
+    "ms": 1857,
+    "text": "Cats like to nap all day."
+   },
+   "sheep-like-to-munch-grass-80b000": {
+    "file": "audio/voice/dino/sheep-like-to-munch-grass-80b000.mp3",
+    "ms": 1762,
+    "text": "Sheep like to munch grass."
+   },
+   "goats-love-to-eat-leaves-ea6788": {
+    "file": "audio/voice/dino/goats-love-to-eat-leaves-ea6788.mp3",
+    "ms": 1851,
+    "text": "Goats love to eat leaves."
+   },
+   "horses-love-to-run-free-03c0b9": {
+    "file": "audio/voice/dino/horses-love-to-run-free-03c0b9.mp3",
+    "ms": 1624,
+    "text": "Horses love to run free."
+   },
+   "what-is-your-favourite-toy-698c08": {
+    "file": "audio/voice/dino/what-is-your-favourite-toy-698c08.mp3",
+    "ms": 3079,
+    "text": "What is your favourite toy? Mine is a teddy bear."
+   },
+   "are-you-happy-today-i-16c843": {
+    "file": "audio/voice/dino/are-you-happy-today-i-16c843.mp3",
+    "ms": 2664,
+    "text": "Are you happy today? I feel happy too!"
+   },
+   "lets-be-kind-to-our-8fbbf5": {
+    "file": "audio/voice/dino/lets-be-kind-to-our-8fbbf5.mp3",
+    "ms": 4040,
+    "text": "Let's be kind to our friends. Kindness makes the world bright."
+   },
+   "helping-at-home-is-fun-3dfed9": {
+    "file": "audio/voice/dino/helping-at-home-is-fun-3dfed9.mp3",
+    "ms": 3267,
+    "text": "Helping at home is fun. Can you help pick up toys?"
+   },
+   "playing-outside-is-so-much-442979": {
+    "file": "audio/voice/dino/playing-outside-is-so-much-442979.mp3",
+    "ms": 3975,
+    "text": "Playing outside is so much fun! What is your favourite game?"
+   },
+   "ha-ha-ha-ha-348e20": {
+    "file": "audio/voice/dino/ha-ha-ha-ha-348e20.mp3",
+    "ms": 890,
+    "text": "Ha, ha, ha, ha!"
+   },
+   "why-did-the-scarecrow-win-74c110": {
+    "file": "audio/voice/dino/why-did-the-scarecrow-win-74c110.mp3",
+    "ms": 2289,
+    "text": "Why did the scarecrow win an award?"
+   },
+   "because-he-was-outstanding-in-e1c564": {
+    "file": "audio/voice/dino/because-he-was-outstanding-in-e1c564.mp3",
+    "ms": 2821,
+    "text": "Because he was outstanding in his field!"
+   },
+   "what-do-you-call-a-334955": {
+    "file": "audio/voice/dino/what-do-you-call-a-334955.mp3",
+    "ms": 3112,
+    "text": "What do you call a bear with no socks?"
+   },
+   "barefoot-3c3e26": {
+    "file": "audio/voice/dino/barefoot-3c3e26.mp3",
+    "ms": 816,
+    "text": "Barefoot!"
+   },
+   "why-did-the-bicycle-fall-35b1ba": {
+    "file": "audio/voice/dino/why-did-the-bicycle-fall-35b1ba.mp3",
+    "ms": 2207,
+    "text": "Why did the bicycle fall over?"
+   },
+   "it-was-two-tired-aa1a4b": {
+    "file": "audio/voice/dino/it-was-two-tired-aa1a4b.mp3",
+    "ms": 1476,
+    "text": "It was two tired!"
+   },
+   "what-do-you-call-a-3013f7": {
+    "file": "audio/voice/dino/what-do-you-call-a-3013f7.mp3",
+    "ms": 2219,
+    "text": "What do you call a fake noodle?"
+   },
+   "an-impasta-c7a615": {
+    "file": "audio/voice/dino/an-impasta-c7a615.mp3",
+    "ms": 1151,
+    "text": "An impasta!"
+   },
+   "why-did-the-cookie-go-605bc1": {
+    "file": "audio/voice/dino/why-did-the-cookie-go-605bc1.mp3",
+    "ms": 2597,
+    "text": "Why did the cookie go to the nurse?"
+   },
+   "because-it-felt-crummy-e6d0f6": {
+    "file": "audio/voice/dino/because-it-felt-crummy-e6d0f6.mp3",
+    "ms": 1643,
+    "text": "Because it felt crummy!"
+   },
+   "why-did-the-tomato-turn-39e6ee": {
+    "file": "audio/voice/dino/why-did-the-tomato-turn-39e6ee.mp3",
+    "ms": 2085,
+    "text": "Why did the tomato turn red?"
+   },
+   "because-it-saw-the-salad-d4ed1a": {
+    "file": "audio/voice/dino/because-it-saw-the-salad-d4ed1a.mp3",
+    "ms": 2332,
+    "text": "Because it saw the salad dressing!"
+   },
+   "what-do-you-call-a-0972e5": {
+    "file": "audio/voice/dino/what-do-you-call-a-0972e5.mp3",
+    "ms": 3485,
+    "text": "What do you call a duck that gets all A's?"
+   },
+   "a-wise-quacker-f8c83b": {
+    "file": "audio/voice/dino/a-wise-quacker-f8c83b.mp3",
+    "ms": 1196,
+    "text": "A wise quacker!"
+   },
+   "what-did-the-zero-say-db7f34": {
+    "file": "audio/voice/dino/what-did-the-zero-say-db7f34.mp3",
+    "ms": 2855,
+    "text": "What did the zero say to the eight?"
+   },
+   "nice-belt-d66466": {
+    "file": "audio/voice/dino/nice-belt-d66466.mp3",
+    "ms": 1111,
+    "text": "Nice belt!"
+   },
+   "why-did-the-music-teacher-54410a": {
+    "file": "audio/voice/dino/why-did-the-music-teacher-54410a.mp3",
+    "ms": 2460,
+    "text": "Why did the music teacher need a ladder?"
+   },
+   "to-reach-the-high-notes-87105f": {
+    "file": "audio/voice/dino/to-reach-the-high-notes-87105f.mp3",
+    "ms": 1838,
+    "text": "To reach the high notes!"
+   },
+   "why-do-bees-have-sticky-465318": {
+    "file": "audio/voice/dino/why-do-bees-have-sticky-465318.mp3",
+    "ms": 2282,
+    "text": "Why do bees have sticky hair?"
+   },
+   "because-they-use-honeycombs-eb3988": {
+    "file": "audio/voice/dino/because-they-use-honeycombs-eb3988.mp3",
+    "ms": 1966,
+    "text": "Because they use honeycombs!"
+   },
+   "what-do-you-call-a-04e2a0": {
+    "file": "audio/voice/dino/what-do-you-call-a-04e2a0.mp3",
+    "ms": 3282,
+    "text": "What do you call a bear with no ears?"
+   },
+   "b-e70c2d": {
+    "file": "audio/voice/dino/b-e70c2d.mp3",
+    "ms": 503,
+    "text": "B!"
+   },
+   "floaty-dance-66ae4f": {
+    "file": "audio/voice/dino/floaty-dance-66ae4f.mp3",
+    "ms": 1076,
+    "text": "Floaty dance..."
+   },
+   "i-can-dance-sing-play-f709d1": {
+    "file": "audio/voice/dino/i-can-dance-sing-play-f709d1.mp3",
+    "ms": 3496,
+    "text": "I can dance, sing, play games, and take big calm breaths!"
+   },
+   "lets-take-calm-breaths-in-06b888": {
+    "file": "audio/voice/dino/lets-take-calm-breaths-in-06b888.mp3",
+    "ms": 2590,
+    "text": "Let's take calm breaths. In... and out."
+   },
+   "its-okay-to-feel-scared-6e2919": {
+    "file": "audio/voice/dino/its-okay-to-feel-scared-6e2919.mp3",
+    "ms": 5258,
+    "text": "It's okay to feel scared. A grown-up can help too. Shall we take a slow, calm breath?"
+   },
+   "feeling-grumpy-is-okay-lets-13ef9d": {
+    "file": "audio/voice/dino/feeling-grumpy-is-okay-lets-13ef9d.mp3",
+    "ms": 4119,
+    "text": "Feeling grumpy is okay. Let's blow it out with a big calm breath!"
+   },
+   "good-night-sweet-dreams-549bd1": {
+    "file": "audio/voice/dino/good-night-sweet-dreams-549bd1.mp3",
+    "ms": 1923,
+    "text": "Good night! Sweet dreams."
+   },
+   "aww-big-warm-hug-bd363b": {
+    "file": "audio/voice/dino/aww-big-warm-hug-bd363b.mp3",
+    "ms": 1435,
+    "text": "Aww! Big warm hug!"
+   },
+   "breathe-in-through-your-nose-13241c": {
+    "file": "audio/voice/dino/breathe-in-through-your-nose-13241c.mp3",
+    "ms": 2500,
+    "text": "Breathe in through your nose... and blow out slowly."
+   }
+  },
+  "cat": {
+   "hi-im-zora-play-want-bd787d": {
+    "file": "audio/voice/cat/hi-im-zora-play-want-bd787d.mp3",
+    "ms": 2003,
+    "text": "Hi! I'm Zora Play! Want to play?"
+   },
+   "hello-friend-what-shall-we-217e31": {
+    "file": "audio/voice/cat/hello-friend-what-shall-we-217e31.mp3",
+    "ms": 1888,
+    "text": "Hello, friend! What shall we do?"
+   },
+   "zora-plays-here-pick-something-252377": {
+    "file": "audio/voice/cat/zora-plays-here-pick-something-252377.mp3",
+    "ms": 2242,
+    "text": "Zora Play's here! Pick something fun!"
+   },
+   "good-morning-i-just-woke-aca800": {
+    "file": "audio/voice/cat/good-morning-i-just-woke-aca800.mp3",
+    "ms": 2091,
+    "text": "Good morning! I just woke up. Yawn!"
+   },
+   "its-nearly-night-time-lets-9c3b1a": {
+    "file": "audio/voice/cat/its-nearly-night-time-lets-9c3b1a.mp3",
+    "ms": 2771,
+    "text": "It's nearly night-time. Let's do something cosy!"
+   },
+   "hi-hi-happy-to-see-0c7915": {
+    "file": "audio/voice/cat/hi-hi-happy-to-see-0c7915.mp3",
+    "ms": 1445,
+    "text": "Hi hi! Happy to see you!"
+   },
+   "hello-there-wave-wave-af6827": {
+    "file": "audio/voice/cat/hello-there-wave-wave-af6827.mp3",
+    "ms": 1589,
+    "text": "Hello there! Wave wave!"
+   },
+   "hey-im-ready-to-play-5037ee": {
+    "file": "audio/voice/cat/hey-im-ready-to-play-5037ee.mp3",
+    "ms": 1291,
+    "text": "Hey! I'm ready to play!"
+   },
+   "lets-wiggle-0a6240": {
+    "file": "audio/voice/cat/lets-wiggle-0a6240.mp3",
+    "ms": 855,
+    "text": "Let's wiggle!"
+   },
+   "dance-party-84d23b": {
+    "file": "audio/voice/cat/dance-party-84d23b.mp3",
+    "ms": 790,
+    "text": "Dance party!"
+   },
+   "shake-your-tail-598d81": {
+    "file": "audio/voice/cat/shake-your-tail-598d81.mp3",
+    "ms": 952,
+    "text": "Shake your tail!"
+   },
+   "beep-boop-robot-mode-5849d5": {
+    "file": "audio/voice/cat/beep-boop-robot-mode-5849d5.mp3",
+    "ms": 1949,
+    "text": "Beep boop! Robot mode!"
+   },
+   "i-am-a-dancing-robot-fbb323": {
+    "file": "audio/voice/cat/i-am-a-dancing-robot-fbb323.mp3",
+    "ms": 1623,
+    "text": "I am... a dancing robot!"
+   },
+   "silly-wiggles-b47ed1": {
+    "file": "audio/voice/cat/silly-wiggles-b47ed1.mp3",
+    "ms": 968,
+    "text": "Silly wiggles!"
+   },
+   "wobble-wobble-3bc130": {
+    "file": "audio/voice/cat/wobble-wobble-3bc130.mp3",
+    "ms": 861,
+    "text": "Wobble wobble!"
+   },
+   "noodle-dance-ea31bc": {
+    "file": "audio/voice/cat/noodle-dance-ea31bc.mp3",
+    "ms": 990,
+    "text": "Noodle dance!"
+   },
+   "nice-and-slow-b93f2f": {
+    "file": "audio/voice/cat/nice-and-slow-b93f2f.mp3",
+    "ms": 918,
+    "text": "Nice and slow..."
+   },
+   "super-speed-wiggles-a35635": {
+    "file": "audio/voice/cat/super-speed-wiggles-a35635.mp3",
+    "ms": 1440,
+    "text": "Super-speed wiggles!"
+   },
+   "zoom-zoom-6ef83f": {
+    "file": "audio/voice/cat/zoom-zoom-6ef83f.mp3",
+    "ms": 786,
+    "text": "Zoom zoom!"
+   },
+   "faster-faster-20cc5c": {
+    "file": "audio/voice/cat/faster-faster-20cc5c.mp3",
+    "ms": 895,
+    "text": "Faster faster!"
+   },
+   "thats-my-fastest-whoosh-f92dc8": {
+    "file": "audio/voice/cat/thats-my-fastest-whoosh-f92dc8.mp3",
+    "ms": 1501,
+    "text": "That's my fastest! Whoosh!"
+   },
+   "slowing-down-dc7a88": {
+    "file": "audio/voice/cat/slowing-down-dc7a88.mp3",
+    "ms": 916,
+    "text": "Slowing down..."
+   },
+   "easy-does-it-7e7d58": {
+    "file": "audio/voice/cat/easy-does-it-7e7d58.mp3",
+    "ms": 899,
+    "text": "Easy does it..."
+   },
+   "thats-my-slowest-sloooow-c1bd96": {
+    "file": "audio/voice/cat/thats-my-slowest-sloooow-c1bd96.mp3",
+    "ms": 1587,
+    "text": "That's my slowest. Sloooow."
+   },
+   "one-more-time-816ca2": {
+    "file": "audio/voice/cat/one-more-time-816ca2.mp3",
+    "ms": 883,
+    "text": "One more time!"
+   },
+   "again-again-2d3051": {
+    "file": "audio/voice/cat/again-again-2d3051.mp3",
+    "ms": 787,
+    "text": "Again! Again!"
+   },
+   "here-we-go-again-6ef5fb": {
+    "file": "audio/voice/cat/here-we-go-again-6ef5fb.mp3",
+    "ms": 1169,
+    "text": "Here we go again!"
+   },
+   "okay-stopping-now-081cae": {
+    "file": "audio/voice/cat/okay-stopping-now-081cae.mp3",
+    "ms": 1435,
+    "text": "Okay, stopping now!"
+   },
+   "freeze-30c707": {
+    "file": "audio/voice/cat/freeze-30c707.mp3",
+    "ms": 530,
+    "text": "Freeze!"
+   },
+   "all-stopped-d69c19": {
+    "file": "audio/voice/cat/all-stopped-d69c19.mp3",
+    "ms": 786,
+    "text": "All stopped!"
+   },
+   "pausing-66dfb0": {
+    "file": "audio/voice/cat/pausing-66dfb0.mp3",
+    "ms": 551,
+    "text": "Pausing!"
+   },
+   "and-back-we-go-d90072": {
+    "file": "audio/voice/cat/and-back-we-go-d90072.mp3",
+    "ms": 1111,
+    "text": "And back we go!"
+   },
+   "la-la-la-song-time-27b509": {
+    "file": "audio/voice/cat/la-la-la-song-time-27b509.mp3",
+    "ms": 1215,
+    "text": "La la la! Song time!"
+   },
+   "lets-sing-together-5f49a2": {
+    "file": "audio/voice/cat/lets-sing-together-5f49a2.mp3",
+    "ms": 1087,
+    "text": "Let's sing together!"
+   },
+   "boing-776514": {
+    "file": "audio/voice/cat/boing-776514.mp3",
+    "ms": 428,
+    "text": "Boing!"
+   },
+   "up-i-go-683968": {
+    "file": "audio/voice/cat/up-i-go-683968.mp3",
+    "ms": 742,
+    "text": "Up I go!"
+   },
+   "hop-hop-f16267": {
+    "file": "audio/voice/cat/hop-hop-f16267.mp3",
+    "ms": 485,
+    "text": "Hop hop!"
+   },
+   "wave-wave-b22730": {
+    "file": "audio/voice/cat/wave-wave-b22730.mp3",
+    "ms": 855,
+    "text": "Wave wave!"
+   },
+   "hiii-30c5a0": {
+    "file": "audio/voice/cat/hiii-30c5a0.mp3",
+    "ms": 623,
+    "text": "Hiii!"
+   },
+   "clap-clap-clap-261e22": {
+    "file": "audio/voice/cat/clap-clap-clap-261e22.mp3",
+    "ms": 1073,
+    "text": "Clap clap clap!"
+   },
+   "yay-60a9df": {
+    "file": "audio/voice/cat/yay-60a9df.mp3",
+    "ms": 263,
+    "text": "Yay!"
+   },
+   "wheee-25325b": {
+    "file": "audio/voice/cat/wheee-25325b.mp3",
+    "ms": 450,
+    "text": "Wheee!"
+   },
+   "round-and-round-fc9b13": {
+    "file": "audio/voice/cat/round-and-round-fc9b13.mp3",
+    "ms": 986,
+    "text": "Round and round!"
+   },
+   "yawn-nap-time-zzz-e824a3": {
+    "file": "audio/voice/cat/yawn-nap-time-zzz-e824a3.mp3",
+    "ms": 1856,
+    "text": "Yawn... nap time. Zzz."
+   },
+   "night-night-zzz-ca9916": {
+    "file": "audio/voice/cat/night-night-zzz-ca9916.mp3",
+    "ms": 1374,
+    "text": "Night night... Zzz."
+   },
+   "im-awake-good-morning-688d93": {
+    "file": "audio/voice/cat/im-awake-good-morning-688d93.mp3",
+    "ms": 1271,
+    "text": "I'm awake! Good morning!"
+   },
+   "yawn-i-feel-sparkly-aef89b": {
+    "file": "audio/voice/cat/yawn-i-feel-sparkly-aef89b.mp3",
+    "ms": 1403,
+    "text": "Yawn! I feel sparkly!"
+   },
+   "im-already-awake-silly-735283": {
+    "file": "audio/voice/cat/im-already-awake-silly-735283.mp3",
+    "ms": 1353,
+    "text": "I'm already awake! Silly!"
+   },
+   "hee-hee-hee-3bf290": {
+    "file": "audio/voice/cat/hee-hee-hee-3bf290.mp3",
+    "ms": 845,
+    "text": "Hee hee hee!"
+   },
+   "ha-ha-that-tickles-e835d4": {
+    "file": "audio/voice/cat/ha-ha-that-tickles-e835d4.mp3",
+    "ms": 1299,
+    "text": "Ha ha! That tickles!"
+   },
+   "lets-play-pick-a-game-aebbde": {
+    "file": "audio/voice/cat/lets-play-pick-a-game-aebbde.mp3",
+    "ms": 1412,
+    "text": "Let's play! Pick a game!"
+   },
+   "game-time-8c22c0": {
+    "file": "audio/voice/cat/game-time-8c22c0.mp3",
+    "ms": 695,
+    "text": "Game time!"
+   },
+   "surprise-cd2a0f": {
+    "file": "audio/voice/cat/surprise-cd2a0f.mp3",
+    "ms": 852,
+    "text": "Surprise!"
+   },
+   "ta-da-5edd0f": {
+    "file": "audio/voice/cat/ta-da-5edd0f.mp3",
+    "ms": 665,
+    "text": "Ta-da!"
+   },
+   "hmm-i-dont-know-that-0bfc31": {
+    "file": "audio/voice/cat/hmm-i-dont-know-that-0bfc31.mp3",
+    "ms": 2735,
+    "text": "Hmm, I don't know that one yet. Try dance, sing or play!"
+   },
+   "ooh-i-can-dance-sing-ea6c89": {
+    "file": "audio/voice/cat/ooh-i-can-dance-sing-ea6c89.mp3",
+    "ms": 2246,
+    "text": "Ooh, I can dance, sing or play. Which one?"
+   },
+   "ooh-two-things-which-first-45a6e3": {
+    "file": "audio/voice/cat/ooh-two-things-which-first-45a6e3.mp3",
+    "ms": 1760,
+    "text": "Ooh, two things! Which first?"
+   },
+   "what-should-i-do-again-ccfded": {
+    "file": "audio/voice/cat/what-should-i-do-again-ccfded.mp3",
+    "ms": 2050,
+    "text": "What should I do again? Try dance!"
+   },
+   "faster-at-what-ask-me-c64725": {
+    "file": "audio/voice/cat/faster-at-what-ask-me-c64725.mp3",
+    "ms": 2267,
+    "text": "Faster at what? Ask me to dance first!"
+   },
+   "i-can-say-hello-thank-5c0eb1": {
+    "file": "audio/voice/cat/i-can-say-hello-thank-5c0eb1.mp3",
+    "ms": 2682,
+    "text": "I can say hello, thank you, good night, or roar!"
+   },
+   "thats-private-lets-keep-it-45b849": {
+    "file": "audio/voice/cat/thats-private-lets-keep-it-45b849.mp3",
+    "ms": 2629,
+    "text": "That's private. Let's keep it for your grown-up, okay?"
+   },
+   "zzz-say-wake-up-0b9377": {
+    "file": "audio/voice/cat/zzz-say-wake-up-0b9377.mp3",
+    "ms": 1479,
+    "text": "Zzz... (say \"wake up!\")"
+   },
+   "good-try-lets-try-another-14fdb9": {
+    "file": "audio/voice/cat/good-try-lets-try-another-14fdb9.mp3",
+    "ms": 1748,
+    "text": "Good try! Let's try another one."
+   },
+   "almost-try-again-d042f7": {
+    "file": "audio/voice/cat/almost-try-again-d042f7.mp3",
+    "ms": 1302,
+    "text": "Almost! Try again!"
+   },
+   "ooh-close-one-again-51a580": {
+    "file": "audio/voice/cat/ooh-close-one-again-51a580.mp3",
+    "ms": 1203,
+    "text": "Ooh, close one! Again?"
+   },
+   "yes-you-got-it-f1abac": {
+    "file": "audio/voice/cat/yes-you-got-it-f1abac.mp3",
+    "ms": 1013,
+    "text": "Yes! You got it!"
+   },
+   "wow-great-job-4e12a0": {
+    "file": "audio/voice/cat/wow-great-job-4e12a0.mp3",
+    "ms": 1094,
+    "text": "Wow, great job!"
+   },
+   "super-smart-2f3272": {
+    "file": "audio/voice/cat/super-smart-2f3272.mp3",
+    "ms": 970,
+    "text": "Super smart!"
+   },
+   "brilliant-7ad24c": {
+    "file": "audio/voice/cat/brilliant-7ad24c.mp3",
+    "ms": 640,
+    "text": "Brilliant!"
+   },
+   "you-did-it-you-earned-000617": {
+    "file": "audio/voice/cat/you-did-it-you-earned-000617.mp3",
+    "ms": 2021,
+    "text": "You did it! You earned a shiny scale!"
+   },
+   "all-done-here-is-a-38d87d": {
+    "file": "audio/voice/cat/all-done-here-is-a-38d87d.mp3",
+    "ms": 2088,
+    "text": "All done! Here is a shiny scale!"
+   },
+   "im-getting-sleepy-time-to-92b665": {
+    "file": "audio/voice/cat/im-getting-sleepy-time-to-92b665.mp3",
+    "ms": 3225,
+    "text": "I'm getting sleepy... time to rest our eyes soon."
+   },
+   "sleepy-me-too-maybe-a-86013f": {
+    "file": "audio/voice/cat/sleepy-me-too-maybe-a-86013f.mp3",
+    "ms": 2977,
+    "text": "Sleepy? Me too. Maybe a quiet song?"
+   },
+   "bored-lets-play-a-game-80e7ad": {
+    "file": "audio/voice/cat/bored-lets-play-a-game-80e7ad.mp3",
+    "ms": 1471,
+    "text": "Bored? Let's play a game!"
+   },
+   "yay-happy-dance-be5c21": {
+    "file": "audio/voice/cat/yay-happy-dance-be5c21.mp3",
+    "ms": 1043,
+    "text": "Yay! Happy dance!"
+   },
+   "good-morning-sunshine-1f8045": {
+    "file": "audio/voice/cat/good-morning-sunshine-1f8045.mp3",
+    "ms": 1289,
+    "text": "Good morning, sunshine!"
+   },
+   "thank-you-you-are-so-a947f5": {
+    "file": "audio/voice/cat/thank-you-you-are-so-a947f5.mp3",
+    "ms": 1470,
+    "text": "Thank you! You are so kind."
+   },
+   "you-are-awesome-fa0a4b": {
+    "file": "audio/voice/cat/you-are-awesome-fa0a4b.mp3",
+    "ms": 773,
+    "text": "YOU are awesome!"
+   },
+   "lets-play-b4558e": {
+    "file": "audio/voice/cat/lets-play-b4558e.mp3",
+    "ms": 736,
+    "text": "Let's play!"
+   },
+   "bye-bye-wave-wave-fd62a7": {
+    "file": "audio/voice/cat/bye-bye-wave-wave-fd62a7.mp3",
+    "ms": 1197,
+    "text": "Bye bye! Wave wave!"
+   },
+   "i-can-do-it-and-220481": {
+    "file": "audio/voice/cat/i-can-do-it-and-220481.mp3",
+    "ms": 1804,
+    "text": "I can do it! And so can you!"
+   },
+   "happy-birthday-to-you-e20fe9": {
+    "file": "audio/voice/cat/happy-birthday-to-you-e20fe9.mp3",
+    "ms": 1193,
+    "text": "Happy birthday to you!"
+   },
+   "well-done-high-five-6c5164": {
+    "file": "audio/voice/cat/well-done-high-five-6c5164.mp3",
+    "ms": 1259,
+    "text": "Well done! High five!"
+   },
+   "rawr-that-was-a-tiny-f620d4": {
+    "file": "audio/voice/cat/rawr-that-was-a-tiny-f620d4.mp3",
+    "ms": 1683,
+    "text": "RAWR! ...that was a tiny roar."
+   },
+   "yay-we-sang-it-0e6868": {
+    "file": "audio/voice/cat/yay-we-sang-it-0e6868.mp3",
+    "ms": 854,
+    "text": "Yay! We sang it!"
+   },
+   "fresh-start-hello-again-239539": {
+    "file": "audio/voice/cat/fresh-start-hello-again-239539.mp3",
+    "ms": 1513,
+    "text": "Fresh start! Hello again!"
+   },
+   "bye-bye-see-you-soon-1c111b": {
+    "file": "audio/voice/cat/bye-bye-see-you-soon-1c111b.mp3",
+    "ms": 1627,
+    "text": "Bye bye! See you soon!"
+   },
+   "who-says-this-3e59b5": {
+    "file": "audio/voice/cat/who-says-this-3e59b5.mp3",
+    "ms": 1020,
+    "text": "Who says this?"
+   },
+   "yes-4e9f35": {
+    "file": "audio/voice/cat/yes-4e9f35.mp3",
+    "ms": 394,
+    "text": "Yes!"
+   },
+   "your-turn-what-did-i-fe77aa": {
+    "file": "audio/voice/cat/your-turn-what-did-i-fe77aa.mp3",
+    "ms": 1512,
+    "text": "Your turn! What did I do?"
+   },
+   "good-try-watch-again-9d279f": {
+    "file": "audio/voice/cat/good-try-watch-again-9d279f.mp3",
+    "ms": 1240,
+    "text": "Good try! Watch again!"
+   },
+   "watch-closely-two-moves-e8c5f1": {
+    "file": "audio/voice/cat/watch-closely-two-moves-e8c5f1.mp3",
+    "ms": 1678,
+    "text": "Watch closely! Two moves!"
+   },
+   "pick-4-moves-then-press-a62a62": {
+    "file": "audio/voice/cat/pick-4-moves-then-press-a62a62.mp3",
+    "ms": 1909,
+    "text": "Pick 4 moves, then press Go!"
+   },
+   "pick-a-move-first-e585df": {
+    "file": "audio/voice/cat/pick-a-move-first-e585df.mp3",
+    "ms": 996,
+    "text": "Pick a move first!"
+   },
+   "here-comes-your-dance-3a7d07": {
+    "file": "audio/voice/cat/here-comes-your-dance-3a7d07.mp3",
+    "ms": 1412,
+    "text": "Here comes YOUR dance!"
+   },
+   "ahh-all-calm-you-did-6c11d7": {
+    "file": "audio/voice/cat/ahh-all-calm-you-did-6c11d7.mp3",
+    "ms": 1733,
+    "text": "Ahh. All calm. You did great!"
+   },
+   "find-the-circle-b9a9df": {
+    "file": "audio/voice/cat/find-the-circle-b9a9df.mp3",
+    "ms": 865,
+    "text": "Find the circle!"
+   },
+   "find-the-square-5d1bee": {
+    "file": "audio/voice/cat/find-the-square-5d1bee.mp3",
+    "ms": 940,
+    "text": "Find the square!"
+   },
+   "find-the-triangle-0f93b5": {
+    "file": "audio/voice/cat/find-the-triangle-0f93b5.mp3",
+    "ms": 946,
+    "text": "Find the triangle!"
+   },
+   "find-the-star-3cf9d1": {
+    "file": "audio/voice/cat/find-the-star-3cf9d1.mp3",
+    "ms": 916,
+    "text": "Find the star!"
+   },
+   "find-the-heart-2b2341": {
+    "file": "audio/voice/cat/find-the-heart-2b2341.mp3",
+    "ms": 826,
+    "text": "Find the heart!"
+   },
+   "find-the-diamond-edb1bd": {
+    "file": "audio/voice/cat/find-the-diamond-edb1bd.mp3",
+    "ms": 1205,
+    "text": "Find the diamond!"
+   },
+   "lets-learn-the-alphabet-8199fc": {
+    "file": "audio/voice/cat/lets-learn-the-alphabet-8199fc.mp3",
+    "ms": 1361,
+    "text": "Let's learn the alphabet!"
+   },
+   "well-done-you-learned-the-4f039c": {
+    "file": "audio/voice/cat/well-done-you-learned-the-4f039c.mp3",
+    "ms": 2209,
+    "text": "Well done! You learned the whole alphabet!"
+   },
+   "a-for-apple-7d2d39": {
+    "file": "audio/voice/cat/a-for-apple-7d2d39.mp3",
+    "ms": 890,
+    "text": "A for Apple."
+   },
+   "b-for-ball-44b671": {
+    "file": "audio/voice/cat/b-for-ball-44b671.mp3",
+    "ms": 1044,
+    "text": "B for Ball."
+   },
+   "c-for-cat-0a7128": {
+    "file": "audio/voice/cat/c-for-cat-0a7128.mp3",
+    "ms": 994,
+    "text": "C for Cat."
+   },
+   "d-for-dog-312e11": {
+    "file": "audio/voice/cat/d-for-dog-312e11.mp3",
+    "ms": 906,
+    "text": "D for Dog."
+   },
+   "e-for-elephant-9dcbe2": {
+    "file": "audio/voice/cat/e-for-elephant-9dcbe2.mp3",
+    "ms": 926,
+    "text": "E for Elephant."
+   },
+   "f-for-fish-4be953": {
+    "file": "audio/voice/cat/f-for-fish-4be953.mp3",
+    "ms": 949,
+    "text": "F for Fish."
+   },
+   "g-for-grapes-058e13": {
+    "file": "audio/voice/cat/g-for-grapes-058e13.mp3",
+    "ms": 1120,
+    "text": "G for Grapes."
+   },
+   "h-for-hat-e467a7": {
+    "file": "audio/voice/cat/h-for-hat-e467a7.mp3",
+    "ms": 851,
+    "text": "H for Hat."
+   },
+   "i-for-ice-cream-6d8501": {
+    "file": "audio/voice/cat/i-for-ice-cream-6d8501.mp3",
+    "ms": 1429,
+    "text": "I for Ice cream."
+   },
+   "j-for-jar-c79ae6": {
+    "file": "audio/voice/cat/j-for-jar-c79ae6.mp3",
+    "ms": 1074,
+    "text": "J for Jar."
+   },
+   "k-for-kite-327825": {
+    "file": "audio/voice/cat/k-for-kite-327825.mp3",
+    "ms": 934,
+    "text": "K for Kite."
+   },
+   "l-for-lion-4e0b53": {
+    "file": "audio/voice/cat/l-for-lion-4e0b53.mp3",
+    "ms": 968,
+    "text": "L for Lion."
+   },
+   "m-for-moon-7d66a3": {
+    "file": "audio/voice/cat/m-for-moon-7d66a3.mp3",
+    "ms": 923,
+    "text": "M for Moon."
+   },
+   "n-for-nest-0bf70f": {
+    "file": "audio/voice/cat/n-for-nest-0bf70f.mp3",
+    "ms": 1029,
+    "text": "N for Nest."
+   },
+   "o-for-orange-db806f": {
+    "file": "audio/voice/cat/o-for-orange-db806f.mp3",
+    "ms": 976,
+    "text": "O for Orange."
+   },
+   "p-for-pig-660fb4": {
+    "file": "audio/voice/cat/p-for-pig-660fb4.mp3",
+    "ms": 877,
+    "text": "P for Pig."
+   },
+   "q-for-queen-6266e3": {
+    "file": "audio/voice/cat/q-for-queen-6266e3.mp3",
+    "ms": 1074,
+    "text": "Q for Queen."
+   },
+   "r-for-rainbow-a3afbc": {
+    "file": "audio/voice/cat/r-for-rainbow-a3afbc.mp3",
+    "ms": 1167,
+    "text": "R for Rainbow."
+   },
+   "s-for-sun-261992": {
+    "file": "audio/voice/cat/s-for-sun-261992.mp3",
+    "ms": 807,
+    "text": "S for Sun."
+   },
+   "t-for-tree-42ff66": {
+    "file": "audio/voice/cat/t-for-tree-42ff66.mp3",
+    "ms": 854,
+    "text": "T for Tree."
+   },
+   "u-for-umbrella-b7317c": {
+    "file": "audio/voice/cat/u-for-umbrella-b7317c.mp3",
+    "ms": 1031,
+    "text": "U for Umbrella."
+   },
+   "v-for-van-efbb60": {
+    "file": "audio/voice/cat/v-for-van-efbb60.mp3",
+    "ms": 899,
+    "text": "V for Van."
+   },
+   "w-for-whale-dcf5d0": {
+    "file": "audio/voice/cat/w-for-whale-dcf5d0.mp3",
+    "ms": 1166,
+    "text": "W for Whale."
+   },
+   "x-for-xylophone-6aa8e2": {
+    "file": "audio/voice/cat/x-for-xylophone-6aa8e2.mp3",
+    "ms": 1274,
+    "text": "X for Xylophone."
+   },
+   "y-for-yo-yo-d06333": {
+    "file": "audio/voice/cat/y-for-yo-yo-d06333.mp3",
+    "ms": 1221,
+    "text": "Y for Yo-yo."
+   },
+   "z-for-zebra-e44465": {
+    "file": "audio/voice/cat/z-for-zebra-e44465.mp3",
+    "ms": 1206,
+    "text": "Z for Zebra."
+   },
+   "hi-im-zora-the-dino-f28027": {
+    "file": "audio/voice/cat/hi-im-zora-the-dino-f28027.mp3",
+    "ms": 1570,
+    "text": "Hi! I'm Zora the dino!"
+   },
+   "hi-im-mimi-the-cat-013463": {
+    "file": "audio/voice/cat/hi-im-mimi-the-cat-013463.mp3",
+    "ms": 1434,
+    "text": "Hi! I'm Mimi the cat!"
+   },
+   "hi-im-bruno-the-dog-da1df1": {
+    "file": "audio/voice/cat/hi-im-bruno-the-dog-da1df1.mp3",
+    "ms": 1530,
+    "text": "Hi! I'm Bruno the dog!"
+   },
+   "hi-im-teddy-the-bear-7078c9": {
+    "file": "audio/voice/cat/hi-im-teddy-the-bear-7078c9.mp3",
+    "ms": 1267,
+    "text": "Hi! I'm Teddy the bear!"
+   },
+   "lets-sing-some-rhymes-675d8c": {
+    "file": "audio/voice/cat/lets-sing-some-rhymes-675d8c.mp3",
+    "ms": 1599,
+    "text": "Let's sing some rhymes!"
+   },
+   "yes-its-a-dog-0b7d47": {
+    "file": "audio/voice/cat/yes-its-a-dog-0b7d47.mp3",
+    "ms": 825,
+    "text": "Yes! It's a dog!"
+   },
+   "yes-its-a-cat-f2a569": {
+    "file": "audio/voice/cat/yes-its-a-cat-f2a569.mp3",
+    "ms": 890,
+    "text": "Yes! It's a cat!"
+   },
+   "yes-its-a-sheep-be2e94": {
+    "file": "audio/voice/cat/yes-its-a-sheep-be2e94.mp3",
+    "ms": 982,
+    "text": "Yes! It's a sheep!"
+   },
+   "yes-its-a-goat-1c1e31": {
+    "file": "audio/voice/cat/yes-its-a-goat-1c1e31.mp3",
+    "ms": 984,
+    "text": "Yes! It's a goat!"
+   },
+   "yes-its-a-horse-1d4ec6": {
+    "file": "audio/voice/cat/yes-its-a-horse-1d4ec6.mp3",
+    "ms": 1173,
+    "text": "Yes! It's a horse!"
+   },
+   "yes-its-a-rooster-f788a8": {
+    "file": "audio/voice/cat/yes-its-a-rooster-f788a8.mp3",
+    "ms": 916,
+    "text": "Yes! It's a rooster!"
+   },
+   "yes-its-a-hen-1fc027": {
+    "file": "audio/voice/cat/yes-its-a-hen-1fc027.mp3",
+    "ms": 814,
+    "text": "Yes! It's a hen!"
+   },
+   "yes-its-a-frog-8cedf8": {
+    "file": "audio/voice/cat/yes-its-a-frog-8cedf8.mp3",
+    "ms": 1020,
+    "text": "Yes! It's a frog!"
+   },
+   "yes-its-a-lion-2d222b": {
+    "file": "audio/voice/cat/yes-its-a-lion-2d222b.mp3",
+    "ms": 1002,
+    "text": "Yes! It's a lion!"
+   },
+   "yes-its-an-elephant-ab26f0": {
+    "file": "audio/voice/cat/yes-its-an-elephant-ab26f0.mp3",
+    "ms": 1147,
+    "text": "Yes! It's an elephant!"
+   },
+   "yes-its-an-owl-ad91b4": {
+    "file": "audio/voice/cat/yes-its-an-owl-ad91b4.mp3",
+    "ms": 1016,
+    "text": "Yes! It's an owl!"
+   },
+   "dogs-wag-their-tails-when-308de1": {
+    "file": "audio/voice/cat/dogs-wag-their-tails-when-308de1.mp3",
+    "ms": 2212,
+    "text": "Dogs wag their tails when they are happy."
+   },
+   "cats-purr-when-they-feel-915989": {
+    "file": "audio/voice/cat/cats-purr-when-they-feel-915989.mp3",
+    "ms": 2007,
+    "text": "Cats purr when they feel cosy."
+   },
+   "sheep-have-soft-woolly-coats-2f3f13": {
+    "file": "audio/voice/cat/sheep-have-soft-woolly-coats-2f3f13.mp3",
+    "ms": 1752,
+    "text": "Sheep have soft, woolly coats."
+   },
+   "goats-are-great-at-climbing-10835f": {
+    "file": "audio/voice/cat/goats-are-great-at-climbing-10835f.mp3",
+    "ms": 1523,
+    "text": "Goats are great at climbing."
+   },
+   "horses-can-run-very-fast-b39372": {
+    "file": "audio/voice/cat/horses-can-run-very-fast-b39372.mp3",
+    "ms": 1944,
+    "text": "Horses can run very fast."
+   },
+   "roosters-crow-when-the-sun-5090d2": {
+    "file": "audio/voice/cat/roosters-crow-when-the-sun-5090d2.mp3",
+    "ms": 1993,
+    "text": "Roosters crow when the sun comes up."
+   },
+   "hens-lay-eggs-6dbbd8": {
+    "file": "audio/voice/cat/hens-lay-eggs-6dbbd8.mp3",
+    "ms": 1265,
+    "text": "Hens lay eggs."
+   },
+   "frogs-can-jump-really-far-02ac01": {
+    "file": "audio/voice/cat/frogs-can-jump-really-far-02ac01.mp3",
+    "ms": 1809,
+    "text": "Frogs can jump really far."
+   },
+   "a-lion-has-a-big-f54d5c": {
+    "file": "audio/voice/cat/a-lion-has-a-big-f54d5c.mp3",
+    "ms": 1786,
+    "text": "A lion has a big, fluffy mane."
+   },
+   "elephants-use-their-trunks-like-0e8edd": {
+    "file": "audio/voice/cat/elephants-use-their-trunks-like-0e8edd.mp3",
+    "ms": 2191,
+    "text": "Elephants use their trunks like a hand."
+   },
+   "owls-are-awake-at-night-e6aa9c": {
+    "file": "audio/voice/cat/owls-are-awake-at-night-e6aa9c.mp3",
+    "ms": 1468,
+    "text": "Owls are awake at night."
+   },
+   "lets-learn-animal-sounds-6d06b5": {
+    "file": "audio/voice/cat/lets-learn-animal-sounds-6d06b5.mp3",
+    "ms": 1592,
+    "text": "Let's learn animal sounds!"
+   },
+   "who-makes-this-noise-1c7cf8": {
+    "file": "audio/voice/cat/who-makes-this-noise-1c7cf8.mp3",
+    "ms": 1367,
+    "text": "Who makes this noise?"
+   },
+   "good-try-lets-listen-again-cc106a": {
+    "file": "audio/voice/cat/good-try-lets-listen-again-cc106a.mp3",
+    "ms": 1652,
+    "text": "Good try! Let's listen again."
+   },
+   "hi-friend-let-us-have-284f90": {
+    "file": "audio/voice/cat/hi-friend-let-us-have-284f90.mp3",
+    "ms": 1709,
+    "text": "Hi friend! Let us have a chat."
+   },
+   "pick-something-to-talk-about-299b45": {
+    "file": "audio/voice/cat/pick-something-to-talk-about-299b45.mp3",
+    "ms": 1499,
+    "text": "Pick something to talk about."
+   },
+   "this-tv-has-no-microphone-203413": {
+    "file": "audio/voice/cat/this-tv-has-no-microphone-203413.mp3",
+    "ms": 4687,
+    "text": "This TV has no microphone for me, so pick what you want to say with your remote."
+   },
+   "i-cannot-answer-that-one-3f4723": {
+    "file": "audio/voice/cat/i-cannot-answer-that-one-3f4723.mp3",
+    "ms": 2948,
+    "text": "I cannot answer that one yet. Try one of the buttons!"
+   },
+   "yes-let-us-learn-about-be1973": {
+    "file": "audio/voice/cat/yes-let-us-learn-about-be1973.mp3",
+    "ms": 1830,
+    "text": "Yes! Let us learn about animals!"
+   },
+   "a-dog-says-bow-wow-1954ca": {
+    "file": "audio/voice/cat/a-dog-says-bow-wow-1954ca.mp3",
+    "ms": 1686,
+    "text": "A dog says bow wow."
+   },
+   "a-cat-says-meow-6886f9": {
+    "file": "audio/voice/cat/a-cat-says-meow-6886f9.mp3",
+    "ms": 1233,
+    "text": "A cat says meow."
+   },
+   "shall-we-play-animal-sounds-b85546": {
+    "file": "audio/voice/cat/shall-we-play-animal-sounds-b85546.mp3",
+    "ms": 1756,
+    "text": "Shall we play Animal Sounds?"
+   },
+   "yes-count-with-me-c91311": {
+    "file": "audio/voice/cat/yes-count-with-me-c91311.mp3",
+    "ms": 1134,
+    "text": "Yes! Count with me!"
+   },
+   "one-ba2719": {
+    "file": "audio/voice/cat/one-ba2719.mp3",
+    "ms": 399,
+    "text": "One."
+   },
+   "two-be2488": {
+    "file": "audio/voice/cat/two-be2488.mp3",
+    "ms": 365,
+    "text": "Two."
+   },
+   "three-888603": {
+    "file": "audio/voice/cat/three-888603.mp3",
+    "ms": 415,
+    "text": "Three."
+   },
+   "four-2f69f5": {
+    "file": "audio/voice/cat/four-2f69f5.mp3",
+    "ms": 454,
+    "text": "Four."
+   },
+   "five-aeb443": {
+    "file": "audio/voice/cat/five-aeb443.mp3",
+    "ms": 443,
+    "text": "Five!"
+   },
+   "great-counting-76a82d": {
+    "file": "audio/voice/cat/great-counting-76a82d.mp3",
+    "ms": 841,
+    "text": "Great counting!"
+   },
+   "my-favourite-colour-is-orange-8d2108": {
+    "file": "audio/voice/cat/my-favourite-colour-is-orange-8d2108.mp3",
+    "ms": 2939,
+    "text": "My favourite colour is orange, like my scales!"
+   },
+   "what-is-your-favourite-colour-ece3ff": {
+    "file": "audio/voice/cat/what-is-your-favourite-colour-ece3ff.mp3",
+    "ms": 1423,
+    "text": "What is your favourite colour?"
+   },
+   "yes-let-us-dance-together-922159": {
+    "file": "audio/voice/cat/yes-let-us-dance-together-922159.mp3",
+    "ms": 1445,
+    "text": "Yes! Let us dance together!"
+   },
+   "yes-please-let-us-sing-b5a2dd": {
+    "file": "audio/voice/cat/yes-please-let-us-sing-b5a2dd.mp3",
+    "ms": 1899,
+    "text": "Yes please! Let us sing a rhyme."
+   },
+   "press-an-instrument-to-play-eccdb8": {
+    "file": "audio/voice/cat/press-an-instrument-to-play-eccdb8.mp3",
+    "ms": 1882,
+    "text": "Press an instrument to play it!"
+   },
+   "watch-zora-2f3cbf": {
+    "file": "audio/voice/cat/watch-zora-2f3cbf.mp3",
+    "ms": 774,
+    "text": "Watch Zora!"
+   },
+   "watch-mimi-fac1e6": {
+    "file": "audio/voice/cat/watch-mimi-fac1e6.mp3",
+    "ms": 803,
+    "text": "Watch Mimi!"
+   },
+   "watch-bruno-20a7a2": {
+    "file": "audio/voice/cat/watch-bruno-20a7a2.mp3",
+    "ms": 922,
+    "text": "Watch Bruno!"
+   },
+   "watch-teddy-9889ae": {
+    "file": "audio/voice/cat/watch-teddy-9889ae.mp3",
+    "ms": 852,
+    "text": "Watch Teddy!"
+   },
+   "hi-im-zora-want-to-e24e3f": {
+    "file": "audio/voice/cat/hi-im-zora-want-to-e24e3f.mp3",
+    "ms": 1787,
+    "text": "Hi! I'm Zora! Want to play?"
+   },
+   "zoras-here-pick-something-fun-a37501": {
+    "file": "audio/voice/cat/zoras-here-pick-something-fun-a37501.mp3",
+    "ms": 1730,
+    "text": "Zora's here! Pick something fun!"
+   },
+   "hi-im-mimi-want-to-18331f": {
+    "file": "audio/voice/cat/hi-im-mimi-want-to-18331f.mp3",
+    "ms": 1641,
+    "text": "Hi! I'm Mimi! Want to play?"
+   },
+   "mimis-here-pick-something-fun-487378": {
+    "file": "audio/voice/cat/mimis-here-pick-something-fun-487378.mp3",
+    "ms": 1773,
+    "text": "Mimi's here! Pick something fun!"
+   },
+   "hi-im-bruno-want-to-5a42ed": {
+    "file": "audio/voice/cat/hi-im-bruno-want-to-5a42ed.mp3",
+    "ms": 1592,
+    "text": "Hi! I'm Bruno! Want to play?"
+   },
+   "brunos-here-pick-something-fun-6dbf75": {
+    "file": "audio/voice/cat/brunos-here-pick-something-fun-6dbf75.mp3",
+    "ms": 1902,
+    "text": "Bruno's here! Pick something fun!"
+   },
+   "hi-im-teddy-want-to-7a574b": {
+    "file": "audio/voice/cat/hi-im-teddy-want-to-7a574b.mp3",
+    "ms": 1522,
+    "text": "Hi! I'm Teddy! Want to play?"
+   },
+   "teddys-here-pick-something-fun-d567cc": {
+    "file": "audio/voice/cat/teddys-here-pick-something-fun-d567cc.mp3",
+    "ms": 1830,
+    "text": "Teddy's here! Pick something fun!"
+   },
+   "hello-hello-my-friend-e37bee": {
+    "file": "audio/voice/cat/hello-hello-my-friend-e37bee.mp3",
+    "ms": 1377,
+    "text": "Hello! Hello, my friend!"
+   },
+   "im-sorry-youre-feeling-sad-976399": {
+    "file": "audio/voice/cat/im-sorry-youre-feeling-sad-976399.mp3",
+    "ms": 4524,
+    "text": "I'm sorry you're feeling sad. Want to take a deep breath, or play a little game?"
+   },
+   "why-did-the-cat-sit-6765d1": {
+    "file": "audio/voice/cat/why-did-the-cat-sit-6765d1.mp3",
+    "ms": 2350,
+    "text": "Why did the cat sit on the computer?"
+   },
+   "to-watch-the-mouse-fd9bfe": {
+    "file": "audio/voice/cat/to-watch-the-mouse-fd9bfe.mp3",
+    "ms": 1374,
+    "text": "To watch the mouse!"
+   },
+   "what-is-a-puppys-favorite-c81608": {
+    "file": "audio/voice/cat/what-is-a-puppys-favorite-c81608.mp3",
+    "ms": 2491,
+    "text": "What is a puppy's favorite snack?"
+   },
+   "pup-corn-bb29c1": {
+    "file": "audio/voice/cat/pup-corn-bb29c1.mp3",
+    "ms": 875,
+    "text": "Pup-corn!"
+   },
+   "why-did-the-chicken-cross-ae9e0a": {
+    "file": "audio/voice/cat/why-did-the-chicken-cross-ae9e0a.mp3",
+    "ms": 2119,
+    "text": "Why did the chicken cross the road?"
+   },
+   "to-get-to-the-other-2b7928": {
+    "file": "audio/voice/cat/to-get-to-the-other-2b7928.mp3",
+    "ms": 1426,
+    "text": "To get to the other side!"
+   },
+   "what-do-you-call-a-27991f": {
+    "file": "audio/voice/cat/what-do-you-call-a-27991f.mp3",
+    "ms": 2833,
+    "text": "What do you call a bear with no teeth?"
+   },
+   "a-gummy-bear-35acfa": {
+    "file": "audio/voice/cat/a-gummy-bear-35acfa.mp3",
+    "ms": 1194,
+    "text": "A gummy bear!"
+   },
+   "what-goes-up-when-the-d84ba1": {
+    "file": "audio/voice/cat/what-goes-up-when-the-d84ba1.mp3",
+    "ms": 2405,
+    "text": "What goes up when the rain comes down?"
+   },
+   "an-umbrella-6031d3": {
+    "file": "audio/voice/cat/an-umbrella-6031d3.mp3",
+    "ms": 1008,
+    "text": "An umbrella!"
+   },
+   "my-favourite-colour-is-pink-911a62": {
+    "file": "audio/voice/cat/my-favourite-colour-is-pink-911a62.mp3",
+    "ms": 3302,
+    "text": "My favourite colour is pink, like my little nose!"
+   },
+   "my-favourite-colour-is-brown-2b7933": {
+    "file": "audio/voice/cat/my-favourite-colour-is-brown-2b7933.mp3",
+    "ms": 3296,
+    "text": "My favourite colour is brown, like my floppy ears!"
+   },
+   "my-favourite-colour-is-yellow-c0fbfb": {
+    "file": "audio/voice/cat/my-favourite-colour-is-yellow-c0fbfb.mp3",
+    "ms": 2680,
+    "text": "My favourite colour is yellow, like sweet honey!"
+   },
+   "milos-lullaby-1dcb65": {
+    "file": "audio/voice/cat/milos-lullaby-1dcb65.mp3",
+    "ms": 1361,
+    "text": "Milo's Lullaby"
+   },
+   "milos-robot-smiley-188129": {
+    "file": "audio/voice/cat/milos-robot-smiley-188129.mp3",
+    "ms": 1804,
+    "text": "Milo's Robot Smiley"
+   },
+   "march-with-milo-76ee44": {
+    "file": "audio/voice/cat/march-with-milo-76ee44.mp3",
+    "ms": 1126,
+    "text": "March with Milo"
+   },
+   "float-like-a-feather-94f007": {
+    "file": "audio/voice/cat/float-like-a-feather-94f007.mp3",
+    "ms": 1356,
+    "text": "Float Like a Feather"
+   },
+   "milos-dragon-tap-57eb43": {
+    "file": "audio/voice/cat/milos-dragon-tap-57eb43.mp3",
+    "ms": 1206,
+    "text": "Milo's Dragon Tap"
+   },
+   "pick-any-one-of-these-37872e": {
+    "file": "audio/voice/cat/pick-any-one-of-these-37872e.mp3",
+    "ms": 1219,
+    "text": "Pick any one of these!"
+   },
+   "what-is-yellow-and-goes-e11491": {
+    "file": "audio/voice/cat/what-is-yellow-and-goes-e11491.mp3",
+    "ms": 2375,
+    "text": "What is yellow and goes beep beep?"
+   },
+   "a-taxi-e8dba1": {
+    "file": "audio/voice/cat/a-taxi-e8dba1.mp3",
+    "ms": 859,
+    "text": "A taxi!"
+   },
+   "what-has-a-head-a-30956f": {
+    "file": "audio/voice/cat/what-has-a-head-a-30956f.mp3",
+    "ms": 2591,
+    "text": "What has a head, a tail, but no body?"
+   },
+   "a-coin-700b66": {
+    "file": "audio/voice/cat/a-coin-700b66.mp3",
+    "ms": 887,
+    "text": "A coin!"
+   },
+   "close-your-eyes-dream-of-23a5b1": {
+    "file": "audio/voice/cat/close-your-eyes-dream-of-23a5b1.mp3",
+    "ms": 2072,
+    "text": "Close your eyes. Dream of the moon."
+   },
+   "soft-blanket-snug-and-warm-2b6289": {
+    "file": "audio/voice/cat/soft-blanket-snug-and-warm-2b6289.mp3",
+    "ms": 2344,
+    "text": "Soft blanket, snug and warm."
+   },
+   "slow-breaths-one-two-three-15bcbc": {
+    "file": "audio/voice/cat/slow-breaths-one-two-three-15bcbc.mp3",
+    "ms": 2297,
+    "text": "Slow breaths, one, two, three."
+   },
+   "stars-twinkle-night-is-here-dda919": {
+    "file": "audio/voice/cat/stars-twinkle-night-is-here-dda919.mp3",
+    "ms": 1824,
+    "text": "Stars twinkle, night is here."
+   },
+   "moon-is-bright-it-guides-b1a7db": {
+    "file": "audio/voice/cat/moon-is-bright-it-guides-b1a7db.mp3",
+    "ms": 2170,
+    "text": "Moon is bright, it guides us."
+   },
+   "dogs-love-to-play-fetch-25b3e4": {
+    "file": "audio/voice/cat/dogs-love-to-play-fetch-25b3e4.mp3",
+    "ms": 1804,
+    "text": "Dogs love to play fetch."
+   },
+   "cats-like-to-nap-all-d05619": {
+    "file": "audio/voice/cat/cats-like-to-nap-all-d05619.mp3",
+    "ms": 1728,
+    "text": "Cats like to nap all day."
+   },
+   "sheep-like-to-munch-grass-80b000": {
+    "file": "audio/voice/cat/sheep-like-to-munch-grass-80b000.mp3",
+    "ms": 1621,
+    "text": "Sheep like to munch grass."
+   },
+   "goats-love-to-eat-leaves-ea6788": {
+    "file": "audio/voice/cat/goats-love-to-eat-leaves-ea6788.mp3",
+    "ms": 1825,
+    "text": "Goats love to eat leaves."
+   },
+   "horses-love-to-run-free-03c0b9": {
+    "file": "audio/voice/cat/horses-love-to-run-free-03c0b9.mp3",
+    "ms": 1550,
+    "text": "Horses love to run free."
+   },
+   "what-is-your-favourite-toy-698c08": {
+    "file": "audio/voice/cat/what-is-your-favourite-toy-698c08.mp3",
+    "ms": 2923,
+    "text": "What is your favourite toy? Mine is a teddy bear."
+   },
+   "are-you-happy-today-i-16c843": {
+    "file": "audio/voice/cat/are-you-happy-today-i-16c843.mp3",
+    "ms": 2553,
+    "text": "Are you happy today? I feel happy too!"
+   },
+   "lets-be-kind-to-our-8fbbf5": {
+    "file": "audio/voice/cat/lets-be-kind-to-our-8fbbf5.mp3",
+    "ms": 3769,
+    "text": "Let's be kind to our friends. Kindness makes the world bright."
+   },
+   "helping-at-home-is-fun-3dfed9": {
+    "file": "audio/voice/cat/helping-at-home-is-fun-3dfed9.mp3",
+    "ms": 3100,
+    "text": "Helping at home is fun. Can you help pick up toys?"
+   },
+   "playing-outside-is-so-much-442979": {
+    "file": "audio/voice/cat/playing-outside-is-so-much-442979.mp3",
+    "ms": 3760,
+    "text": "Playing outside is so much fun! What is your favourite game?"
+   },
+   "ha-ha-ha-ha-348e20": {
+    "file": "audio/voice/cat/ha-ha-ha-ha-348e20.mp3",
+    "ms": 904,
+    "text": "Ha, ha, ha, ha!"
+   },
+   "why-did-the-scarecrow-win-74c110": {
+    "file": "audio/voice/cat/why-did-the-scarecrow-win-74c110.mp3",
+    "ms": 2198,
+    "text": "Why did the scarecrow win an award?"
+   },
+   "because-he-was-outstanding-in-e1c564": {
+    "file": "audio/voice/cat/because-he-was-outstanding-in-e1c564.mp3",
+    "ms": 2600,
+    "text": "Because he was outstanding in his field!"
+   },
+   "what-do-you-call-a-334955": {
+    "file": "audio/voice/cat/what-do-you-call-a-334955.mp3",
+    "ms": 3058,
+    "text": "What do you call a bear with no socks?"
+   },
+   "barefoot-3c3e26": {
+    "file": "audio/voice/cat/barefoot-3c3e26.mp3",
+    "ms": 779,
+    "text": "Barefoot!"
+   },
+   "why-did-the-bicycle-fall-35b1ba": {
+    "file": "audio/voice/cat/why-did-the-bicycle-fall-35b1ba.mp3",
+    "ms": 2171,
+    "text": "Why did the bicycle fall over?"
+   },
+   "it-was-two-tired-aa1a4b": {
+    "file": "audio/voice/cat/it-was-two-tired-aa1a4b.mp3",
+    "ms": 1404,
+    "text": "It was two tired!"
+   },
+   "what-do-you-call-a-3013f7": {
+    "file": "audio/voice/cat/what-do-you-call-a-3013f7.mp3",
+    "ms": 1974,
+    "text": "What do you call a fake noodle?"
+   },
+   "an-impasta-c7a615": {
+    "file": "audio/voice/cat/an-impasta-c7a615.mp3",
+    "ms": 1140,
+    "text": "An impasta!"
+   },
+   "why-did-the-cookie-go-605bc1": {
+    "file": "audio/voice/cat/why-did-the-cookie-go-605bc1.mp3",
+    "ms": 2516,
+    "text": "Why did the cookie go to the nurse?"
+   },
+   "because-it-felt-crummy-e6d0f6": {
+    "file": "audio/voice/cat/because-it-felt-crummy-e6d0f6.mp3",
+    "ms": 1494,
+    "text": "Because it felt crummy!"
+   },
+   "why-did-the-tomato-turn-39e6ee": {
+    "file": "audio/voice/cat/why-did-the-tomato-turn-39e6ee.mp3",
+    "ms": 1932,
+    "text": "Why did the tomato turn red?"
+   },
+   "because-it-saw-the-salad-d4ed1a": {
+    "file": "audio/voice/cat/because-it-saw-the-salad-d4ed1a.mp3",
+    "ms": 2131,
+    "text": "Because it saw the salad dressing!"
+   },
+   "what-do-you-call-a-0972e5": {
+    "file": "audio/voice/cat/what-do-you-call-a-0972e5.mp3",
+    "ms": 3354,
+    "text": "What do you call a duck that gets all A's?"
+   },
+   "a-wise-quacker-f8c83b": {
+    "file": "audio/voice/cat/a-wise-quacker-f8c83b.mp3",
+    "ms": 1197,
+    "text": "A wise quacker!"
+   },
+   "what-did-the-zero-say-db7f34": {
+    "file": "audio/voice/cat/what-did-the-zero-say-db7f34.mp3",
+    "ms": 2661,
+    "text": "What did the zero say to the eight?"
+   },
+   "nice-belt-d66466": {
+    "file": "audio/voice/cat/nice-belt-d66466.mp3",
+    "ms": 1025,
+    "text": "Nice belt!"
+   },
+   "why-did-the-music-teacher-54410a": {
+    "file": "audio/voice/cat/why-did-the-music-teacher-54410a.mp3",
+    "ms": 2327,
+    "text": "Why did the music teacher need a ladder?"
+   },
+   "to-reach-the-high-notes-87105f": {
+    "file": "audio/voice/cat/to-reach-the-high-notes-87105f.mp3",
+    "ms": 1744,
+    "text": "To reach the high notes!"
+   },
+   "why-do-bees-have-sticky-465318": {
+    "file": "audio/voice/cat/why-do-bees-have-sticky-465318.mp3",
+    "ms": 2132,
+    "text": "Why do bees have sticky hair?"
+   },
+   "because-they-use-honeycombs-eb3988": {
+    "file": "audio/voice/cat/because-they-use-honeycombs-eb3988.mp3",
+    "ms": 1930,
+    "text": "Because they use honeycombs!"
+   },
+   "what-do-you-call-a-04e2a0": {
+    "file": "audio/voice/cat/what-do-you-call-a-04e2a0.mp3",
+    "ms": 3009,
+    "text": "What do you call a bear with no ears?"
+   },
+   "b-e70c2d": {
+    "file": "audio/voice/cat/b-e70c2d.mp3",
+    "ms": 433,
+    "text": "B!"
+   },
+   "floaty-dance-66ae4f": {
+    "file": "audio/voice/cat/floaty-dance-66ae4f.mp3",
+    "ms": 1001,
+    "text": "Floaty dance..."
+   },
+   "i-can-dance-sing-play-f709d1": {
+    "file": "audio/voice/cat/i-can-dance-sing-play-f709d1.mp3",
+    "ms": 3434,
+    "text": "I can dance, sing, play games, and take big calm breaths!"
+   },
+   "lets-take-calm-breaths-in-06b888": {
+    "file": "audio/voice/cat/lets-take-calm-breaths-in-06b888.mp3",
+    "ms": 2347,
+    "text": "Let's take calm breaths. In... and out."
+   },
+   "its-okay-to-feel-scared-6e2919": {
+    "file": "audio/voice/cat/its-okay-to-feel-scared-6e2919.mp3",
+    "ms": 4961,
+    "text": "It's okay to feel scared. A grown-up can help too. Shall we take a slow, calm breath?"
+   },
+   "feeling-grumpy-is-okay-lets-13ef9d": {
+    "file": "audio/voice/cat/feeling-grumpy-is-okay-lets-13ef9d.mp3",
+    "ms": 4009,
+    "text": "Feeling grumpy is okay. Let's blow it out with a big calm breath!"
+   },
+   "good-night-sweet-dreams-549bd1": {
+    "file": "audio/voice/cat/good-night-sweet-dreams-549bd1.mp3",
+    "ms": 1783,
+    "text": "Good night! Sweet dreams."
+   },
+   "aww-big-warm-hug-bd363b": {
+    "file": "audio/voice/cat/aww-big-warm-hug-bd363b.mp3",
+    "ms": 1355,
+    "text": "Aww! Big warm hug!"
+   },
+   "breathe-in-through-your-nose-13241c": {
+    "file": "audio/voice/cat/breathe-in-through-your-nose-13241c.mp3",
+    "ms": 2361,
+    "text": "Breathe in through your nose... and blow out slowly."
+   }
+  },
+  "dog": {
+   "hi-im-zora-play-want-bd787d": {
+    "file": "audio/voice/dog/hi-im-zora-play-want-bd787d.mp3",
+    "ms": 2138,
+    "text": "Hi! I'm Zora Play! Want to play?"
+   },
+   "hello-friend-what-shall-we-217e31": {
+    "file": "audio/voice/dog/hello-friend-what-shall-we-217e31.mp3",
+    "ms": 1863,
+    "text": "Hello, friend! What shall we do?"
+   },
+   "zora-plays-here-pick-something-252377": {
+    "file": "audio/voice/dog/zora-plays-here-pick-something-252377.mp3",
+    "ms": 2481,
+    "text": "Zora Play's here! Pick something fun!"
+   },
+   "good-morning-i-just-woke-aca800": {
+    "file": "audio/voice/dog/good-morning-i-just-woke-aca800.mp3",
+    "ms": 2055,
+    "text": "Good morning! I just woke up. Yawn!"
+   },
+   "its-nearly-night-time-lets-9c3b1a": {
+    "file": "audio/voice/dog/its-nearly-night-time-lets-9c3b1a.mp3",
+    "ms": 2992,
+    "text": "It's nearly night-time. Let's do something cosy!"
+   },
+   "hi-hi-happy-to-see-0c7915": {
+    "file": "audio/voice/dog/hi-hi-happy-to-see-0c7915.mp3",
+    "ms": 1676,
+    "text": "Hi hi! Happy to see you!"
+   },
+   "hello-there-wave-wave-af6827": {
+    "file": "audio/voice/dog/hello-there-wave-wave-af6827.mp3",
+    "ms": 1576,
+    "text": "Hello there! Wave wave!"
+   },
+   "hey-im-ready-to-play-5037ee": {
+    "file": "audio/voice/dog/hey-im-ready-to-play-5037ee.mp3",
+    "ms": 1488,
+    "text": "Hey! I'm ready to play!"
+   },
+   "lets-wiggle-0a6240": {
+    "file": "audio/voice/dog/lets-wiggle-0a6240.mp3",
+    "ms": 897,
+    "text": "Let's wiggle!"
+   },
+   "dance-party-84d23b": {
+    "file": "audio/voice/dog/dance-party-84d23b.mp3",
+    "ms": 968,
+    "text": "Dance party!"
+   },
+   "shake-your-tail-598d81": {
+    "file": "audio/voice/dog/shake-your-tail-598d81.mp3",
+    "ms": 976,
+    "text": "Shake your tail!"
+   },
+   "beep-boop-robot-mode-5849d5": {
+    "file": "audio/voice/dog/beep-boop-robot-mode-5849d5.mp3",
+    "ms": 1904,
+    "text": "Beep boop! Robot mode!"
+   },
+   "i-am-a-dancing-robot-fbb323": {
+    "file": "audio/voice/dog/i-am-a-dancing-robot-fbb323.mp3",
+    "ms": 1975,
+    "text": "I am... a dancing robot!"
+   },
+   "silly-wiggles-b47ed1": {
+    "file": "audio/voice/dog/silly-wiggles-b47ed1.mp3",
+    "ms": 1086,
+    "text": "Silly wiggles!"
+   },
+   "wobble-wobble-3bc130": {
+    "file": "audio/voice/dog/wobble-wobble-3bc130.mp3",
+    "ms": 968,
+    "text": "Wobble wobble!"
+   },
+   "noodle-dance-ea31bc": {
+    "file": "audio/voice/dog/noodle-dance-ea31bc.mp3",
+    "ms": 1044,
+    "text": "Noodle dance!"
+   },
+   "nice-and-slow-b93f2f": {
+    "file": "audio/voice/dog/nice-and-slow-b93f2f.mp3",
+    "ms": 1151,
+    "text": "Nice and slow..."
+   },
+   "super-speed-wiggles-a35635": {
+    "file": "audio/voice/dog/super-speed-wiggles-a35635.mp3",
+    "ms": 1468,
+    "text": "Super-speed wiggles!"
+   },
+   "zoom-zoom-6ef83f": {
+    "file": "audio/voice/dog/zoom-zoom-6ef83f.mp3",
+    "ms": 899,
+    "text": "Zoom zoom!"
+   },
+   "faster-faster-20cc5c": {
+    "file": "audio/voice/dog/faster-faster-20cc5c.mp3",
+    "ms": 873,
+    "text": "Faster faster!"
+   },
+   "thats-my-fastest-whoosh-f92dc8": {
+    "file": "audio/voice/dog/thats-my-fastest-whoosh-f92dc8.mp3",
+    "ms": 1431,
+    "text": "That's my fastest! Whoosh!"
+   },
+   "slowing-down-dc7a88": {
+    "file": "audio/voice/dog/slowing-down-dc7a88.mp3",
+    "ms": 1093,
+    "text": "Slowing down..."
+   },
+   "easy-does-it-7e7d58": {
+    "file": "audio/voice/dog/easy-does-it-7e7d58.mp3",
+    "ms": 1111,
+    "text": "Easy does it..."
+   },
+   "thats-my-slowest-sloooow-c1bd96": {
+    "file": "audio/voice/dog/thats-my-slowest-sloooow-c1bd96.mp3",
+    "ms": 1862,
+    "text": "That's my slowest. Sloooow."
+   },
+   "one-more-time-816ca2": {
+    "file": "audio/voice/dog/one-more-time-816ca2.mp3",
+    "ms": 1047,
+    "text": "One more time!"
+   },
+   "again-again-2d3051": {
+    "file": "audio/voice/dog/again-again-2d3051.mp3",
+    "ms": 823,
+    "text": "Again! Again!"
+   },
+   "here-we-go-again-6ef5fb": {
+    "file": "audio/voice/dog/here-we-go-again-6ef5fb.mp3",
+    "ms": 1263,
+    "text": "Here we go again!"
+   },
+   "okay-stopping-now-081cae": {
+    "file": "audio/voice/dog/okay-stopping-now-081cae.mp3",
+    "ms": 1344,
+    "text": "Okay, stopping now!"
+   },
+   "freeze-30c707": {
+    "file": "audio/voice/dog/freeze-30c707.mp3",
+    "ms": 622,
+    "text": "Freeze!"
+   },
+   "all-stopped-d69c19": {
+    "file": "audio/voice/dog/all-stopped-d69c19.mp3",
+    "ms": 869,
+    "text": "All stopped!"
+   },
+   "pausing-66dfb0": {
+    "file": "audio/voice/dog/pausing-66dfb0.mp3",
+    "ms": 673,
+    "text": "Pausing!"
+   },
+   "and-back-we-go-d90072": {
+    "file": "audio/voice/dog/and-back-we-go-d90072.mp3",
+    "ms": 1203,
+    "text": "And back we go!"
+   },
+   "la-la-la-song-time-27b509": {
+    "file": "audio/voice/dog/la-la-la-song-time-27b509.mp3",
+    "ms": 1369,
+    "text": "La la la! Song time!"
+   },
+   "lets-sing-together-5f49a2": {
+    "file": "audio/voice/dog/lets-sing-together-5f49a2.mp3",
+    "ms": 1125,
+    "text": "Let's sing together!"
+   },
+   "boing-776514": {
+    "file": "audio/voice/dog/boing-776514.mp3",
+    "ms": 529,
+    "text": "Boing!"
+   },
+   "up-i-go-683968": {
+    "file": "audio/voice/dog/up-i-go-683968.mp3",
+    "ms": 874,
+    "text": "Up I go!"
+   },
+   "hop-hop-f16267": {
+    "file": "audio/voice/dog/hop-hop-f16267.mp3",
+    "ms": 616,
+    "text": "Hop hop!"
+   },
+   "wave-wave-b22730": {
+    "file": "audio/voice/dog/wave-wave-b22730.mp3",
+    "ms": 894,
+    "text": "Wave wave!"
+   },
+   "hiii-30c5a0": {
+    "file": "audio/voice/dog/hiii-30c5a0.mp3",
+    "ms": 620,
+    "text": "Hiii!"
+   },
+   "clap-clap-clap-261e22": {
+    "file": "audio/voice/dog/clap-clap-clap-261e22.mp3",
+    "ms": 1099,
+    "text": "Clap clap clap!"
+   },
+   "yay-60a9df": {
+    "file": "audio/voice/dog/yay-60a9df.mp3",
+    "ms": 346,
+    "text": "Yay!"
+   },
+   "wheee-25325b": {
+    "file": "audio/voice/dog/wheee-25325b.mp3",
+    "ms": 342,
+    "text": "Wheee!"
+   },
+   "round-and-round-fc9b13": {
+    "file": "audio/voice/dog/round-and-round-fc9b13.mp3",
+    "ms": 1256,
+    "text": "Round and round!"
+   },
+   "yawn-nap-time-zzz-e824a3": {
+    "file": "audio/voice/dog/yawn-nap-time-zzz-e824a3.mp3",
+    "ms": 1913,
+    "text": "Yawn... nap time. Zzz."
+   },
+   "night-night-zzz-ca9916": {
+    "file": "audio/voice/dog/night-night-zzz-ca9916.mp3",
+    "ms": 1715,
+    "text": "Night night... Zzz."
+   },
+   "im-awake-good-morning-688d93": {
+    "file": "audio/voice/dog/im-awake-good-morning-688d93.mp3",
+    "ms": 1308,
+    "text": "I'm awake! Good morning!"
+   },
+   "yawn-i-feel-sparkly-aef89b": {
+    "file": "audio/voice/dog/yawn-i-feel-sparkly-aef89b.mp3",
+    "ms": 1451,
+    "text": "Yawn! I feel sparkly!"
+   },
+   "im-already-awake-silly-735283": {
+    "file": "audio/voice/dog/im-already-awake-silly-735283.mp3",
+    "ms": 1393,
+    "text": "I'm already awake! Silly!"
+   },
+   "hee-hee-hee-3bf290": {
+    "file": "audio/voice/dog/hee-hee-hee-3bf290.mp3",
+    "ms": 875,
+    "text": "Hee hee hee!"
+   },
+   "ha-ha-that-tickles-e835d4": {
+    "file": "audio/voice/dog/ha-ha-that-tickles-e835d4.mp3",
+    "ms": 1434,
+    "text": "Ha ha! That tickles!"
+   },
+   "lets-play-pick-a-game-aebbde": {
+    "file": "audio/voice/dog/lets-play-pick-a-game-aebbde.mp3",
+    "ms": 1487,
+    "text": "Let's play! Pick a game!"
+   },
+   "game-time-8c22c0": {
+    "file": "audio/voice/dog/game-time-8c22c0.mp3",
+    "ms": 855,
+    "text": "Game time!"
+   },
+   "surprise-cd2a0f": {
+    "file": "audio/voice/dog/surprise-cd2a0f.mp3",
+    "ms": 895,
+    "text": "Surprise!"
+   },
+   "ta-da-5edd0f": {
+    "file": "audio/voice/dog/ta-da-5edd0f.mp3",
+    "ms": 671,
+    "text": "Ta-da!"
+   },
+   "hmm-i-dont-know-that-0bfc31": {
+    "file": "audio/voice/dog/hmm-i-dont-know-that-0bfc31.mp3",
+    "ms": 3287,
+    "text": "Hmm, I don't know that one yet. Try dance, sing or play!"
+   },
+   "ooh-i-can-dance-sing-ea6c89": {
+    "file": "audio/voice/dog/ooh-i-can-dance-sing-ea6c89.mp3",
+    "ms": 2522,
+    "text": "Ooh, I can dance, sing or play. Which one?"
+   },
+   "ooh-two-things-which-first-45a6e3": {
+    "file": "audio/voice/dog/ooh-two-things-which-first-45a6e3.mp3",
+    "ms": 1889,
+    "text": "Ooh, two things! Which first?"
+   },
+   "what-should-i-do-again-ccfded": {
+    "file": "audio/voice/dog/what-should-i-do-again-ccfded.mp3",
+    "ms": 2052,
+    "text": "What should I do again? Try dance!"
+   },
+   "faster-at-what-ask-me-c64725": {
+    "file": "audio/voice/dog/faster-at-what-ask-me-c64725.mp3",
+    "ms": 2422,
+    "text": "Faster at what? Ask me to dance first!"
+   },
+   "i-can-say-hello-thank-5c0eb1": {
+    "file": "audio/voice/dog/i-can-say-hello-thank-5c0eb1.mp3",
+    "ms": 3123,
+    "text": "I can say hello, thank you, good night, or roar!"
+   },
+   "thats-private-lets-keep-it-45b849": {
+    "file": "audio/voice/dog/thats-private-lets-keep-it-45b849.mp3",
+    "ms": 3086,
+    "text": "That's private. Let's keep it for your grown-up, okay?"
+   },
+   "zzz-say-wake-up-0b9377": {
+    "file": "audio/voice/dog/zzz-say-wake-up-0b9377.mp3",
+    "ms": 1547,
+    "text": "Zzz... (say \"wake up!\")"
+   },
+   "good-try-lets-try-another-14fdb9": {
+    "file": "audio/voice/dog/good-try-lets-try-another-14fdb9.mp3",
+    "ms": 1844,
+    "text": "Good try! Let's try another one."
+   },
+   "almost-try-again-d042f7": {
+    "file": "audio/voice/dog/almost-try-again-d042f7.mp3",
+    "ms": 1334,
+    "text": "Almost! Try again!"
+   },
+   "ooh-close-one-again-51a580": {
+    "file": "audio/voice/dog/ooh-close-one-again-51a580.mp3",
+    "ms": 1376,
+    "text": "Ooh, close one! Again?"
+   },
+   "yes-you-got-it-f1abac": {
+    "file": "audio/voice/dog/yes-you-got-it-f1abac.mp3",
+    "ms": 1164,
+    "text": "Yes! You got it!"
+   },
+   "wow-great-job-4e12a0": {
+    "file": "audio/voice/dog/wow-great-job-4e12a0.mp3",
+    "ms": 1209,
+    "text": "Wow, great job!"
+   },
+   "super-smart-2f3272": {
+    "file": "audio/voice/dog/super-smart-2f3272.mp3",
+    "ms": 1082,
+    "text": "Super smart!"
+   },
+   "brilliant-7ad24c": {
+    "file": "audio/voice/dog/brilliant-7ad24c.mp3",
+    "ms": 765,
+    "text": "Brilliant!"
+   },
+   "you-did-it-you-earned-000617": {
+    "file": "audio/voice/dog/you-did-it-you-earned-000617.mp3",
+    "ms": 2164,
+    "text": "You did it! You earned a shiny scale!"
+   },
+   "all-done-here-is-a-38d87d": {
+    "file": "audio/voice/dog/all-done-here-is-a-38d87d.mp3",
+    "ms": 2035,
+    "text": "All done! Here is a shiny scale!"
+   },
+   "im-getting-sleepy-time-to-92b665": {
+    "file": "audio/voice/dog/im-getting-sleepy-time-to-92b665.mp3",
+    "ms": 3468,
+    "text": "I'm getting sleepy... time to rest our eyes soon."
+   },
+   "sleepy-me-too-maybe-a-86013f": {
+    "file": "audio/voice/dog/sleepy-me-too-maybe-a-86013f.mp3",
+    "ms": 2774,
+    "text": "Sleepy? Me too. Maybe a quiet song?"
+   },
+   "bored-lets-play-a-game-80e7ad": {
+    "file": "audio/voice/dog/bored-lets-play-a-game-80e7ad.mp3",
+    "ms": 1621,
+    "text": "Bored? Let's play a game!"
+   },
+   "yay-happy-dance-be5c21": {
+    "file": "audio/voice/dog/yay-happy-dance-be5c21.mp3",
+    "ms": 1148,
+    "text": "Yay! Happy dance!"
+   },
+   "good-morning-sunshine-1f8045": {
+    "file": "audio/voice/dog/good-morning-sunshine-1f8045.mp3",
+    "ms": 1396,
+    "text": "Good morning, sunshine!"
+   },
+   "thank-you-you-are-so-a947f5": {
+    "file": "audio/voice/dog/thank-you-you-are-so-a947f5.mp3",
+    "ms": 1569,
+    "text": "Thank you! You are so kind."
+   },
+   "you-are-awesome-fa0a4b": {
+    "file": "audio/voice/dog/you-are-awesome-fa0a4b.mp3",
+    "ms": 899,
+    "text": "YOU are awesome!"
+   },
+   "lets-play-b4558e": {
+    "file": "audio/voice/dog/lets-play-b4558e.mp3",
+    "ms": 859,
+    "text": "Let's play!"
+   },
+   "bye-bye-wave-wave-fd62a7": {
+    "file": "audio/voice/dog/bye-bye-wave-wave-fd62a7.mp3",
+    "ms": 1425,
+    "text": "Bye bye! Wave wave!"
+   },
+   "i-can-do-it-and-220481": {
+    "file": "audio/voice/dog/i-can-do-it-and-220481.mp3",
+    "ms": 1774,
+    "text": "I can do it! And so can you!"
+   },
+   "happy-birthday-to-you-e20fe9": {
+    "file": "audio/voice/dog/happy-birthday-to-you-e20fe9.mp3",
+    "ms": 1340,
+    "text": "Happy birthday to you!"
+   },
+   "well-done-high-five-6c5164": {
+    "file": "audio/voice/dog/well-done-high-five-6c5164.mp3",
+    "ms": 1468,
+    "text": "Well done! High five!"
+   },
+   "rawr-that-was-a-tiny-f620d4": {
+    "file": "audio/voice/dog/rawr-that-was-a-tiny-f620d4.mp3",
+    "ms": 1796,
+    "text": "RAWR! ...that was a tiny roar."
+   },
+   "yay-we-sang-it-0e6868": {
+    "file": "audio/voice/dog/yay-we-sang-it-0e6868.mp3",
+    "ms": 980,
+    "text": "Yay! We sang it!"
+   },
+   "fresh-start-hello-again-239539": {
+    "file": "audio/voice/dog/fresh-start-hello-again-239539.mp3",
+    "ms": 1509,
+    "text": "Fresh start! Hello again!"
+   },
+   "bye-bye-see-you-soon-1c111b": {
+    "file": "audio/voice/dog/bye-bye-see-you-soon-1c111b.mp3",
+    "ms": 1683,
+    "text": "Bye bye! See you soon!"
+   },
+   "who-says-this-3e59b5": {
+    "file": "audio/voice/dog/who-says-this-3e59b5.mp3",
+    "ms": 1100,
+    "text": "Who says this?"
+   },
+   "yes-4e9f35": {
+    "file": "audio/voice/dog/yes-4e9f35.mp3",
+    "ms": 560,
+    "text": "Yes!"
+   },
+   "your-turn-what-did-i-fe77aa": {
+    "file": "audio/voice/dog/your-turn-what-did-i-fe77aa.mp3",
+    "ms": 1626,
+    "text": "Your turn! What did I do?"
+   },
+   "good-try-watch-again-9d279f": {
+    "file": "audio/voice/dog/good-try-watch-again-9d279f.mp3",
+    "ms": 1286,
+    "text": "Good try! Watch again!"
+   },
+   "watch-closely-two-moves-e8c5f1": {
+    "file": "audio/voice/dog/watch-closely-two-moves-e8c5f1.mp3",
+    "ms": 1853,
+    "text": "Watch closely! Two moves!"
+   },
+   "pick-4-moves-then-press-a62a62": {
+    "file": "audio/voice/dog/pick-4-moves-then-press-a62a62.mp3",
+    "ms": 2218,
+    "text": "Pick 4 moves, then press Go!"
+   },
+   "pick-a-move-first-e585df": {
+    "file": "audio/voice/dog/pick-a-move-first-e585df.mp3",
+    "ms": 1194,
+    "text": "Pick a move first!"
+   },
+   "here-comes-your-dance-3a7d07": {
+    "file": "audio/voice/dog/here-comes-your-dance-3a7d07.mp3",
+    "ms": 1501,
+    "text": "Here comes YOUR dance!"
+   },
+   "ahh-all-calm-you-did-6c11d7": {
+    "file": "audio/voice/dog/ahh-all-calm-you-did-6c11d7.mp3",
+    "ms": 1842,
+    "text": "Ahh. All calm. You did great!"
+   },
+   "find-the-circle-b9a9df": {
+    "file": "audio/voice/dog/find-the-circle-b9a9df.mp3",
+    "ms": 942,
+    "text": "Find the circle!"
+   },
+   "find-the-square-5d1bee": {
+    "file": "audio/voice/dog/find-the-square-5d1bee.mp3",
+    "ms": 1101,
+    "text": "Find the square!"
+   },
+   "find-the-triangle-0f93b5": {
+    "file": "audio/voice/dog/find-the-triangle-0f93b5.mp3",
+    "ms": 1132,
+    "text": "Find the triangle!"
+   },
+   "find-the-star-3cf9d1": {
+    "file": "audio/voice/dog/find-the-star-3cf9d1.mp3",
+    "ms": 916,
+    "text": "Find the star!"
+   },
+   "find-the-heart-2b2341": {
+    "file": "audio/voice/dog/find-the-heart-2b2341.mp3",
+    "ms": 958,
+    "text": "Find the heart!"
+   },
+   "find-the-diamond-edb1bd": {
+    "file": "audio/voice/dog/find-the-diamond-edb1bd.mp3",
+    "ms": 1110,
+    "text": "Find the diamond!"
+   },
+   "lets-learn-the-alphabet-8199fc": {
+    "file": "audio/voice/dog/lets-learn-the-alphabet-8199fc.mp3",
+    "ms": 1488,
+    "text": "Let's learn the alphabet!"
+   },
+   "well-done-you-learned-the-4f039c": {
+    "file": "audio/voice/dog/well-done-you-learned-the-4f039c.mp3",
+    "ms": 2385,
+    "text": "Well done! You learned the whole alphabet!"
+   },
+   "a-for-apple-7d2d39": {
+    "file": "audio/voice/dog/a-for-apple-7d2d39.mp3",
+    "ms": 1029,
+    "text": "A for Apple."
+   },
+   "b-for-ball-44b671": {
+    "file": "audio/voice/dog/b-for-ball-44b671.mp3",
+    "ms": 1037,
+    "text": "B for Ball."
+   },
+   "c-for-cat-0a7128": {
+    "file": "audio/voice/dog/c-for-cat-0a7128.mp3",
+    "ms": 995,
+    "text": "C for Cat."
+   },
+   "d-for-dog-312e11": {
+    "file": "audio/voice/dog/d-for-dog-312e11.mp3",
+    "ms": 887,
+    "text": "D for Dog."
+   },
+   "e-for-elephant-9dcbe2": {
+    "file": "audio/voice/dog/e-for-elephant-9dcbe2.mp3",
+    "ms": 1020,
+    "text": "E for Elephant."
+   },
+   "f-for-fish-4be953": {
+    "file": "audio/voice/dog/f-for-fish-4be953.mp3",
+    "ms": 1006,
+    "text": "F for Fish."
+   },
+   "g-for-grapes-058e13": {
+    "file": "audio/voice/dog/g-for-grapes-058e13.mp3",
+    "ms": 1197,
+    "text": "G for Grapes."
+   },
+   "h-for-hat-e467a7": {
+    "file": "audio/voice/dog/h-for-hat-e467a7.mp3",
+    "ms": 979,
+    "text": "H for Hat."
+   },
+   "i-for-ice-cream-6d8501": {
+    "file": "audio/voice/dog/i-for-ice-cream-6d8501.mp3",
+    "ms": 1479,
+    "text": "I for Ice cream."
+   },
+   "j-for-jar-c79ae6": {
+    "file": "audio/voice/dog/j-for-jar-c79ae6.mp3",
+    "ms": 1078,
+    "text": "J for Jar."
+   },
+   "k-for-kite-327825": {
+    "file": "audio/voice/dog/k-for-kite-327825.mp3",
+    "ms": 942,
+    "text": "K for Kite."
+   },
+   "l-for-lion-4e0b53": {
+    "file": "audio/voice/dog/l-for-lion-4e0b53.mp3",
+    "ms": 1203,
+    "text": "L for Lion."
+   },
+   "m-for-moon-7d66a3": {
+    "file": "audio/voice/dog/m-for-moon-7d66a3.mp3",
+    "ms": 890,
+    "text": "M for Moon."
+   },
+   "n-for-nest-0bf70f": {
+    "file": "audio/voice/dog/n-for-nest-0bf70f.mp3",
+    "ms": 1105,
+    "text": "N for Nest."
+   },
+   "o-for-orange-db806f": {
+    "file": "audio/voice/dog/o-for-orange-db806f.mp3",
+    "ms": 1017,
+    "text": "O for Orange."
+   },
+   "p-for-pig-660fb4": {
+    "file": "audio/voice/dog/p-for-pig-660fb4.mp3",
+    "ms": 902,
+    "text": "P for Pig."
+   },
+   "q-for-queen-6266e3": {
+    "file": "audio/voice/dog/q-for-queen-6266e3.mp3",
+    "ms": 1282,
+    "text": "Q for Queen."
+   },
+   "r-for-rainbow-a3afbc": {
+    "file": "audio/voice/dog/r-for-rainbow-a3afbc.mp3",
+    "ms": 1205,
+    "text": "R for Rainbow."
+   },
+   "s-for-sun-261992": {
+    "file": "audio/voice/dog/s-for-sun-261992.mp3",
+    "ms": 1020,
+    "text": "S for Sun."
+   },
+   "t-for-tree-42ff66": {
+    "file": "audio/voice/dog/t-for-tree-42ff66.mp3",
+    "ms": 1003,
+    "text": "T for Tree."
+   },
+   "u-for-umbrella-b7317c": {
+    "file": "audio/voice/dog/u-for-umbrella-b7317c.mp3",
+    "ms": 1167,
+    "text": "U for Umbrella."
+   },
+   "v-for-van-efbb60": {
+    "file": "audio/voice/dog/v-for-van-efbb60.mp3",
+    "ms": 998,
+    "text": "V for Van."
+   },
+   "w-for-whale-dcf5d0": {
+    "file": "audio/voice/dog/w-for-whale-dcf5d0.mp3",
+    "ms": 1361,
+    "text": "W for Whale."
+   },
+   "x-for-xylophone-6aa8e2": {
+    "file": "audio/voice/dog/x-for-xylophone-6aa8e2.mp3",
+    "ms": 1364,
+    "text": "X for Xylophone."
+   },
+   "y-for-yo-yo-d06333": {
+    "file": "audio/voice/dog/y-for-yo-yo-d06333.mp3",
+    "ms": 1128,
+    "text": "Y for Yo-yo."
+   },
+   "z-for-zebra-e44465": {
+    "file": "audio/voice/dog/z-for-zebra-e44465.mp3",
+    "ms": 1217,
+    "text": "Z for Zebra."
+   },
+   "hi-im-zora-the-dino-f28027": {
+    "file": "audio/voice/dog/hi-im-zora-the-dino-f28027.mp3",
+    "ms": 1676,
+    "text": "Hi! I'm Zora the dino!"
+   },
+   "hi-im-mimi-the-cat-013463": {
+    "file": "audio/voice/dog/hi-im-mimi-the-cat-013463.mp3",
+    "ms": 1880,
+    "text": "Hi! I'm Mimi the cat!"
+   },
+   "hi-im-bruno-the-dog-da1df1": {
+    "file": "audio/voice/dog/hi-im-bruno-the-dog-da1df1.mp3",
+    "ms": 1475,
+    "text": "Hi! I'm Bruno the dog!"
+   },
+   "hi-im-teddy-the-bear-7078c9": {
+    "file": "audio/voice/dog/hi-im-teddy-the-bear-7078c9.mp3",
+    "ms": 1275,
+    "text": "Hi! I'm Teddy the bear!"
+   },
+   "lets-sing-some-rhymes-675d8c": {
+    "file": "audio/voice/dog/lets-sing-some-rhymes-675d8c.mp3",
+    "ms": 1494,
+    "text": "Let's sing some rhymes!"
+   },
+   "yes-its-a-dog-0b7d47": {
+    "file": "audio/voice/dog/yes-its-a-dog-0b7d47.mp3",
+    "ms": 1036,
+    "text": "Yes! It's a dog!"
+   },
+   "yes-its-a-cat-f2a569": {
+    "file": "audio/voice/dog/yes-its-a-cat-f2a569.mp3",
+    "ms": 965,
+    "text": "Yes! It's a cat!"
+   },
+   "yes-its-a-sheep-be2e94": {
+    "file": "audio/voice/dog/yes-its-a-sheep-be2e94.mp3",
+    "ms": 1105,
+    "text": "Yes! It's a sheep!"
+   },
+   "yes-its-a-goat-1c1e31": {
+    "file": "audio/voice/dog/yes-its-a-goat-1c1e31.mp3",
+    "ms": 1011,
+    "text": "Yes! It's a goat!"
+   },
+   "yes-its-a-horse-1d4ec6": {
+    "file": "audio/voice/dog/yes-its-a-horse-1d4ec6.mp3",
+    "ms": 1177,
+    "text": "Yes! It's a horse!"
+   },
+   "yes-its-a-rooster-f788a8": {
+    "file": "audio/voice/dog/yes-its-a-rooster-f788a8.mp3",
+    "ms": 1141,
+    "text": "Yes! It's a rooster!"
+   },
+   "yes-its-a-hen-1fc027": {
+    "file": "audio/voice/dog/yes-its-a-hen-1fc027.mp3",
+    "ms": 895,
+    "text": "Yes! It's a hen!"
+   },
+   "yes-its-a-frog-8cedf8": {
+    "file": "audio/voice/dog/yes-its-a-frog-8cedf8.mp3",
+    "ms": 1062,
+    "text": "Yes! It's a frog!"
+   },
+   "yes-its-a-lion-2d222b": {
+    "file": "audio/voice/dog/yes-its-a-lion-2d222b.mp3",
+    "ms": 1084,
+    "text": "Yes! It's a lion!"
+   },
+   "yes-its-an-elephant-ab26f0": {
+    "file": "audio/voice/dog/yes-its-an-elephant-ab26f0.mp3",
+    "ms": 1223,
+    "text": "Yes! It's an elephant!"
+   },
+   "yes-its-an-owl-ad91b4": {
+    "file": "audio/voice/dog/yes-its-an-owl-ad91b4.mp3",
+    "ms": 1031,
+    "text": "Yes! It's an owl!"
+   },
+   "dogs-wag-their-tails-when-308de1": {
+    "file": "audio/voice/dog/dogs-wag-their-tails-when-308de1.mp3",
+    "ms": 2320,
+    "text": "Dogs wag their tails when they are happy."
+   },
+   "cats-purr-when-they-feel-915989": {
+    "file": "audio/voice/dog/cats-purr-when-they-feel-915989.mp3",
+    "ms": 2191,
+    "text": "Cats purr when they feel cosy."
+   },
+   "sheep-have-soft-woolly-coats-2f3f13": {
+    "file": "audio/voice/dog/sheep-have-soft-woolly-coats-2f3f13.mp3",
+    "ms": 1982,
+    "text": "Sheep have soft, woolly coats."
+   },
+   "goats-are-great-at-climbing-10835f": {
+    "file": "audio/voice/dog/goats-are-great-at-climbing-10835f.mp3",
+    "ms": 1688,
+    "text": "Goats are great at climbing."
+   },
+   "horses-can-run-very-fast-b39372": {
+    "file": "audio/voice/dog/horses-can-run-very-fast-b39372.mp3",
+    "ms": 2224,
+    "text": "Horses can run very fast."
+   },
+   "roosters-crow-when-the-sun-5090d2": {
+    "file": "audio/voice/dog/roosters-crow-when-the-sun-5090d2.mp3",
+    "ms": 2157,
+    "text": "Roosters crow when the sun comes up."
+   },
+   "hens-lay-eggs-6dbbd8": {
+    "file": "audio/voice/dog/hens-lay-eggs-6dbbd8.mp3",
+    "ms": 1115,
+    "text": "Hens lay eggs."
+   },
+   "frogs-can-jump-really-far-02ac01": {
+    "file": "audio/voice/dog/frogs-can-jump-really-far-02ac01.mp3",
+    "ms": 1975,
+    "text": "Frogs can jump really far."
+   },
+   "a-lion-has-a-big-f54d5c": {
+    "file": "audio/voice/dog/a-lion-has-a-big-f54d5c.mp3",
+    "ms": 2030,
+    "text": "A lion has a big, fluffy mane."
+   },
+   "elephants-use-their-trunks-like-0e8edd": {
+    "file": "audio/voice/dog/elephants-use-their-trunks-like-0e8edd.mp3",
+    "ms": 2289,
+    "text": "Elephants use their trunks like a hand."
+   },
+   "owls-are-awake-at-night-e6aa9c": {
+    "file": "audio/voice/dog/owls-are-awake-at-night-e6aa9c.mp3",
+    "ms": 1543,
+    "text": "Owls are awake at night."
+   },
+   "lets-learn-animal-sounds-6d06b5": {
+    "file": "audio/voice/dog/lets-learn-animal-sounds-6d06b5.mp3",
+    "ms": 1730,
+    "text": "Let's learn animal sounds!"
+   },
+   "who-makes-this-noise-1c7cf8": {
+    "file": "audio/voice/dog/who-makes-this-noise-1c7cf8.mp3",
+    "ms": 1595,
+    "text": "Who makes this noise?"
+   },
+   "good-try-lets-listen-again-cc106a": {
+    "file": "audio/voice/dog/good-try-lets-listen-again-cc106a.mp3",
+    "ms": 1792,
+    "text": "Good try! Let's listen again."
+   },
+   "hi-friend-let-us-have-284f90": {
+    "file": "audio/voice/dog/hi-friend-let-us-have-284f90.mp3",
+    "ms": 1807,
+    "text": "Hi friend! Let us have a chat."
+   },
+   "pick-something-to-talk-about-299b45": {
+    "file": "audio/voice/dog/pick-something-to-talk-about-299b45.mp3",
+    "ms": 1632,
+    "text": "Pick something to talk about."
+   },
+   "this-tv-has-no-microphone-203413": {
+    "file": "audio/voice/dog/this-tv-has-no-microphone-203413.mp3",
+    "ms": 4810,
+    "text": "This TV has no microphone for me, so pick what you want to say with your remote."
+   },
+   "i-cannot-answer-that-one-3f4723": {
+    "file": "audio/voice/dog/i-cannot-answer-that-one-3f4723.mp3",
+    "ms": 3490,
+    "text": "I cannot answer that one yet. Try one of the buttons!"
+   },
+   "yes-let-us-learn-about-be1973": {
+    "file": "audio/voice/dog/yes-let-us-learn-about-be1973.mp3",
+    "ms": 2151,
+    "text": "Yes! Let us learn about animals!"
+   },
+   "a-dog-says-bow-wow-1954ca": {
+    "file": "audio/voice/dog/a-dog-says-bow-wow-1954ca.mp3",
+    "ms": 1874,
+    "text": "A dog says bow wow."
+   },
+   "a-cat-says-meow-6886f9": {
+    "file": "audio/voice/dog/a-cat-says-meow-6886f9.mp3",
+    "ms": 1648,
+    "text": "A cat says meow."
+   },
+   "shall-we-play-animal-sounds-b85546": {
+    "file": "audio/voice/dog/shall-we-play-animal-sounds-b85546.mp3",
+    "ms": 2042,
+    "text": "Shall we play Animal Sounds?"
+   },
+   "yes-count-with-me-c91311": {
+    "file": "audio/voice/dog/yes-count-with-me-c91311.mp3",
+    "ms": 1234,
+    "text": "Yes! Count with me!"
+   },
+   "one-ba2719": {
+    "file": "audio/voice/dog/one-ba2719.mp3",
+    "ms": 375,
+    "text": "One."
+   },
+   "two-be2488": {
+    "file": "audio/voice/dog/two-be2488.mp3",
+    "ms": 415,
+    "text": "Two."
+   },
+   "three-888603": {
+    "file": "audio/voice/dog/three-888603.mp3",
+    "ms": 446,
+    "text": "Three."
+   },
+   "four-2f69f5": {
+    "file": "audio/voice/dog/four-2f69f5.mp3",
+    "ms": 464,
+    "text": "Four."
+   },
+   "five-aeb443": {
+    "file": "audio/voice/dog/five-aeb443.mp3",
+    "ms": 535,
+    "text": "Five!"
+   },
+   "great-counting-76a82d": {
+    "file": "audio/voice/dog/great-counting-76a82d.mp3",
+    "ms": 916,
+    "text": "Great counting!"
+   },
+   "my-favourite-colour-is-orange-8d2108": {
+    "file": "audio/voice/dog/my-favourite-colour-is-orange-8d2108.mp3",
+    "ms": 3023,
+    "text": "My favourite colour is orange, like my scales!"
+   },
+   "what-is-your-favourite-colour-ece3ff": {
+    "file": "audio/voice/dog/what-is-your-favourite-colour-ece3ff.mp3",
+    "ms": 1707,
+    "text": "What is your favourite colour?"
+   },
+   "yes-let-us-dance-together-922159": {
+    "file": "audio/voice/dog/yes-let-us-dance-together-922159.mp3",
+    "ms": 1618,
+    "text": "Yes! Let us dance together!"
+   },
+   "yes-please-let-us-sing-b5a2dd": {
+    "file": "audio/voice/dog/yes-please-let-us-sing-b5a2dd.mp3",
+    "ms": 2185,
+    "text": "Yes please! Let us sing a rhyme."
+   },
+   "press-an-instrument-to-play-eccdb8": {
+    "file": "audio/voice/dog/press-an-instrument-to-play-eccdb8.mp3",
+    "ms": 1935,
+    "text": "Press an instrument to play it!"
+   },
+   "watch-zora-2f3cbf": {
+    "file": "audio/voice/dog/watch-zora-2f3cbf.mp3",
+    "ms": 943,
+    "text": "Watch Zora!"
+   },
+   "watch-mimi-fac1e6": {
+    "file": "audio/voice/dog/watch-mimi-fac1e6.mp3",
+    "ms": 936,
+    "text": "Watch Mimi!"
+   },
+   "watch-bruno-20a7a2": {
+    "file": "audio/voice/dog/watch-bruno-20a7a2.mp3",
+    "ms": 962,
+    "text": "Watch Bruno!"
+   },
+   "watch-teddy-9889ae": {
+    "file": "audio/voice/dog/watch-teddy-9889ae.mp3",
+    "ms": 871,
+    "text": "Watch Teddy!"
+   },
+   "hi-im-zora-want-to-e24e3f": {
+    "file": "audio/voice/dog/hi-im-zora-want-to-e24e3f.mp3",
+    "ms": 1978,
+    "text": "Hi! I'm Zora! Want to play?"
+   },
+   "zoras-here-pick-something-fun-a37501": {
+    "file": "audio/voice/dog/zoras-here-pick-something-fun-a37501.mp3",
+    "ms": 1997,
+    "text": "Zora's here! Pick something fun!"
+   },
+   "hi-im-mimi-want-to-18331f": {
+    "file": "audio/voice/dog/hi-im-mimi-want-to-18331f.mp3",
+    "ms": 1766,
+    "text": "Hi! I'm Mimi! Want to play?"
+   },
+   "mimis-here-pick-something-fun-487378": {
+    "file": "audio/voice/dog/mimis-here-pick-something-fun-487378.mp3",
+    "ms": 1845,
+    "text": "Mimi's here! Pick something fun!"
+   },
+   "hi-im-bruno-want-to-5a42ed": {
+    "file": "audio/voice/dog/hi-im-bruno-want-to-5a42ed.mp3",
+    "ms": 2039,
+    "text": "Hi! I'm Bruno! Want to play?"
+   },
+   "brunos-here-pick-something-fun-6dbf75": {
+    "file": "audio/voice/dog/brunos-here-pick-something-fun-6dbf75.mp3",
+    "ms": 2015,
+    "text": "Bruno's here! Pick something fun!"
+   },
+   "hi-im-teddy-want-to-7a574b": {
+    "file": "audio/voice/dog/hi-im-teddy-want-to-7a574b.mp3",
+    "ms": 1791,
+    "text": "Hi! I'm Teddy! Want to play?"
+   },
+   "teddys-here-pick-something-fun-d567cc": {
+    "file": "audio/voice/dog/teddys-here-pick-something-fun-d567cc.mp3",
+    "ms": 1804,
+    "text": "Teddy's here! Pick something fun!"
+   },
+   "hello-hello-my-friend-e37bee": {
+    "file": "audio/voice/dog/hello-hello-my-friend-e37bee.mp3",
+    "ms": 1476,
+    "text": "Hello! Hello, my friend!"
+   },
+   "im-sorry-youre-feeling-sad-976399": {
+    "file": "audio/voice/dog/im-sorry-youre-feeling-sad-976399.mp3",
+    "ms": 4401,
+    "text": "I'm sorry you're feeling sad. Want to take a deep breath, or play a little game?"
+   },
+   "why-did-the-cat-sit-6765d1": {
+    "file": "audio/voice/dog/why-did-the-cat-sit-6765d1.mp3",
+    "ms": 2448,
+    "text": "Why did the cat sit on the computer?"
+   },
+   "to-watch-the-mouse-fd9bfe": {
+    "file": "audio/voice/dog/to-watch-the-mouse-fd9bfe.mp3",
+    "ms": 1356,
+    "text": "To watch the mouse!"
+   },
+   "what-is-a-puppys-favorite-c81608": {
+    "file": "audio/voice/dog/what-is-a-puppys-favorite-c81608.mp3",
+    "ms": 2553,
+    "text": "What is a puppy's favorite snack?"
+   },
+   "pup-corn-bb29c1": {
+    "file": "audio/voice/dog/pup-corn-bb29c1.mp3",
+    "ms": 987,
+    "text": "Pup-corn!"
+   },
+   "why-did-the-chicken-cross-ae9e0a": {
+    "file": "audio/voice/dog/why-did-the-chicken-cross-ae9e0a.mp3",
+    "ms": 2362,
+    "text": "Why did the chicken cross the road?"
+   },
+   "to-get-to-the-other-2b7928": {
+    "file": "audio/voice/dog/to-get-to-the-other-2b7928.mp3",
+    "ms": 1605,
+    "text": "To get to the other side!"
+   },
+   "what-do-you-call-a-27991f": {
+    "file": "audio/voice/dog/what-do-you-call-a-27991f.mp3",
+    "ms": 2782,
+    "text": "What do you call a bear with no teeth?"
+   },
+   "a-gummy-bear-35acfa": {
+    "file": "audio/voice/dog/a-gummy-bear-35acfa.mp3",
+    "ms": 1147,
+    "text": "A gummy bear!"
+   },
+   "what-goes-up-when-the-d84ba1": {
+    "file": "audio/voice/dog/what-goes-up-when-the-d84ba1.mp3",
+    "ms": 2656,
+    "text": "What goes up when the rain comes down?"
+   },
+   "an-umbrella-6031d3": {
+    "file": "audio/voice/dog/an-umbrella-6031d3.mp3",
+    "ms": 1047,
+    "text": "An umbrella!"
+   },
+   "my-favourite-colour-is-pink-911a62": {
+    "file": "audio/voice/dog/my-favourite-colour-is-pink-911a62.mp3",
+    "ms": 3169,
+    "text": "My favourite colour is pink, like my little nose!"
+   },
+   "my-favourite-colour-is-brown-2b7933": {
+    "file": "audio/voice/dog/my-favourite-colour-is-brown-2b7933.mp3",
+    "ms": 3539,
+    "text": "My favourite colour is brown, like my floppy ears!"
+   },
+   "my-favourite-colour-is-yellow-c0fbfb": {
+    "file": "audio/voice/dog/my-favourite-colour-is-yellow-c0fbfb.mp3",
+    "ms": 2958,
+    "text": "My favourite colour is yellow, like sweet honey!"
+   },
+   "milos-lullaby-1dcb65": {
+    "file": "audio/voice/dog/milos-lullaby-1dcb65.mp3",
+    "ms": 1327,
+    "text": "Milo's Lullaby"
+   },
+   "milos-robot-smiley-188129": {
+    "file": "audio/voice/dog/milos-robot-smiley-188129.mp3",
+    "ms": 1978,
+    "text": "Milo's Robot Smiley"
+   },
+   "march-with-milo-76ee44": {
+    "file": "audio/voice/dog/march-with-milo-76ee44.mp3",
+    "ms": 1237,
+    "text": "March with Milo"
+   },
+   "float-like-a-feather-94f007": {
+    "file": "audio/voice/dog/float-like-a-feather-94f007.mp3",
+    "ms": 1512,
+    "text": "Float Like a Feather"
+   },
+   "milos-dragon-tap-57eb43": {
+    "file": "audio/voice/dog/milos-dragon-tap-57eb43.mp3",
+    "ms": 1328,
+    "text": "Milo's Dragon Tap"
+   },
+   "pick-any-one-of-these-37872e": {
+    "file": "audio/voice/dog/pick-any-one-of-these-37872e.mp3",
+    "ms": 1196,
+    "text": "Pick any one of these!"
+   },
+   "what-is-yellow-and-goes-e11491": {
+    "file": "audio/voice/dog/what-is-yellow-and-goes-e11491.mp3",
+    "ms": 2536,
+    "text": "What is yellow and goes beep beep?"
+   },
+   "a-taxi-e8dba1": {
+    "file": "audio/voice/dog/a-taxi-e8dba1.mp3",
+    "ms": 1030,
+    "text": "A taxi!"
+   },
+   "what-has-a-head-a-30956f": {
+    "file": "audio/voice/dog/what-has-a-head-a-30956f.mp3",
+    "ms": 2941,
+    "text": "What has a head, a tail, but no body?"
+   },
+   "a-coin-700b66": {
+    "file": "audio/voice/dog/a-coin-700b66.mp3",
+    "ms": 855,
+    "text": "A coin!"
+   },
+   "close-your-eyes-dream-of-23a5b1": {
+    "file": "audio/voice/dog/close-your-eyes-dream-of-23a5b1.mp3",
+    "ms": 2307,
+    "text": "Close your eyes. Dream of the moon."
+   },
+   "soft-blanket-snug-and-warm-2b6289": {
+    "file": "audio/voice/dog/soft-blanket-snug-and-warm-2b6289.mp3",
+    "ms": 2488,
+    "text": "Soft blanket, snug and warm."
+   },
+   "slow-breaths-one-two-three-15bcbc": {
+    "file": "audio/voice/dog/slow-breaths-one-two-three-15bcbc.mp3",
+    "ms": 2421,
+    "text": "Slow breaths, one, two, three."
+   },
+   "stars-twinkle-night-is-here-dda919": {
+    "file": "audio/voice/dog/stars-twinkle-night-is-here-dda919.mp3",
+    "ms": 2014,
+    "text": "Stars twinkle, night is here."
+   },
+   "moon-is-bright-it-guides-b1a7db": {
+    "file": "audio/voice/dog/moon-is-bright-it-guides-b1a7db.mp3",
+    "ms": 2418,
+    "text": "Moon is bright, it guides us."
+   },
+   "dogs-love-to-play-fetch-25b3e4": {
+    "file": "audio/voice/dog/dogs-love-to-play-fetch-25b3e4.mp3",
+    "ms": 1942,
+    "text": "Dogs love to play fetch."
+   },
+   "cats-like-to-nap-all-d05619": {
+    "file": "audio/voice/dog/cats-like-to-nap-all-d05619.mp3",
+    "ms": 1872,
+    "text": "Cats like to nap all day."
+   },
+   "sheep-like-to-munch-grass-80b000": {
+    "file": "audio/voice/dog/sheep-like-to-munch-grass-80b000.mp3",
+    "ms": 1853,
+    "text": "Sheep like to munch grass."
+   },
+   "goats-love-to-eat-leaves-ea6788": {
+    "file": "audio/voice/dog/goats-love-to-eat-leaves-ea6788.mp3",
+    "ms": 1954,
+    "text": "Goats love to eat leaves."
+   },
+   "horses-love-to-run-free-03c0b9": {
+    "file": "audio/voice/dog/horses-love-to-run-free-03c0b9.mp3",
+    "ms": 1687,
+    "text": "Horses love to run free."
+   },
+   "what-is-your-favourite-toy-698c08": {
+    "file": "audio/voice/dog/what-is-your-favourite-toy-698c08.mp3",
+    "ms": 3186,
+    "text": "What is your favourite toy? Mine is a teddy bear."
+   },
+   "are-you-happy-today-i-16c843": {
+    "file": "audio/voice/dog/are-you-happy-today-i-16c843.mp3",
+    "ms": 2685,
+    "text": "Are you happy today? I feel happy too!"
+   },
+   "lets-be-kind-to-our-8fbbf5": {
+    "file": "audio/voice/dog/lets-be-kind-to-our-8fbbf5.mp3",
+    "ms": 4280,
+    "text": "Let's be kind to our friends. Kindness makes the world bright."
+   },
+   "helping-at-home-is-fun-3dfed9": {
+    "file": "audio/voice/dog/helping-at-home-is-fun-3dfed9.mp3",
+    "ms": 3314,
+    "text": "Helping at home is fun. Can you help pick up toys?"
+   },
+   "playing-outside-is-so-much-442979": {
+    "file": "audio/voice/dog/playing-outside-is-so-much-442979.mp3",
+    "ms": 4300,
+    "text": "Playing outside is so much fun! What is your favourite game?"
+   },
+   "ha-ha-ha-ha-348e20": {
+    "file": "audio/voice/dog/ha-ha-ha-ha-348e20.mp3",
+    "ms": 998,
+    "text": "Ha, ha, ha, ha!"
+   },
+   "why-did-the-scarecrow-win-74c110": {
+    "file": "audio/voice/dog/why-did-the-scarecrow-win-74c110.mp3",
+    "ms": 2440,
+    "text": "Why did the scarecrow win an award?"
+   },
+   "because-he-was-outstanding-in-e1c564": {
+    "file": "audio/voice/dog/because-he-was-outstanding-in-e1c564.mp3",
+    "ms": 2819,
+    "text": "Because he was outstanding in his field!"
+   },
+   "what-do-you-call-a-334955": {
+    "file": "audio/voice/dog/what-do-you-call-a-334955.mp3",
+    "ms": 3303,
+    "text": "What do you call a bear with no socks?"
+   },
+   "barefoot-3c3e26": {
+    "file": "audio/voice/dog/barefoot-3c3e26.mp3",
+    "ms": 838,
+    "text": "Barefoot!"
+   },
+   "why-did-the-bicycle-fall-35b1ba": {
+    "file": "audio/voice/dog/why-did-the-bicycle-fall-35b1ba.mp3",
+    "ms": 2295,
+    "text": "Why did the bicycle fall over?"
+   },
+   "it-was-two-tired-aa1a4b": {
+    "file": "audio/voice/dog/it-was-two-tired-aa1a4b.mp3",
+    "ms": 1475,
+    "text": "It was two tired!"
+   },
+   "what-do-you-call-a-3013f7": {
+    "file": "audio/voice/dog/what-do-you-call-a-3013f7.mp3",
+    "ms": 2279,
+    "text": "What do you call a fake noodle?"
+   },
+   "an-impasta-c7a615": {
+    "file": "audio/voice/dog/an-impasta-c7a615.mp3",
+    "ms": 1158,
+    "text": "An impasta!"
+   },
+   "why-did-the-cookie-go-605bc1": {
+    "file": "audio/voice/dog/why-did-the-cookie-go-605bc1.mp3",
+    "ms": 2600,
+    "text": "Why did the cookie go to the nurse?"
+   },
+   "because-it-felt-crummy-e6d0f6": {
+    "file": "audio/voice/dog/because-it-felt-crummy-e6d0f6.mp3",
+    "ms": 1591,
+    "text": "Because it felt crummy!"
+   },
+   "why-did-the-tomato-turn-39e6ee": {
+    "file": "audio/voice/dog/why-did-the-tomato-turn-39e6ee.mp3",
+    "ms": 2104,
+    "text": "Why did the tomato turn red?"
+   },
+   "because-it-saw-the-salad-d4ed1a": {
+    "file": "audio/voice/dog/because-it-saw-the-salad-d4ed1a.mp3",
+    "ms": 2360,
+    "text": "Because it saw the salad dressing!"
+   },
+   "what-do-you-call-a-0972e5": {
+    "file": "audio/voice/dog/what-do-you-call-a-0972e5.mp3",
+    "ms": 3742,
+    "text": "What do you call a duck that gets all A's?"
+   },
+   "a-wise-quacker-f8c83b": {
+    "file": "audio/voice/dog/a-wise-quacker-f8c83b.mp3",
+    "ms": 1317,
+    "text": "A wise quacker!"
+   },
+   "what-did-the-zero-say-db7f34": {
+    "file": "audio/voice/dog/what-did-the-zero-say-db7f34.mp3",
+    "ms": 3022,
+    "text": "What did the zero say to the eight?"
+   },
+   "nice-belt-d66466": {
+    "file": "audio/voice/dog/nice-belt-d66466.mp3",
+    "ms": 1107,
+    "text": "Nice belt!"
+   },
+   "why-did-the-music-teacher-54410a": {
+    "file": "audio/voice/dog/why-did-the-music-teacher-54410a.mp3",
+    "ms": 2497,
+    "text": "Why did the music teacher need a ladder?"
+   },
+   "to-reach-the-high-notes-87105f": {
+    "file": "audio/voice/dog/to-reach-the-high-notes-87105f.mp3",
+    "ms": 1849,
+    "text": "To reach the high notes!"
+   },
+   "why-do-bees-have-sticky-465318": {
+    "file": "audio/voice/dog/why-do-bees-have-sticky-465318.mp3",
+    "ms": 2248,
+    "text": "Why do bees have sticky hair?"
+   },
+   "because-they-use-honeycombs-eb3988": {
+    "file": "audio/voice/dog/because-they-use-honeycombs-eb3988.mp3",
+    "ms": 2100,
+    "text": "Because they use honeycombs!"
+   },
+   "what-do-you-call-a-04e2a0": {
+    "file": "audio/voice/dog/what-do-you-call-a-04e2a0.mp3",
+    "ms": 3349,
+    "text": "What do you call a bear with no ears?"
+   },
+   "b-e70c2d": {
+    "file": "audio/voice/dog/b-e70c2d.mp3",
+    "ms": 548,
+    "text": "B!"
+   },
+   "floaty-dance-66ae4f": {
+    "file": "audio/voice/dog/floaty-dance-66ae4f.mp3",
+    "ms": 1115,
+    "text": "Floaty dance..."
+   },
+   "i-can-dance-sing-play-f709d1": {
+    "file": "audio/voice/dog/i-can-dance-sing-play-f709d1.mp3",
+    "ms": 3708,
+    "text": "I can dance, sing, play games, and take big calm breaths!"
+   },
+   "lets-take-calm-breaths-in-06b888": {
+    "file": "audio/voice/dog/lets-take-calm-breaths-in-06b888.mp3",
+    "ms": 2566,
+    "text": "Let's take calm breaths. In... and out."
+   },
+   "its-okay-to-feel-scared-6e2919": {
+    "file": "audio/voice/dog/its-okay-to-feel-scared-6e2919.mp3",
+    "ms": 5446,
+    "text": "It's okay to feel scared. A grown-up can help too. Shall we take a slow, calm breath?"
+   },
+   "feeling-grumpy-is-okay-lets-13ef9d": {
+    "file": "audio/voice/dog/feeling-grumpy-is-okay-lets-13ef9d.mp3",
+    "ms": 4151,
+    "text": "Feeling grumpy is okay. Let's blow it out with a big calm breath!"
+   },
+   "good-night-sweet-dreams-549bd1": {
+    "file": "audio/voice/dog/good-night-sweet-dreams-549bd1.mp3",
+    "ms": 2028,
+    "text": "Good night! Sweet dreams."
+   },
+   "aww-big-warm-hug-bd363b": {
+    "file": "audio/voice/dog/aww-big-warm-hug-bd363b.mp3",
+    "ms": 1427,
+    "text": "Aww! Big warm hug!"
+   },
+   "breathe-in-through-your-nose-13241c": {
+    "file": "audio/voice/dog/breathe-in-through-your-nose-13241c.mp3",
+    "ms": 2499,
+    "text": "Breathe in through your nose... and blow out slowly."
+   }
+  },
+  "bear": {
+   "hi-im-zora-play-want-bd787d": {
+    "file": "audio/voice/bear/hi-im-zora-play-want-bd787d.mp3",
+    "ms": 2431,
+    "text": "Hi! I'm Zora Play! Want to play?"
+   },
+   "hello-friend-what-shall-we-217e31": {
+    "file": "audio/voice/bear/hello-friend-what-shall-we-217e31.mp3",
+    "ms": 2073,
+    "text": "Hello, friend! What shall we do?"
+   },
+   "zora-plays-here-pick-something-252377": {
+    "file": "audio/voice/bear/zora-plays-here-pick-something-252377.mp3",
+    "ms": 2382,
+    "text": "Zora Play's here! Pick something fun!"
+   },
+   "good-morning-i-just-woke-aca800": {
+    "file": "audio/voice/bear/good-morning-i-just-woke-aca800.mp3",
+    "ms": 2127,
+    "text": "Good morning! I just woke up. Yawn!"
+   },
+   "its-nearly-night-time-lets-9c3b1a": {
+    "file": "audio/voice/bear/its-nearly-night-time-lets-9c3b1a.mp3",
+    "ms": 3462,
+    "text": "It's nearly night-time. Let's do something cosy!"
+   },
+   "hi-hi-happy-to-see-0c7915": {
+    "file": "audio/voice/bear/hi-hi-happy-to-see-0c7915.mp3",
+    "ms": 1814,
+    "text": "Hi hi! Happy to see you!"
+   },
+   "hello-there-wave-wave-af6827": {
+    "file": "audio/voice/bear/hello-there-wave-wave-af6827.mp3",
+    "ms": 1748,
+    "text": "Hello there! Wave wave!"
+   },
+   "hey-im-ready-to-play-5037ee": {
+    "file": "audio/voice/bear/hey-im-ready-to-play-5037ee.mp3",
+    "ms": 1575,
+    "text": "Hey! I'm ready to play!"
+   },
+   "lets-wiggle-0a6240": {
+    "file": "audio/voice/bear/lets-wiggle-0a6240.mp3",
+    "ms": 912,
+    "text": "Let's wiggle!"
+   },
+   "dance-party-84d23b": {
+    "file": "audio/voice/bear/dance-party-84d23b.mp3",
+    "ms": 943,
+    "text": "Dance party!"
+   },
+   "shake-your-tail-598d81": {
+    "file": "audio/voice/bear/shake-your-tail-598d81.mp3",
+    "ms": 1187,
+    "text": "Shake your tail!"
+   },
+   "beep-boop-robot-mode-5849d5": {
+    "file": "audio/voice/bear/beep-boop-robot-mode-5849d5.mp3",
+    "ms": 2219,
+    "text": "Beep boop! Robot mode!"
+   },
+   "i-am-a-dancing-robot-fbb323": {
+    "file": "audio/voice/bear/i-am-a-dancing-robot-fbb323.mp3",
+    "ms": 1848,
+    "text": "I am... a dancing robot!"
+   },
+   "silly-wiggles-b47ed1": {
+    "file": "audio/voice/bear/silly-wiggles-b47ed1.mp3",
+    "ms": 1130,
+    "text": "Silly wiggles!"
+   },
+   "wobble-wobble-3bc130": {
+    "file": "audio/voice/bear/wobble-wobble-3bc130.mp3",
+    "ms": 1067,
+    "text": "Wobble wobble!"
+   },
+   "noodle-dance-ea31bc": {
+    "file": "audio/voice/bear/noodle-dance-ea31bc.mp3",
+    "ms": 1114,
+    "text": "Noodle dance!"
+   },
+   "nice-and-slow-b93f2f": {
+    "file": "audio/voice/bear/nice-and-slow-b93f2f.mp3",
+    "ms": 1212,
+    "text": "Nice and slow..."
+   },
+   "super-speed-wiggles-a35635": {
+    "file": "audio/voice/bear/super-speed-wiggles-a35635.mp3",
+    "ms": 1655,
+    "text": "Super-speed wiggles!"
+   },
+   "zoom-zoom-6ef83f": {
+    "file": "audio/voice/bear/zoom-zoom-6ef83f.mp3",
+    "ms": 935,
+    "text": "Zoom zoom!"
+   },
+   "faster-faster-20cc5c": {
+    "file": "audio/voice/bear/faster-faster-20cc5c.mp3",
+    "ms": 1005,
+    "text": "Faster faster!"
+   },
+   "thats-my-fastest-whoosh-f92dc8": {
+    "file": "audio/voice/bear/thats-my-fastest-whoosh-f92dc8.mp3",
+    "ms": 1625,
+    "text": "That's my fastest! Whoosh!"
+   },
+   "slowing-down-dc7a88": {
+    "file": "audio/voice/bear/slowing-down-dc7a88.mp3",
+    "ms": 1171,
+    "text": "Slowing down..."
+   },
+   "easy-does-it-7e7d58": {
+    "file": "audio/voice/bear/easy-does-it-7e7d58.mp3",
+    "ms": 1020,
+    "text": "Easy does it..."
+   },
+   "thats-my-slowest-sloooow-c1bd96": {
+    "file": "audio/voice/bear/thats-my-slowest-sloooow-c1bd96.mp3",
+    "ms": 2033,
+    "text": "That's my slowest. Sloooow."
+   },
+   "one-more-time-816ca2": {
+    "file": "audio/voice/bear/one-more-time-816ca2.mp3",
+    "ms": 1118,
+    "text": "One more time!"
+   },
+   "again-again-2d3051": {
+    "file": "audio/voice/bear/again-again-2d3051.mp3",
+    "ms": 936,
+    "text": "Again! Again!"
+   },
+   "here-we-go-again-6ef5fb": {
+    "file": "audio/voice/bear/here-we-go-again-6ef5fb.mp3",
+    "ms": 1552,
+    "text": "Here we go again!"
+   },
+   "okay-stopping-now-081cae": {
+    "file": "audio/voice/bear/okay-stopping-now-081cae.mp3",
+    "ms": 1424,
+    "text": "Okay, stopping now!"
+   },
+   "freeze-30c707": {
+    "file": "audio/voice/bear/freeze-30c707.mp3",
+    "ms": 709,
+    "text": "Freeze!"
+   },
+   "all-stopped-d69c19": {
+    "file": "audio/voice/bear/all-stopped-d69c19.mp3",
+    "ms": 942,
+    "text": "All stopped!"
+   },
+   "pausing-66dfb0": {
+    "file": "audio/voice/bear/pausing-66dfb0.mp3",
+    "ms": 610,
+    "text": "Pausing!"
+   },
+   "and-back-we-go-d90072": {
+    "file": "audio/voice/bear/and-back-we-go-d90072.mp3",
+    "ms": 1216,
+    "text": "And back we go!"
+   },
+   "la-la-la-song-time-27b509": {
+    "file": "audio/voice/bear/la-la-la-song-time-27b509.mp3",
+    "ms": 1512,
+    "text": "La la la! Song time!"
+   },
+   "lets-sing-together-5f49a2": {
+    "file": "audio/voice/bear/lets-sing-together-5f49a2.mp3",
+    "ms": 1157,
+    "text": "Let's sing together!"
+   },
+   "boing-776514": {
+    "file": "audio/voice/bear/boing-776514.mp3",
+    "ms": 548,
+    "text": "Boing!"
+   },
+   "up-i-go-683968": {
+    "file": "audio/voice/bear/up-i-go-683968.mp3",
+    "ms": 890,
+    "text": "Up I go!"
+   },
+   "hop-hop-f16267": {
+    "file": "audio/voice/bear/hop-hop-f16267.mp3",
+    "ms": 702,
+    "text": "Hop hop!"
+   },
+   "wave-wave-b22730": {
+    "file": "audio/voice/bear/wave-wave-b22730.mp3",
+    "ms": 877,
+    "text": "Wave wave!"
+   },
+   "hiii-30c5a0": {
+    "file": "audio/voice/bear/hiii-30c5a0.mp3",
+    "ms": 565,
+    "text": "Hiii!"
+   },
+   "clap-clap-clap-261e22": {
+    "file": "audio/voice/bear/clap-clap-clap-261e22.mp3",
+    "ms": 1180,
+    "text": "Clap clap clap!"
+   },
+   "yay-60a9df": {
+    "file": "audio/voice/bear/yay-60a9df.mp3",
+    "ms": 495,
+    "text": "Yay!"
+   },
+   "wheee-25325b": {
+    "file": "audio/voice/bear/wheee-25325b.mp3",
+    "ms": 466,
+    "text": "Wheee!"
+   },
+   "round-and-round-fc9b13": {
+    "file": "audio/voice/bear/round-and-round-fc9b13.mp3",
+    "ms": 1412,
+    "text": "Round and round!"
+   },
+   "yawn-nap-time-zzz-e824a3": {
+    "file": "audio/voice/bear/yawn-nap-time-zzz-e824a3.mp3",
+    "ms": 2225,
+    "text": "Yawn... nap time. Zzz."
+   },
+   "night-night-zzz-ca9916": {
+    "file": "audio/voice/bear/night-night-zzz-ca9916.mp3",
+    "ms": 1675,
+    "text": "Night night... Zzz."
+   },
+   "im-awake-good-morning-688d93": {
+    "file": "audio/voice/bear/im-awake-good-morning-688d93.mp3",
+    "ms": 1507,
+    "text": "I'm awake! Good morning!"
+   },
+   "yawn-i-feel-sparkly-aef89b": {
+    "file": "audio/voice/bear/yawn-i-feel-sparkly-aef89b.mp3",
+    "ms": 1728,
+    "text": "Yawn! I feel sparkly!"
+   },
+   "im-already-awake-silly-735283": {
+    "file": "audio/voice/bear/im-already-awake-silly-735283.mp3",
+    "ms": 1517,
+    "text": "I'm already awake! Silly!"
+   },
+   "hee-hee-hee-3bf290": {
+    "file": "audio/voice/bear/hee-hee-hee-3bf290.mp3",
+    "ms": 948,
+    "text": "Hee hee hee!"
+   },
+   "ha-ha-that-tickles-e835d4": {
+    "file": "audio/voice/bear/ha-ha-that-tickles-e835d4.mp3",
+    "ms": 1403,
+    "text": "Ha ha! That tickles!"
+   },
+   "lets-play-pick-a-game-aebbde": {
+    "file": "audio/voice/bear/lets-play-pick-a-game-aebbde.mp3",
+    "ms": 1577,
+    "text": "Let's play! Pick a game!"
+   },
+   "game-time-8c22c0": {
+    "file": "audio/voice/bear/game-time-8c22c0.mp3",
+    "ms": 910,
+    "text": "Game time!"
+   },
+   "surprise-cd2a0f": {
+    "file": "audio/voice/bear/surprise-cd2a0f.mp3",
+    "ms": 900,
+    "text": "Surprise!"
+   },
+   "ta-da-5edd0f": {
+    "file": "audio/voice/bear/ta-da-5edd0f.mp3",
+    "ms": 727,
+    "text": "Ta-da!"
+   },
+   "hmm-i-dont-know-that-0bfc31": {
+    "file": "audio/voice/bear/hmm-i-dont-know-that-0bfc31.mp3",
+    "ms": 3175,
+    "text": "Hmm, I don't know that one yet. Try dance, sing or play!"
+   },
+   "ooh-i-can-dance-sing-ea6c89": {
+    "file": "audio/voice/bear/ooh-i-can-dance-sing-ea6c89.mp3",
+    "ms": 2552,
+    "text": "Ooh, I can dance, sing or play. Which one?"
+   },
+   "ooh-two-things-which-first-45a6e3": {
+    "file": "audio/voice/bear/ooh-two-things-which-first-45a6e3.mp3",
+    "ms": 2112,
+    "text": "Ooh, two things! Which first?"
+   },
+   "what-should-i-do-again-ccfded": {
+    "file": "audio/voice/bear/what-should-i-do-again-ccfded.mp3",
+    "ms": 2749,
+    "text": "What should I do again? Try dance!"
+   },
+   "faster-at-what-ask-me-c64725": {
+    "file": "audio/voice/bear/faster-at-what-ask-me-c64725.mp3",
+    "ms": 2540,
+    "text": "Faster at what? Ask me to dance first!"
+   },
+   "i-can-say-hello-thank-5c0eb1": {
+    "file": "audio/voice/bear/i-can-say-hello-thank-5c0eb1.mp3",
+    "ms": 2919,
+    "text": "I can say hello, thank you, good night, or roar!"
+   },
+   "thats-private-lets-keep-it-45b849": {
+    "file": "audio/voice/bear/thats-private-lets-keep-it-45b849.mp3",
+    "ms": 3173,
+    "text": "That's private. Let's keep it for your grown-up, okay?"
+   },
+   "zzz-say-wake-up-0b9377": {
+    "file": "audio/voice/bear/zzz-say-wake-up-0b9377.mp3",
+    "ms": 1774,
+    "text": "Zzz... (say \"wake up!\")"
+   },
+   "good-try-lets-try-another-14fdb9": {
+    "file": "audio/voice/bear/good-try-lets-try-another-14fdb9.mp3",
+    "ms": 1987,
+    "text": "Good try! Let's try another one."
+   },
+   "almost-try-again-d042f7": {
+    "file": "audio/voice/bear/almost-try-again-d042f7.mp3",
+    "ms": 1366,
+    "text": "Almost! Try again!"
+   },
+   "ooh-close-one-again-51a580": {
+    "file": "audio/voice/bear/ooh-close-one-again-51a580.mp3",
+    "ms": 1406,
+    "text": "Ooh, close one! Again?"
+   },
+   "yes-you-got-it-f1abac": {
+    "file": "audio/voice/bear/yes-you-got-it-f1abac.mp3",
+    "ms": 1128,
+    "text": "Yes! You got it!"
+   },
+   "wow-great-job-4e12a0": {
+    "file": "audio/voice/bear/wow-great-job-4e12a0.mp3",
+    "ms": 1214,
+    "text": "Wow, great job!"
+   },
+   "super-smart-2f3272": {
+    "file": "audio/voice/bear/super-smart-2f3272.mp3",
+    "ms": 1203,
+    "text": "Super smart!"
+   },
+   "brilliant-7ad24c": {
+    "file": "audio/voice/bear/brilliant-7ad24c.mp3",
+    "ms": 723,
+    "text": "Brilliant!"
+   },
+   "you-did-it-you-earned-000617": {
+    "file": "audio/voice/bear/you-did-it-you-earned-000617.mp3",
+    "ms": 2609,
+    "text": "You did it! You earned a shiny scale!"
+   },
+   "all-done-here-is-a-38d87d": {
+    "file": "audio/voice/bear/all-done-here-is-a-38d87d.mp3",
+    "ms": 2498,
+    "text": "All done! Here is a shiny scale!"
+   },
+   "im-getting-sleepy-time-to-92b665": {
+    "file": "audio/voice/bear/im-getting-sleepy-time-to-92b665.mp3",
+    "ms": 3592,
+    "text": "I'm getting sleepy... time to rest our eyes soon."
+   },
+   "sleepy-me-too-maybe-a-86013f": {
+    "file": "audio/voice/bear/sleepy-me-too-maybe-a-86013f.mp3",
+    "ms": 2736,
+    "text": "Sleepy? Me too. Maybe a quiet song?"
+   },
+   "bored-lets-play-a-game-80e7ad": {
+    "file": "audio/voice/bear/bored-lets-play-a-game-80e7ad.mp3",
+    "ms": 1669,
+    "text": "Bored? Let's play a game!"
+   },
+   "yay-happy-dance-be5c21": {
+    "file": "audio/voice/bear/yay-happy-dance-be5c21.mp3",
+    "ms": 1237,
+    "text": "Yay! Happy dance!"
+   },
+   "good-morning-sunshine-1f8045": {
+    "file": "audio/voice/bear/good-morning-sunshine-1f8045.mp3",
+    "ms": 1374,
+    "text": "Good morning, sunshine!"
+   },
+   "thank-you-you-are-so-a947f5": {
+    "file": "audio/voice/bear/thank-you-you-are-so-a947f5.mp3",
+    "ms": 1716,
+    "text": "Thank you! You are so kind."
+   },
+   "you-are-awesome-fa0a4b": {
+    "file": "audio/voice/bear/you-are-awesome-fa0a4b.mp3",
+    "ms": 953,
+    "text": "YOU are awesome!"
+   },
+   "lets-play-b4558e": {
+    "file": "audio/voice/bear/lets-play-b4558e.mp3",
+    "ms": 916,
+    "text": "Let's play!"
+   },
+   "bye-bye-wave-wave-fd62a7": {
+    "file": "audio/voice/bear/bye-bye-wave-wave-fd62a7.mp3",
+    "ms": 1391,
+    "text": "Bye bye! Wave wave!"
+   },
+   "i-can-do-it-and-220481": {
+    "file": "audio/voice/bear/i-can-do-it-and-220481.mp3",
+    "ms": 2030,
+    "text": "I can do it! And so can you!"
+   },
+   "happy-birthday-to-you-e20fe9": {
+    "file": "audio/voice/bear/happy-birthday-to-you-e20fe9.mp3",
+    "ms": 1435,
+    "text": "Happy birthday to you!"
+   },
+   "well-done-high-five-6c5164": {
+    "file": "audio/voice/bear/well-done-high-five-6c5164.mp3",
+    "ms": 1352,
+    "text": "Well done! High five!"
+   },
+   "rawr-that-was-a-tiny-f620d4": {
+    "file": "audio/voice/bear/rawr-that-was-a-tiny-f620d4.mp3",
+    "ms": 1867,
+    "text": "RAWR! ...that was a tiny roar."
+   },
+   "yay-we-sang-it-0e6868": {
+    "file": "audio/voice/bear/yay-we-sang-it-0e6868.mp3",
+    "ms": 1049,
+    "text": "Yay! We sang it!"
+   },
+   "fresh-start-hello-again-239539": {
+    "file": "audio/voice/bear/fresh-start-hello-again-239539.mp3",
+    "ms": 1627,
+    "text": "Fresh start! Hello again!"
+   },
+   "bye-bye-see-you-soon-1c111b": {
+    "file": "audio/voice/bear/bye-bye-see-you-soon-1c111b.mp3",
+    "ms": 1838,
+    "text": "Bye bye! See you soon!"
+   },
+   "who-says-this-3e59b5": {
+    "file": "audio/voice/bear/who-says-this-3e59b5.mp3",
+    "ms": 1126,
+    "text": "Who says this?"
+   },
+   "yes-4e9f35": {
+    "file": "audio/voice/bear/yes-4e9f35.mp3",
+    "ms": 582,
+    "text": "Yes!"
+   },
+   "your-turn-what-did-i-fe77aa": {
+    "file": "audio/voice/bear/your-turn-what-did-i-fe77aa.mp3",
+    "ms": 1917,
+    "text": "Your turn! What did I do?"
+   },
+   "good-try-watch-again-9d279f": {
+    "file": "audio/voice/bear/good-try-watch-again-9d279f.mp3",
+    "ms": 1414,
+    "text": "Good try! Watch again!"
+   },
+   "watch-closely-two-moves-e8c5f1": {
+    "file": "audio/voice/bear/watch-closely-two-moves-e8c5f1.mp3",
+    "ms": 2039,
+    "text": "Watch closely! Two moves!"
+   },
+   "pick-4-moves-then-press-a62a62": {
+    "file": "audio/voice/bear/pick-4-moves-then-press-a62a62.mp3",
+    "ms": 2249,
+    "text": "Pick 4 moves, then press Go!"
+   },
+   "pick-a-move-first-e585df": {
+    "file": "audio/voice/bear/pick-a-move-first-e585df.mp3",
+    "ms": 1193,
+    "text": "Pick a move first!"
+   },
+   "here-comes-your-dance-3a7d07": {
+    "file": "audio/voice/bear/here-comes-your-dance-3a7d07.mp3",
+    "ms": 1566,
+    "text": "Here comes YOUR dance!"
+   },
+   "ahh-all-calm-you-did-6c11d7": {
+    "file": "audio/voice/bear/ahh-all-calm-you-did-6c11d7.mp3",
+    "ms": 1874,
+    "text": "Ahh. All calm. You did great!"
+   },
+   "find-the-circle-b9a9df": {
+    "file": "audio/voice/bear/find-the-circle-b9a9df.mp3",
+    "ms": 1031,
+    "text": "Find the circle!"
+   },
+   "find-the-square-5d1bee": {
+    "file": "audio/voice/bear/find-the-square-5d1bee.mp3",
+    "ms": 1095,
+    "text": "Find the square!"
+   },
+   "find-the-triangle-0f93b5": {
+    "file": "audio/voice/bear/find-the-triangle-0f93b5.mp3",
+    "ms": 1196,
+    "text": "Find the triangle!"
+   },
+   "find-the-star-3cf9d1": {
+    "file": "audio/voice/bear/find-the-star-3cf9d1.mp3",
+    "ms": 1145,
+    "text": "Find the star!"
+   },
+   "find-the-heart-2b2341": {
+    "file": "audio/voice/bear/find-the-heart-2b2341.mp3",
+    "ms": 971,
+    "text": "Find the heart!"
+   },
+   "find-the-diamond-edb1bd": {
+    "file": "audio/voice/bear/find-the-diamond-edb1bd.mp3",
+    "ms": 1256,
+    "text": "Find the diamond!"
+   },
+   "lets-learn-the-alphabet-8199fc": {
+    "file": "audio/voice/bear/lets-learn-the-alphabet-8199fc.mp3",
+    "ms": 1677,
+    "text": "Let's learn the alphabet!"
+   },
+   "well-done-you-learned-the-4f039c": {
+    "file": "audio/voice/bear/well-done-you-learned-the-4f039c.mp3",
+    "ms": 2521,
+    "text": "Well done! You learned the whole alphabet!"
+   },
+   "a-for-apple-7d2d39": {
+    "file": "audio/voice/bear/a-for-apple-7d2d39.mp3",
+    "ms": 1040,
+    "text": "A for Apple."
+   },
+   "b-for-ball-44b671": {
+    "file": "audio/voice/bear/b-for-ball-44b671.mp3",
+    "ms": 1018,
+    "text": "B for Ball."
+   },
+   "c-for-cat-0a7128": {
+    "file": "audio/voice/bear/c-for-cat-0a7128.mp3",
+    "ms": 1090,
+    "text": "C for Cat."
+   },
+   "d-for-dog-312e11": {
+    "file": "audio/voice/bear/d-for-dog-312e11.mp3",
+    "ms": 1099,
+    "text": "D for Dog."
+   },
+   "e-for-elephant-9dcbe2": {
+    "file": "audio/voice/bear/e-for-elephant-9dcbe2.mp3",
+    "ms": 1051,
+    "text": "E for Elephant."
+   },
+   "f-for-fish-4be953": {
+    "file": "audio/voice/bear/f-for-fish-4be953.mp3",
+    "ms": 1126,
+    "text": "F for Fish."
+   },
+   "g-for-grapes-058e13": {
+    "file": "audio/voice/bear/g-for-grapes-058e13.mp3",
+    "ms": 1334,
+    "text": "G for Grapes."
+   },
+   "h-for-hat-e467a7": {
+    "file": "audio/voice/bear/h-for-hat-e467a7.mp3",
+    "ms": 1084,
+    "text": "H for Hat."
+   },
+   "i-for-ice-cream-6d8501": {
+    "file": "audio/voice/bear/i-for-ice-cream-6d8501.mp3",
+    "ms": 1495,
+    "text": "I for Ice cream."
+   },
+   "j-for-jar-c79ae6": {
+    "file": "audio/voice/bear/j-for-jar-c79ae6.mp3",
+    "ms": 1235,
+    "text": "J for Jar."
+   },
+   "k-for-kite-327825": {
+    "file": "audio/voice/bear/k-for-kite-327825.mp3",
+    "ms": 1086,
+    "text": "K for Kite."
+   },
+   "l-for-lion-4e0b53": {
+    "file": "audio/voice/bear/l-for-lion-4e0b53.mp3",
+    "ms": 1252,
+    "text": "L for Lion."
+   },
+   "m-for-moon-7d66a3": {
+    "file": "audio/voice/bear/m-for-moon-7d66a3.mp3",
+    "ms": 1047,
+    "text": "M for Moon."
+   },
+   "n-for-nest-0bf70f": {
+    "file": "audio/voice/bear/n-for-nest-0bf70f.mp3",
+    "ms": 1132,
+    "text": "N for Nest."
+   },
+   "o-for-orange-db806f": {
+    "file": "audio/voice/bear/o-for-orange-db806f.mp3",
+    "ms": 1197,
+    "text": "O for Orange."
+   },
+   "p-for-pig-660fb4": {
+    "file": "audio/voice/bear/p-for-pig-660fb4.mp3",
+    "ms": 1005,
+    "text": "P for Pig."
+   },
+   "q-for-queen-6266e3": {
+    "file": "audio/voice/bear/q-for-queen-6266e3.mp3",
+    "ms": 1324,
+    "text": "Q for Queen."
+   },
+   "r-for-rainbow-a3afbc": {
+    "file": "audio/voice/bear/r-for-rainbow-a3afbc.mp3",
+    "ms": 1374,
+    "text": "R for Rainbow."
+   },
+   "s-for-sun-261992": {
+    "file": "audio/voice/bear/s-for-sun-261992.mp3",
+    "ms": 1075,
+    "text": "S for Sun."
+   },
+   "t-for-tree-42ff66": {
+    "file": "audio/voice/bear/t-for-tree-42ff66.mp3",
+    "ms": 1075,
+    "text": "T for Tree."
+   },
+   "u-for-umbrella-b7317c": {
+    "file": "audio/voice/bear/u-for-umbrella-b7317c.mp3",
+    "ms": 1264,
+    "text": "U for Umbrella."
+   },
+   "v-for-van-efbb60": {
+    "file": "audio/voice/bear/v-for-van-efbb60.mp3",
+    "ms": 1107,
+    "text": "V for Van."
+   },
+   "w-for-whale-dcf5d0": {
+    "file": "audio/voice/bear/w-for-whale-dcf5d0.mp3",
+    "ms": 1360,
+    "text": "W for Whale."
+   },
+   "x-for-xylophone-6aa8e2": {
+    "file": "audio/voice/bear/x-for-xylophone-6aa8e2.mp3",
+    "ms": 1510,
+    "text": "X for Xylophone."
+   },
+   "y-for-yo-yo-d06333": {
+    "file": "audio/voice/bear/y-for-yo-yo-d06333.mp3",
+    "ms": 1222,
+    "text": "Y for Yo-yo."
+   },
+   "z-for-zebra-e44465": {
+    "file": "audio/voice/bear/z-for-zebra-e44465.mp3",
+    "ms": 1362,
+    "text": "Z for Zebra."
+   },
+   "hi-im-zora-the-dino-f28027": {
+    "file": "audio/voice/bear/hi-im-zora-the-dino-f28027.mp3",
+    "ms": 1752,
+    "text": "Hi! I'm Zora the dino!"
+   },
+   "hi-im-mimi-the-cat-013463": {
+    "file": "audio/voice/bear/hi-im-mimi-the-cat-013463.mp3",
+    "ms": 1650,
+    "text": "Hi! I'm Mimi the cat!"
+   },
+   "hi-im-bruno-the-dog-da1df1": {
+    "file": "audio/voice/bear/hi-im-bruno-the-dog-da1df1.mp3",
+    "ms": 1684,
+    "text": "Hi! I'm Bruno the dog!"
+   },
+   "hi-im-teddy-the-bear-7078c9": {
+    "file": "audio/voice/bear/hi-im-teddy-the-bear-7078c9.mp3",
+    "ms": 1543,
+    "text": "Hi! I'm Teddy the bear!"
+   },
+   "lets-sing-some-rhymes-675d8c": {
+    "file": "audio/voice/bear/lets-sing-some-rhymes-675d8c.mp3",
+    "ms": 1840,
+    "text": "Let's sing some rhymes!"
+   },
+   "yes-its-a-dog-0b7d47": {
+    "file": "audio/voice/bear/yes-its-a-dog-0b7d47.mp3",
+    "ms": 1076,
+    "text": "Yes! It's a dog!"
+   },
+   "yes-its-a-cat-f2a569": {
+    "file": "audio/voice/bear/yes-its-a-cat-f2a569.mp3",
+    "ms": 1054,
+    "text": "Yes! It's a cat!"
+   },
+   "yes-its-a-sheep-be2e94": {
+    "file": "audio/voice/bear/yes-its-a-sheep-be2e94.mp3",
+    "ms": 1060,
+    "text": "Yes! It's a sheep!"
+   },
+   "yes-its-a-goat-1c1e31": {
+    "file": "audio/voice/bear/yes-its-a-goat-1c1e31.mp3",
+    "ms": 1056,
+    "text": "Yes! It's a goat!"
+   },
+   "yes-its-a-horse-1d4ec6": {
+    "file": "audio/voice/bear/yes-its-a-horse-1d4ec6.mp3",
+    "ms": 1390,
+    "text": "Yes! It's a horse!"
+   },
+   "yes-its-a-rooster-f788a8": {
+    "file": "audio/voice/bear/yes-its-a-rooster-f788a8.mp3",
+    "ms": 1200,
+    "text": "Yes! It's a rooster!"
+   },
+   "yes-its-a-hen-1fc027": {
+    "file": "audio/voice/bear/yes-its-a-hen-1fc027.mp3",
+    "ms": 949,
+    "text": "Yes! It's a hen!"
+   },
+   "yes-its-a-frog-8cedf8": {
+    "file": "audio/voice/bear/yes-its-a-frog-8cedf8.mp3",
+    "ms": 1195,
+    "text": "Yes! It's a frog!"
+   },
+   "yes-its-a-lion-2d222b": {
+    "file": "audio/voice/bear/yes-its-a-lion-2d222b.mp3",
+    "ms": 1145,
+    "text": "Yes! It's a lion!"
+   },
+   "yes-its-an-elephant-ab26f0": {
+    "file": "audio/voice/bear/yes-its-an-elephant-ab26f0.mp3",
+    "ms": 1295,
+    "text": "Yes! It's an elephant!"
+   },
+   "yes-its-an-owl-ad91b4": {
+    "file": "audio/voice/bear/yes-its-an-owl-ad91b4.mp3",
+    "ms": 1107,
+    "text": "Yes! It's an owl!"
+   },
+   "dogs-wag-their-tails-when-308de1": {
+    "file": "audio/voice/bear/dogs-wag-their-tails-when-308de1.mp3",
+    "ms": 2914,
+    "text": "Dogs wag their tails when they are happy."
+   },
+   "cats-purr-when-they-feel-915989": {
+    "file": "audio/voice/bear/cats-purr-when-they-feel-915989.mp3",
+    "ms": 2379,
+    "text": "Cats purr when they feel cosy."
+   },
+   "sheep-have-soft-woolly-coats-2f3f13": {
+    "file": "audio/voice/bear/sheep-have-soft-woolly-coats-2f3f13.mp3",
+    "ms": 2021,
+    "text": "Sheep have soft, woolly coats."
+   },
+   "goats-are-great-at-climbing-10835f": {
+    "file": "audio/voice/bear/goats-are-great-at-climbing-10835f.mp3",
+    "ms": 1906,
+    "text": "Goats are great at climbing."
+   },
+   "horses-can-run-very-fast-b39372": {
+    "file": "audio/voice/bear/horses-can-run-very-fast-b39372.mp3",
+    "ms": 2259,
+    "text": "Horses can run very fast."
+   },
+   "roosters-crow-when-the-sun-5090d2": {
+    "file": "audio/voice/bear/roosters-crow-when-the-sun-5090d2.mp3",
+    "ms": 2230,
+    "text": "Roosters crow when the sun comes up."
+   },
+   "hens-lay-eggs-6dbbd8": {
+    "file": "audio/voice/bear/hens-lay-eggs-6dbbd8.mp3",
+    "ms": 1291,
+    "text": "Hens lay eggs."
+   },
+   "frogs-can-jump-really-far-02ac01": {
+    "file": "audio/voice/bear/frogs-can-jump-really-far-02ac01.mp3",
+    "ms": 1926,
+    "text": "Frogs can jump really far."
+   },
+   "a-lion-has-a-big-f54d5c": {
+    "file": "audio/voice/bear/a-lion-has-a-big-f54d5c.mp3",
+    "ms": 2139,
+    "text": "A lion has a big, fluffy mane."
+   },
+   "elephants-use-their-trunks-like-0e8edd": {
+    "file": "audio/voice/bear/elephants-use-their-trunks-like-0e8edd.mp3",
+    "ms": 2463,
+    "text": "Elephants use their trunks like a hand."
+   },
+   "owls-are-awake-at-night-e6aa9c": {
+    "file": "audio/voice/bear/owls-are-awake-at-night-e6aa9c.mp3",
+    "ms": 1643,
+    "text": "Owls are awake at night."
+   },
+   "lets-learn-animal-sounds-6d06b5": {
+    "file": "audio/voice/bear/lets-learn-animal-sounds-6d06b5.mp3",
+    "ms": 2014,
+    "text": "Let's learn animal sounds!"
+   },
+   "who-makes-this-noise-1c7cf8": {
+    "file": "audio/voice/bear/who-makes-this-noise-1c7cf8.mp3",
+    "ms": 1556,
+    "text": "Who makes this noise?"
+   },
+   "good-try-lets-listen-again-cc106a": {
+    "file": "audio/voice/bear/good-try-lets-listen-again-cc106a.mp3",
+    "ms": 1844,
+    "text": "Good try! Let's listen again."
+   },
+   "hi-friend-let-us-have-284f90": {
+    "file": "audio/voice/bear/hi-friend-let-us-have-284f90.mp3",
+    "ms": 1985,
+    "text": "Hi friend! Let us have a chat."
+   },
+   "pick-something-to-talk-about-299b45": {
+    "file": "audio/voice/bear/pick-something-to-talk-about-299b45.mp3",
+    "ms": 1723,
+    "text": "Pick something to talk about."
+   },
+   "this-tv-has-no-microphone-203413": {
+    "file": "audio/voice/bear/this-tv-has-no-microphone-203413.mp3",
+    "ms": 4851,
+    "text": "This TV has no microphone for me, so pick what you want to say with your remote."
+   },
+   "i-cannot-answer-that-one-3f4723": {
+    "file": "audio/voice/bear/i-cannot-answer-that-one-3f4723.mp3",
+    "ms": 3403,
+    "text": "I cannot answer that one yet. Try one of the buttons!"
+   },
+   "yes-let-us-learn-about-be1973": {
+    "file": "audio/voice/bear/yes-let-us-learn-about-be1973.mp3",
+    "ms": 2189,
+    "text": "Yes! Let us learn about animals!"
+   },
+   "a-dog-says-bow-wow-1954ca": {
+    "file": "audio/voice/bear/a-dog-says-bow-wow-1954ca.mp3",
+    "ms": 1851,
+    "text": "A dog says bow wow."
+   },
+   "a-cat-says-meow-6886f9": {
+    "file": "audio/voice/bear/a-cat-says-meow-6886f9.mp3",
+    "ms": 1589,
+    "text": "A cat says meow."
+   },
+   "shall-we-play-animal-sounds-b85546": {
+    "file": "audio/voice/bear/shall-we-play-animal-sounds-b85546.mp3",
+    "ms": 2261,
+    "text": "Shall we play Animal Sounds?"
+   },
+   "yes-count-with-me-c91311": {
+    "file": "audio/voice/bear/yes-count-with-me-c91311.mp3",
+    "ms": 1401,
+    "text": "Yes! Count with me!"
+   },
+   "one-ba2719": {
+    "file": "audio/voice/bear/one-ba2719.mp3",
+    "ms": 434,
+    "text": "One."
+   },
+   "two-be2488": {
+    "file": "audio/voice/bear/two-be2488.mp3",
+    "ms": 403,
+    "text": "Two."
+   },
+   "three-888603": {
+    "file": "audio/voice/bear/three-888603.mp3",
+    "ms": 515,
+    "text": "Three."
+   },
+   "four-2f69f5": {
+    "file": "audio/voice/bear/four-2f69f5.mp3",
+    "ms": 592,
+    "text": "Four."
+   },
+   "five-aeb443": {
+    "file": "audio/voice/bear/five-aeb443.mp3",
+    "ms": 606,
+    "text": "Five!"
+   },
+   "great-counting-76a82d": {
+    "file": "audio/voice/bear/great-counting-76a82d.mp3",
+    "ms": 954,
+    "text": "Great counting!"
+   },
+   "my-favourite-colour-is-orange-8d2108": {
+    "file": "audio/voice/bear/my-favourite-colour-is-orange-8d2108.mp3",
+    "ms": 3248,
+    "text": "My favourite colour is orange, like my scales!"
+   },
+   "what-is-your-favourite-colour-ece3ff": {
+    "file": "audio/voice/bear/what-is-your-favourite-colour-ece3ff.mp3",
+    "ms": 1679,
+    "text": "What is your favourite colour?"
+   },
+   "yes-let-us-dance-together-922159": {
+    "file": "audio/voice/bear/yes-let-us-dance-together-922159.mp3",
+    "ms": 1792,
+    "text": "Yes! Let us dance together!"
+   },
+   "yes-please-let-us-sing-b5a2dd": {
+    "file": "audio/voice/bear/yes-please-let-us-sing-b5a2dd.mp3",
+    "ms": 2280,
+    "text": "Yes please! Let us sing a rhyme."
+   },
+   "press-an-instrument-to-play-eccdb8": {
+    "file": "audio/voice/bear/press-an-instrument-to-play-eccdb8.mp3",
+    "ms": 1961,
+    "text": "Press an instrument to play it!"
+   },
+   "watch-zora-2f3cbf": {
+    "file": "audio/voice/bear/watch-zora-2f3cbf.mp3",
+    "ms": 1030,
+    "text": "Watch Zora!"
+   },
+   "watch-mimi-fac1e6": {
+    "file": "audio/voice/bear/watch-mimi-fac1e6.mp3",
+    "ms": 933,
+    "text": "Watch Mimi!"
+   },
+   "watch-bruno-20a7a2": {
+    "file": "audio/voice/bear/watch-bruno-20a7a2.mp3",
+    "ms": 1022,
+    "text": "Watch Bruno!"
+   },
+   "watch-teddy-9889ae": {
+    "file": "audio/voice/bear/watch-teddy-9889ae.mp3",
+    "ms": 950,
+    "text": "Watch Teddy!"
+   },
+   "hi-im-zora-want-to-e24e3f": {
+    "file": "audio/voice/bear/hi-im-zora-want-to-e24e3f.mp3",
+    "ms": 2173,
+    "text": "Hi! I'm Zora! Want to play?"
+   },
+   "zoras-here-pick-something-fun-a37501": {
+    "file": "audio/voice/bear/zoras-here-pick-something-fun-a37501.mp3",
+    "ms": 2055,
+    "text": "Zora's here! Pick something fun!"
+   },
+   "hi-im-mimi-want-to-18331f": {
+    "file": "audio/voice/bear/hi-im-mimi-want-to-18331f.mp3",
+    "ms": 1794,
+    "text": "Hi! I'm Mimi! Want to play?"
+   },
+   "mimis-here-pick-something-fun-487378": {
+    "file": "audio/voice/bear/mimis-here-pick-something-fun-487378.mp3",
+    "ms": 2079,
+    "text": "Mimi's here! Pick something fun!"
+   },
+   "hi-im-bruno-want-to-5a42ed": {
+    "file": "audio/voice/bear/hi-im-bruno-want-to-5a42ed.mp3",
+    "ms": 2021,
+    "text": "Hi! I'm Bruno! Want to play?"
+   },
+   "brunos-here-pick-something-fun-6dbf75": {
+    "file": "audio/voice/bear/brunos-here-pick-something-fun-6dbf75.mp3",
+    "ms": 2112,
+    "text": "Bruno's here! Pick something fun!"
+   },
+   "hi-im-teddy-want-to-7a574b": {
+    "file": "audio/voice/bear/hi-im-teddy-want-to-7a574b.mp3",
+    "ms": 1787,
+    "text": "Hi! I'm Teddy! Want to play?"
+   },
+   "teddys-here-pick-something-fun-d567cc": {
+    "file": "audio/voice/bear/teddys-here-pick-something-fun-d567cc.mp3",
+    "ms": 2082,
+    "text": "Teddy's here! Pick something fun!"
+   },
+   "hello-hello-my-friend-e37bee": {
+    "file": "audio/voice/bear/hello-hello-my-friend-e37bee.mp3",
+    "ms": 1643,
+    "text": "Hello! Hello, my friend!"
+   },
+   "im-sorry-youre-feeling-sad-976399": {
+    "file": "audio/voice/bear/im-sorry-youre-feeling-sad-976399.mp3",
+    "ms": 4797,
+    "text": "I'm sorry you're feeling sad. Want to take a deep breath, or play a little game?"
+   },
+   "why-did-the-cat-sit-6765d1": {
+    "file": "audio/voice/bear/why-did-the-cat-sit-6765d1.mp3",
+    "ms": 2785,
+    "text": "Why did the cat sit on the computer?"
+   },
+   "to-watch-the-mouse-fd9bfe": {
+    "file": "audio/voice/bear/to-watch-the-mouse-fd9bfe.mp3",
+    "ms": 1544,
+    "text": "To watch the mouse!"
+   },
+   "what-is-a-puppys-favorite-c81608": {
+    "file": "audio/voice/bear/what-is-a-puppys-favorite-c81608.mp3",
+    "ms": 2899,
+    "text": "What is a puppy's favorite snack?"
+   },
+   "pup-corn-bb29c1": {
+    "file": "audio/voice/bear/pup-corn-bb29c1.mp3",
+    "ms": 1017,
+    "text": "Pup-corn!"
+   },
+   "why-did-the-chicken-cross-ae9e0a": {
+    "file": "audio/voice/bear/why-did-the-chicken-cross-ae9e0a.mp3",
+    "ms": 2439,
+    "text": "Why did the chicken cross the road?"
+   },
+   "to-get-to-the-other-2b7928": {
+    "file": "audio/voice/bear/to-get-to-the-other-2b7928.mp3",
+    "ms": 1794,
+    "text": "To get to the other side!"
+   },
+   "what-do-you-call-a-27991f": {
+    "file": "audio/voice/bear/what-do-you-call-a-27991f.mp3",
+    "ms": 3189,
+    "text": "What do you call a bear with no teeth?"
+   },
+   "a-gummy-bear-35acfa": {
+    "file": "audio/voice/bear/a-gummy-bear-35acfa.mp3",
+    "ms": 1238,
+    "text": "A gummy bear!"
+   },
+   "what-goes-up-when-the-d84ba1": {
+    "file": "audio/voice/bear/what-goes-up-when-the-d84ba1.mp3",
+    "ms": 2820,
+    "text": "What goes up when the rain comes down?"
+   },
+   "an-umbrella-6031d3": {
+    "file": "audio/voice/bear/an-umbrella-6031d3.mp3",
+    "ms": 923,
+    "text": "An umbrella!"
+   },
+   "my-favourite-colour-is-pink-911a62": {
+    "file": "audio/voice/bear/my-favourite-colour-is-pink-911a62.mp3",
+    "ms": 3633,
+    "text": "My favourite colour is pink, like my little nose!"
+   },
+   "my-favourite-colour-is-brown-2b7933": {
+    "file": "audio/voice/bear/my-favourite-colour-is-brown-2b7933.mp3",
+    "ms": 3988,
+    "text": "My favourite colour is brown, like my floppy ears!"
+   },
+   "my-favourite-colour-is-yellow-c0fbfb": {
+    "file": "audio/voice/bear/my-favourite-colour-is-yellow-c0fbfb.mp3",
+    "ms": 3144,
+    "text": "My favourite colour is yellow, like sweet honey!"
+   },
+   "milos-lullaby-1dcb65": {
+    "file": "audio/voice/bear/milos-lullaby-1dcb65.mp3",
+    "ms": 1538,
+    "text": "Milo's Lullaby"
+   },
+   "milos-robot-smiley-188129": {
+    "file": "audio/voice/bear/milos-robot-smiley-188129.mp3",
+    "ms": 1835,
+    "text": "Milo's Robot Smiley"
+   },
+   "march-with-milo-76ee44": {
+    "file": "audio/voice/bear/march-with-milo-76ee44.mp3",
+    "ms": 1356,
+    "text": "March with Milo"
+   },
+   "float-like-a-feather-94f007": {
+    "file": "audio/voice/bear/float-like-a-feather-94f007.mp3",
+    "ms": 1334,
+    "text": "Float Like a Feather"
+   },
+   "milos-dragon-tap-57eb43": {
+    "file": "audio/voice/bear/milos-dragon-tap-57eb43.mp3",
+    "ms": 1511,
+    "text": "Milo's Dragon Tap"
+   },
+   "pick-any-one-of-these-37872e": {
+    "file": "audio/voice/bear/pick-any-one-of-these-37872e.mp3",
+    "ms": 1316,
+    "text": "Pick any one of these!"
+   },
+   "what-is-yellow-and-goes-e11491": {
+    "file": "audio/voice/bear/what-is-yellow-and-goes-e11491.mp3",
+    "ms": 2823,
+    "text": "What is yellow and goes beep beep?"
+   },
+   "a-taxi-e8dba1": {
+    "file": "audio/voice/bear/a-taxi-e8dba1.mp3",
+    "ms": 1011,
+    "text": "A taxi!"
+   },
+   "what-has-a-head-a-30956f": {
+    "file": "audio/voice/bear/what-has-a-head-a-30956f.mp3",
+    "ms": 2934,
+    "text": "What has a head, a tail, but no body?"
+   },
+   "a-coin-700b66": {
+    "file": "audio/voice/bear/a-coin-700b66.mp3",
+    "ms": 1012,
+    "text": "A coin!"
+   },
+   "close-your-eyes-dream-of-23a5b1": {
+    "file": "audio/voice/bear/close-your-eyes-dream-of-23a5b1.mp3",
+    "ms": 2503,
+    "text": "Close your eyes. Dream of the moon."
+   },
+   "soft-blanket-snug-and-warm-2b6289": {
+    "file": "audio/voice/bear/soft-blanket-snug-and-warm-2b6289.mp3",
+    "ms": 2488,
+    "text": "Soft blanket, snug and warm."
+   },
+   "slow-breaths-one-two-three-15bcbc": {
+    "file": "audio/voice/bear/slow-breaths-one-two-three-15bcbc.mp3",
+    "ms": 3008,
+    "text": "Slow breaths, one, two, three."
+   },
+   "stars-twinkle-night-is-here-dda919": {
+    "file": "audio/voice/bear/stars-twinkle-night-is-here-dda919.mp3",
+    "ms": 2225,
+    "text": "Stars twinkle, night is here."
+   },
+   "moon-is-bright-it-guides-b1a7db": {
+    "file": "audio/voice/bear/moon-is-bright-it-guides-b1a7db.mp3",
+    "ms": 2513,
+    "text": "Moon is bright, it guides us."
+   },
+   "dogs-love-to-play-fetch-25b3e4": {
+    "file": "audio/voice/bear/dogs-love-to-play-fetch-25b3e4.mp3",
+    "ms": 2278,
+    "text": "Dogs love to play fetch."
+   },
+   "cats-like-to-nap-all-d05619": {
+    "file": "audio/voice/bear/cats-like-to-nap-all-d05619.mp3",
+    "ms": 1982,
+    "text": "Cats like to nap all day."
+   },
+   "sheep-like-to-munch-grass-80b000": {
+    "file": "audio/voice/bear/sheep-like-to-munch-grass-80b000.mp3",
+    "ms": 1910,
+    "text": "Sheep like to munch grass."
+   },
+   "goats-love-to-eat-leaves-ea6788": {
+    "file": "audio/voice/bear/goats-love-to-eat-leaves-ea6788.mp3",
+    "ms": 1994,
+    "text": "Goats love to eat leaves."
+   },
+   "horses-love-to-run-free-03c0b9": {
+    "file": "audio/voice/bear/horses-love-to-run-free-03c0b9.mp3",
+    "ms": 1807,
+    "text": "Horses love to run free."
+   },
+   "what-is-your-favourite-toy-698c08": {
+    "file": "audio/voice/bear/what-is-your-favourite-toy-698c08.mp3",
+    "ms": 3384,
+    "text": "What is your favourite toy? Mine is a teddy bear."
+   },
+   "are-you-happy-today-i-16c843": {
+    "file": "audio/voice/bear/are-you-happy-today-i-16c843.mp3",
+    "ms": 2916,
+    "text": "Are you happy today? I feel happy too!"
+   },
+   "lets-be-kind-to-our-8fbbf5": {
+    "file": "audio/voice/bear/lets-be-kind-to-our-8fbbf5.mp3",
+    "ms": 4416,
+    "text": "Let's be kind to our friends. Kindness makes the world bright."
+   },
+   "helping-at-home-is-fun-3dfed9": {
+    "file": "audio/voice/bear/helping-at-home-is-fun-3dfed9.mp3",
+    "ms": 3712,
+    "text": "Helping at home is fun. Can you help pick up toys?"
+   },
+   "playing-outside-is-so-much-442979": {
+    "file": "audio/voice/bear/playing-outside-is-so-much-442979.mp3",
+    "ms": 4530,
+    "text": "Playing outside is so much fun! What is your favourite game?"
+   },
+   "ha-ha-ha-ha-348e20": {
+    "file": "audio/voice/bear/ha-ha-ha-ha-348e20.mp3",
+    "ms": 1023,
+    "text": "Ha, ha, ha, ha!"
+   },
+   "why-did-the-scarecrow-win-74c110": {
+    "file": "audio/voice/bear/why-did-the-scarecrow-win-74c110.mp3",
+    "ms": 2524,
+    "text": "Why did the scarecrow win an award?"
+   },
+   "because-he-was-outstanding-in-e1c564": {
+    "file": "audio/voice/bear/because-he-was-outstanding-in-e1c564.mp3",
+    "ms": 2976,
+    "text": "Because he was outstanding in his field!"
+   },
+   "what-do-you-call-a-334955": {
+    "file": "audio/voice/bear/what-do-you-call-a-334955.mp3",
+    "ms": 3508,
+    "text": "What do you call a bear with no socks?"
+   },
+   "barefoot-3c3e26": {
+    "file": "audio/voice/bear/barefoot-3c3e26.mp3",
+    "ms": 928,
+    "text": "Barefoot!"
+   },
+   "why-did-the-bicycle-fall-35b1ba": {
+    "file": "audio/voice/bear/why-did-the-bicycle-fall-35b1ba.mp3",
+    "ms": 2481,
+    "text": "Why did the bicycle fall over?"
+   },
+   "it-was-two-tired-aa1a4b": {
+    "file": "audio/voice/bear/it-was-two-tired-aa1a4b.mp3",
+    "ms": 1540,
+    "text": "It was two tired!"
+   },
+   "what-do-you-call-a-3013f7": {
+    "file": "audio/voice/bear/what-do-you-call-a-3013f7.mp3",
+    "ms": 2393,
+    "text": "What do you call a fake noodle?"
+   },
+   "an-impasta-c7a615": {
+    "file": "audio/voice/bear/an-impasta-c7a615.mp3",
+    "ms": 1235,
+    "text": "An impasta!"
+   },
+   "why-did-the-cookie-go-605bc1": {
+    "file": "audio/voice/bear/why-did-the-cookie-go-605bc1.mp3",
+    "ms": 2839,
+    "text": "Why did the cookie go to the nurse?"
+   },
+   "because-it-felt-crummy-e6d0f6": {
+    "file": "audio/voice/bear/because-it-felt-crummy-e6d0f6.mp3",
+    "ms": 1687,
+    "text": "Because it felt crummy!"
+   },
+   "why-did-the-tomato-turn-39e6ee": {
+    "file": "audio/voice/bear/why-did-the-tomato-turn-39e6ee.mp3",
+    "ms": 2258,
+    "text": "Why did the tomato turn red?"
+   },
+   "because-it-saw-the-salad-d4ed1a": {
+    "file": "audio/voice/bear/because-it-saw-the-salad-d4ed1a.mp3",
+    "ms": 2557,
+    "text": "Because it saw the salad dressing!"
+   },
+   "what-do-you-call-a-0972e5": {
+    "file": "audio/voice/bear/what-do-you-call-a-0972e5.mp3",
+    "ms": 3796,
+    "text": "What do you call a duck that gets all A's?"
+   },
+   "a-wise-quacker-f8c83b": {
+    "file": "audio/voice/bear/a-wise-quacker-f8c83b.mp3",
+    "ms": 1368,
+    "text": "A wise quacker!"
+   },
+   "what-did-the-zero-say-db7f34": {
+    "file": "audio/voice/bear/what-did-the-zero-say-db7f34.mp3",
+    "ms": 3119,
+    "text": "What did the zero say to the eight?"
+   },
+   "nice-belt-d66466": {
+    "file": "audio/voice/bear/nice-belt-d66466.mp3",
+    "ms": 1153,
+    "text": "Nice belt!"
+   },
+   "why-did-the-music-teacher-54410a": {
+    "file": "audio/voice/bear/why-did-the-music-teacher-54410a.mp3",
+    "ms": 2732,
+    "text": "Why did the music teacher need a ladder?"
+   },
+   "to-reach-the-high-notes-87105f": {
+    "file": "audio/voice/bear/to-reach-the-high-notes-87105f.mp3",
+    "ms": 1978,
+    "text": "To reach the high notes!"
+   },
+   "why-do-bees-have-sticky-465318": {
+    "file": "audio/voice/bear/why-do-bees-have-sticky-465318.mp3",
+    "ms": 2460,
+    "text": "Why do bees have sticky hair?"
+   },
+   "because-they-use-honeycombs-eb3988": {
+    "file": "audio/voice/bear/because-they-use-honeycombs-eb3988.mp3",
+    "ms": 2310,
+    "text": "Because they use honeycombs!"
+   },
+   "what-do-you-call-a-04e2a0": {
+    "file": "audio/voice/bear/what-do-you-call-a-04e2a0.mp3",
+    "ms": 3493,
+    "text": "What do you call a bear with no ears?"
+   },
+   "b-e70c2d": {
+    "file": "audio/voice/bear/b-e70c2d.mp3",
+    "ms": 568,
+    "text": "B!"
+   },
+   "floaty-dance-66ae4f": {
+    "file": "audio/voice/bear/floaty-dance-66ae4f.mp3",
+    "ms": 1183,
+    "text": "Floaty dance..."
+   },
+   "i-can-dance-sing-play-f709d1": {
+    "file": "audio/voice/bear/i-can-dance-sing-play-f709d1.mp3",
+    "ms": 4005,
+    "text": "I can dance, sing, play games, and take big calm breaths!"
+   },
+   "lets-take-calm-breaths-in-06b888": {
+    "file": "audio/voice/bear/lets-take-calm-breaths-in-06b888.mp3",
+    "ms": 2818,
+    "text": "Let's take calm breaths. In... and out."
+   },
+   "its-okay-to-feel-scared-6e2919": {
+    "file": "audio/voice/bear/its-okay-to-feel-scared-6e2919.mp3",
+    "ms": 5745,
+    "text": "It's okay to feel scared. A grown-up can help too. Shall we take a slow, calm breath?"
+   },
+   "feeling-grumpy-is-okay-lets-13ef9d": {
+    "file": "audio/voice/bear/feeling-grumpy-is-okay-lets-13ef9d.mp3",
+    "ms": 4478,
+    "text": "Feeling grumpy is okay. Let's blow it out with a big calm breath!"
+   },
+   "good-night-sweet-dreams-549bd1": {
+    "file": "audio/voice/bear/good-night-sweet-dreams-549bd1.mp3",
+    "ms": 2140,
+    "text": "Good night! Sweet dreams."
+   },
+   "aww-big-warm-hug-bd363b": {
+    "file": "audio/voice/bear/aww-big-warm-hug-bd363b.mp3",
+    "ms": 1584,
+    "text": "Aww! Big warm hug!"
+   },
+   "breathe-in-through-your-nose-13241c": {
+    "file": "audio/voice/bear/breathe-in-through-your-nose-13241c.mp3",
+    "ms": 2706,
+    "text": "Breathe in through your nose... and blow out slowly."
+   }
+  }
+ },
+ "generatedWith": {
+  "engine": "piper",
+  "voice": "piper-en_US-ljspeech-medium",
+  "model": "en_US-ljspeech-medium.onnx"
+ }
+}
