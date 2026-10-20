@@ -70,6 +70,9 @@ export type CharacterState =
   | 'TAILCHASE'
   | 'BEARHUG'
   | 'BOUNCING'
+  // the Band: how the buddy plays each instrument (see INSTRUMENT_STATE in band.ts)
+  | 'PLAY_PIANO' | 'PLAY_GUITAR' | 'PLAY_XYLO' | 'PLAY_TRUMPET' | 'PLAY_DRUM'
+  | 'PLAY_FLUTE' | 'PLAY_HARP' | 'PLAY_MARACAS' | 'PLAY_BELLS' | 'PLAY_TAMBOURINE'
   | 'SLEEPING'
   | 'CELEBRATING'
   | 'CONFUSED'

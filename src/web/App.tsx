@@ -11,6 +11,7 @@ import { FocusMemory, ensureFocus, nextInDirection, toRemoteKey } from './focus.
 import { IntroCast, PartyBalloons, Scale } from './icons.tsx';
 import { Buddy } from './Milo3D.tsx';
 import { audioChannel } from './audioFlow.ts';
+import { rhymeBeatAction, isRhymeActionState } from '../core/rhymeActions.ts';
 import { revealInScroller } from './screens.tsx';
 import { Alphabets, Band, AvatarPicker, AnimalGuess, Breathe, Dance, DanceMaker, Diagnostics, Help, Home, Parents, Play, Rhymes, ShapeMatch, SimonSays, Talk } from './screens.tsx';
 import { Btn, INTENT_PHRASE, type Ctx, type RhymeState, type Settings } from './ui.tsx';
@@ -104,6 +105,7 @@ export function App() {
   const pid = useRef(0);
   const screenRef = useRef(screen);
   const sessionStart = useRef(performance.now());
+  const byeing = useRef(false);
   const lastBack = useRef(0);
   const holdStart = useRef(0);
   const holdTimer = useRef<ReturnType<typeof setInterval> | null>(null);
@@ -347,12 +349,50 @@ export function App() {
   syncMusicRef.current = syncMusic;
   useEffect(() => { syncMusic(); }, [screen, settings.sound, welcomeDone, syncMusic]);
 
+  /* ---------- rhyme actions: while a song plays, the buddy does what the line says (clap, sway, reach up...) ---------- */
+  const rhymeLineSeen = useRef(-2);
+  const rhymeSpecialUntil = useRef(0);
+  const syncRhymeAction = useCallback((now: number) => {
+    const m = brain.machine;
+    const st = m.snapshot.state;
+    const timing = audio.rhymeTiming;
+    if (brain.rhymeActive && timing && audio.getPlaybackState() === 'playing' && audio.rhymeClip.status === 'playing') {
+      const li = audio.rhymeLine();
+      const ln = timing.lines[li];
+      if (!ln) return;
+      // The line is cut into ~1.7 s beats; every beat gets a move, so the buddy never stands still while singing.
+      const seg = Math.max(0, Math.floor((audio.rhymeClip.time - ln.start) / 1.7));
+      const key = li * 10 + Math.min(seg, 9);
+      if (key === rhymeLineSeen.current) return;
+      rhymeLineSeen.current = key;
+      if (st !== 'SINGING' && !isRhymeActionState(st)) return;
+      if (now < rhymeSpecialUntil.current) return; // a special move (flying round, a somersault...) is allowed to finish
+      const special = AVATARS[avatarRef.current].special;
+      const beats = Math.max(1, Math.round((ln.end - ln.start) / 1.7));
+      // Once every four lines (and on the last), the buddy does its own special move: Zora flies round, Mimi somersaults, Bruno chases its tail, Teddy hugs.
+      if (seg === 0 && li % 4 === 2 && ln.end - ln.start >= special.ms / 1000 * 0.55) {
+        rhymeSpecialUntil.current = now + special.ms;
+        m.enter(special.state, now, { durationMs: special.ms, returnTo: 'SINGING' });
+        return;
+      }
+      const act = rhymeBeatAction(ln.text, li, seg);
+      const ms = Math.max(900, Math.min(3800, (ln.end - ln.start) * 1000 / beats - 100));
+      m.enter(act, now, { durationMs: ms, returnTo: 'SINGING' });
+      return;
+    }
+    rhymeLineSeen.current = -2;
+    rhymeSpecialUntil.current = 0;
+    // The song stopped while a line's action was showing: do not fall back into "singing" with no song.
+    if (!brain.rhymeActive && st === 'SINGING') m.enter('IDLE', now, {});
+  }, [brain]);
+
   /* ---------- clock: state machine ticks, dance music, wind-down ---------- */
   useEffect(() => {
     const id = setInterval(() => {
       const now = performance.now();
       const m = brain.machine;
       m.tick(now);
+      syncRhymeAction(now);
       if (audio.themePlaying) audio.enforceTheme(desiredTrack()); // never two musics at once
       const snap = m.snapshot;
       setCharState((c) => (c !== snap.state ? snap.state : c));
@@ -455,10 +495,16 @@ export function App() {
     if (parent !== 'exit') { go(parent); return; }
     const now = performance.now();
     if (now - lastBack.current < 2500) {
+      if (byeing.current) return; // already saying goodbye
+      byeing.current = true;
       say('Bye bye! See you soon!', 'happy');
-      brain.machine.enter('WAVING', now, { durationMs: 1800 });
+      brain.machine.enter('WAVING', now, { durationMs: 3800 });
       const rn = (window as unknown as { ReactNativeWebView?: { postMessage: (s: string) => void } }).ReactNativeWebView;
-      setTimeout(() => rn?.postMessage(JSON.stringify({ type: 'exit' })), 1200);
+      // Leave only once the whole sentence has been spoken (a fixed delay cut it off after "Bye bye! See..."), and not before the wave has been seen.
+      const leave = () => rn?.postMessage(JSON.stringify({ type: 'exit' }));
+      const minAt = performance.now() + 1600;
+      speech.whenIdle(() => setTimeout(leave, Math.max(250, minAt - performance.now())), 8000, 700);
+      setTimeout(() => { byeing.current = false; }, 12000); // if the app is still here (desktop browser), Back works again
       return;
     }
     lastBack.current = now;

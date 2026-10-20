@@ -260,11 +260,13 @@ export function AvatarFace2D({ avatar, size = 200 }: { avatar: AvatarId; size?: 
 }
 
 /**
- * A little full-body figure of the selected buddy doing the move (a pose, like an action emoji). The pose is static;
- * the move's animation plays when the card is hovered / focused with the remote (see styles.css, .demo-*).
+ * A little full-body picture of the selected buddy itself (the same drawing as the big character, shrunk) doing the move,
+ * like an action emoji. The pose is static; the move's animation plays when the card is hovered / focused with the remote
+ * (see styles.css, .demo-*). The arms, feet and whole figure are separate groups so those animations move them.
  */
 export function MoveDemo2D({ move, avatar, size = 120 }: { move: string; avatar: AvatarId; size?: number }) {
   const k = AVATARS[avatar].skin;
+  const uid = React.useId().replace(/:/g, '');
   const mark = (c: string) => ({ stroke: c, strokeWidth: 3.2, strokeLinecap: 'round' as const, fill: 'none' });
   const marks: Record<string, React.ReactNode> = {
     wave: <g className="fx-mark"><path d="M84 18 Q 92 26 84 34" {...mark('#2BB3A3')} /><path d="M90 12 Q 100 26 90 40" {...mark('#2BB3A3')} /></g>,
@@ -274,17 +276,56 @@ export function MoveDemo2D({ move, avatar, size = 120 }: { move: string; avatar:
     handsup: <g className="fx-mark"><path d="M14 18 l 0 8 M 10 22 l 8 0 M 88 12 l 0 8 M 84 16 l 8 0" {...mark('#F2B33D')} /><path d="M50 4 l 0 6" {...mark('#F2B33D')} /></g>,
     bounce: <g className="fx-mark"><path d="M24 106 Q 50 112 76 106" {...mark('#2BB3A3')} /><path d="M32 100 Q 50 105 68 100" {...mark('#2BB3A3')} /></g>,
   };
+  const mouthOpen = move === 'jump' || move === 'handsup' || move === 'wave';
+  // The big character's drawing (600 x 640) fitted into this 100 x 112 box.
+  const T = 'translate(3.5 9.1) scale(0.155)';
+  const ear = (side: 1 | -1) => {
+    const m = (v: number) => (side === 1 ? v : 600 - v);
+    if (k.ears === 'pointy') return <g><path d={`M${m(170)} 190 L ${m(190)} 40 L ${m(290)} 120 Z`} fill={k.crest} /><path d={`M${m(200)} 160 L ${m(208)} 82 L ${m(256)} 124 Z`} fill={k.inner} /></g>;
+    if (k.ears === 'floppy') return <g transform={`rotate(${side === 1 ? 16 : -16} ${m(200)} 150)`}><ellipse cx={m(176)} cy="190" rx="46" ry="96" fill={k.crest} /><ellipse cx={m(176)} cy="206" rx="26" ry="64" fill={k.inner} opacity="0.35" /></g>;
+    if (k.ears === 'round') return <g><circle cx={m(196)} cy="112" r="56" fill={k.crest} /><circle cx={m(196)} cy="112" r="30" fill={k.inner} /></g>;
+    return null;
+  };
+  const tail = k.tail === 'dino' ? <g><path d="M385 545 C 470 570, 530 530, 548 462 C 552 446, 536 440, 528 454 C 506 505, 462 522, 392 505 Z" fill={`url(#${uid}b)`} /><path d="M530 456 L 566 424 L 556 470 Z" fill="#2BB3A3" /><circle cx="500" cy="512" r="9" fill="#2BB3A3" /><circle cx="462" cy="530" r="8" fill="#2BB3A3" /></g>
+    : k.tail === 'cat' ? <g><path d="M390 540 C 500 560, 560 500, 540 410 C 536 392, 512 396, 516 414 C 530 480, 480 520, 392 506 Z" fill={`url(#${uid}b)`} /><path d="M540 410 C 536 392, 512 396, 516 414 C 518 430, 524 440, 530 448 Z" fill={k.bodyDark} /></g>
+    : k.tail === 'dog' ? <g><path d="M388 535 C 450 545, 520 500, 534 440 C 538 424, 514 420, 508 438 C 492 486, 450 506, 392 502 Z" fill={`url(#${uid}b)`} /></g>
+    : <circle cx="420" cy="540" r="38" fill={`url(#${uid}b)`} />;
+  const wing = <path d="M240 385 C 185 340, 130 310, 100 250 C 140 262, 160 252, 172 236 C 182 268, 206 280, 214 292 C 226 312, 242 340, 252 372 Z" fill="#3FC8B8" />;
   return (
     <div className={`demo demo-${move}`} style={{ width: size, height: size }} aria-hidden="true">
       <svg viewBox="0 0 100 112" width={size} height={size}>
+        <defs><clipPath id={`${uid}c`}><ellipse cx="300" cy="232" rx="178" ry="152" /></clipPath><radialGradient id={`${uid}b`} cx="38%" cy="30%" r="75%"><stop offset="0%" stopColor={k.bodyLight} /><stop offset="60%" stopColor={k.bodyMid} /><stop offset="100%" stopColor={k.bodyDark} /></radialGradient></defs>
         {marks[move]}
         <g className="fg">
-          <g className="f-legL"><rect x="38" y="88" width="9" height="16" rx="4.5" fill={k.arm} /><ellipse cx="42" cy="105" rx="7.5" ry="4" fill={k.feet} /></g>
-          <g className="f-legR"><rect x="53" y="88" width="9" height="16" rx="4.5" fill={k.arm} /><ellipse cx="58" cy="105" rx="7.5" ry="4" fill={k.feet} /></g>
-          <g className="f-armL"><rect x="28" y="60" width="8" height="25" rx="4" fill={k.arm} /><circle cx="32" cy="86" r="5" fill={k.hand} /></g>
-          <g className="f-armR"><rect x="64" y="60" width="8" height="25" rx="4" fill={k.arm} /><circle cx="68" cy="86" r="5" fill={k.hand} /></g>
-          <ellipse cx="50" cy="75" rx="19" ry="21" fill={k.bodyMid} /><ellipse cx="50" cy="79" rx="11" ry="14" fill={k.belly} />
-          <g transform="translate(17 0) scale(.66)"><AvatarFace2D avatar={avatar} size={100} /></g>
+          <g transform={T}>
+            <g className="f-tail">{tail}</g>
+            {k.wings && <><g className="f-wingL">{wing}</g><g className="f-wingR"><g transform="translate(600 0) scale(-1 1)">{wing}</g></g></>}
+            <ellipse cx="300" cy="470" rx="152" ry="142" fill={`url(#${uid}b)`} />
+            <ellipse className="f-back" cx="300" cy="480" rx="112" ry="112" fill={k.bodyDark} opacity="0.35" />
+            <g className="f-belly"><ellipse cx="300" cy="490" rx="96" ry="104" fill={k.belly} />
+            {k.face === 'dino' && [438, 478, 518, 556].map((y, i) => <path key={y} d={`M${300 - (80 - i * 8)} ${y} Q 300 ${y + 14} ${300 + (80 - i * 8)} ${y}`} stroke={k.bellyLine} strokeWidth="6" fill="none" strokeLinecap="round" />)}</g>
+          </g>
+          <g className="f-legL"><g transform={T}><ellipse cx="228" cy="596" rx="52" ry="28" fill={k.feet} />{[200, 226, 252].map((x) => <circle key={x} cx={x} cy="612" r="9" fill={k.hand} />)}</g></g>
+          <g className="f-legR"><g transform={T}><ellipse cx="372" cy="596" rx="52" ry="28" fill={k.feet} />{[346, 372, 398].map((x) => <circle key={x} cx={x} cy="612" r="9" fill={k.hand} />)}</g></g>
+          <g className="f-sw"><g className="f-armL"><g transform={T}><ellipse cx="190" cy="462" rx="27" ry="46" fill={k.arm} transform="rotate(14 190 462)" /><circle cx="181" cy="500" r="15" fill={k.hand} /></g></g></g>
+          <g className="f-sw"><g className="f-armR"><g transform={T}><ellipse cx="410" cy="462" rx="27" ry="46" fill={k.arm} transform="rotate(-14 410 462)" /><circle cx="419" cy="500" r="15" fill={k.hand} /></g></g></g>
+          <g transform={T}>
+            {k.horns && <g>{[[262, 96, 15], [300, 86, 18], [338, 96, 15]].map(([cx, cy, rr]) => <circle key={cx} cx={cx} cy={cy} r={rr} fill={k.crest} />)}<ellipse cx="208" cy="112" rx="22" ry="44" fill="#FFD48A" transform="rotate(-28 208 112)" /><ellipse cx="392" cy="112" rx="22" ry="44" fill="#FFD48A" transform="rotate(28 392 112)" /></g>}
+            {k.ears !== 'none' && <><g className="f-earL">{ear(1)}</g><g className="f-earR">{ear(-1)}</g></>}
+            <ellipse cx="300" cy="232" rx="168" ry="146" fill={`url(#${uid}b)`} />
+            <g className="f-cheekL" clipPath={`url(#${uid}c)`}><ellipse cx="185" cy="288" rx="28" ry="17" fill={k.cheek} opacity="0.55" /></g>
+            <g className="f-cheekR" clipPath={`url(#${uid}c)`}><ellipse cx="415" cy="288" rx="28" ry="17" fill={k.cheek} opacity="0.55" /></g>
+            <g className="f-face" clipPath={`url(#${uid}c)`}>
+            <ellipse cx="240" cy="222" rx="46" ry="54" fill="#fff" /><ellipse cx="360" cy="222" rx="46" ry="54" fill="#fff" />
+            <circle cx="246" cy="230" r="31" fill="#2A1B12" /><circle cx="354" cy="230" r="31" fill="#2A1B12" /><circle cx="256" cy="216" r="11" fill="#fff" /><circle cx="364" cy="216" r="11" fill="#fff" />
+            <ellipse cx="300" cy="300" rx={k.face === 'bear' ? 92 : 78} ry={k.face === 'bear' ? 58 : 48} fill={k.muzzle} />
+            {k.face === 'dino' && <><ellipse cx="282" cy="286" rx="7" ry="5" fill={k.nose} /><ellipse cx="318" cy="286" rx="7" ry="5" fill={k.nose} /></>}
+            {k.face === 'cat' && <><path d="M284 280 L 316 280 L 300 298 Z" fill={k.nose} /><path d="M130 270 L 215 284 M 126 300 L 214 298 M 470 270 L 385 284 M 474 300 L 386 298" stroke="#6F7890" strokeWidth="5" strokeLinecap="round" /></>}
+            {k.face === 'dog' && <ellipse cx="300" cy="284" rx="26" ry="19" fill={k.nose} />}
+            {k.face === 'bear' && <ellipse cx="300" cy="282" rx="24" ry="17" fill={k.nose} />}
+            {mouthOpen ? <path d="M260 314 Q 300 372 340 314 Q 300 328 260 314 Z" fill="#7A2E1A" /> : <path d="M262 318 Q 300 350 338 318" stroke="#5B2410" strokeWidth="9" fill="none" strokeLinecap="round" />}
+            </g>
+          </g>
         </g>
       </svg>
     </div>

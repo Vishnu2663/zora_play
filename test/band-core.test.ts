@@ -146,11 +146,11 @@ test('instruments: ten of them, each press plays the next note of the tune and w
 });
 
 test('band screen: instruments only (no step grid), three columns, every instrument has art and a sound', () => {
-  const band = src('src/web/Band.tsx'); const css = src('src/web/styles.css'); const audio = src('src/web/audio.ts');
+  const band = src('src/web/Band.tsx'); const art = src('src/web/instrumentArt.tsx'); const css = src('src/web/styles.css'); const audio = src('src/web/audio.ts');
   assert.ok(!/BAND_ROWS|toggleCell|Fill in the squares/.test(band), 'the fill-in-squares grid is gone');
   assert.match(css, /\.band-inst \{ grid-template-columns: repeat\(3, 1fr\)/);
   for (const i of INSTRUMENTS) {
-    assert.match(band, new RegExp(`\\b${i.id}: <g>`), `${i.id} has a picture`);
+    assert.match(art, new RegExp(`\\b${i.id}: <g>`), `${i.id} has a picture`);
     assert.match(audio, new RegExp(`case '${i.id}'`), `${i.id} has a sound`);
   }
 });

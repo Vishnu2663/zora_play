@@ -6,6 +6,7 @@ import React, { useEffect, useRef } from 'react';
 import type { CharacterMachine } from '../core/character.ts';
 import type { CharacterState, Mood } from '../core/types.ts';
 import { breathPhase } from '../core/games.ts';
+import { EAR_L, EAR_R, HORN_L, HORN_R, CHEEK_L, CHEEK_R, TAIL, WING_L, WING_R, orbitTransform, orbitFront, type Orbit } from './spin.ts';
 import { AVATARS, DEFAULT_AVATAR, type AvatarId } from '../core/avatars.ts';
 
 export type MouthKind = 'smile' | 'open' | 'o' | 'grin' | 'wobbly' | 'tiny';
@@ -17,6 +18,8 @@ export interface Pose {
   x: number; y: number; rot: number; sx: number; sy: number;
   /** Turn around the vertical axis, in radians (the 3D buddy really turns; the flat SVG one squashes sx instead). */
   yaw: number;
+  /** Flat buddy only: angle of a turn on the spot (radians). The flat drawing turns like a real body (face slides round to the side) instead of flipping like paper. */
+  spin: number;
   /** Tip forward / backward (a somersault), in radians. 3D only; the flat buddy turns in the plane instead. */
   pitch: number;
   head: number; tail: number; wing: number; armL: number; armR: number;
@@ -24,7 +27,7 @@ export interface Pose {
   lookX: number; lookY: number; mouthScale: number;
 }
 
-const BASE: Pose = { x: 0, y: 0, rot: 0, sx: 1, sy: 1, yaw: 0, pitch: 0, head: 0, tail: 0, wing: 0, armL: 12, armR: 12, belly: 1, mouth: 'smile', eyes: 'open', brows: 'none', lookX: 0, lookY: 0, mouthScale: 1 };
+const BASE: Pose = { x: 0, y: 0, rot: 0, sx: 1, sy: 1, yaw: 0, spin: 0, pitch: 0, head: 0, tail: 0, wing: 0, armL: 12, armR: 12, belly: 1, mouth: 'smile', eyes: 'open', brows: 'none', lookX: 0, lookY: 0, mouthScale: 1 };
 const TAU = Math.PI * 2;
 const S = Math.sin;
 
@@ -90,9 +93,8 @@ export function computePose(state: CharacterState, t: number, speed: number, sty
     case 'SPINNING': {
       if (reduced) { p.rot = S(t * 8) * 6; p.mouth = 'open'; break; }
       const turn = Math.min(t / 1.4, 1);
-      const c = Math.cos(turn * TAU);
       if (threeD) p.yaw = turn * TAU; // a real turn around the body
-      else p.sx = Math.sign(c || 1) * Math.max(0.08, Math.abs(c));
+      else { p.spin = turn * TAU; p.sx = 1 - 0.1 * Math.abs(Math.sin(p.spin)); }
       p.y = -S(turn * Math.PI) * 40;
       p.armL = 90; p.armR = 90; p.wing = 30; p.tail = 30; p.mouth = 'open'; p.eyes = 'happy';
       break;
@@ -118,7 +120,7 @@ export function computePose(state: CharacterState, t: number, speed: number, sty
     case 'TAILCHASE': { // Bruno: spins twice, faster and faster, with little hops and a wagging tail, then settles
       const u = Math.min(t / 2.8, 1);
       const turns = 2 * (u * u * (3 - 2 * u));
-      if (threeD) p.yaw = turns * TAU; else { const c = Math.cos(turns * TAU); p.sx = Math.sign(c || 1) * Math.max(0.08, Math.abs(c)); }
+      if (threeD) p.yaw = turns * TAU; else { p.spin = turns * TAU; p.sx = 1 - 0.1 * Math.abs(Math.sin(p.spin)); }
       p.y = -Math.abs(S(t * 9)) * 16 * k; p.tail = S(t * 26) * 38; p.armL = 50; p.armR = 50; p.mouth = 'open'; p.eyes = 'happy';
       break;
     }
@@ -153,6 +155,52 @@ export function computePose(state: CharacterState, t: number, speed: number, sty
       p.y = -ph * 26 * k; p.sy = 1 - (1 - ph) * 0.07; p.sx = 1 + (1 - ph) * 0.05; p.armL = 25 + ph * 20; p.armR = 25 + ph * 20; p.mouth = 'smile'; p.eyes = 'happy';
       break;
     }
+    // ---- the Band: each instrument has its own way of being played (the press restarts t at 0) ----
+    case 'PLAY_PIANO': { // both hands tap the keys in turn, head nodding, a little sway
+      const w = t * 15;
+      p.armL = -22 + 16 * S(w); p.armR = -22 - 16 * S(w); p.head = S(t * 6) * 9 * k; p.rot = S(t * 4) * 4 * k; p.y = -Math.abs(S(w)) * 5 * k;
+      p.mouth = 'smile'; p.eyes = 'happy'; break;
+    }
+    case 'PLAY_GUITAR': { // one hand on the neck, the other strums, swaying to the beat
+      p.armL = -48; p.armR = -12 + 38 * S(t * 17); p.rot = S(t * 5) * 7 * k; p.head = -6 + S(t * 5) * 6 * k; p.y = -Math.abs(S(t * 5)) * 8 * k;
+      p.tail = S(t * 8) * 24; p.mouth = 'open'; p.eyes = 'happy'; break;
+    }
+    case 'PLAY_XYLO': { // two mallets hitting quickly in turn
+      const w = t * 19;
+      p.armL = 30 + 52 * Math.max(0, S(w)); p.armR = 30 + 52 * Math.max(0, -S(w)); p.y = -Math.abs(S(w)) * 7 * k; p.head = S(w * 0.5) * 6 * k;
+      p.mouth = 'open'; p.eyes = 'happy'; break;
+    }
+    case 'PLAY_TRUMPET': { // leans back and blows, hands up at the mouth, a proud bounce
+      const pulse = Math.max(0, S(t * 12));
+      p.head = -16 + pulse * 4; p.rot = -5 + S(t * 6) * 2 * k; p.armL = -34 + pulse * 6; p.armR = -34 + pulse * 6; p.y = -Math.abs(S(t * 6)) * 9 * k;
+      p.mouth = 'o'; p.mouthScale = 0.9 + pulse * 0.5; p.eyes = 'happy'; p.wing = 20 + pulse * 20; break;
+    }
+    case 'PLAY_DRUM': { // both sticks pounding, the whole body bouncing with each hit
+      const w = t * 21;
+      p.armL = 18 + 58 * Math.max(0, S(w)); p.armR = 18 + 58 * Math.max(0, -S(w)); p.y = -Math.abs(S(w)) * 10 * k; p.head = S(w * 0.5) * 8 * k;
+      p.sy = 1 + Math.abs(S(w)) * 0.03; p.mouth = 'open'; p.eyes = 'happy'; p.tail = S(t * 14) * 20; break;
+    }
+    case 'PLAY_FLUTE': { // eyes closed, a slow sway, hands together at the mouth
+      p.armL = -40 + S(t * 4) * 3; p.armR = -40 - S(t * 4) * 3; p.rot = S(t * 4.5) * 7 * k; p.head = -5 + S(t * 4.5) * 5 * k;
+      p.mouth = 'tiny'; p.eyes = 'closed'; p.y = -Math.abs(S(t * 2.2)) * 4 * k; break;
+    }
+    case 'PLAY_HARP': { // both hands sweep up the strings again and again, wings fluttering
+      const u = (t * 3) % 1;
+      p.armL = 6 + 78 * u; p.armR = 6 + 78 * u; p.head = -8 + S(t * 4) * 5 * k; p.wing = 18 + S(t * 16) * 16; p.rot = S(t * 3) * 3 * k;
+      p.mouth = 'smile'; p.eyes = 'happy'; p.y = -u * 6 * k; break;
+    }
+    case 'PLAY_MARACAS': { // arms up and shaking, the body wiggling and the tail wagging
+      p.armL = 78 + 26 * S(t * 27); p.armR = 78 - 26 * S(t * 27); p.rot = S(t * 13) * 7 * k; p.y = -Math.abs(S(t * 13)) * 12 * k;
+      p.tail = S(t * 18) * 32; p.head = S(t * 13) * 7 * k; p.mouth = 'grin'; p.eyes = 'happy'; break;
+    }
+    case 'PLAY_BELLS': { // both hands up, ringing the bells one after the other, head tilting
+      p.armL = 118 + 32 * S(t * 10); p.armR = 118 - 32 * S(t * 10); p.head = S(t * 5) * 11 * k; p.y = -Math.abs(S(t * 5)) * 12 * k;
+      p.wing = 24 + S(t * 10) * 14; p.mouth = 'smile'; p.eyes = 'happy'; break;
+    }
+    case 'PLAY_TAMBOURINE': { // one hand up shaking it, a hop and a twist
+      p.armR = 128 + 30 * S(t * 19); p.armL = 22; p.y = -Math.abs(S(t * 9)) * 20 * k; p.rot = S(t * 9) * 8 * k;
+      p.sx = 1 + S(t * 18) * 0.04 * k; p.head = S(t * 9) * 8 * k; p.mouth = 'open'; p.eyes = 'happy'; p.tail = S(t * 12) * 22; break;
+    }
     case 'LAUGHING':
       p.y = S(t * 26) * 4 * k; p.rot = S(t * 13) * 4 * k; p.head = -8 + S(t * 26) * 3; p.mouth = 'grin'; p.eyes = 'happy';
       p.armL = -20; p.armR = -20;
@@ -186,6 +234,8 @@ export function computePose(state: CharacterState, t: number, speed: number, sty
   return p;
 }
 
+const SMOOTH2D: (keyof Pose & ('x' | 'y' | 'rot' | 'sx' | 'sy' | 'head' | 'tail' | 'wing' | 'armL' | 'armR' | 'belly' | 'lookX' | 'lookY' | 'mouthScale'))[] = ['x', 'y', 'rot', 'sx', 'sy', 'head', 'tail', 'wing', 'armL', 'armR', 'belly', 'lookX', 'lookY', 'mouthScale'];
+
 const MOOD_GLOW: Record<Mood, string> = {
   calm: '#FFD98A', happy: '#FFC46B', excited: '#FF9E7A', sleepy: '#B9A7F0', caring: '#FFA8C5', puzzled: '#8EDAD0',
 };
@@ -208,13 +258,18 @@ export function Milo({ machine, mood, talkingUntil, reduced, breathStart, avatar
   const refs = useRef<Record<string, SVGElement | null>>({});
   const r = (name: string) => (el: SVGElement | null) => { refs.current[name] = el; };
   const blinkAt = useRef(0);
-  const uid = React.useId().replace(/:/g, ''); // SVG ids must be unique per picture, or several buddies on screen all borrow the first one's colours
+  const wasTurning = useRef(false);
+  const wasTurning2 = useRef(false);
+  const uid = React.useId().replace(/:/g, '');
+  const headClipId = `${uid}headClip`; // SVG ids must be unique per picture, or several buddies on screen all borrow the first one's colours
 
   useEffect(() => {
     if (typeof document !== 'undefined' && document.documentElement.classList.contains('perf-nomilo')) return;
     let raf = 0;
     let last = '';
     let lastFrame = 0;
+    let lastNow = 0;
+    let smooth: Pose | null = null;
     const loop = (now: number) => {
       raf = requestAnimationFrame(loop);
       // Idle needs little motion: 15 fps idle / 24 fps active keeps weak TV sticks responsive to the remote.
@@ -223,7 +278,16 @@ export function Milo({ machine, mood, talkingUntil, reduced, breathStart, avatar
       lastFrame = now;
       const s = machine.snapshot;
       const t = (now - s.enteredAt) / 1000;
-      const pose = computePose(s.state, Math.max(0, t), machine.speed, s.style, reduced, now - breathStart.current);
+      const target = computePose(s.state, Math.max(0, t), machine.speed, s.style, reduced, now - breathStart.current);
+      // Glide into each new move instead of snapping to it (turns and the face are followed exactly).
+      const dtS = Math.min(0.1, lastNow ? (now - lastNow) / 1000 : 0.033);
+      lastNow = now;
+      if (!smooth) smooth = { ...target };
+      else {
+        const kk = 1 - Math.exp(-dtS * 26);
+        for (const key of SMOOTH2D) smooth[key] = smooth[key] + (target[key] - smooth[key]) * kk;
+      }
+      const pose: Pose = { ...smooth, spin: target.spin, yaw: target.yaw, pitch: target.pitch, mouth: target.mouth, eyes: target.eyes, brows: target.brows };
       const R = refs.current;
       const set = (n: string, v: string) => R[n]?.setAttribute('transform', v);
 
@@ -231,13 +295,42 @@ export function Milo({ machine, mood, talkingUntil, reduced, breathStart, avatar
         `translate(${pose.x.toFixed(1)} ${pose.y.toFixed(1)}) translate(300 600) rotate(${pose.rot.toFixed(2)}) scale(${pose.sx.toFixed(3)} ${pose.sy.toFixed(3)}) translate(-300 -600)`);
       const shadowScale = Math.max(0.55, 1 + pose.y / 260);
       R.shadow?.setAttribute('transform', `translate(300 612) scale(${shadowScale.toFixed(3)} 1) translate(-300 -612)`);
+      // A turn on the spot: the face and belly slide round the body and narrow as they near the edge, and vanish behind it;
+      // arms and wings swing round (foreshortened, then to the other side); a round body keeps its width. So it reads as a body turning, not a card flipping.
+      const sn = Math.sin(pose.spin), cs = Math.cos(pose.spin);
+      const turning = pose.spin !== 0;
+      if (turning || wasTurning.current) {
+        const front = cs > 0.04;
+        const faceFlat = Math.max(0.02, Math.abs(cs));
+        R.face?.setAttribute('transform', `translate(${(300 + sn * 150).toFixed(1)} 0) scale(${faceFlat.toFixed(3)} 1) translate(-300 0)`);
+        R.face?.setAttribute('visibility', front || !turning ? 'visible' : 'hidden');
+        R.belly?.setAttribute('visibility', front || !turning ? 'visible' : 'hidden');
+        R.backPatch?.setAttribute('visibility', !front && turning ? 'visible' : 'hidden');
+        R.backPatch?.setAttribute('transform', `translate(${(300 - sn * 100).toFixed(1)} 0) scale(${faceFlat.toFixed(3)} 1) translate(-300 0)`);
+        wasTurning.current = turning;
+      }
+      // Ears, horns and cheeks ride circles round the head; the tail and wings ride circles round the back of the body.
+      if (turning || wasTurning2.current) {
+        const put = (name: string, o: Orbit, lateral = false, hide = false) => {
+          const el = R[name];
+          if (!el) return;
+          el.setAttribute('transform', turning ? orbitTransform(o, pose.spin, lateral) : '');
+          if (hide) el.setAttribute('visibility', !turning || orbitFront(o, pose.spin) ? 'visible' : 'hidden');
+        };
+        put('earL', EAR_L); put('earR', EAR_R); put('hornL', HORN_L); put('hornR', HORN_R);
+        put('cheekL', CHEEK_L, false, true); put('cheekR', CHEEK_R, false, true);
+        // While turning, features are kept inside the head outline; at rest there is no clip at all (cheaper to draw).
+        for (const n of ['face', 'cheekL', 'cheekR']) { if (turning) R[n]?.setAttribute('clip-path', `url(#${headClipId})`); else R[n]?.removeAttribute('clip-path'); }
+        wasTurning2.current = turning;
+      }
+      const sw = turning ? `translate(300 0) scale(${(Math.abs(cs) < 0.12 ? 0.12 * Math.sign(cs || 1) : cs).toFixed(3)} 1) translate(-300 0) ` : '';
       set('head', `rotate(${pose.head.toFixed(2)} 300 330)`);
-      set('tail', `rotate(${pose.tail.toFixed(2)} 405 520)`);
-      set('wingL', `rotate(${(-pose.wing).toFixed(2)} 235 375)`);
-      set('wingR', `rotate(${pose.wing.toFixed(2)} 365 375)`);
-      set('armL', `rotate(${pose.armL.toFixed(1)} 200 420)`);
-      set('armR', `rotate(${(-pose.armR).toFixed(1)} 400 420)`);
-      set('belly', `translate(300 490) scale(${pose.belly.toFixed(3)}) translate(-300 -490)`);
+      set('tail', `${turning ? orbitTransform(TAIL, pose.spin, true, 1.2) + ' ' : ''}rotate(${pose.tail.toFixed(2)} 405 520)`);
+      set('wingL', `${turning ? orbitTransform(WING_L, pose.spin, true, 1.3) + ' ' : ''}rotate(${(-pose.wing).toFixed(2)} 235 375)`);
+      set('wingR', `${turning ? orbitTransform(WING_R, pose.spin, true, 1.3) + ' ' : ''}rotate(${pose.wing.toFixed(2)} 365 375)`);
+      set('armL', `${sw}rotate(${pose.armL.toFixed(1)} 200 420)`);
+      set('armR', `${sw}rotate(${(-pose.armR).toFixed(1)} 400 420)`);
+      set('belly', `${turning ? `translate(${(300 + sn * 100).toFixed(1)} 0) scale(${Math.max(0.02, Math.abs(cs)).toFixed(3)} 1) translate(-300 0) ` : ''}translate(300 490) scale(${pose.belly.toFixed(3)}) translate(-300 -490)`);
       set('pupils', `translate(${pose.lookX.toFixed(1)} ${pose.lookY.toFixed(1)})`);
 
       // Blink every few seconds when eyes are open.
@@ -318,6 +411,7 @@ export function Milo({ machine, mood, talkingUntil, reduced, breathStart, avatar
             <stop offset="0%" stopColor="#5FD3C4" />
             <stop offset="100%" stopColor="#1E9C8E" />
           </linearGradient>
+          <clipPath id={`${uid}headClip`}><ellipse cx="300" cy="232" rx="178" ry="152" /></clipPath>
           <clipPath id={`${uid}eyeClipL`}><ellipse cx="240" cy="222" rx="46" ry="54" /></clipPath>
           <clipPath id={`${uid}eyeClipR`}><ellipse cx="360" cy="222" rx="46" ry="54" /></clipPath>
         </defs>
@@ -341,6 +435,8 @@ export function Milo({ machine, mood, talkingUntil, reduced, breathStart, avatar
 
           {/* body */}
           <ellipse cx="300" cy="470" rx="152" ry="142" fill={`url(#${uid}bodyG)`} />
+          {/* seen only while turning round: the back of the body (a lighter patch where the belly is in front) */}
+          <ellipse ref={r('backPatch')} cx="300" cy="480" rx="112" ry="112" fill={skin.bodyDark} opacity="0.35" visibility="hidden" />
           <g ref={r('belly')}>
             <ellipse cx="300" cy="490" rx="96" ry="104" fill={skin.belly} />
             {skin.face === 'dino' && [438, 478, 518, 556].map((y, i) => (
@@ -357,13 +453,16 @@ export function Milo({ machine, mood, talkingUntil, reduced, breathStart, avatar
             {skin.horns && (
               <>
                 {[[262, 96, 15], [300, 86, 18], [338, 96, 15]].map(([cx, cy, rr]) => <circle key={cx} cx={cx} cy={cy} r={rr} fill={skin.crest} />)}
-                <ellipse cx="208" cy="112" rx="22" ry="44" fill="#FFD48A" transform="rotate(-28 208 112)" /><ellipse cx="392" cy="112" rx="22" ry="44" fill="#FFD48A" transform="rotate(28 392 112)" />
-                <ellipse cx="208" cy="112" rx="10" ry="30" fill={skin.inner} transform="rotate(-28 208 112)" /><ellipse cx="392" cy="112" rx="10" ry="30" fill={skin.inner} transform="rotate(28 392 112)" />
+                <g ref={r('hornL')}><ellipse cx="208" cy="112" rx="22" ry="44" fill="#FFD48A" transform="rotate(-28 208 112)" /><ellipse cx="208" cy="112" rx="10" ry="30" fill={skin.inner} transform="rotate(-28 208 112)" /></g>
+                <g ref={r('hornR')}><ellipse cx="392" cy="112" rx="22" ry="44" fill="#FFD48A" transform="rotate(28 392 112)" /><ellipse cx="392" cy="112" rx="10" ry="30" fill={skin.inner} transform="rotate(28 392 112)" /></g>
               </>
             )}
-            {skin.ears !== 'none' && <>{earPath(1)}{earPath(-1)}</>}
+            {skin.ears !== 'none' && <><g ref={r('earL')}>{earPath(1)}</g><g ref={r('earR')}>{earPath(-1)}</g></>}
             <ellipse cx="300" cy="232" rx="168" ry="146" fill={`url(#${uid}headG)`} />
 
+            <g ref={r('cheekL')}><ellipse cx="185" cy="288" rx="28" ry="17" fill={skin.cheek} opacity="0.55" /></g>
+            <g ref={r('cheekR')}><ellipse cx="415" cy="288" rx="28" ry="17" fill={skin.cheek} opacity="0.55" /></g>
+            <g ref={r('face')}>
             {/* eyes: open */}
             <g ref={r('e-open')}>
               <g ref={r('eyeWide')}>
@@ -392,9 +491,7 @@ export function Milo({ machine, mood, talkingUntil, reduced, breathStart, avatar
               <path d="M332 154 Q 360 148 388 160" stroke="#9A4A16" strokeWidth="7" fill="none" strokeLinecap="round" />
             </g>
 
-            {/* cheeks + muzzle (face-specific) */}
-            <ellipse cx="185" cy="288" rx="28" ry="17" fill={skin.cheek} opacity="0.55" />
-            <ellipse cx="415" cy="288" rx="28" ry="17" fill={skin.cheek} opacity="0.55" />
+            {/* muzzle (face-specific) */}
             <ellipse cx="300" cy="300" rx={skin.face === 'bear' ? 92 : 78} ry={skin.face === 'bear' ? 58 : 48} fill={skin.muzzle} />
             {skin.face === 'dino' && <><ellipse cx="282" cy="286" rx="7" ry="5" fill={skin.nose} /><ellipse cx="318" cy="286" rx="7" ry="5" fill={skin.nose} /></>}
             {skin.face === 'cat' && (
@@ -430,6 +527,7 @@ export function Milo({ machine, mood, talkingUntil, reduced, breathStart, avatar
             </g>
             <g ref={r('m-tiny')} visibility="hidden">
               <path d="M286 324 Q 300 334 314 324" stroke="#5B2410" strokeWidth="6" fill="none" strokeLinecap="round" />
+            </g>
             </g>
           </g>
         </g>

@@ -37,6 +37,8 @@ export const STATE_INFO: Record<CharacterState, StateInfo> = {
   TAILCHASE: S(false, 'excited', 5000),
   BEARHUG: S(false, 'happy', 6000),
   BOUNCING: S(false, 'happy', 4000),
+  PLAY_PIANO: S(false, 'happy', 2500), PLAY_GUITAR: S(false, 'happy', 2500), PLAY_XYLO: S(false, 'happy', 2500), PLAY_TRUMPET: S(false, 'excited', 2500), PLAY_DRUM: S(false, 'excited', 2500),
+  PLAY_FLUTE: S(false, 'calm', 2500), PLAY_HARP: S(false, 'calm', 2500), PLAY_MARACAS: S(false, 'excited', 2500), PLAY_BELLS: S(false, 'happy', 2500), PLAY_TAMBOURINE: S(false, 'excited', 2500),
   SLEEPING: S(true, 'sleepy', 10 * 60000),
   CELEBRATING: S(false, 'excited', 5000),
   CONFUSED: S(false, 'puzzled', 4000),

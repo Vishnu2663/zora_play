@@ -2,6 +2,8 @@
 // logic; the audio layer plays the hits and the screen draws the playhead.
 // The scheduler is clock-agnostic (seconds from any monotonic clock), so the
 // audio layer feeds it AudioContext.currentTime and tests feed it a number.
+import type { CharacterState } from './types.ts';
+
 
 export const BAND_STEPS = 8;
 
@@ -58,6 +60,12 @@ export const INSTRUMENTS = [
   { id: 'tambourine', label: 'Tambourine', octave: 1 },
 ] as const;
 export type InstrumentId = (typeof INSTRUMENTS)[number]['id'];
+
+/** The move the buddy does while playing each instrument (computePose in src/web/Milo.tsx). */
+export const INSTRUMENT_STATE: Record<InstrumentId, CharacterState> = {
+  piano: 'PLAY_PIANO', guitar: 'PLAY_GUITAR', xylo: 'PLAY_XYLO', trumpet: 'PLAY_TRUMPET', drum: 'PLAY_DRUM',
+  flute: 'PLAY_FLUTE', harp: 'PLAY_HARP', maracas: 'PLAY_MARACAS', bells: 'PLAY_BELLS', tambourine: 'PLAY_TAMBOURINE',
+};
 
 /** Up and down the C major pentatonic (C4 D4 E4 G4 A4 C5...): pressing again and again plays a little tune. */
 export const INSTRUMENT_TUNE = [261.63, 293.66, 329.63, 392.0, 440.0, 523.25, 440.0, 392.0, 329.63, 293.66] as const;
