@@ -38,8 +38,11 @@ class WebPlayer implements Player {
   }
 
   private playClips(clips: Clip[], cb: { onStart: () => void; onEnd: (ok: boolean, error?: string) => void }) {
-    const el = new Audio();
+    // One <audio> per clip, all loading from the start: the next clip is already buffered when the one before it ends, so a
+    // line made of several clips flows without a gap (swapping one element's src between clips made a pause on weak sticks).
+    const els = clips.map((c) => { const a = new Audio(); a.preload = 'auto'; a.src = c.src; return a; });
     let i = 0;
+    let cur: HTMLAudioElement | null = null;
     let stopped = false;
     let started = false;
     let gap: ReturnType<typeof setTimeout> | null = null; // pause between sentences
@@ -47,23 +50,26 @@ class WebPlayer implements Player {
     const fail = (msg: string) => { if (!stopped) { stopped = true; cb.onEnd(false, msg); } };
     const playNext = () => {
       if (stopped) return;
-      if (i >= clips.length) { stopped = true; cb.onEnd(true); return; }
-      el.src = clips[i++].src;
-      el.volume = this.volume;
-      el.playbackRate = this.rate;
-      el.play().catch((e) => fail(`play() rejected: ${e?.name ?? e}`));
+      if (i >= els.length) { stopped = true; cb.onEnd(true); return; }
+      cur = els[i++];
+      cur.volume = this.volume;
+      cur.playbackRate = this.rate;
+      cur.play().catch((e) => fail(`play() rejected: ${e?.name ?? e}`));
     };
-    el.addEventListener('playing', () => { if (!started && !stopped) { started = true; cb.onStart(); } });
-    el.addEventListener('ended', () => {
-      if (this.gapMs > 0 && i < clips.length) gap = setTimeout(() => { gap = null; playNext(); }, this.gapMs);
-      else playNext();
+    els.forEach((el) => {
+      el.addEventListener('playing', () => { if (!started && !stopped) { started = true; cb.onStart(); } });
+      el.addEventListener('ended', () => {
+        if (el !== cur) return;
+        if (this.gapMs > 0 && i < els.length) gap = setTimeout(() => { gap = null; playNext(); }, this.gapMs);
+        else playNext();
+      });
+      el.addEventListener('error', () => fail(`media error ${el.error?.code ?? '?'} on ${el.src.split('/').pop()}`));
     });
-    el.addEventListener('error', () => fail(`media error ${el.error?.code ?? '?'} on ${el.src.split('/').pop()}`));
     playNext();
     return {
-      stop: () => { stopped = true; if (gap) clearTimeout(gap); gap = null; el.pause(); el.removeAttribute('src'); el.load(); },
-      pause: () => { if (gap) { clearTimeout(gap); gap = null; gapPending = true; } el.pause(); },
-      resume: () => { if (gapPending || el.ended) { gapPending = false; playNext(); } else el.play().catch(() => {}); },
+      stop: () => { stopped = true; if (gap) clearTimeout(gap); gap = null; els.forEach((e) => { e.pause(); e.removeAttribute('src'); e.load(); }); },
+      pause: () => { if (gap) { clearTimeout(gap); gap = null; gapPending = true; } cur?.pause(); },
+      resume: () => { if (gapPending || cur?.ended) { gapPending = false; playNext(); } else cur?.play().catch(() => {}); },
     };
   }
 

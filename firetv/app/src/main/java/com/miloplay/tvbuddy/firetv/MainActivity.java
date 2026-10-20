@@ -68,14 +68,8 @@ public class MainActivity extends Activity {
                 return !request.getUrl().toString().startsWith("file:///android_asset/");
             }
 
-            @Override
-            public void onPageFinished(WebView view, String url) {
-                // Reveal only after two animation frames, so the first thing seen is a painted page.
-                view.evaluateJavascript(
-                    "requestAnimationFrame(function(){requestAnimationFrame(function(){" +
-                    "ReactNativeWebView.postMessage('{\"type\":\"ready\"}');});});", null);
-            }
-
+            // The page itself says {"type":"ready"} once it has settled and its opening is about to play (App.tsx), so the smooth
+            // native splash stays up while the page boots, instead of the page's first (heavy) frames being seen.
             @SuppressWarnings("deprecation")
             @Override
             public boolean shouldOverrideUrlLoading(WebView view, String url) {
@@ -92,7 +86,7 @@ public class MainActivity extends Activity {
         web.requestFocus();
         String q = getIntent() != null ? getIntent().getStringExtra("q") : null; // debug only: adb ... --es q "?perf=nosky"
         web.loadUrl(START_URL + (q != null && q.startsWith("?perf=") ? q : ""));
-        ui.postDelayed(this::reveal, 3000); // safety net: never stay on the splash
+        ui.postDelayed(this::reveal, 6000); // safety net: never stay on the splash
     }
 
     /**

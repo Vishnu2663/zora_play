@@ -515,20 +515,20 @@ button { font-family: inherit; }
 
 /* ---- Energetic 3D feel (transforms only, so it stays light on TV sticks) ---- */
 .panel { animation: panel3d .6s cubic-bezier(.2, 1.15, .35, 1) both !important; transform-origin: 30% 50%; }
-@keyframes panel3d { from { opacity: 0; transform: perspective(1500px) rotateY(-16deg) translateX(46px) scale(.95); } to { opacity: 1; transform: none; } }
+@keyframes panel3d { from { opacity: 0; transform: translateX(54px) scale(.96); } to { opacity: 1; transform: none; } }
 .btn { transition: transform .18s cubic-bezier(.2, 1.4, .4, 1), box-shadow .18s ease !important; }
 .btn:hover, .btn:focus { transform: scale(1.05) !important; z-index: 5; }
 .btn:active { transform: scale(.97) !important; }
 .tile:hover, .tile:focus { transform: scale(1.04) !important; z-index: 5; box-shadow: 0 0 0 7px #fff, 0 0 0 15px var(--focus), 22px 26px 34px rgba(0,0,0,.3) !important; }
 .chip:hover, .chip:focus { transform: scale(1.05) !important; z-index: 5; }
 .stage.intro-done .tiles > * { animation: tile3d .55s cubic-bezier(.2, 1.3, .4, 1) both !important; transform-origin: 50% 100%; }
-@keyframes tile3d { from { opacity: 0; transform: perspective(900px) rotateX(-55deg) translateY(40px) scale(.9); } to { opacity: 1; transform: none; } }
+@keyframes tile3d { from { opacity: 0; transform: translateY(46px) scale(.88); } to { opacity: 1; transform: none; } } /* no 3D tilt: cheap to draw while the page is busy starting */
 .stage.intro-done .tiles > :nth-child(2) { animation-delay: .07s !important; } .stage.intro-done .tiles > :nth-child(3) { animation-delay: .14s !important; }
 .stage.intro-done .tiles > :nth-child(4) { animation-delay: .21s !important; } .stage.intro-done .tiles > :nth-child(5) { animation-delay: .28s !important; } .stage.intro-done .tiles > :nth-child(6) { animation-delay: .35s !important; }
 .intro-logo { animation: logo3d 1s cubic-bezier(.2, 1.4, .4, 1) .1s both !important; }
 @keyframes logo3d { from { opacity: 0; transform: perspective(900px) rotateX(70deg) translateY(-60px) scale(.5); } 60% { transform: perspective(900px) rotateX(-8deg) scale(1.06); } to { opacity: 1; transform: none; } }
 .bubble.show { animation: pop3d .45s cubic-bezier(.2, 1.5, .4, 1) forwards !important; transform-origin: 20% 100%; }
-@keyframes pop3d { from { opacity: 0; transform: perspective(700px) rotateX(-40deg) scale(.8); } to { opacity: 1; transform: none; } }
+@keyframes pop3d { from { opacity: 0; transform: translateY(14px) scale(.8); } to { opacity: 1; transform: none; } }
 .choice:hover, .choice:focus, .rhyme-card:hover, .rhyme-card:focus, .inst:hover, .inst:focus, .move-btn:hover, .move-btn:focus, .avatar-card:hover, .avatar-card:focus {
   transform: scale(1.04) !important; z-index: 5; }
 .abc-card { animation: card3d .5s cubic-bezier(.2, 1.3, .4, 1) both !important; transform-origin: 50% 100%; }
@@ -788,3 +788,7 @@ button { font-family: inherit; }
 @keyframes fx-t-wingR { 0.0% { transform: translateX(0.0px) scaleX(1.000); } 8.33% { transform: translateX(-59.5px) scaleX(-0.068); } 16.67% { transform: translateX(-117.9px) scaleX(-1.117); } 25.0% { transform: translateX(-159.7px) scaleX(-1.300); } 33.33% { transform: translateX(-173.6px) scaleX(-1.300); } 41.67% { transform: translateX(-156.0px) scaleX(-1.300); } 50.0% { transform: translateX(-111.4px) scaleX(-1.000); } 58.33% { transform: translateX(-51.9px) scaleX(0.068); } 66.67% { transform: translateX(6.5px) scaleX(1.117); } 75.0% { transform: translateX(48.3px) scaleX(1.300); } 83.33% { transform: translateX(62.2px) scaleX(1.300); } 91.67% { transform: translateX(44.6px) scaleX(1.300); } 100.0% { transform: translateX(-0.0px) scaleX(1.000); } }
 @keyframes fx-t-hop { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
 .reduced .demo * { animation: none !important; }
+
+/* The opening waits (hidden and paused) until the page has settled; see introGo in App.tsx. */
+.stage.intro-on:not(.intro-go) .intro { visibility: hidden; }
+.stage.intro-on:not(.intro-go) .intro *, .stage.intro-on:not(.intro-go) .milo-area { animation-play-state: paused !important; }

@@ -473,10 +473,29 @@ export function App() {
 
   /* ---------- opening animation: ~2.6 s, skippable with any remote key, never blocks later input ---------- */
   const endIntro = useCallback(() => { introRef.current = false; setIntro(false); }, []);
+  // The opening only starts once the page has settled (the first frames while it boots are heavy and made the start stutter on
+  // weak sticks). Until then the TV app keeps its own smooth splash on screen; the page tells it when to hand over.
+  const [introGo, setIntroGo] = useState(false);
   useEffect(() => {
+    let raf = 0, calm = 0, last = performance.now();
+    const t0 = last;
+    const tick = (now: number) => {
+      calm = now - last < 45 ? calm + 1 : 0;
+      last = now;
+      if (calm >= 6 || now - t0 > 2200) { setIntroGo(true); return; }
+      raf = requestAnimationFrame(tick);
+    };
+    raf = requestAnimationFrame(tick);
+    return () => cancelAnimationFrame(raf);
+  }, []);
+  useEffect(() => {
+    if (!introGo) return;
+    const rn = (window as unknown as { ReactNativeWebView?: { postMessage: (s: string) => void } }).ReactNativeWebView;
+    // two frames later, so the first thing seen after the splash is a painted page
+    requestAnimationFrame(() => requestAnimationFrame(() => rn?.postMessage(JSON.stringify({ type: 'ready' }))));
     const t = setTimeout(endIntro, prefersReduced ? 900 : 3400);
     return () => clearTimeout(t);
-  }, [endIntro, prefersReduced]);
+  }, [introGo, endIntro, prefersReduced]);
 
   /* ---------- focus restore after screen change ---------- */
   useLayoutEffect(() => {
@@ -497,6 +516,7 @@ export function App() {
     if (now - lastBack.current < 2500) {
       if (byeing.current) return; // already saying goodbye
       byeing.current = true;
+      audio.stopTheme(); // only the voice plays while saying goodbye: music decoding at the same time made the words stutter on weak sticks
       say('Bye bye! See you soon!', 'happy');
       brain.machine.enter('WAVING', now, { durationMs: 3800 });
       const rn = (window as unknown as { ReactNativeWebView?: { postMessage: (s: string) => void } }).ReactNativeWebView;
@@ -580,7 +600,7 @@ export function App() {
 
   return (
     <div className="viewport">
-      <div className={`stage tod-${tod}${reduced ? ' reduced' : ''}${intro ? ' intro-on' : ' intro-done'}`} style={{ transform: `translate(-50%, -50%) scale(${scale})` }} data-screen={screen} data-char={charState} data-speech={speechState}>
+      <div className={`stage tod-${tod}${reduced ? ' reduced' : ''}${intro ? ' intro-on' : ' intro-done'}${introGo ? ' intro-go' : ''}`} style={{ transform: `translate(-50%, -50%) scale(${scale})` }} data-screen={screen} data-char={charState} data-speech={speechState}>
         <div className="sky">
           <div className="sun" />
           {tod === 'night' && <div className="stars">{Array.from({ length: 24 }, (_, i) => <i key={i} style={{ left: `${(i * 37) % 100}%`, top: `${(i * 23) % 45}%`, animationDelay: `${(i % 7) * 0.4}s` }} />)}</div>}
