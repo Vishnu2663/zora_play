@@ -561,7 +561,7 @@ button { font-family: inherit; }
 .shelf-track i { position: absolute; left: 0; right: 0; border-radius: 6px; background: var(--orange); transition: top .2s ease; }
 .more-pill { position: absolute; left: 50%; transform: translateX(-50%); z-index: 6; background: var(--orange); color: #fff; font-weight: 900; font-size: 24px; padding: 6px 22px; border-radius: 22px; box-shadow: 0 6px 0 rgba(0,0,0,.12); pointer-events: none; animation: more-bob 1.2s ease-in-out infinite; }
 .more-pill.down { bottom: 10px; } .more-pill.up { top: 10px; }
-@keyframes more-bob { 50% { margin-top: 4px; } }
+@keyframes more-bob { 50% { transform: translate(-50%, 4px); } } /* a transform, not margin, so it animates without re-laying-out the page */
 .reduced .more-pill { animation: none; }
 
 /* ---- Rhyme Room cards: no overlapping. Wider gaps, a calmer focus ring, no scaling, the "playing" outline sits inside the card ---- */
@@ -749,3 +749,6 @@ button { font-family: inherit; }
 .vol-bars { display: inline-flex; align-items: flex-end; gap: 4px; height: 28px; }
 .vol-bars i { width: 7px; border-radius: 3px; background: rgba(58,36,24,.3); }
 .vol-bars i.on { background: var(--ink); }
+
+/* Elements that move forever get their own compositor layer, so the TV's GPU moves them and the page is not repainted each frame. */
+.cloud, .stars i, .pb { will-change: transform; }

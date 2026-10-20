@@ -33,7 +33,12 @@ export function want3D(): boolean {
   try {
     if (typeof window === 'undefined') return false;
     if (/[?&]2d\b/.test(window.location.search)) return false;
-    if (window.localStorage?.getItem(RENDER_KEY) === '2d') return false;
+    const stored = window.localStorage?.getItem(RENDER_KEY);
+    if (stored === '2d') return false;
+    // 1 GB TV sticks (Fire TV Stick 3rd gen and older) start with the light flat buddies at once, instead of trying 3D first
+    // and stuttering until the speed check gives up. Setting localStorage zora.render = 3d forces 3D on any device.
+    const mem = (navigator as unknown as { deviceMemory?: number }).deviceMemory;
+    if (stored !== '3d' && typeof mem === 'number' && mem <= 1) return false;
     if (document.documentElement.classList.contains('perf-nomilo')) return false;
   } catch { /* storage blocked: stay with 3D */ }
   return webglAvailable();
