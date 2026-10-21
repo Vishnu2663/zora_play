@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
   Milo for Fire OS: a thin WebView host for the same build the Vega app uses.
-  No INTERNET permission: everything is bundled, and the app cannot browse.
+  INTERNET is used only for the optional "fresh joke" (one small request to our joke service); everything else is bundled and the app cannot browse.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <!-- TV app: no touchscreen needed; runs on Fire TV's leanback launcher. -->
     <uses-feature android:name="android.hardware.touchscreen" android:required="false" />

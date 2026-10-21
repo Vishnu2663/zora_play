@@ -2,9 +2,9 @@
   "guardrail": "1kcus2m06r9m:1",
   "region": "ap-south-1",
   "source": "OUTPUT",
-  "date": "2026-10-18T17:21:50.132Z",
-  "total": 45,
-  "eligible": 45,
+  "date": "2026-10-19T13:21:23.277Z",
+  "total": 226,
+  "eligible": 226,
   "blocked": 0,
   "localFail": 0,
   "lines": [
@@ -532,6 +532,2721 @@
       "eligible": true,
       "guardrail": "1kcus2m06r9m:1",
       "date": "2026-10-18T17:21:50.127Z"
+    },
+    {
+      "line": "What do you call a sleeping bull? A bulldozer!",
+      "kind": "jokes",
+      "id": "gen-jokes-68756dc0fc",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:38.270Z"
+    },
+    {
+      "line": "Why did the cat wear a bowtie? To look pawsome!",
+      "kind": "jokes",
+      "id": "gen-jokes-9c17b0d701",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:38.577Z"
+    },
+    {
+      "line": "Why did the elephant bring a suitcase? For a trunk trip!",
+      "kind": "jokes",
+      "id": "gen-jokes-4d22d3cefa",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:38.877Z"
+    },
+    {
+      "line": "Why did the teddy bear say no? Because it was stuffed!",
+      "kind": "jokes",
+      "id": "gen-jokes-58f3be1377",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:39.204Z"
+    },
+    {
+      "line": "Why did the picture go to jail? It was framed!",
+      "kind": "jokes",
+      "id": "gen-jokes-2b4f2982fc",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:39.471Z"
+    },
+    {
+      "line": "What do you call a cow with no legs? Ground beef!",
+      "kind": "jokes",
+      "id": "gen-jokes-c89a2a915a",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:39.806Z"
+    },
+    {
+      "line": "Why did the tomato turn red? It saw the salad dressing!",
+      "kind": "jokes",
+      "id": "gen-jokes-15458feb42",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:40.067Z"
+    },
+    {
+      "line": "Why did the duck go to the bank? To get some change!",
+      "kind": "jokes",
+      "id": "gen-jokes-47dc5b5d47",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:40.394Z"
+    },
+    {
+      "line": "Why did the lion eat raw meat? Because it was a rawr!",
+      "kind": "jokes",
+      "id": "gen-jokes-9372da0d5c",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:40.792Z"
+    },
+    {
+      "line": "Why did the chicken join a band? To play the drumsticks!",
+      "kind": "jokes",
+      "id": "gen-jokes-53e7f7481d",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:41.077Z"
+    },
+    {
+      "line": "Why did the baby carrot win a race? It was a fast rooter!",
+      "kind": "jokes",
+      "id": "gen-jokes-83130f5563",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:41.419Z"
+    },
+    {
+      "line": "What do you call a fish with no eyes? Fsh!",
+      "kind": "jokes",
+      "id": "gen-jokes-f727c610ba",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:41.700Z"
+    },
+    {
+      "line": "Why did the robot go to bed? It was byte tired!",
+      "kind": "jokes",
+      "id": "gen-jokes-17367ff7ab",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:41.992Z"
+    },
+    {
+      "line": "What do you call a fish without eyes? Fsh!",
+      "kind": "jokes",
+      "id": "gen-jokes-b6150b35ca",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:42.219Z"
+    },
+    {
+      "line": "What do you call a bear with a toothache? A grizzly patient!",
+      "kind": "jokes",
+      "id": "gen-jokes-93b9fce325",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:42.461Z"
+    },
+    {
+      "line": "Why did the cookie go to the nurse? It felt crummy!",
+      "kind": "jokes",
+      "id": "gen-jokes-64027a01f3",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:42.820Z"
+    },
+    {
+      "line": "Why did the lion eat the tightrope walker? He wanted a well-balanced meal!",
+      "kind": "jokes",
+      "id": "gen-jokes-bb1f83fff9",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:43.110Z"
+    },
+    {
+      "line": "Why do cows have bells? Their horns do not work!",
+      "kind": "jokes",
+      "id": "gen-jokes-868195c4e8",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:43.365Z"
+    },
+    {
+      "line": "Why did the scarecrow win an award? Because he was outstanding!",
+      "kind": "jokes",
+      "id": "gen-jokes-9767bc70b1",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:43.628Z"
+    },
+    {
+      "line": "Why did the apple get in trouble? Because it was bad!",
+      "kind": "jokes",
+      "id": "gen-jokes-f462e09cf6",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:43.933Z"
+    },
+    {
+      "line": "Why did the lion eat the tightrope walker? He was a tight rope!",
+      "kind": "jokes",
+      "id": "gen-jokes-3bf68d9b16",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:44.203Z"
+    },
+    {
+      "line": "Why did the lion visit the library? To find his roar-some book!",
+      "kind": "jokes",
+      "id": "gen-jokes-15b53926c5",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:44.471Z"
+    },
+    {
+      "line": "Why did the elephant bring a suitcase? For his trunk!",
+      "kind": "jokes",
+      "id": "gen-jokes-0d7ad9735c",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:44.772Z"
+    },
+    {
+      "line": "Why did the tree go to the dentist? It had a root canal!",
+      "kind": "jokes",
+      "id": "gen-jokes-ae9888e563",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:45.052Z"
+    },
+    {
+      "line": "Why did the duck go to the bank? To see his money grow!",
+      "kind": "jokes",
+      "id": "gen-jokes-efa330f20b",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:45.352Z"
+    },
+    {
+      "line": "What do you call a dinosaur that is sleeping? A dino-snore!",
+      "kind": "jokes",
+      "id": "gen-jokes-5145405f19",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:45.636Z"
+    },
+    {
+      "line": "What do you call a cow that plays the drums? A moo-sician!",
+      "kind": "jokes",
+      "id": "gen-jokes-02a34f94b0",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:45.951Z"
+    },
+    {
+      "line": "What do you call a sheep with no wool? A bare sheep!",
+      "kind": "jokes",
+      "id": "gen-jokes-b44f54903b",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:46.169Z"
+    },
+    {
+      "line": "Why did the cow go to the party? To listen to mooo-sic!",
+      "kind": "jokes",
+      "id": "gen-jokes-1062ed741c",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:46.374Z"
+    },
+    {
+      "line": "Why did the elephant paint his nails red? To hide in the strawberry patch!",
+      "kind": "jokes",
+      "id": "gen-jokes-94b10db214",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:46.585Z"
+    },
+    {
+      "line": "What do you get when you cross a snowman and a shark? Frostbite!",
+      "kind": "jokes",
+      "id": "gen-jokes-b4b09ccad5",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:46.852Z"
+    },
+    {
+      "line": "Why did the monkey fall out of the tree? Because it lost its grip!",
+      "kind": "jokes",
+      "id": "gen-jokes-9f0e77b24d",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:47.175Z"
+    },
+    {
+      "line": "Why did the crab never share his toys? Because he was shellfish!",
+      "kind": "jokes",
+      "id": "gen-jokes-c9e3f9a030",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:47.545Z"
+    },
+    {
+      "line": "Why did the elephant paint her nails red? To hide in a strawberry patch!",
+      "kind": "jokes",
+      "id": "gen-jokes-f72b3e18b3",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:47.752Z"
+    },
+    {
+      "line": "What do you get when you cross a snowman and a shark? Frost bite!",
+      "kind": "jokes",
+      "id": "gen-jokes-c70e3af5d3",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:48.062Z"
+    },
+    {
+      "line": "Why did the cow want a bell? To ring in the moo year!",
+      "kind": "jokes",
+      "id": "gen-jokes-d4482f093e",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:48.273Z"
+    },
+    {
+      "line": "What do you call a dinosaur with no legs? A fallen down!",
+      "kind": "jokes",
+      "id": "gen-jokes-e2d97428ab",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:48.546Z"
+    },
+    {
+      "line": "What do you call a sleeping dinosaur? A dino-snore!",
+      "kind": "jokes",
+      "id": "gen-jokes-47569a7d5c",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:48.817Z"
+    },
+    {
+      "line": "Why do cows have hooves instead of feet? Because they lactose!",
+      "kind": "jokes",
+      "id": "gen-jokes-9d32219c0c",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:49.191Z"
+    },
+    {
+      "line": "What do you call cheese that is not yours? Nacho cheese!",
+      "kind": "jokes",
+      "id": "gen-jokes-698e6fce6a",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:49.537Z"
+    },
+    {
+      "line": "Why did the math book look so sad? Because it had so many problems!",
+      "kind": "jokes",
+      "id": "gen-jokes-abcf7958ef",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:49.747Z"
+    },
+    {
+      "line": "Why did the cow go to space? To see the moooon!",
+      "kind": "jokes",
+      "id": "gen-jokes-5f58faf471",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:49.977Z"
+    },
+    {
+      "line": "What do you call a cat who loves to swim? A purr-maid!",
+      "kind": "jokes",
+      "id": "gen-jokes-1e8d9a8983",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:50.224Z"
+    },
+    {
+      "line": "What do you call a sheep with no legs? A cloud!",
+      "kind": "jokes",
+      "id": "gen-jokes-c688a0ab1d",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:50.494Z"
+    },
+    {
+      "line": "Why did the orange stop rolling? It ran out of juice!",
+      "kind": "jokes",
+      "id": "gen-jokes-edafebbb49",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:50.707Z"
+    },
+    {
+      "line": "Why did the elephant bring a suitcase? For its trunk!",
+      "kind": "jokes",
+      "id": "gen-jokes-450e90a4a5",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:50.961Z"
+    },
+    {
+      "line": "What do you call a dog that tells jokes? A funny bone!",
+      "kind": "jokes",
+      "id": "gen-jokes-a12078e18f",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:51.229Z"
+    },
+    {
+      "line": "Why did the monkey fall from the tree? He was picking bananas!",
+      "kind": "jokes",
+      "id": "gen-jokes-028ac7807a",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:51.452Z"
+    },
+    {
+      "line": "Why did the fish blush? It saw the ocean's bottom!",
+      "kind": "jokes",
+      "id": "gen-jokes-7ebe886a45",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:51.704Z"
+    },
+    {
+      "line": "Why did the teddy bear say no to dessert? It was already stuffed!",
+      "kind": "jokes",
+      "id": "gen-jokes-f176affeed",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:51.966Z"
+    },
+    {
+      "line": "What did the tree wear to the pool? Swim trunks!",
+      "kind": "jokes",
+      "id": "gen-jokes-9398def05f",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:52.229Z"
+    },
+    {
+      "line": "Why do cows have bells? Because their horns do not work!",
+      "kind": "jokes",
+      "id": "gen-jokes-447771c93f",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:52.599Z"
+    },
+    {
+      "line": "What do you call a bear with a cold? A stuffy bear!",
+      "kind": "jokes",
+      "id": "gen-jokes-f0a0d15610",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:52.900Z"
+    },
+    {
+      "line": "What do you call a fake spaghetti? An impasta!",
+      "kind": "jokes",
+      "id": "gen-jokes-f69a1fc96c",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:53.124Z"
+    },
+    {
+      "line": "What do you call a dog that does not bark? A hush puppy!",
+      "kind": "jokes",
+      "id": "gen-jokes-fe9ac71228",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:53.396Z"
+    },
+    {
+      "line": "What do you call a pig that does magic? A ham star!",
+      "kind": "jokes",
+      "id": "gen-jokes-9a20ba17e5",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:53.672Z"
+    },
+    {
+      "line": "Why did the duck go to the bank? To get some quackers!",
+      "kind": "jokes",
+      "id": "gen-jokes-a77e064167",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:53.955Z"
+    },
+    {
+      "line": "Why did the orange stop rolling? It got juice!",
+      "kind": "jokes",
+      "id": "gen-jokes-c929ed2f64",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:54.205Z"
+    },
+    {
+      "line": "What do you call a bear with a bad cold? A stuffy nose!",
+      "kind": "jokes",
+      "id": "gen-jokes-6e4fa9e5f6",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:54.411Z"
+    },
+    {
+      "line": "What do you call a dog that tells jokes? A comedy hound!",
+      "kind": "jokes",
+      "id": "gen-jokes-d4d740d9d6",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:54.699Z"
+    },
+    {
+      "line": "What do you call a cat who loves to bowl? An alley cat!",
+      "kind": "jokes",
+      "id": "gen-jokes-937631895b",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:54.911Z"
+    },
+    {
+      "line": "Why did the bird bring a ladder to the tree? To reach new heights!",
+      "kind": "jokes",
+      "id": "gen-jokes-c2d56e2a27",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:55.225Z"
+    },
+    {
+      "line": "What do you call a dinosaur with no legs? A fall!",
+      "kind": "jokes",
+      "id": "gen-jokes-82b2fcca31",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:55.497Z"
+    },
+    {
+      "line": "Why did the monkey go to space? To see the ape-solute view!",
+      "kind": "jokes",
+      "id": "gen-jokes-19f995b17f",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:55.689Z"
+    },
+    {
+      "line": "What do you call a fish without eyes? A fsh!",
+      "kind": "jokes",
+      "id": "gen-jokes-3dda2a9283",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:55.952Z"
+    },
+    {
+      "line": "What do you call a bear with a big nose? A snout!",
+      "kind": "jokes",
+      "id": "gen-jokes-f987fb1f10",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:56.234Z"
+    },
+    {
+      "line": "What do you call a dog magician? A paw-ditioner!",
+      "kind": "jokes",
+      "id": "gen-jokes-ab2ae0fdab",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:56.549Z"
+    },
+    {
+      "line": "What do you call a duck that flies over an ocean? A flying duck!",
+      "kind": "jokes",
+      "id": "gen-jokes-9b78faa08c",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:56.786Z"
+    },
+    {
+      "line": "Why did the elephant wear green sneakers? To match his hat!",
+      "kind": "jokes",
+      "id": "gen-jokes-e08fff0399",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:57.112Z"
+    },
+    {
+      "line": "Why do birds fly south for the winter? It is easier than walking!",
+      "kind": "jokes",
+      "id": "gen-jokes-8f0453b22f",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:57.412Z"
+    },
+    {
+      "line": "Why did the belt go to jail? It held up a pair of pants!",
+      "kind": "jokes",
+      "id": "gen-jokes-7df114746b",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:57.688Z"
+    },
+    {
+      "line": "Why did the spider go to the computer? To make a website!",
+      "kind": "jokes",
+      "id": "gen-jokes-d6c5bede5d",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:57.931Z"
+    },
+    {
+      "line": "Why did the scarecrow laugh? He heard a funny crop!",
+      "kind": "jokes",
+      "id": "gen-jokes-65a710bc30",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:58.192Z"
+    },
+    {
+      "line": "Why did the cookie go to the moon? To see the Milky Way!",
+      "kind": "jokes",
+      "id": "gen-jokes-77418b2327",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:58.407Z"
+    },
+    {
+      "line": "Why do birds fly south for the winter? It's too far to walk!",
+      "kind": "jokes",
+      "id": "gen-jokes-0f19f4ef94",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:58.680Z"
+    },
+    {
+      "line": "Why did the cow go to outer space? To see the moooon!",
+      "kind": "jokes",
+      "id": "gen-jokes-4dcb14625c",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:58.958Z"
+    },
+    {
+      "line": "What do you call a bear that's still in bed? A sleepy bear!",
+      "kind": "jokes",
+      "id": "gen-jokes-54ae314ada",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:59.281Z"
+    },
+    {
+      "line": "Why did the chicken join the band? Because she loved to drumstick!",
+      "kind": "jokes",
+      "id": "gen-jokes-4714f317f4",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:59.570Z"
+    },
+    {
+      "line": "Why did the orange stop rolling? Because it ran out of juice!",
+      "kind": "jokes",
+      "id": "gen-jokes-906434ad03",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:08:59.883Z"
+    },
+    {
+      "line": "Why do lions eat raw meat? Because they don't know how to cook!",
+      "kind": "jokes",
+      "id": "gen-jokes-c2e551b201",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:09:00.133Z"
+    },
+    {
+      "line": "What do you call a can that's always sleepy? A tired can!",
+      "kind": "jokes",
+      "id": "gen-jokes-3d8422f41a",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:09:00.411Z"
+    },
+    {
+      "line": "Why did the fish go to the movie? To see the jellyfish!",
+      "kind": "jokes",
+      "id": "gen-jokes-7bb9a62125",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:09:00.671Z"
+    },
+    {
+      "line": "What do you call a pig that does karate? A pork chop!",
+      "kind": "jokes",
+      "id": "gen-jokes-e5f6553bb6",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:09:00.955Z"
+    },
+    {
+      "line": "Why did the lion go to the computer? To visit the website!",
+      "kind": "jokes",
+      "id": "gen-jokes-d4fa239a5f",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:09:01.266Z"
+    },
+    {
+      "line": "What do you call a dinosaur with three eyes? A tricera-see!",
+      "kind": "jokes",
+      "id": "gen-jokes-f01affaad9",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:09:01.535Z"
+    },
+    {
+      "line": "What do you call a baby cow? A calf!",
+      "kind": "jokes",
+      "id": "gen-jokes-682f3af5fe",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:09:01.796Z"
+    },
+    {
+      "line": "What do you call a dog with a fever? A hot dog!",
+      "kind": "jokes",
+      "id": "gen-jokes-2e745a3406",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:09:02.129Z"
+    },
+    {
+      "line": "Why did the cat wear a bow tie? Because it's purr-fect!",
+      "kind": "jokes",
+      "id": "gen-jokes-33f606ac05",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:09:02.437Z"
+    },
+    {
+      "line": "Why did the chicken cross the playground? To get to the other slide!",
+      "kind": "jokes",
+      "id": "gen-jokes-15e62612cc",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:09:02.704Z"
+    },
+    {
+      "line": "What do you call a sad strawberry? A blueberry!",
+      "kind": "jokes",
+      "id": "gen-jokes-a2ac47d665",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:09:02.937Z"
+    },
+    {
+      "line": "Why did the apple stop? It ran out of juice!",
+      "kind": "jokes",
+      "id": "gen-jokes-39582c1685",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:09:03.247Z"
+    },
+    {
+      "line": "What did the astronaut say to the moon? I'm over the moon!",
+      "kind": "jokes",
+      "id": "gen-jokes-1c9ece1047",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:20:58.905Z"
+    },
+    {
+      "line": "Why did the computer go on a diet? To lose some bytes!",
+      "kind": "jokes",
+      "id": "gen-jokes-fc0c0443dc",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:20:59.184Z"
+    },
+    {
+      "line": "Why did the pencil get a job? To make a point!",
+      "kind": "jokes",
+      "id": "gen-jokes-4ba76cc7b3",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:20:59.486Z"
+    },
+    {
+      "line": "Why did the robot take a nap? To recharge its batteries!",
+      "kind": "jokes",
+      "id": "gen-jokes-1ac66e0f9a",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:20:59.751Z"
+    },
+    {
+      "line": "Why did the sheep go to space? To become an astro-baa!",
+      "kind": "jokes",
+      "id": "gen-jokes-91afce8607",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:20:59.998Z"
+    },
+    {
+      "line": "What do you call a cow in space? An udder planet!",
+      "kind": "jokes",
+      "id": "gen-jokes-b0776cb70a",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:00.322Z"
+    },
+    {
+      "line": "Why did the teacher wear sunglasses? Because her students were so bright!",
+      "kind": "jokes",
+      "id": "gen-jokes-8860760b52",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:00.628Z"
+    },
+    {
+      "line": "What do you call a dinosaur that is great at math? A calcula-raptor!",
+      "kind": "jokes",
+      "id": "gen-jokes-c6f2dee5ad",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:00.886Z"
+    },
+    {
+      "line": "Why did the ruler get a timeout? It was being too bossy!",
+      "kind": "jokes",
+      "id": "gen-jokes-cf6145d422",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:01.115Z"
+    },
+    {
+      "line": "What do you call a robot that sings? A la-ser!",
+      "kind": "jokes",
+      "id": "gen-jokes-68df63b4e8",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:01.477Z"
+    },
+    {
+      "line": "Why did the crayon go to the party? To draw a crowd!",
+      "kind": "jokes",
+      "id": "gen-jokes-8d92ec2bc0",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:01.756Z"
+    },
+    {
+      "line": "Why did the lion bring a notebook? To take roar notes!",
+      "kind": "jokes",
+      "id": "gen-jokes-022a780b97",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:02.076Z"
+    },
+    {
+      "line": "What do fish use for money? Sand dollars!",
+      "kind": "jokes",
+      "id": "gen-jokes-0ff6937fd0",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:02.368Z"
+    },
+    {
+      "line": "What do you call a funny fish? A clownfish!",
+      "kind": "jokes",
+      "id": "gen-jokes-c035a1a0ab",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:02.604Z"
+    },
+    {
+      "line": "Why do fish live in salt water? Because pepper makes them sneeze!",
+      "kind": "jokes",
+      "id": "gen-jokes-4af7a3b468",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:02.830Z"
+    },
+    {
+      "line": "Why did the clam go to the party? Because it wanted to shellebrate!",
+      "kind": "jokes",
+      "id": "gen-jokes-8db432e09c",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:03.145Z"
+    },
+    {
+      "line": "Why did the boat get a haircut? To look more shipshape!",
+      "kind": "jokes",
+      "id": "gen-jokes-ed6f490733",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:03.486Z"
+    },
+    {
+      "line": "Why did the puddle go to the party? To make a splash!",
+      "kind": "jokes",
+      "id": "gen-jokes-968ae9b7e1",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:03.805Z"
+    },
+    {
+      "line": "Why did the fish go to the beach? To catch some rays!",
+      "kind": "jokes",
+      "id": "gen-jokes-09169bfd88",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:04.117Z"
+    },
+    {
+      "line": "Why did the weather go to art class? To make a rain-bow!",
+      "kind": "jokes",
+      "id": "gen-jokes-34fbb2ade8",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:04.333Z"
+    },
+    {
+      "line": "What do snowmen eat for breakfast? Frosted flakes!",
+      "kind": "jokes",
+      "id": "gen-jokes-cd57f59e43",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:04.538Z"
+    },
+    {
+      "line": "What do snowmen eat for lunch? Iceberg lettuce!",
+      "kind": "jokes",
+      "id": "gen-jokes-4054413a0b",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:04.845Z"
+    },
+    {
+      "line": "What do you call a funny mountain? Hill-arious!",
+      "kind": "jokes",
+      "id": "gen-jokes-0534cba30d",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:05.117Z"
+    },
+    {
+      "line": "What do trees say to each other in spring? Leaf me alone!",
+      "kind": "jokes",
+      "id": "gen-jokes-2a3657a8af",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:05.395Z"
+    },
+    {
+      "line": "What do you call a wet bear? A drizzly bear!",
+      "kind": "jokes",
+      "id": "gen-jokes-4c5255533e",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:05.637Z"
+    },
+    {
+      "line": "Why did the fish bring a ladder? To go up a few scales!",
+      "kind": "jokes",
+      "id": "gen-jokes-80c0926f44",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:05.845Z"
+    },
+    {
+      "line": "Why did the wave say to the beach? Long time no sea!",
+      "kind": "jokes",
+      "id": "gen-jokes-899d3ecde2",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:06.116Z"
+    },
+    {
+      "line": "What did the ocean say to the boat? Nothing, it just waved!",
+      "kind": "jokes",
+      "id": "gen-jokes-e0c981165e",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:06.389Z"
+    },
+    {
+      "line": "What do you call a boat with a cold? Achoo-ser!",
+      "kind": "jokes",
+      "id": "gen-jokes-dbdb67b882",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:06.675Z"
+    },
+    {
+      "line": "Why did the ship get a job? It wanted to earn some sail-ary!",
+      "kind": "jokes",
+      "id": "gen-jokes-7fdb758bf4",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:06.982Z"
+    },
+    {
+      "line": "How do clouds talk to each other? With thunder-phones!",
+      "kind": "jokes",
+      "id": "gen-jokes-2983afaa46",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:07.265Z"
+    },
+    {
+      "line": "What's a raindrop's favorite type of music? Shower tunes!",
+      "kind": "jokes",
+      "id": "gen-jokes-40ab94c9a5",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:07.499Z"
+    },
+    {
+      "line": "What do you call a penguin in the desert? Lost!",
+      "kind": "jokes",
+      "id": "gen-jokes-c5d77ff820",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:07.700Z"
+    },
+    {
+      "line": "How do trees get on the internet? They log in!",
+      "kind": "jokes",
+      "id": "gen-jokes-527898c4ac",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:07.925Z"
+    },
+    {
+      "line": "What did the dirt say to the seed? Lettuce grow together!",
+      "kind": "jokes",
+      "id": "gen-jokes-e1336be414",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:08.137Z"
+    },
+    {
+      "line": "What do you call a snowman in July? A puddle!",
+      "kind": "jokes",
+      "id": "gen-jokes-e2046e8218",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:08.496Z"
+    },
+    {
+      "line": "Why do bees buzz? Because they do not know the words!",
+      "kind": "jokes",
+      "id": "gen-jokes-4b59f2575e",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:08.773Z"
+    },
+    {
+      "line": "Why did the sun wear sunglasses? To keep its cool!",
+      "kind": "jokes",
+      "id": "gen-jokes-daf3d69bd7",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:09.117Z"
+    },
+    {
+      "line": "What do you call a sea turtle that flies? A shell-a-copter!",
+      "kind": "jokes",
+      "id": "gen-jokes-6b486b3b2b",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:09.655Z"
+    },
+    {
+      "line": "What do you call a duck that tells jokes? A quack up artist!",
+      "kind": "jokes",
+      "id": "gen-jokes-fe5ab29346",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:09.863Z"
+    },
+    {
+      "line": "Why did the frog call his bank? He lost his lilypads!",
+      "kind": "jokes",
+      "id": "gen-jokes-50ccf1cf33",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:10.074Z"
+    },
+    {
+      "line": "Why did the sheep cross the river? To get to the ewe side!",
+      "kind": "jokes",
+      "id": "gen-jokes-dbb00e8e92",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:10.310Z"
+    },
+    {
+      "line": "Why did the bird go to the library? To get a book of tweets!",
+      "kind": "jokes",
+      "id": "gen-jokes-531ac6cfd2",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:10.554Z"
+    },
+    {
+      "line": "Why did the dog do homework? To be a smarty paws!",
+      "kind": "jokes",
+      "id": "gen-jokes-82242170ef",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:10.922Z"
+    },
+    {
+      "line": "Why did the rabbit go to the party? To have a hoppy time!",
+      "kind": "jokes",
+      "id": "gen-jokes-b04d44695d",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:11.157Z"
+    },
+    {
+      "line": "What do you call a cat who loves to sing? A purr-former!",
+      "kind": "jokes",
+      "id": "gen-jokes-68065df894",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:11.434Z"
+    },
+    {
+      "line": "What do you call a cold dog? A pupsicle!",
+      "kind": "jokes",
+      "id": "gen-jokes-f9a11b1a1d",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:11.699Z"
+    },
+    {
+      "line": "What do you call a lion that is a good singer? A roar star!",
+      "kind": "jokes",
+      "id": "gen-jokes-84d6723f75",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:11.947Z"
+    },
+    {
+      "line": "Why did the ladybug play hide and seek? Because it was spotted!",
+      "kind": "jokes",
+      "id": "gen-jokes-ca1c46106a",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:12.304Z"
+    },
+    {
+      "line": "How do bears greet each other? With a big bear hug!",
+      "kind": "jokes",
+      "id": "gen-jokes-5cf558dbe7",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:12.560Z"
+    },
+    {
+      "line": "Why did the cat open a garden? To grow purr-tatoes!",
+      "kind": "jokes",
+      "id": "gen-jokes-b7d1fc26fb",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:12.868Z"
+    },
+    {
+      "line": "What do you call a chicken that tells jokes? A comedi-hen!",
+      "kind": "jokes",
+      "id": "gen-jokes-958610671a",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:13.103Z"
+    },
+    {
+      "line": "Why did the monkey go to space? To visit the ape-stronauts!",
+      "kind": "jokes",
+      "id": "gen-jokes-1fff64c611",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:13.401Z"
+    },
+    {
+      "line": "Why did the bird take a bath? To feel tweet and clean!",
+      "kind": "jokes",
+      "id": "gen-jokes-e0ad788f4b",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:13.672Z"
+    },
+    {
+      "line": "What do you call a sheep that tells jokes? A baa-ha-ha!",
+      "kind": "jokes",
+      "id": "gen-jokes-ee1367cd80",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:14.013Z"
+    },
+    {
+      "line": "Why did the apple join a gym? To get a core workout!",
+      "kind": "jokes",
+      "id": "gen-jokes-d1dfeec645",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:14.228Z"
+    },
+    {
+      "line": "What did the egg say to the pan? You crack me up!",
+      "kind": "jokes",
+      "id": "gen-jokes-acaa087070",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:14.497Z"
+    },
+    {
+      "line": "What did the apple say to the orange? You peel me happy!",
+      "kind": "jokes",
+      "id": "gen-jokes-52b0c87036",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:14.748Z"
+    },
+    {
+      "line": "Why did the cheese get an award? It was grate!",
+      "kind": "jokes",
+      "id": "gen-jokes-53f47b07d6",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:14.966Z"
+    },
+    {
+      "line": "Why did the bread get a ticket? It was loafing around!",
+      "kind": "jokes",
+      "id": "gen-jokes-67f7328376",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:15.251Z"
+    },
+    {
+      "line": "Why did the spoon go to the kitchen party? To stir things up!",
+      "kind": "jokes",
+      "id": "gen-jokes-58d1dac333",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:15.514Z"
+    },
+    {
+      "line": "Why did the cookie go to the moon? It wanted to be an astronut!",
+      "kind": "jokes",
+      "id": "gen-jokes-cbfc4c8484",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:15.789Z"
+    },
+    {
+      "line": "Why did the cookie join the circus? To do some acro-crumbs!",
+      "kind": "jokes",
+      "id": "gen-jokes-18980b0268",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:16.027Z"
+    },
+    {
+      "line": "Why did the lettuce invite the tomato to dinner? To ketchup with him!",
+      "kind": "jokes",
+      "id": "gen-jokes-44b6d7c4ea",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:16.299Z"
+    },
+    {
+      "line": "Why did the mushroom go to the party? Because he was a fun-gi!",
+      "kind": "jokes",
+      "id": "gen-jokes-34aec20399",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:16.553Z"
+    },
+    {
+      "line": "What do you call a cat at a birthday party? A purr-ty animal!",
+      "kind": "jokes",
+      "id": "gen-jokes-c498e09871",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:16.852Z"
+    },
+    {
+      "line": "What do you call a cookie that can’t stop laughing? A snickerdoodle!",
+      "kind": "jokes",
+      "id": "gen-jokes-5f8ac0ec75",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:17.127Z"
+    },
+    {
+      "line": "What do you call an ice cream that tells jokes? A laugh-sicle!",
+      "kind": "jokes",
+      "id": "gen-jokes-6516659e3d",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:17.407Z"
+    },
+    {
+      "line": "What do you call a vegetable that's a musician? A corn-ductor!",
+      "kind": "jokes",
+      "id": "gen-jokes-dd6b2ba430",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:17.619Z"
+    },
+    {
+      "line": "Why did the onion go to the spa? To get a peeling treatment!",
+      "kind": "jokes",
+      "id": "gen-jokes-654a568da2",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:18.004Z"
+    },
+    {
+      "line": "Why did the bread go to the dentist? It needed a filling!",
+      "kind": "jokes",
+      "id": "gen-jokes-268079686d",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:18.380Z"
+    },
+    {
+      "line": "What do you call a birthday cake that tells jokes? A pun-cake!",
+      "kind": "jokes",
+      "id": "gen-jokes-5e922a2767",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:18.587Z"
+    },
+    {
+      "line": "What do you call a flying elephant? A jumbo jet!",
+      "kind": "jokes",
+      "id": "gen-jokes-cb7868039b",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:18.793Z"
+    },
+    {
+      "line": "Why did the bike go to the playground? To have a wheely good time!",
+      "kind": "jokes",
+      "id": "gen-jokes-3d7e921bb6",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:19.006Z"
+    },
+    {
+      "line": "Why did the ball join the playground game? To roll with it!",
+      "kind": "jokes",
+      "id": "gen-jokes-8b853a42a8",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:19.272Z"
+    },
+    {
+      "line": "Why did the playground ball feel happy? Because it bounced back!",
+      "kind": "jokes",
+      "id": "gen-jokes-816c1abe28",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:19.564Z"
+    },
+    {
+      "line": "What do you call a bike with a cold? A sniffle-cycle!",
+      "kind": "jokes",
+      "id": "gen-jokes-c62444f575",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:19.837Z"
+    },
+    {
+      "line": "What do you call a sleepy shoe? A slipper!",
+      "kind": "jokes",
+      "id": "gen-jokes-328988a2b9",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:20.106Z"
+    },
+    {
+      "line": "What did the glove say to the hand? Let's keep in touch!",
+      "kind": "jokes",
+      "id": "gen-jokes-943923ae6d",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:20.314Z"
+    },
+    {
+      "line": "Why did the bunny wear a nightcap? So it wouldn't hop in its sleep!",
+      "kind": "jokes",
+      "id": "gen-jokes-c0798feb4b",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:20.598Z"
+    },
+    {
+      "line": "What do you call a sleeping giraffe? A tall tale!",
+      "kind": "jokes",
+      "id": "gen-jokes-a43ef08419",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:20.872Z"
+    },
+    {
+      "line": "Why did the squirrel bring a pillow to bed? To have a nutty dream!",
+      "kind": "jokes",
+      "id": "gen-jokes-77d0199a48",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:21.162Z"
+    },
+    {
+      "line": "Why did the frog wear slippers? To leap into bed!",
+      "kind": "jokes",
+      "id": "gen-jokes-1af0bc52ac",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:21.414Z"
+    },
+    {
+      "line": "What do you call a lazy kangaroo? A pouch potato!",
+      "kind": "jokes",
+      "id": "gen-jokes-325641b83a",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:21.677Z"
+    },
+    {
+      "line": "Why did the football player bring string? To tie the game!",
+      "kind": "jokes",
+      "id": "gen-jokes-b674fe8dc7",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:21.935Z"
+    },
+    {
+      "line": "Why did the cat join the football team? It was good at chasing balls!",
+      "kind": "jokes",
+      "id": "gen-jokes-26b6ed3e21",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:22.193Z"
+    },
+    {
+      "line": "Why did the flute go to the library? To find some notes!",
+      "kind": "jokes",
+      "id": "gen-jokes-696ece6bca",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:22.493Z"
+    },
+    {
+      "line": "Why did the teddy bear get an award? Because it was stuffed with talent!",
+      "kind": "jokes",
+      "id": "gen-jokes-18fa57ba76",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:22.743Z"
+    },
+    {
+      "line": "Why did the doll go to the party? To have a ball!",
+      "kind": "jokes",
+      "id": "gen-jokes-3745b2fc39",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:23.013Z"
+    },
+    {
+      "line": "What do you call a sleeping cat? A cat-napper!",
+      "kind": "jokes",
+      "id": "gen-jokes-ca84be8833",
+      "file": "voice\\generated\\jokes.json",
+      "verdict": "pass",
+      "triggered": [],
+      "local": {
+        "ok": true,
+        "reasons": []
+      },
+      "eligible": true,
+      "guardrail": "1kcus2m06r9m:1",
+      "date": "2026-10-19T13:21:23.270Z"
     },
     {
       "line": "What color is a stop sign? It is red!",

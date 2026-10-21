@@ -13,6 +13,7 @@ export interface Settings {
   motion: 'full' | 'gentle';
   windDownMin: 0 | 15 | 30 | 45;
   dev: boolean; // developer text console (clearly labelled, off by default)
+  liveJokes: boolean; // Tell me a joke may fetch a fresh joke online (falls back to stored jokes when offline)
 }
 
 export interface RhymeState { id: string | null; status: 'idle' | 'playing' | 'paused' }

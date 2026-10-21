@@ -16,7 +16,7 @@ vega/           reference WebView shell for the optional Vega OS path
 
 1. `src/` is bundled by esbuild into **one self-contained file**, `dist/index.html` (JS and CSS inlined, no network), and `public/` is copied next to it (`dist/audio`, `dist/intro`).
 2. `npm run build:firetv` copies `dist/` into `firetv/app/src/main/assets/` (and checks every file was copied correctly).
-3. `firetv/` is a thin Android app: one `MainActivity` with a WebView that loads `file:///android_asset/index.html`. It has no INTERNET permission. It turns the Back key into `Escape` and Play/Pause into `MediaPlayPause` for the page, shows a native splash until the page has painted, and pauses audio when the app leaves the screen.
+3. `firetv/` is a thin Android app: one `MainActivity` with a WebView that loads `file:///android_asset/index.html`. Its only network use is the optional live joke (the INTERNET permission). It turns the Back key into `Escape` and Play/Pause into `MediaPlayPause` for the page, shows a native splash until the page has painted, and pauses audio when the app leaves the screen.
 4. Gradle builds the APK; `adb install` puts it on a Fire TV or an emulator.
 
 ## After every change
@@ -60,8 +60,9 @@ The same `dist/index.html` can be loaded by a Vega OS project made from the `veg
 | Unit tests | 152 of 152 pass | this machine |
 | Strict typecheck (core and UI) | pass | this machine |
 | Web build | pass | this machine |
-| Every screen, the Talk section, the buddies, the intro | checked by hand | desktop Chromium with WebGL |
-| `./gradlew assembleDebug`, install, launch, intro and home screen | pass | Android TV emulator `FireTV_API30` |
+| Every screen, the Talk section, the intro | checked by hand | desktop Chromium |
+| `./gradlew assembleDebug`, install, launch, intro, home screen, Talk live jokes and the no-Wi-Fi fallback | pass | Android TV emulator `FireTV_API30` |
+| Install, launch, home screen and live jokes (each press called the service) | pass | a real Fire TV (Amazon AFTMA08C15, Fire OS 7) |
 | Bedrock pipeline (generate, guardrail check, logging) | works; details in [aws-bedrock.md](aws-bedrock.md) | real AWS account, `ap-south-1` |
 | Remote-only end-to-end (`npm run e2e`) and tour (`npm run tour`) | scripts exist; not re-run for this version | — |
 | Running on a physical Fire TV | **not run** | — |

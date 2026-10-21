@@ -1133,6 +1133,2396 @@
       "status": "ready"
     },
     {
+      "path": "voice/cat/what-do-you-call-a-cc6b25.mp3",
+      "title": "What do you call a sleeping bull?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/a-bulldozer-c71d2b.mp3",
+      "title": "A bulldozer!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/why-did-the-cat-wear-5346f2.mp3",
+      "title": "Why did the cat wear a bowtie?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/to-look-pawsome-55d098.mp3",
+      "title": "To look pawsome!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/why-did-the-elephant-bring-150fd5.mp3",
+      "title": "Why did the elephant bring a suitcase?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/for-a-trunk-trip-cbef99.mp3",
+      "title": "For a trunk trip!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/why-did-the-teddy-bear-c8106d.mp3",
+      "title": "Why did the teddy bear say no?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/because-it-was-stuffed-e43061.mp3",
+      "title": "Because it was stuffed!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/why-did-the-picture-go-201c2d.mp3",
+      "title": "Why did the picture go to jail?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/it-was-framed-105aa7.mp3",
+      "title": "It was framed!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/why-did-the-chicken-join-936f30.mp3",
+      "title": "Why did the chicken join a band?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/to-play-the-drumsticks-a1dafb.mp3",
+      "title": "To play the drumsticks!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/why-did-the-baby-carrot-3efa33.mp3",
+      "title": "Why did the baby carrot win a race?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/it-was-a-fast-rooter-156eea.mp3",
+      "title": "It was a fast rooter!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/what-do-you-call-a-07d1fe.mp3",
+      "title": "What do you call a bear with a toothache?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/a-grizzly-patient-376009.mp3",
+      "title": "A grizzly patient!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/why-did-the-tree-go-c89298.mp3",
+      "title": "Why did the tree go to the dentist?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/it-had-a-root-canal-f3e6de.mp3",
+      "title": "It had a root canal!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/what-do-you-call-a-cc0504.mp3",
+      "title": "What do you call a dinosaur that is sleeping?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/a-dino-snore-0f75f2.mp3",
+      "title": "A dino-snore!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/what-do-you-call-a-bf07cd.mp3",
+      "title": "What do you call a cow that plays the drums?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/a-moo-sician-425c35.mp3",
+      "title": "A moo-sician!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/why-did-the-crab-never-cd8a6d.mp3",
+      "title": "Why did the crab never share his toys?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/because-he-was-shellfish-e3dcc2.mp3",
+      "title": "Because he was shellfish!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/why-did-the-cow-want-44017f.mp3",
+      "title": "Why did the cow want a bell?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/to-ring-in-the-moo-d30dfa.mp3",
+      "title": "To ring in the moo year!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/why-did-the-math-book-e7bdeb.mp3",
+      "title": "Why did the math book look so sad?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/because-it-had-so-many-6643d0.mp3",
+      "title": "Because it had so many problems!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/what-do-you-call-a-47bb03.mp3",
+      "title": "What do you call a cat who loves to swim?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/a-purr-maid-603649.mp3",
+      "title": "A purr-maid!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/why-did-the-orange-stop-2a3f69.mp3",
+      "title": "Why did the orange stop rolling?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/it-ran-out-of-juice-0e7d9b.mp3",
+      "title": "It ran out of juice!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/what-did-the-tree-wear-91418b.mp3",
+      "title": "What did the tree wear to the pool?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/swim-trunks-5a7106.mp3",
+      "title": "Swim trunks!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/what-do-you-call-a-182f62.mp3",
+      "title": "What do you call a bear with a cold?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/a-stuffy-bear-b2626d.mp3",
+      "title": "A stuffy bear!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/what-do-you-call-a-dcc339.mp3",
+      "title": "What do you call a dog that does not bark?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/a-hush-puppy-d8c3ea.mp3",
+      "title": "A hush puppy!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/what-do-you-call-a-122416.mp3",
+      "title": "What do you call a pig that does magic?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/a-ham-star-1cdef4.mp3",
+      "title": "A ham star!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/what-do-you-call-a-efb1b3.mp3",
+      "title": "What do you call a cat who loves to bowl?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/an-alley-cat-424f91.mp3",
+      "title": "An alley cat!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/why-did-the-bird-bring-349af0.mp3",
+      "title": "Why did the bird bring a ladder to the tree?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/to-reach-new-heights-e12239.mp3",
+      "title": "To reach new heights!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/why-do-birds-fly-south-4674c0.mp3",
+      "title": "Why do birds fly south for the winter?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/it-is-easier-than-walking-3de186.mp3",
+      "title": "It is easier than walking!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/why-did-the-belt-go-3b4b64.mp3",
+      "title": "Why did the belt go to jail?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/it-held-up-a-pair-a321b5.mp3",
+      "title": "It held up a pair of pants!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/why-did-the-spider-go-6594bb.mp3",
+      "title": "Why did the spider go to the computer?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/to-make-a-website-578bf5.mp3",
+      "title": "To make a website!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/why-did-the-cookie-go-33074a.mp3",
+      "title": "Why did the cookie go to the moon?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/to-see-the-milky-way-42f732.mp3",
+      "title": "To see the Milky Way!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/what-do-you-call-a-278473.mp3",
+      "title": "What do you call a dinosaur with three eyes?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/a-tricera-see-19bd46.mp3",
+      "title": "A tricera-see!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/what-do-you-call-a-035e21.mp3",
+      "title": "What do you call a dog with a fever?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/a-hot-dog-ee401a.mp3",
+      "title": "A hot dog!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/why-did-the-chicken-cross-5b693e.mp3",
+      "title": "Why did the chicken cross the playground?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/to-get-to-the-other-9badc4.mp3",
+      "title": "To get to the other slide!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/what-do-you-call-a-7e48a9.mp3",
+      "title": "What do you call a sad strawberry?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/a-blueberry-54286e.mp3",
+      "title": "A blueberry!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/what-did-the-astronaut-say-4a2a2c.mp3",
+      "title": "What did the astronaut say to the moon?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/im-over-the-moon-979e97.mp3",
+      "title": "I'm over the moon!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/why-did-the-computer-go-8bdf54.mp3",
+      "title": "Why did the computer go on a diet?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/to-lose-some-bytes-599a15.mp3",
+      "title": "To lose some bytes!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/why-did-the-pencil-get-764568.mp3",
+      "title": "Why did the pencil get a job?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/to-make-a-point-7ee8c7.mp3",
+      "title": "To make a point!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/why-did-the-robot-take-b92fbd.mp3",
+      "title": "Why did the robot take a nap?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/to-recharge-its-batteries-9a4ba4.mp3",
+      "title": "To recharge its batteries!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/why-did-the-sheep-go-cc1cf9.mp3",
+      "title": "Why did the sheep go to space?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/to-become-an-astro-baa-7ae5dc.mp3",
+      "title": "To become an astro-baa!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/what-do-you-call-a-f2b130.mp3",
+      "title": "What do you call a cow in space?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/an-udder-planet-3a076a.mp3",
+      "title": "An udder planet!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/why-did-the-teacher-wear-60ac0f.mp3",
+      "title": "Why did the teacher wear sunglasses?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/because-her-students-were-so-98745a.mp3",
+      "title": "Because her students were so bright!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/what-do-you-call-a-aa8861.mp3",
+      "title": "What do you call a dinosaur that is great at math?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/a-calcula-raptor-2c2bef.mp3",
+      "title": "A calcula-raptor!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/why-did-the-ruler-get-78d990.mp3",
+      "title": "Why did the ruler get a timeout?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/it-was-being-too-bossy-6eb371.mp3",
+      "title": "It was being too bossy!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/what-do-you-call-a-59ba74.mp3",
+      "title": "What do you call a robot that sings?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/a-la-ser-e9616b.mp3",
+      "title": "A la-ser!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/why-did-the-crayon-go-665e06.mp3",
+      "title": "Why did the crayon go to the party?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/to-draw-a-crowd-f2a248.mp3",
+      "title": "To draw a crowd!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/why-did-the-lion-bring-65f76e.mp3",
+      "title": "Why did the lion bring a notebook?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/to-take-roar-notes-e75832.mp3",
+      "title": "To take roar notes!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/what-do-fish-use-for-a75a90.mp3",
+      "title": "What do fish use for money?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/sand-dollars-04e4c1.mp3",
+      "title": "Sand dollars!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/what-do-you-call-a-bba7da.mp3",
+      "title": "What do you call a funny fish?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/a-clownfish-73fdf8.mp3",
+      "title": "A clownfish!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/why-do-fish-live-in-346d69.mp3",
+      "title": "Why do fish live in salt water?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/because-pepper-makes-them-sneeze-609b3f.mp3",
+      "title": "Because pepper makes them sneeze!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/why-did-the-clam-go-4e2764.mp3",
+      "title": "Why did the clam go to the party?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/because-it-wanted-to-shellebrate-8b9c99.mp3",
+      "title": "Because it wanted to shellebrate!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/why-did-the-boat-get-6619e0.mp3",
+      "title": "Why did the boat get a haircut?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/to-look-more-shipshape-b8aeea.mp3",
+      "title": "To look more shipshape!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/why-did-the-puddle-go-32649e.mp3",
+      "title": "Why did the puddle go to the party?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/to-make-a-splash-b8efab.mp3",
+      "title": "To make a splash!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/why-did-the-fish-go-6e58d8.mp3",
+      "title": "Why did the fish go to the beach?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/to-catch-some-rays-4cb80d.mp3",
+      "title": "To catch some rays!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/why-did-the-weather-go-330fbd.mp3",
+      "title": "Why did the weather go to art class?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/to-make-a-rain-bow-9c29d6.mp3",
+      "title": "To make a rain-bow!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/what-do-snowmen-eat-for-7855d1.mp3",
+      "title": "What do snowmen eat for breakfast?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/frosted-flakes-467b19.mp3",
+      "title": "Frosted flakes!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/what-do-snowmen-eat-for-b83b12.mp3",
+      "title": "What do snowmen eat for lunch?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/iceberg-lettuce-48f6c1.mp3",
+      "title": "Iceberg lettuce!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/what-do-you-call-a-fbbd0f.mp3",
+      "title": "What do you call a funny mountain?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/hill-arious-d5fdeb.mp3",
+      "title": "Hill-arious!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/what-do-trees-say-to-c75d7c.mp3",
+      "title": "What do trees say to each other in spring?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/leaf-me-alone-dc411f.mp3",
+      "title": "Leaf me alone!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/what-do-you-call-a-f2e351.mp3",
+      "title": "What do you call a wet bear?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/a-drizzly-bear-a4dbe2.mp3",
+      "title": "A drizzly bear!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/why-did-the-fish-bring-5143bf.mp3",
+      "title": "Why did the fish bring a ladder?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/to-go-up-a-few-8480fe.mp3",
+      "title": "To go up a few scales!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/why-did-the-wave-say-3d3611.mp3",
+      "title": "Why did the wave say to the beach?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/long-time-no-sea-e41b29.mp3",
+      "title": "Long time no sea!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/what-did-the-ocean-say-70c868.mp3",
+      "title": "What did the ocean say to the boat?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/nothing-it-just-waved-393bba.mp3",
+      "title": "Nothing, it just waved!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/what-do-you-call-a-abaf37.mp3",
+      "title": "What do you call a boat with a cold?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/achoo-ser-f40db0.mp3",
+      "title": "Achoo-ser!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/why-did-the-ship-get-675e53.mp3",
+      "title": "Why did the ship get a job?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/it-wanted-to-earn-some-35cdbe.mp3",
+      "title": "It wanted to earn some sail-ary!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/how-do-clouds-talk-to-217e58.mp3",
+      "title": "How do clouds talk to each other?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/with-thunder-phones-5d910b.mp3",
+      "title": "With thunder-phones!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/whats-a-raindrops-favorite-type-ad65b1.mp3",
+      "title": "What's a raindrop's favorite type of music?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/shower-tunes-7da435.mp3",
+      "title": "Shower tunes!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/what-do-you-call-a-650349.mp3",
+      "title": "What do you call a penguin in the desert?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/lost-e23473.mp3",
+      "title": "Lost!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/how-do-trees-get-on-f219ea.mp3",
+      "title": "How do trees get on the internet?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/they-log-in-586efe.mp3",
+      "title": "They log in!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/what-did-the-dirt-say-bb14ca.mp3",
+      "title": "What did the dirt say to the seed?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/lettuce-grow-together-d59908.mp3",
+      "title": "Lettuce grow together!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/what-do-you-call-a-0b4275.mp3",
+      "title": "What do you call a snowman in July?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/a-puddle-a0b240.mp3",
+      "title": "A puddle!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/why-do-bees-buzz-e9d474.mp3",
+      "title": "Why do bees buzz?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/because-they-do-not-know-8b372b.mp3",
+      "title": "Because they do not know the words!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/why-did-the-sun-wear-420baf.mp3",
+      "title": "Why did the sun wear sunglasses?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/to-keep-its-cool-13d750.mp3",
+      "title": "To keep its cool!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/what-do-you-call-a-eedaa3.mp3",
+      "title": "What do you call a sea turtle that flies?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/a-shell-a-copter-6bdcee.mp3",
+      "title": "A shell-a-copter!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/what-do-you-call-a-491075.mp3",
+      "title": "What do you call a duck that tells jokes?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/a-quack-up-artist-52ea2c.mp3",
+      "title": "A quack up artist!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/why-did-the-frog-call-1c2608.mp3",
+      "title": "Why did the frog call his bank?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/he-lost-his-lilypads-86f599.mp3",
+      "title": "He lost his lilypads!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/why-did-the-sheep-cross-ff9dd1.mp3",
+      "title": "Why did the sheep cross the river?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/to-get-to-the-ewe-812d7b.mp3",
+      "title": "To get to the ewe side!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/why-did-the-bird-go-5a234f.mp3",
+      "title": "Why did the bird go to the library?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/to-get-a-book-of-5d21b3.mp3",
+      "title": "To get a book of tweets!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/why-did-the-dog-do-e2f78a.mp3",
+      "title": "Why did the dog do homework?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/to-be-a-smarty-paws-041d9f.mp3",
+      "title": "To be a smarty paws!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/why-did-the-rabbit-go-6def40.mp3",
+      "title": "Why did the rabbit go to the party?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/to-have-a-hoppy-time-76f937.mp3",
+      "title": "To have a hoppy time!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/what-do-you-call-a-8f84b1.mp3",
+      "title": "What do you call a cat who loves to sing?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/a-purr-former-71e4ec.mp3",
+      "title": "A purr-former!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/what-do-you-call-a-beaced.mp3",
+      "title": "What do you call a cold dog?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/a-pupsicle-230468.mp3",
+      "title": "A pupsicle!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/what-do-you-call-a-415a31.mp3",
+      "title": "What do you call a lion that is a good singer?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/a-roar-star-4065dd.mp3",
+      "title": "A roar star!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/why-did-the-ladybug-play-1ca22b.mp3",
+      "title": "Why did the ladybug play hide and seek?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/because-it-was-spotted-c22ba8.mp3",
+      "title": "Because it was spotted!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/how-do-bears-greet-each-e584e9.mp3",
+      "title": "How do bears greet each other?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/with-a-big-bear-hug-86e889.mp3",
+      "title": "With a big bear hug!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/why-did-the-cat-open-7185bc.mp3",
+      "title": "Why did the cat open a garden?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/to-grow-purr-tatoes-c4bf20.mp3",
+      "title": "To grow purr-tatoes!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/what-do-you-call-a-f7a860.mp3",
+      "title": "What do you call a chicken that tells jokes?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/a-comedi-hen-849e44.mp3",
+      "title": "A comedi-hen!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/why-did-the-monkey-go-296450.mp3",
+      "title": "Why did the monkey go to space?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/to-visit-the-ape-stronauts-ba63d7.mp3",
+      "title": "To visit the ape-stronauts!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/why-did-the-bird-take-6bee84.mp3",
+      "title": "Why did the bird take a bath?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/to-feel-tweet-and-clean-8d5174.mp3",
+      "title": "To feel tweet and clean!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/what-do-you-call-a-7bc959.mp3",
+      "title": "What do you call a sheep that tells jokes?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/a-baa-ha-ha-299270.mp3",
+      "title": "A baa-ha-ha!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/why-did-the-apple-join-9d7243.mp3",
+      "title": "Why did the apple join a gym?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/to-get-a-core-workout-a7f6fa.mp3",
+      "title": "To get a core workout!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/what-did-the-egg-say-c337f7.mp3",
+      "title": "What did the egg say to the pan?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/you-crack-me-up-c109af.mp3",
+      "title": "You crack me up!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/what-did-the-apple-say-27a108.mp3",
+      "title": "What did the apple say to the orange?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/you-peel-me-happy-502417.mp3",
+      "title": "You peel me happy!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/why-did-the-cheese-get-75ade4.mp3",
+      "title": "Why did the cheese get an award?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/it-was-grate-94a6e7.mp3",
+      "title": "It was grate!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/why-did-the-bread-get-261bcd.mp3",
+      "title": "Why did the bread get a ticket?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/it-was-loafing-around-b05fc4.mp3",
+      "title": "It was loafing around!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/why-did-the-spoon-go-e06d86.mp3",
+      "title": "Why did the spoon go to the kitchen party?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/to-stir-things-up-3915b8.mp3",
+      "title": "To stir things up!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/it-wanted-to-be-an-d81582.mp3",
+      "title": "It wanted to be an astronut!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/why-did-the-cookie-join-6118e3.mp3",
+      "title": "Why did the cookie join the circus?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/to-do-some-acro-crumbs-ed14ff.mp3",
+      "title": "To do some acro-crumbs!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/why-did-the-lettuce-invite-2bb042.mp3",
+      "title": "Why did the lettuce invite the tomato to dinner?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/to-ketchup-with-him-577b7b.mp3",
+      "title": "To ketchup with him!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/why-did-the-mushroom-go-09f494.mp3",
+      "title": "Why did the mushroom go to the party?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/because-he-was-a-fun-5588d1.mp3",
+      "title": "Because he was a fun-gi!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/what-do-you-call-a-fc0ab1.mp3",
+      "title": "What do you call a cat at a birthday party?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/a-purr-ty-animal-6f6287.mp3",
+      "title": "A purr-ty animal!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/what-do-you-call-a-9a72d5.mp3",
+      "title": "What do you call a cookie that can\u2019t stop laughing?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/a-snickerdoodle-3778e6.mp3",
+      "title": "A snickerdoodle!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/what-do-you-call-an-215ec2.mp3",
+      "title": "What do you call an ice cream that tells jokes?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/a-laugh-sicle-3bee5a.mp3",
+      "title": "A laugh-sicle!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/what-do-you-call-a-ce6186.mp3",
+      "title": "What do you call a vegetable that's a musician?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/a-corn-ductor-696c91.mp3",
+      "title": "A corn-ductor!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/why-did-the-onion-go-3cde71.mp3",
+      "title": "Why did the onion go to the spa?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/to-get-a-peeling-treatment-a435f2.mp3",
+      "title": "To get a peeling treatment!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/why-did-the-bread-go-cb1b60.mp3",
+      "title": "Why did the bread go to the dentist?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/it-needed-a-filling-fb2808.mp3",
+      "title": "It needed a filling!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/what-do-you-call-a-165d6a.mp3",
+      "title": "What do you call a birthday cake that tells jokes?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/a-pun-cake-5dbbd2.mp3",
+      "title": "A pun-cake!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/what-do-you-call-a-f36482.mp3",
+      "title": "What do you call a flying elephant?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/a-jumbo-jet-da1371.mp3",
+      "title": "A jumbo jet!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/why-did-the-bike-go-f4519a.mp3",
+      "title": "Why did the bike go to the playground?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/to-have-a-wheely-good-25e4c1.mp3",
+      "title": "To have a wheely good time!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/why-did-the-ball-join-b15d26.mp3",
+      "title": "Why did the ball join the playground game?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/to-roll-with-it-98e987.mp3",
+      "title": "To roll with it!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/why-did-the-playground-ball-a4bb80.mp3",
+      "title": "Why did the playground ball feel happy?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/because-it-bounced-back-535506.mp3",
+      "title": "Because it bounced back!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/what-do-you-call-a-968abf.mp3",
+      "title": "What do you call a bike with a cold?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/a-sniffle-cycle-9f55c2.mp3",
+      "title": "A sniffle-cycle!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/what-do-you-call-a-237af2.mp3",
+      "title": "What do you call a sleepy shoe?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/a-slipper-db9931.mp3",
+      "title": "A slipper!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/what-did-the-glove-say-fac604.mp3",
+      "title": "What did the glove say to the hand?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/lets-keep-in-touch-bd4e73.mp3",
+      "title": "Let's keep in touch!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/why-did-the-bunny-wear-7edf6d.mp3",
+      "title": "Why did the bunny wear a nightcap?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/so-it-wouldnt-hop-in-e31d50.mp3",
+      "title": "So it wouldn't hop in its sleep!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/what-do-you-call-a-385c22.mp3",
+      "title": "What do you call a sleeping giraffe?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/a-tall-tale-e68d7f.mp3",
+      "title": "A tall tale!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/why-did-the-squirrel-bring-be79de.mp3",
+      "title": "Why did the squirrel bring a pillow to bed?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/to-have-a-nutty-dream-f3e36a.mp3",
+      "title": "To have a nutty dream!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/why-did-the-frog-wear-ed3cde.mp3",
+      "title": "Why did the frog wear slippers?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/to-leap-into-bed-c4a2fb.mp3",
+      "title": "To leap into bed!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/what-do-you-call-a-53eff6.mp3",
+      "title": "What do you call a lazy kangaroo?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/a-pouch-potato-c22229.mp3",
+      "title": "A pouch potato!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/why-did-the-football-player-fb2137.mp3",
+      "title": "Why did the football player bring string?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/to-tie-the-game-44e5f4.mp3",
+      "title": "To tie the game!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/why-did-the-cat-join-a70f98.mp3",
+      "title": "Why did the cat join the football team?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/it-was-good-at-chasing-72cb8b.mp3",
+      "title": "It was good at chasing balls!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/why-did-the-flute-go-f7b18d.mp3",
+      "title": "Why did the flute go to the library?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/to-find-some-notes-504b41.mp3",
+      "title": "To find some notes!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/why-did-the-teddy-bear-d06e33.mp3",
+      "title": "Why did the teddy bear get an award?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/because-it-was-stuffed-with-4384f1.mp3",
+      "title": "Because it was stuffed with talent!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/why-did-the-doll-go-4cd172.mp3",
+      "title": "Why did the doll go to the party?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/to-have-a-ball-acbb49.mp3",
+      "title": "To have a ball!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/what-do-you-call-a-061ee2.mp3",
+      "title": "What do you call a sleeping cat?",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
+      "path": "voice/cat/a-cat-napper-f80bb5.mp3",
+      "title": "A cat-napper!",
+      "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",
+      "sourceUrl": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium",
+      "license": "Voice model trained on LJ Speech (public domain); Piper MIT. See public/audio/MANIFEST.json voices[] caveat.",
+      "attribution": "Piper TTS by Michael Hansen (rhasspy); LJ Speech dataset by Keith Ito",
+      "intendedUse": "Spoken dialogue line for cat",
+      "status": "ready"
+    },
+    {
       "path": "voice/cat/what-is-yellow-and-goes-e11491.mp3",
       "title": "What is yellow and goes beep beep?",
       "creator": "Generated offline with Piper (piper-en_US-ljspeech-medium), profile 'cat' (pitch 1.34, tempo 1.06)",

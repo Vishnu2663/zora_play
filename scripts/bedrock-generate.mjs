@@ -2,7 +2,8 @@
 // Build-time only. Asks Amazon Bedrock (Converse API) for new kid-friendly lines and saves them as "pending".
 // Never bundled into dist/. Credentials come from the standard AWS chain (env vars or AWS_PROFILE).
 //
-//   node scripts/bedrock-generate.mjs --kind=jokes --count=20 [--model=ID] [--region=R] [--guardrail=ID:VERSION]
+//   node scripts/bedrock-generate.mjs --kind=jokes --count=20 [--topics="space, ocean, school"] [--max-attempts=10]
+//   (older form:) node scripts/bedrock-generate.mjs --kind=jokes --count=20 [--model=ID] [--region=R] [--guardrail=ID:VERSION]
 //                                     [--out=voice/generated/jokes.json] [--dry-run]
 import { existsSync } from 'node:fs';
 import { join, resolve } from 'node:path';
@@ -26,14 +27,14 @@ export async function main(argv = process.argv.slice(2), env = process.env) {
 
   if (a['dry-run']) {
     console.log(`[dry run] no AWS call. kind=${kind} count=${count} model=${model ?? '(unset)'} region=${region ?? '(unset)'} guardrail=${gv ?? '(none)'} out=${out}`);
-    console.log(`prompt version ${PROMPT_VERSION}\n\n--- system ---\n${SYSTEM_PROMPT}\n\n--- user ---\n${buildUserPrompt(kind, count, { animals: existing.animals, avoid: existing.samples[kind] })}`);
+    console.log(`prompt version ${PROMPT_VERSION}\n\n--- system ---\n${SYSTEM_PROMPT}\n\n--- user ---\n${buildUserPrompt(kind, count, { animals: existing.animals, avoid: existing.samples[kind], topics: typeof a.topics === 'string' ? a.topics : undefined })}`);
     return;
   }
   if (!model) throw new Error('No model. Pass --model=<modelId> or set BEDROCK_MODEL_ID');
   if (!region) throw new Error('No region. Pass --region=<region> or set AWS_REGION');
 
   const client = await createBedrockClient(region);
-  const { lines, stats } = await generateLines(client, { kind, count, model, region, guardrail, seen: existing.seen, sample: existing.samples[kind], animals: existing.animals, log: (m) => console.log(m) });
+  const { lines, stats } = await generateLines(client, { kind, count, model, region, guardrail, seen: existing.seen, sample: existing.samples[kind], animals: existing.animals, topics: typeof a.topics === 'string' ? a.topics : undefined, maxAttempts: a['max-attempts'] ? Number(a['max-attempts']) : undefined, log: (m) => console.log(m) });
 
   const prev = existsSync(out) ? readGenerated(out) : { lines: [] };
   const file = {

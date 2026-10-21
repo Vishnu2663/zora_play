@@ -17,6 +17,7 @@ import { Alphabets, Band, AvatarPicker, AnimalGuess, Breathe, Dance, DanceMaker,
 import { Btn, INTENT_PHRASE, type Ctx, type RhymeState, type Settings } from './ui.tsx';
 import { voice } from './voice.ts';
 import { speech } from './speech.ts';
+import { liveJokeReady, requestLiveJoke } from './liveJoke.ts';
 
 const PARENT_OF: Record<Screen, Screen | 'exit'> = {
   home: 'exit', dance: 'home', rhymes: 'home', play: 'home', talk: 'home', alphabets: 'home', band: 'home', avatar: 'home', help: 'home', breathe: 'home', parents: 'home',
@@ -26,7 +27,7 @@ const PARENT_OF: Record<Screen, Screen | 'exit'> = {
 type ParticleKind = 'notes' | 'sparkles' | 'hearts' | 'zzz' | 'bubbles' | 'question';
 interface P { id: number; kind: ParticleKind; x: number; y: number; d: number; s: number }
 
-const DEFAULT_SETTINGS: Settings = { sound: true, volume: 'medium', voice: true, systemTts: false, motion: 'full', windDownMin: 0, dev: false };
+const DEFAULT_SETTINGS: Settings = { sound: true, volume: 'medium', voice: true, systemTts: false, motion: 'full', windDownMin: 0, dev: false, liveJokes: true };
 const VOICE_VOL = { low: 0.45, medium: 0.75, high: 1 } as const;
 const HOLD_MS = 3000;
 
@@ -254,18 +255,39 @@ export function App() {
     const q = r.intent === 'LAUGH' ? r.say.indexOf('?') : -1;
     if (q > 0 && q < r.say.length - 1) {
       // A joke: the question first, 2 seconds to think, then the answer, then the buddy laughs out loud.
-      const question = r.say.slice(0, q + 1).trim();
-      const answer = r.say.slice(q + 1).trim();
+      const storedQuestion = r.say.slice(0, q + 1).trim();
+      const storedAnswer = r.say.slice(q + 1).trim();
       let timer: ReturnType<typeof setTimeout> | undefined;
+      let off1: (() => void) | undefined;
       let off2: (() => void) | undefined;
-      say(question, r.mood);
-      const off1 = speech.whenIdle(() => {
-        timer = setTimeout(() => {
-          say(answer, 'excited');
-          off2 = speech.whenIdle(() => { say(LAUGH_LINE, 'excited'); brain.machine.enter('LAUGHING', performance.now(), { durationMs: 3600 }); particlesFn('sparkles'); }, 12000, 1200);
-        }, 2000);
-      }, 12000, 1200);
-      jokeCancel.current = () => { off1(); off2?.(); if (timer) clearTimeout(timer); };
+      let cancelFetch: (() => void) | undefined;
+      let stopped = false;
+      const tell = (question: string, answer: string) => {
+        if (stopped) return;
+        say(question, r.mood);
+        off1 = speech.whenIdle(() => {
+          timer = setTimeout(() => {
+            say(answer, 'excited');
+            off2 = speech.whenIdle(() => { say(LAUGH_LINE, 'excited'); brain.machine.enter('LAUGHING', performance.now(), { durationMs: 3600 }); particlesFn('sparkles'); }, 12000, 1200);
+          }, 2000);
+        }, 12000, 1200);
+      };
+      jokeCancel.current = () => { stopped = true; cancelFetch?.(); off1?.(); off2?.(); if (timer) clearTimeout(timer); };
+      if (liveJokeReady(settingsRef.current.liveJokes)) {
+        // A fresh joke from the joke service while the buddy "thinks"; any problem and a stored, reviewed joke is told instead.
+        showBubble('Hmm, let me think of a joke...', 'happy');
+        brain.machine.enter('THINKING', performance.now(), { durationMs: 7000 });
+        const req = requestLiveJoke(avatarRef.current);
+        cancelFetch = req.cancel;
+        void req.promise.then((j) => {
+          if (stopped) return;
+          if (j) {
+            speech.registerLiveClip(j.question, `data:audio/mpeg;base64,${j.audioQuestion}`);
+            speech.registerLiveClip(j.answer, `data:audio/mpeg;base64,${j.audioAnswer}`);
+            tell(j.question, j.answer);
+          } else tell(storedQuestion, storedAnswer);
+        });
+      } else tell(storedQuestion, storedAnswer);
     } else say(r.say, r.mood);
     setChoices(r.choices && r.choices.length ? r.choices : null);
     setCharState(brain.machine.snapshot.state);

@@ -23,7 +23,7 @@ The clips were chosen by file title/description and checked for duration/loudnes
 - Regenerate dialogue: `python scripts/gen-voice.py --model <model.onnx> --piper piper --only-missing` (use `--piper "<python> scripts/piper-shim.py"` if the piper-tts wheel is broken on macOS arm64).
 
 ## Not done / not verified
-- No run on a physical Fire TV (only the Android TV emulator, which has no WebGL). The Vega simulator was never used for this version.
+- No run on a physical Fire TV (only the Android TV emulator). The Vega simulator was never used for this version.
 - Four animals missing (above). Some animal recordings have not been listened to.
 - Real voice input is not available (see the README).
 

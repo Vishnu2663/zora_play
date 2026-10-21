@@ -98,6 +98,8 @@ export class SpeechService {
   readonly queue: SpeechQueue;
   character = 'dino';
   allowSystemTts = false; // grown-up setting; also requires readTtsVerified()
+  /** Lines whose audio arrived at run time (a fresh joke): text -> audio data URL. Used once, then dropped. */
+  private live = new Map<string, string>();
 
   constructor() {
     this.queue = new SpeechQueue(this.player, (t) => this.resolve(t), {
@@ -106,8 +108,16 @@ export class SpeechService {
     });
   }
 
+  /** Register spoken audio (an mp3 data URL) for exactly this text; the next speak(text) plays it. */
+  registerLiveClip(text: string, dataUrl: string) {
+    this.live.set(text, dataUrl);
+    while (this.live.size > 6) this.live.delete(this.live.keys().next().value as string);
+  }
+
   /** text -> clips for the current character (all sentences must be covered). */
   resolve(text: string): Resolution {
+    const liveSrc = this.live.get(text);
+    if (liveSrc) return { speakable: { kind: 'clips', clips: [{ id: 'live', src: liveSrc, ms: 2500 }] } };
     const { phrases, missing } = segment(text);
     const voice = clipIndex().voices?.[this.character] ?? {};
     const noClip = phrases.filter((p) => !voice[p.id]);

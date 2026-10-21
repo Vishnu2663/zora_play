@@ -1,6 +1,6 @@
 # Manual TV test checklist
 
-Run on a **real Fire TV** and, if possible, an Android TV / Fire TV emulator. Tick each item; note the device and build at the top. The emulator has no WebGL, so it shows the flat buddy; a real Fire TV should show the 3D buddies.
+Run on a **real Fire TV** and, if possible, an Android TV / Fire TV emulator. Tick each item; note the device and build at the top.
 
 Device: ______  Fire OS / Android version: ______  Build (Settings, bottom line): ______  Date: ______
 
@@ -57,7 +57,10 @@ Device: ______  Fire OS / Android version: ______  Build (Settings, bottom line)
 ## Talk
 - [ ] Each of the 5 conversation starters is spoken in full, in order, with nothing overlapping
 - [ ] "Can you count to five with me?" counts slowly and evenly
-- [ ] "Tell me a joke": question, pause, answer, then a laugh (every part is voiced)
+- [ ] "Tell me a joke" online: "Hmm, let me think of a joke...", then a NEW joke (different each time) as question, pause, answer, then a laugh, all voiced
+- [ ] Live jokes are simple, gentle and short (suitable for ages 3 to 8): no scary, rude or grown-up jokes, no hard words
+- [ ] "Tell me a joke" with Wi-Fi off, or with Settings > Fresh jokes online = Off: a stored joke is told straight away (no "Hmm, let me think" wait), voiced
+- [ ] With Wi-Fi on, every press of Tell me a joke asks the service (a different new joke each time); if one press fails or is slow, that press tells a stored joke and the next press asks again
 - [ ] Pressing a different button in the middle of a reply replaces it cleanly: no leftover follow-up, no joke answer over the new line
 - [ ] Dance! → Faster! → Stop! → Again! behaves in context
 - [ ] I'm sad → a supportive buddy with Calm breaths / Play buttons in the bubble; Back dismisses

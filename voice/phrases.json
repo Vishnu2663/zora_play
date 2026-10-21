@@ -1,5 +1,5 @@
 {
-  "count": 263,
+  "count": 502,
   "phrases": [
     {
       "id": "hi-im-zora-play-want-bd787d",
@@ -677,6 +677,1440 @@
       "id": "b-e70c2d",
       "text": "B!",
       "speak": "B!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "what-do-you-call-a-cc6b25",
+      "text": "What do you call a sleeping bull?",
+      "speak": "What do you call a sleeping bull?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "a-bulldozer-c71d2b",
+      "text": "A bulldozer!",
+      "speak": "A bulldozer!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "why-did-the-cat-wear-5346f2",
+      "text": "Why did the cat wear a bowtie?",
+      "speak": "Why did the cat wear a bowtie?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "to-look-pawsome-55d098",
+      "text": "To look pawsome!",
+      "speak": "To look pawsome!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "why-did-the-elephant-bring-150fd5",
+      "text": "Why did the elephant bring a suitcase?",
+      "speak": "Why did the elephant bring a suitcase?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "for-a-trunk-trip-cbef99",
+      "text": "For a trunk trip!",
+      "speak": "For a trunk trip!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "why-did-the-teddy-bear-c8106d",
+      "text": "Why did the teddy bear say no?",
+      "speak": "Why did the teddy bear say no?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "because-it-was-stuffed-e43061",
+      "text": "Because it was stuffed!",
+      "speak": "Because it was stuffed!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "why-did-the-picture-go-201c2d",
+      "text": "Why did the picture go to jail?",
+      "speak": "Why did the picture go to jail?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "it-was-framed-105aa7",
+      "text": "It was framed!",
+      "speak": "It was framed!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "why-did-the-chicken-join-936f30",
+      "text": "Why did the chicken join a band?",
+      "speak": "Why did the chicken join a band?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "to-play-the-drumsticks-a1dafb",
+      "text": "To play the drumsticks!",
+      "speak": "To play the drumsticks!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "why-did-the-baby-carrot-3efa33",
+      "text": "Why did the baby carrot win a race?",
+      "speak": "Why did the baby carrot win a race?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "it-was-a-fast-rooter-156eea",
+      "text": "It was a fast rooter!",
+      "speak": "It was a fast rooter!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "what-do-you-call-a-07d1fe",
+      "text": "What do you call a bear with a toothache?",
+      "speak": "What do you call a bear with a toothache?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "a-grizzly-patient-376009",
+      "text": "A grizzly patient!",
+      "speak": "A grizzly patient!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "why-did-the-tree-go-c89298",
+      "text": "Why did the tree go to the dentist?",
+      "speak": "Why did the tree go to the dentist?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "it-had-a-root-canal-f3e6de",
+      "text": "It had a root canal!",
+      "speak": "It had a root canal!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "what-do-you-call-a-cc0504",
+      "text": "What do you call a dinosaur that is sleeping?",
+      "speak": "What do you call a dinosaur that is sleeping?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "a-dino-snore-0f75f2",
+      "text": "A dino-snore!",
+      "speak": "A dino-snore!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "what-do-you-call-a-bf07cd",
+      "text": "What do you call a cow that plays the drums?",
+      "speak": "What do you call a cow that plays the drums?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "a-moo-sician-425c35",
+      "text": "A moo-sician!",
+      "speak": "A moo-sician!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "why-did-the-crab-never-cd8a6d",
+      "text": "Why did the crab never share his toys?",
+      "speak": "Why did the crab never share his toys?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "because-he-was-shellfish-e3dcc2",
+      "text": "Because he was shellfish!",
+      "speak": "Because he was shellfish!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "why-did-the-cow-want-44017f",
+      "text": "Why did the cow want a bell?",
+      "speak": "Why did the cow want a bell?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "to-ring-in-the-moo-d30dfa",
+      "text": "To ring in the moo year!",
+      "speak": "To ring in the moo year!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "why-did-the-math-book-e7bdeb",
+      "text": "Why did the math book look so sad?",
+      "speak": "Why did the math book look so sad?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "because-it-had-so-many-6643d0",
+      "text": "Because it had so many problems!",
+      "speak": "Because it had so many problems!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "what-do-you-call-a-47bb03",
+      "text": "What do you call a cat who loves to swim?",
+      "speak": "What do you call a cat who loves to swim?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "a-purr-maid-603649",
+      "text": "A purr-maid!",
+      "speak": "A purr-maid!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "why-did-the-orange-stop-2a3f69",
+      "text": "Why did the orange stop rolling?",
+      "speak": "Why did the orange stop rolling?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "it-ran-out-of-juice-0e7d9b",
+      "text": "It ran out of juice!",
+      "speak": "It ran out of juice!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "what-did-the-tree-wear-91418b",
+      "text": "What did the tree wear to the pool?",
+      "speak": "What did the tree wear to the pool?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "swim-trunks-5a7106",
+      "text": "Swim trunks!",
+      "speak": "Swim trunks!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "what-do-you-call-a-182f62",
+      "text": "What do you call a bear with a cold?",
+      "speak": "What do you call a bear with a cold?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "a-stuffy-bear-b2626d",
+      "text": "A stuffy bear!",
+      "speak": "A stuffy bear!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "what-do-you-call-a-dcc339",
+      "text": "What do you call a dog that does not bark?",
+      "speak": "What do you call a dog that does not bark?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "a-hush-puppy-d8c3ea",
+      "text": "A hush puppy!",
+      "speak": "A hush puppy!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "what-do-you-call-a-122416",
+      "text": "What do you call a pig that does magic?",
+      "speak": "What do you call a pig that does magic?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "a-ham-star-1cdef4",
+      "text": "A ham star!",
+      "speak": "A ham star!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "what-do-you-call-a-efb1b3",
+      "text": "What do you call a cat who loves to bowl?",
+      "speak": "What do you call a cat who loves to bowl?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "an-alley-cat-424f91",
+      "text": "An alley cat!",
+      "speak": "An alley cat!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "why-did-the-bird-bring-349af0",
+      "text": "Why did the bird bring a ladder to the tree?",
+      "speak": "Why did the bird bring a ladder to the tree?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "to-reach-new-heights-e12239",
+      "text": "To reach new heights!",
+      "speak": "To reach new heights!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "why-do-birds-fly-south-4674c0",
+      "text": "Why do birds fly south for the winter?",
+      "speak": "Why do birds fly south for the winter?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "it-is-easier-than-walking-3de186",
+      "text": "It is easier than walking!",
+      "speak": "It is easier than walking!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "why-did-the-belt-go-3b4b64",
+      "text": "Why did the belt go to jail?",
+      "speak": "Why did the belt go to jail?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "it-held-up-a-pair-a321b5",
+      "text": "It held up a pair of pants!",
+      "speak": "It held up a pair of pants!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "why-did-the-spider-go-6594bb",
+      "text": "Why did the spider go to the computer?",
+      "speak": "Why did the spider go to the computer?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "to-make-a-website-578bf5",
+      "text": "To make a website!",
+      "speak": "To make a website!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "why-did-the-cookie-go-33074a",
+      "text": "Why did the cookie go to the moon?",
+      "speak": "Why did the cookie go to the moon?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "to-see-the-milky-way-42f732",
+      "text": "To see the Milky Way!",
+      "speak": "To see the Milky Way!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "what-do-you-call-a-278473",
+      "text": "What do you call a dinosaur with three eyes?",
+      "speak": "What do you call a dinosaur with three eyes?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "a-tricera-see-19bd46",
+      "text": "A tricera-see!",
+      "speak": "A tricera-see!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "what-do-you-call-a-035e21",
+      "text": "What do you call a dog with a fever?",
+      "speak": "What do you call a dog with a fever?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "a-hot-dog-ee401a",
+      "text": "A hot dog!",
+      "speak": "A hot dog!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "why-did-the-chicken-cross-5b693e",
+      "text": "Why did the chicken cross the playground?",
+      "speak": "Why did the chicken cross the playground?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "to-get-to-the-other-9badc4",
+      "text": "To get to the other slide!",
+      "speak": "To get to the other slide!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "what-do-you-call-a-7e48a9",
+      "text": "What do you call a sad strawberry?",
+      "speak": "What do you call a sad strawberry?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "a-blueberry-54286e",
+      "text": "A blueberry!",
+      "speak": "A blueberry!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "what-did-the-astronaut-say-4a2a2c",
+      "text": "What did the astronaut say to the moon?",
+      "speak": "What did the astronaut say to the moon?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "im-over-the-moon-979e97",
+      "text": "I'm over the moon!",
+      "speak": "I'm over the moon!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "why-did-the-computer-go-8bdf54",
+      "text": "Why did the computer go on a diet?",
+      "speak": "Why did the computer go on a diet?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "to-lose-some-bytes-599a15",
+      "text": "To lose some bytes!",
+      "speak": "To lose some bytes!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "why-did-the-pencil-get-764568",
+      "text": "Why did the pencil get a job?",
+      "speak": "Why did the pencil get a job?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "to-make-a-point-7ee8c7",
+      "text": "To make a point!",
+      "speak": "To make a point!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "why-did-the-robot-take-b92fbd",
+      "text": "Why did the robot take a nap?",
+      "speak": "Why did the robot take a nap?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "to-recharge-its-batteries-9a4ba4",
+      "text": "To recharge its batteries!",
+      "speak": "To recharge its batteries!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "why-did-the-sheep-go-cc1cf9",
+      "text": "Why did the sheep go to space?",
+      "speak": "Why did the sheep go to space?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "to-become-an-astro-baa-7ae5dc",
+      "text": "To become an astro-baa!",
+      "speak": "To become an astro-baa!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "what-do-you-call-a-f2b130",
+      "text": "What do you call a cow in space?",
+      "speak": "What do you call a cow in space?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "an-udder-planet-3a076a",
+      "text": "An udder planet!",
+      "speak": "An udder planet!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "why-did-the-teacher-wear-60ac0f",
+      "text": "Why did the teacher wear sunglasses?",
+      "speak": "Why did the teacher wear sunglasses?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "because-her-students-were-so-98745a",
+      "text": "Because her students were so bright!",
+      "speak": "Because her students were so bright!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "what-do-you-call-a-aa8861",
+      "text": "What do you call a dinosaur that is great at math?",
+      "speak": "What do you call a dinosaur that is great at math?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "a-calcula-raptor-2c2bef",
+      "text": "A calcula-raptor!",
+      "speak": "A calcula-raptor!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "why-did-the-ruler-get-78d990",
+      "text": "Why did the ruler get a timeout?",
+      "speak": "Why did the ruler get a timeout?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "it-was-being-too-bossy-6eb371",
+      "text": "It was being too bossy!",
+      "speak": "It was being too bossy!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "what-do-you-call-a-59ba74",
+      "text": "What do you call a robot that sings?",
+      "speak": "What do you call a robot that sings?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "a-la-ser-e9616b",
+      "text": "A la-ser!",
+      "speak": "A la-ser!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "why-did-the-crayon-go-665e06",
+      "text": "Why did the crayon go to the party?",
+      "speak": "Why did the crayon go to the party?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "to-draw-a-crowd-f2a248",
+      "text": "To draw a crowd!",
+      "speak": "To draw a crowd!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "why-did-the-lion-bring-65f76e",
+      "text": "Why did the lion bring a notebook?",
+      "speak": "Why did the lion bring a notebook?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "to-take-roar-notes-e75832",
+      "text": "To take roar notes!",
+      "speak": "To take roar notes!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "what-do-fish-use-for-a75a90",
+      "text": "What do fish use for money?",
+      "speak": "What do fish use for money?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "sand-dollars-04e4c1",
+      "text": "Sand dollars!",
+      "speak": "Sand dollars!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "what-do-you-call-a-bba7da",
+      "text": "What do you call a funny fish?",
+      "speak": "What do you call a funny fish?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "a-clownfish-73fdf8",
+      "text": "A clownfish!",
+      "speak": "A clownfish!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "why-do-fish-live-in-346d69",
+      "text": "Why do fish live in salt water?",
+      "speak": "Why do fish live in salt water?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "because-pepper-makes-them-sneeze-609b3f",
+      "text": "Because pepper makes them sneeze!",
+      "speak": "Because pepper makes them sneeze!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "why-did-the-clam-go-4e2764",
+      "text": "Why did the clam go to the party?",
+      "speak": "Why did the clam go to the party?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "because-it-wanted-to-shellebrate-8b9c99",
+      "text": "Because it wanted to shellebrate!",
+      "speak": "Because it wanted to shellebrate!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "why-did-the-boat-get-6619e0",
+      "text": "Why did the boat get a haircut?",
+      "speak": "Why did the boat get a haircut?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "to-look-more-shipshape-b8aeea",
+      "text": "To look more shipshape!",
+      "speak": "To look more shipshape!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "why-did-the-puddle-go-32649e",
+      "text": "Why did the puddle go to the party?",
+      "speak": "Why did the puddle go to the party?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "to-make-a-splash-b8efab",
+      "text": "To make a splash!",
+      "speak": "To make a splash!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "why-did-the-fish-go-6e58d8",
+      "text": "Why did the fish go to the beach?",
+      "speak": "Why did the fish go to the beach?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "to-catch-some-rays-4cb80d",
+      "text": "To catch some rays!",
+      "speak": "To catch some rays!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "why-did-the-weather-go-330fbd",
+      "text": "Why did the weather go to art class?",
+      "speak": "Why did the weather go to art class?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "to-make-a-rain-bow-9c29d6",
+      "text": "To make a rain-bow!",
+      "speak": "To make a rain-bow!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "what-do-snowmen-eat-for-7855d1",
+      "text": "What do snowmen eat for breakfast?",
+      "speak": "What do snowmen eat for breakfast?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "frosted-flakes-467b19",
+      "text": "Frosted flakes!",
+      "speak": "Frosted flakes!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "what-do-snowmen-eat-for-b83b12",
+      "text": "What do snowmen eat for lunch?",
+      "speak": "What do snowmen eat for lunch?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "iceberg-lettuce-48f6c1",
+      "text": "Iceberg lettuce!",
+      "speak": "Iceberg lettuce!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "what-do-you-call-a-fbbd0f",
+      "text": "What do you call a funny mountain?",
+      "speak": "What do you call a funny mountain?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "hill-arious-d5fdeb",
+      "text": "Hill-arious!",
+      "speak": "Hill-arious!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "what-do-trees-say-to-c75d7c",
+      "text": "What do trees say to each other in spring?",
+      "speak": "What do trees say to each other in spring?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "leaf-me-alone-dc411f",
+      "text": "Leaf me alone!",
+      "speak": "Leaf me alone!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "what-do-you-call-a-f2e351",
+      "text": "What do you call a wet bear?",
+      "speak": "What do you call a wet bear?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "a-drizzly-bear-a4dbe2",
+      "text": "A drizzly bear!",
+      "speak": "A drizzly bear!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "why-did-the-fish-bring-5143bf",
+      "text": "Why did the fish bring a ladder?",
+      "speak": "Why did the fish bring a ladder?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "to-go-up-a-few-8480fe",
+      "text": "To go up a few scales!",
+      "speak": "To go up a few scales!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "why-did-the-wave-say-3d3611",
+      "text": "Why did the wave say to the beach?",
+      "speak": "Why did the wave say to the beach?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "long-time-no-sea-e41b29",
+      "text": "Long time no sea!",
+      "speak": "Long time no sea!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "what-did-the-ocean-say-70c868",
+      "text": "What did the ocean say to the boat?",
+      "speak": "What did the ocean say to the boat?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "nothing-it-just-waved-393bba",
+      "text": "Nothing, it just waved!",
+      "speak": "Nothing, it just waved!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "what-do-you-call-a-abaf37",
+      "text": "What do you call a boat with a cold?",
+      "speak": "What do you call a boat with a cold?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "achoo-ser-f40db0",
+      "text": "Achoo-ser!",
+      "speak": "Achoo-ser!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "why-did-the-ship-get-675e53",
+      "text": "Why did the ship get a job?",
+      "speak": "Why did the ship get a job?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "it-wanted-to-earn-some-35cdbe",
+      "text": "It wanted to earn some sail-ary!",
+      "speak": "It wanted to earn some sail-ary!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "how-do-clouds-talk-to-217e58",
+      "text": "How do clouds talk to each other?",
+      "speak": "How do clouds talk to each other?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "with-thunder-phones-5d910b",
+      "text": "With thunder-phones!",
+      "speak": "With thunder-phones!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "whats-a-raindrops-favorite-type-ad65b1",
+      "text": "What's a raindrop's favorite type of music?",
+      "speak": "What's a raindrop's favorite type of music?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "shower-tunes-7da435",
+      "text": "Shower tunes!",
+      "speak": "Shower tunes!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "what-do-you-call-a-650349",
+      "text": "What do you call a penguin in the desert?",
+      "speak": "What do you call a penguin in the desert?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "lost-e23473",
+      "text": "Lost!",
+      "speak": "Lost!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "how-do-trees-get-on-f219ea",
+      "text": "How do trees get on the internet?",
+      "speak": "How do trees get on the internet?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "they-log-in-586efe",
+      "text": "They log in!",
+      "speak": "They log in!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "what-did-the-dirt-say-bb14ca",
+      "text": "What did the dirt say to the seed?",
+      "speak": "What did the dirt say to the seed?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "lettuce-grow-together-d59908",
+      "text": "Lettuce grow together!",
+      "speak": "Lettuce grow together!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "what-do-you-call-a-0b4275",
+      "text": "What do you call a snowman in July?",
+      "speak": "What do you call a snowman in July?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "a-puddle-a0b240",
+      "text": "A puddle!",
+      "speak": "A puddle!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "why-do-bees-buzz-e9d474",
+      "text": "Why do bees buzz?",
+      "speak": "Why do bees buzz?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "because-they-do-not-know-8b372b",
+      "text": "Because they do not know the words!",
+      "speak": "Because they do not know the words!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "why-did-the-sun-wear-420baf",
+      "text": "Why did the sun wear sunglasses?",
+      "speak": "Why did the sun wear sunglasses?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "to-keep-its-cool-13d750",
+      "text": "To keep its cool!",
+      "speak": "To keep its cool!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "what-do-you-call-a-eedaa3",
+      "text": "What do you call a sea turtle that flies?",
+      "speak": "What do you call a sea turtle that flies?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "a-shell-a-copter-6bdcee",
+      "text": "A shell-a-copter!",
+      "speak": "A shell-a-copter!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "what-do-you-call-a-491075",
+      "text": "What do you call a duck that tells jokes?",
+      "speak": "What do you call a duck that tells jokes?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "a-quack-up-artist-52ea2c",
+      "text": "A quack up artist!",
+      "speak": "A quack up artist!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "why-did-the-frog-call-1c2608",
+      "text": "Why did the frog call his bank?",
+      "speak": "Why did the frog call his bank?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "he-lost-his-lilypads-86f599",
+      "text": "He lost his lilypads!",
+      "speak": "He lost his lilypads!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "why-did-the-sheep-cross-ff9dd1",
+      "text": "Why did the sheep cross the river?",
+      "speak": "Why did the sheep cross the river?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "to-get-to-the-ewe-812d7b",
+      "text": "To get to the ewe side!",
+      "speak": "To get to the ewe side!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "why-did-the-bird-go-5a234f",
+      "text": "Why did the bird go to the library?",
+      "speak": "Why did the bird go to the library?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "to-get-a-book-of-5d21b3",
+      "text": "To get a book of tweets!",
+      "speak": "To get a book of tweets!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "why-did-the-dog-do-e2f78a",
+      "text": "Why did the dog do homework?",
+      "speak": "Why did the dog do homework?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "to-be-a-smarty-paws-041d9f",
+      "text": "To be a smarty paws!",
+      "speak": "To be a smarty paws!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "why-did-the-rabbit-go-6def40",
+      "text": "Why did the rabbit go to the party?",
+      "speak": "Why did the rabbit go to the party?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "to-have-a-hoppy-time-76f937",
+      "text": "To have a hoppy time!",
+      "speak": "To have a hoppy time!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "what-do-you-call-a-8f84b1",
+      "text": "What do you call a cat who loves to sing?",
+      "speak": "What do you call a cat who loves to sing?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "a-purr-former-71e4ec",
+      "text": "A purr-former!",
+      "speak": "A purr-former!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "what-do-you-call-a-beaced",
+      "text": "What do you call a cold dog?",
+      "speak": "What do you call a cold dog?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "a-pupsicle-230468",
+      "text": "A pupsicle!",
+      "speak": "A pupsicle!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "what-do-you-call-a-415a31",
+      "text": "What do you call a lion that is a good singer?",
+      "speak": "What do you call a lion that is a good singer?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "a-roar-star-4065dd",
+      "text": "A roar star!",
+      "speak": "A roar star!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "why-did-the-ladybug-play-1ca22b",
+      "text": "Why did the ladybug play hide and seek?",
+      "speak": "Why did the ladybug play hide and seek?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "because-it-was-spotted-c22ba8",
+      "text": "Because it was spotted!",
+      "speak": "Because it was spotted!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "how-do-bears-greet-each-e584e9",
+      "text": "How do bears greet each other?",
+      "speak": "How do bears greet each other?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "with-a-big-bear-hug-86e889",
+      "text": "With a big bear hug!",
+      "speak": "With a big bear hug!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "why-did-the-cat-open-7185bc",
+      "text": "Why did the cat open a garden?",
+      "speak": "Why did the cat open a garden?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "to-grow-purr-tatoes-c4bf20",
+      "text": "To grow purr-tatoes!",
+      "speak": "To grow purr-tatoes!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "what-do-you-call-a-f7a860",
+      "text": "What do you call a chicken that tells jokes?",
+      "speak": "What do you call a chicken that tells jokes?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "a-comedi-hen-849e44",
+      "text": "A comedi-hen!",
+      "speak": "A comedi-hen!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "why-did-the-monkey-go-296450",
+      "text": "Why did the monkey go to space?",
+      "speak": "Why did the monkey go to space?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "to-visit-the-ape-stronauts-ba63d7",
+      "text": "To visit the ape-stronauts!",
+      "speak": "To visit the ape-stronauts!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "why-did-the-bird-take-6bee84",
+      "text": "Why did the bird take a bath?",
+      "speak": "Why did the bird take a bath?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "to-feel-tweet-and-clean-8d5174",
+      "text": "To feel tweet and clean!",
+      "speak": "To feel tweet and clean!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "what-do-you-call-a-7bc959",
+      "text": "What do you call a sheep that tells jokes?",
+      "speak": "What do you call a sheep that tells jokes?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "a-baa-ha-ha-299270",
+      "text": "A baa-ha-ha!",
+      "speak": "A baa-ha-ha!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "why-did-the-apple-join-9d7243",
+      "text": "Why did the apple join a gym?",
+      "speak": "Why did the apple join a gym?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "to-get-a-core-workout-a7f6fa",
+      "text": "To get a core workout!",
+      "speak": "To get a core workout!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "what-did-the-egg-say-c337f7",
+      "text": "What did the egg say to the pan?",
+      "speak": "What did the egg say to the pan?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "you-crack-me-up-c109af",
+      "text": "You crack me up!",
+      "speak": "You crack me up!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "what-did-the-apple-say-27a108",
+      "text": "What did the apple say to the orange?",
+      "speak": "What did the apple say to the orange?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "you-peel-me-happy-502417",
+      "text": "You peel me happy!",
+      "speak": "You peel me happy!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "why-did-the-cheese-get-75ade4",
+      "text": "Why did the cheese get an award?",
+      "speak": "Why did the cheese get an award?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "it-was-grate-94a6e7",
+      "text": "It was grate!",
+      "speak": "It was grate!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "why-did-the-bread-get-261bcd",
+      "text": "Why did the bread get a ticket?",
+      "speak": "Why did the bread get a ticket?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "it-was-loafing-around-b05fc4",
+      "text": "It was loafing around!",
+      "speak": "It was loafing around!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "why-did-the-spoon-go-e06d86",
+      "text": "Why did the spoon go to the kitchen party?",
+      "speak": "Why did the spoon go to the kitchen party?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "to-stir-things-up-3915b8",
+      "text": "To stir things up!",
+      "speak": "To stir things up!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "it-wanted-to-be-an-d81582",
+      "text": "It wanted to be an astronut!",
+      "speak": "It wanted to be an astronut!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "why-did-the-cookie-join-6118e3",
+      "text": "Why did the cookie join the circus?",
+      "speak": "Why did the cookie join the circus?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "to-do-some-acro-crumbs-ed14ff",
+      "text": "To do some acro-crumbs!",
+      "speak": "To do some acro-crumbs!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "why-did-the-lettuce-invite-2bb042",
+      "text": "Why did the lettuce invite the tomato to dinner?",
+      "speak": "Why did the lettuce invite the tomato to dinner?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "to-ketchup-with-him-577b7b",
+      "text": "To ketchup with him!",
+      "speak": "To ketchup with him!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "why-did-the-mushroom-go-09f494",
+      "text": "Why did the mushroom go to the party?",
+      "speak": "Why did the mushroom go to the party?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "because-he-was-a-fun-5588d1",
+      "text": "Because he was a fun-gi!",
+      "speak": "Because he was a fun-gi!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "what-do-you-call-a-fc0ab1",
+      "text": "What do you call a cat at a birthday party?",
+      "speak": "What do you call a cat at a birthday party?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "a-purr-ty-animal-6f6287",
+      "text": "A purr-ty animal!",
+      "speak": "A purr-ty animal!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "what-do-you-call-a-9a72d5",
+      "text": "What do you call a cookie that can’t stop laughing?",
+      "speak": "What do you call a cookie that can’t stop laughing?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "a-snickerdoodle-3778e6",
+      "text": "A snickerdoodle!",
+      "speak": "A snickerdoodle!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "what-do-you-call-an-215ec2",
+      "text": "What do you call an ice cream that tells jokes?",
+      "speak": "What do you call an ice cream that tells jokes?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "a-laugh-sicle-3bee5a",
+      "text": "A laugh-sicle!",
+      "speak": "A laugh-sicle!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "what-do-you-call-a-ce6186",
+      "text": "What do you call a vegetable that's a musician?",
+      "speak": "What do you call a vegetable that's a musician?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "a-corn-ductor-696c91",
+      "text": "A corn-ductor!",
+      "speak": "A corn-ductor!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "why-did-the-onion-go-3cde71",
+      "text": "Why did the onion go to the spa?",
+      "speak": "Why did the onion go to the spa?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "to-get-a-peeling-treatment-a435f2",
+      "text": "To get a peeling treatment!",
+      "speak": "To get a peeling treatment!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "why-did-the-bread-go-cb1b60",
+      "text": "Why did the bread go to the dentist?",
+      "speak": "Why did the bread go to the dentist?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "it-needed-a-filling-fb2808",
+      "text": "It needed a filling!",
+      "speak": "It needed a filling!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "what-do-you-call-a-165d6a",
+      "text": "What do you call a birthday cake that tells jokes?",
+      "speak": "What do you call a birthday cake that tells jokes?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "a-pun-cake-5dbbd2",
+      "text": "A pun-cake!",
+      "speak": "A pun-cake!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "what-do-you-call-a-f36482",
+      "text": "What do you call a flying elephant?",
+      "speak": "What do you call a flying elephant?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "a-jumbo-jet-da1371",
+      "text": "A jumbo jet!",
+      "speak": "A jumbo jet!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "why-did-the-bike-go-f4519a",
+      "text": "Why did the bike go to the playground?",
+      "speak": "Why did the bike go to the playground?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "to-have-a-wheely-good-25e4c1",
+      "text": "To have a wheely good time!",
+      "speak": "To have a wheely good time!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "why-did-the-ball-join-b15d26",
+      "text": "Why did the ball join the playground game?",
+      "speak": "Why did the ball join the playground game?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "to-roll-with-it-98e987",
+      "text": "To roll with it!",
+      "speak": "To roll with it!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "why-did-the-playground-ball-a4bb80",
+      "text": "Why did the playground ball feel happy?",
+      "speak": "Why did the playground ball feel happy?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "because-it-bounced-back-535506",
+      "text": "Because it bounced back!",
+      "speak": "Because it bounced back!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "what-do-you-call-a-968abf",
+      "text": "What do you call a bike with a cold?",
+      "speak": "What do you call a bike with a cold?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "a-sniffle-cycle-9f55c2",
+      "text": "A sniffle-cycle!",
+      "speak": "A sniffle-cycle!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "what-do-you-call-a-237af2",
+      "text": "What do you call a sleepy shoe?",
+      "speak": "What do you call a sleepy shoe?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "a-slipper-db9931",
+      "text": "A slipper!",
+      "speak": "A slipper!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "what-did-the-glove-say-fac604",
+      "text": "What did the glove say to the hand?",
+      "speak": "What did the glove say to the hand?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "lets-keep-in-touch-bd4e73",
+      "text": "Let's keep in touch!",
+      "speak": "Let's keep in touch!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "why-did-the-bunny-wear-7edf6d",
+      "text": "Why did the bunny wear a nightcap?",
+      "speak": "Why did the bunny wear a nightcap?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "so-it-wouldnt-hop-in-e31d50",
+      "text": "So it wouldn't hop in its sleep!",
+      "speak": "So it wouldn't hop in its sleep!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "what-do-you-call-a-385c22",
+      "text": "What do you call a sleeping giraffe?",
+      "speak": "What do you call a sleeping giraffe?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "a-tall-tale-e68d7f",
+      "text": "A tall tale!",
+      "speak": "A tall tale!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "why-did-the-squirrel-bring-be79de",
+      "text": "Why did the squirrel bring a pillow to bed?",
+      "speak": "Why did the squirrel bring a pillow to bed?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "to-have-a-nutty-dream-f3e36a",
+      "text": "To have a nutty dream!",
+      "speak": "To have a nutty dream!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "why-did-the-frog-wear-ed3cde",
+      "text": "Why did the frog wear slippers?",
+      "speak": "Why did the frog wear slippers?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "to-leap-into-bed-c4a2fb",
+      "text": "To leap into bed!",
+      "speak": "To leap into bed!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "what-do-you-call-a-53eff6",
+      "text": "What do you call a lazy kangaroo?",
+      "speak": "What do you call a lazy kangaroo?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "a-pouch-potato-c22229",
+      "text": "A pouch potato!",
+      "speak": "A pouch potato!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "why-did-the-football-player-fb2137",
+      "text": "Why did the football player bring string?",
+      "speak": "Why did the football player bring string?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "to-tie-the-game-44e5f4",
+      "text": "To tie the game!",
+      "speak": "To tie the game!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "why-did-the-cat-join-a70f98",
+      "text": "Why did the cat join the football team?",
+      "speak": "Why did the cat join the football team?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "it-was-good-at-chasing-72cb8b",
+      "text": "It was good at chasing balls!",
+      "speak": "It was good at chasing balls!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "why-did-the-flute-go-f7b18d",
+      "text": "Why did the flute go to the library?",
+      "speak": "Why did the flute go to the library?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "to-find-some-notes-504b41",
+      "text": "To find some notes!",
+      "speak": "To find some notes!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "why-did-the-teddy-bear-d06e33",
+      "text": "Why did the teddy bear get an award?",
+      "speak": "Why did the teddy bear get an award?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "because-it-was-stuffed-with-4384f1",
+      "text": "Because it was stuffed with talent!",
+      "speak": "Because it was stuffed with talent!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "why-did-the-doll-go-4cd172",
+      "text": "Why did the doll go to the party?",
+      "speak": "Why did the doll go to the party?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "to-have-a-ball-acbb49",
+      "text": "To have a ball!",
+      "speak": "To have a ball!",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "what-do-you-call-a-061ee2",
+      "text": "What do you call a sleeping cat?",
+      "speak": "What do you call a sleeping cat?",
+      "source": "responses.JOKES"
+    },
+    {
+      "id": "a-cat-napper-f80bb5",
+      "text": "A cat-napper!",
+      "speak": "A cat-napper!",
       "source": "responses.JOKES"
     },
     {

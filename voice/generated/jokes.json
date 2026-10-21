@@ -3,10 +3,10 @@
     "kind": "jokes",
     "model": "apac.amazon.nova-pro-v1:0",
     "region": "ap-south-1",
-    "date": "2026-10-18T17:21:34.382Z",
+    "date": "2026-10-19T13:08:25.569Z",
     "promptVersion": "1.1.0",
     "systemPrompt": "You write lines for a TV buddy that talks to children aged 3 to 8.\nRules for EVERY line:\n- Use very simple English. Short sentences. Words a 4 year old knows.\n- Be warm, gentle and silly. Nothing scary, rude, mean, political, romantic, medical or religious.\n- No brand names, no names of real people, no places that need a map.\n- Never ask the child for personal data (name, age, address, school, photos).\n- No digits. Write numbers as words. No links, no emails, no emojis.\n- Only use these marks: letters, spaces, commas, full stops, question marks, exclamation marks, apostrophes.\nReturn ONLY valid JSON. No markdown, no commentary.",
-    "guardrail": null,
+    "guardrail": "1kcus2m06r9m:1",
     "note": "Written by an AI model. Lines are pending until a human approves them."
   },
   "lines": [
@@ -783,6 +783,5373 @@
       "review": {
         "reviewer": "Your Real Name",
         "date": "2026-10-18T17:22:45.786Z"
+      }
+    },
+    {
+      "id": "gen-jokes-68756dc0fc",
+      "kind": "jokes",
+      "text": "What do you call a sleeping bull? A bulldozer!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:07:24.202Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "27abb1108cc22a48",
+          "date": "2026-10-19T13:08:38.270Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:09:57.731Z"
+      }
+    },
+    {
+      "id": "gen-jokes-9c17b0d701",
+      "kind": "jokes",
+      "text": "Why did the cat wear a bowtie? To look pawsome!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:07:24.202Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "f41cb34132185672",
+          "date": "2026-10-19T13:08:38.577Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:09:57.734Z"
+      }
+    },
+    {
+      "id": "gen-jokes-4d22d3cefa",
+      "kind": "jokes",
+      "text": "Why did the elephant bring a suitcase? For a trunk trip!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:07:24.202Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "6d0991ad67851028",
+          "date": "2026-10-19T13:08:38.877Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:09:57.735Z"
+      }
+    },
+    {
+      "id": "gen-jokes-58f3be1377",
+      "kind": "jokes",
+      "text": "Why did the teddy bear say no? Because it was stuffed!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:07:24.202Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "e97081d22cc8e549",
+          "date": "2026-10-19T13:08:39.204Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:09:57.735Z"
+      }
+    },
+    {
+      "id": "gen-jokes-2b4f2982fc",
+      "kind": "jokes",
+      "text": "Why did the picture go to jail? It was framed!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:07:24.202Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "febb2470dbf6603e",
+          "date": "2026-10-19T13:08:39.471Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:09:57.735Z"
+      }
+    },
+    {
+      "id": "gen-jokes-c89a2a915a",
+      "kind": "jokes",
+      "text": "What do you call a cow with no legs? Ground beef!",
+      "status": "pending",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:07:24.202Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "e2f8c12d357a8dd6",
+          "date": "2026-10-19T13:08:39.806Z"
+        }
+      }
+    },
+    {
+      "id": "gen-jokes-15458feb42",
+      "kind": "jokes",
+      "text": "Why did the tomato turn red? It saw the salad dressing!",
+      "status": "pending",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:07:24.202Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "1e5228e44a00c5d3",
+          "date": "2026-10-19T13:08:40.067Z"
+        }
+      }
+    },
+    {
+      "id": "gen-jokes-47dc5b5d47",
+      "kind": "jokes",
+      "text": "Why did the duck go to the bank? To get some change!",
+      "status": "pending",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:07:24.202Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "6150ac5792034a60",
+          "date": "2026-10-19T13:08:40.394Z"
+        }
+      }
+    },
+    {
+      "id": "gen-jokes-9372da0d5c",
+      "kind": "jokes",
+      "text": "Why did the lion eat raw meat? Because it was a rawr!",
+      "status": "pending",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:07:24.202Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "03366af58f3b6087",
+          "date": "2026-10-19T13:08:40.792Z"
+        }
+      }
+    },
+    {
+      "id": "gen-jokes-53e7f7481d",
+      "kind": "jokes",
+      "text": "Why did the chicken join a band? To play the drumsticks!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:07:24.202Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "b4ec2290653a709e",
+          "date": "2026-10-19T13:08:41.077Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:09:57.735Z"
+      }
+    },
+    {
+      "id": "gen-jokes-83130f5563",
+      "kind": "jokes",
+      "text": "Why did the baby carrot win a race? It was a fast rooter!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:07:24.202Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "0c40392abe891f70",
+          "date": "2026-10-19T13:08:41.419Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:09:57.735Z"
+      }
+    },
+    {
+      "id": "gen-jokes-f727c610ba",
+      "kind": "jokes",
+      "text": "What do you call a fish with no eyes? Fsh!",
+      "status": "pending",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:07:24.202Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "c3f9b3d4d3574183",
+          "date": "2026-10-19T13:08:41.700Z"
+        }
+      }
+    },
+    {
+      "id": "gen-jokes-17367ff7ab",
+      "kind": "jokes",
+      "text": "Why did the robot go to bed? It was byte tired!",
+      "status": "pending",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:07:24.202Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "c1ae1c62030aa18c",
+          "date": "2026-10-19T13:08:41.992Z"
+        }
+      }
+    },
+    {
+      "id": "gen-jokes-b6150b35ca",
+      "kind": "jokes",
+      "text": "What do you call a fish without eyes? Fsh!",
+      "status": "pending",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:07:27.757Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "62207d34fa8a6325",
+          "date": "2026-10-19T13:08:42.219Z"
+        }
+      }
+    },
+    {
+      "id": "gen-jokes-93b9fce325",
+      "kind": "jokes",
+      "text": "What do you call a bear with a toothache? A grizzly patient!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:07:27.757Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "aca539a319ace933",
+          "date": "2026-10-19T13:08:42.461Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:09:57.735Z"
+      }
+    },
+    {
+      "id": "gen-jokes-64027a01f3",
+      "kind": "jokes",
+      "text": "Why did the cookie go to the nurse? It felt crummy!",
+      "status": "pending",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:07:27.757Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "7b4342746758e5db",
+          "date": "2026-10-19T13:08:42.820Z"
+        }
+      }
+    },
+    {
+      "id": "gen-jokes-bb1f83fff9",
+      "kind": "jokes",
+      "text": "Why did the lion eat the tightrope walker? He wanted a well-balanced meal!",
+      "status": "pending",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:07:27.757Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "e45fd162d55c7eea",
+          "date": "2026-10-19T13:08:43.110Z"
+        }
+      }
+    },
+    {
+      "id": "gen-jokes-868195c4e8",
+      "kind": "jokes",
+      "text": "Why do cows have bells? Their horns do not work!",
+      "status": "pending",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:07:30.274Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "17c0778bc7df5235",
+          "date": "2026-10-19T13:08:43.365Z"
+        }
+      }
+    },
+    {
+      "id": "gen-jokes-9767bc70b1",
+      "kind": "jokes",
+      "text": "Why did the scarecrow win an award? Because he was outstanding!",
+      "status": "pending",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:07:30.274Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "fba177a4fda93827",
+          "date": "2026-10-19T13:08:43.628Z"
+        }
+      }
+    },
+    {
+      "id": "gen-jokes-f462e09cf6",
+      "kind": "jokes",
+      "text": "Why did the apple get in trouble? Because it was bad!",
+      "status": "pending",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:07:30.274Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "582e5de38616889c",
+          "date": "2026-10-19T13:08:43.933Z"
+        }
+      }
+    },
+    {
+      "id": "gen-jokes-3bf68d9b16",
+      "kind": "jokes",
+      "text": "Why did the lion eat the tightrope walker? He was a tight rope!",
+      "status": "pending",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:07:30.274Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "eb018028221aa5ca",
+          "date": "2026-10-19T13:08:44.203Z"
+        }
+      }
+    },
+    {
+      "id": "gen-jokes-15b53926c5",
+      "kind": "jokes",
+      "text": "Why did the lion visit the library? To find his roar-some book!",
+      "status": "pending",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:07:33.313Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "8eb3e0e1eda9d51f",
+          "date": "2026-10-19T13:08:44.471Z"
+        }
+      }
+    },
+    {
+      "id": "gen-jokes-0d7ad9735c",
+      "kind": "jokes",
+      "text": "Why did the elephant bring a suitcase? For his trunk!",
+      "status": "pending",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:07:33.313Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "ed6fcf33f32d824b",
+          "date": "2026-10-19T13:08:44.772Z"
+        }
+      }
+    },
+    {
+      "id": "gen-jokes-ae9888e563",
+      "kind": "jokes",
+      "text": "Why did the tree go to the dentist? It had a root canal!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:07:33.313Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "92187afb29b981b8",
+          "date": "2026-10-19T13:08:45.052Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:09:57.735Z"
+      }
+    },
+    {
+      "id": "gen-jokes-efa330f20b",
+      "kind": "jokes",
+      "text": "Why did the duck go to the bank? To see his money grow!",
+      "status": "pending",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:07:36.473Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "e2d453bec0b40c21",
+          "date": "2026-10-19T13:08:45.352Z"
+        }
+      }
+    },
+    {
+      "id": "gen-jokes-5145405f19",
+      "kind": "jokes",
+      "text": "What do you call a dinosaur that is sleeping? A dino-snore!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:07:36.473Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "84b4ebf8fc13a202",
+          "date": "2026-10-19T13:08:45.636Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:09:57.736Z"
+      }
+    },
+    {
+      "id": "gen-jokes-02a34f94b0",
+      "kind": "jokes",
+      "text": "What do you call a cow that plays the drums? A moo-sician!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:07:36.473Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "84dca4e0abe47f52",
+          "date": "2026-10-19T13:08:45.951Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:09:57.736Z"
+      }
+    },
+    {
+      "id": "gen-jokes-b44f54903b",
+      "kind": "jokes",
+      "text": "What do you call a sheep with no wool? A bare sheep!",
+      "status": "pending",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:07:36.473Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "c0a440dece8f7bf2",
+          "date": "2026-10-19T13:08:46.169Z"
+        }
+      }
+    },
+    {
+      "id": "gen-jokes-1062ed741c",
+      "kind": "jokes",
+      "text": "Why did the cow go to the party? To listen to mooo-sic!",
+      "status": "pending",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:07:40.222Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "298922c7b117435e",
+          "date": "2026-10-19T13:08:46.374Z"
+        }
+      }
+    },
+    {
+      "id": "gen-jokes-94b10db214",
+      "kind": "jokes",
+      "text": "Why did the elephant paint his nails red? To hide in the strawberry patch!",
+      "status": "pending",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:07:40.222Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "f739f65694447927",
+          "date": "2026-10-19T13:08:46.585Z"
+        }
+      }
+    },
+    {
+      "id": "gen-jokes-b4b09ccad5",
+      "kind": "jokes",
+      "text": "What do you get when you cross a snowman and a shark? Frostbite!",
+      "status": "pending",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:07:40.222Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "9c414233ea6a8e09",
+          "date": "2026-10-19T13:08:46.852Z"
+        }
+      }
+    },
+    {
+      "id": "gen-jokes-9f0e77b24d",
+      "kind": "jokes",
+      "text": "Why did the monkey fall out of the tree? Because it lost its grip!",
+      "status": "pending",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:07:40.222Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "133e3fbeaecef117",
+          "date": "2026-10-19T13:08:47.175Z"
+        }
+      }
+    },
+    {
+      "id": "gen-jokes-c9e3f9a030",
+      "kind": "jokes",
+      "text": "Why did the crab never share his toys? Because he was shellfish!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:07:40.222Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "efeac1391dda2461",
+          "date": "2026-10-19T13:08:47.545Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:09:57.736Z"
+      }
+    },
+    {
+      "id": "gen-jokes-f72b3e18b3",
+      "kind": "jokes",
+      "text": "Why did the elephant paint her nails red? To hide in a strawberry patch!",
+      "status": "pending",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:07:43.436Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "185f69ab1e40cdbd",
+          "date": "2026-10-19T13:08:47.752Z"
+        }
+      }
+    },
+    {
+      "id": "gen-jokes-c70e3af5d3",
+      "kind": "jokes",
+      "text": "What do you get when you cross a snowman and a shark? Frost bite!",
+      "status": "pending",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:07:43.436Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "f9444a1452fe9ee2",
+          "date": "2026-10-19T13:08:48.062Z"
+        }
+      }
+    },
+    {
+      "id": "gen-jokes-d4482f093e",
+      "kind": "jokes",
+      "text": "Why did the cow want a bell? To ring in the moo year!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:07:43.436Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "29d60335c02daa1d",
+          "date": "2026-10-19T13:08:48.273Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:09:57.736Z"
+      }
+    },
+    {
+      "id": "gen-jokes-e2d97428ab",
+      "kind": "jokes",
+      "text": "What do you call a dinosaur with no legs? A fallen down!",
+      "status": "pending",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:07:43.436Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "29ac4aa815a8ef0f",
+          "date": "2026-10-19T13:08:48.546Z"
+        }
+      }
+    },
+    {
+      "id": "gen-jokes-47569a7d5c",
+      "kind": "jokes",
+      "text": "What do you call a sleeping dinosaur? A dino-snore!",
+      "status": "pending",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:07:43.436Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "e7c5f7110fa4ac44",
+          "date": "2026-10-19T13:08:48.817Z"
+        }
+      }
+    },
+    {
+      "id": "gen-jokes-9d32219c0c",
+      "kind": "jokes",
+      "text": "Why do cows have hooves instead of feet? Because they lactose!",
+      "status": "pending",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:07:46.745Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "d24f6e93c95d871d",
+          "date": "2026-10-19T13:08:49.191Z"
+        }
+      }
+    },
+    {
+      "id": "gen-jokes-698e6fce6a",
+      "kind": "jokes",
+      "text": "What do you call cheese that is not yours? Nacho cheese!",
+      "status": "pending",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:07:46.745Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "e2edde92fc618446",
+          "date": "2026-10-19T13:08:49.537Z"
+        }
+      }
+    },
+    {
+      "id": "gen-jokes-abcf7958ef",
+      "kind": "jokes",
+      "text": "Why did the math book look so sad? Because it had so many problems!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:07:46.745Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "8caedd1754954663",
+          "date": "2026-10-19T13:08:49.747Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:09:57.736Z"
+      }
+    },
+    {
+      "id": "gen-jokes-5f58faf471",
+      "kind": "jokes",
+      "text": "Why did the cow go to space? To see the moooon!",
+      "status": "pending",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:07:53.116Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "91ab2d656fceca08",
+          "date": "2026-10-19T13:08:49.977Z"
+        }
+      }
+    },
+    {
+      "id": "gen-jokes-1e8d9a8983",
+      "kind": "jokes",
+      "text": "What do you call a cat who loves to swim? A purr-maid!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:07:53.116Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "0ed04c412679f964",
+          "date": "2026-10-19T13:08:50.224Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:09:57.736Z"
+      }
+    },
+    {
+      "id": "gen-jokes-c688a0ab1d",
+      "kind": "jokes",
+      "text": "What do you call a sheep with no legs? A cloud!",
+      "status": "pending",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:07:53.116Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "fae73872ee7867d7",
+          "date": "2026-10-19T13:08:50.494Z"
+        }
+      }
+    },
+    {
+      "id": "gen-jokes-edafebbb49",
+      "kind": "jokes",
+      "text": "Why did the orange stop rolling? It ran out of juice!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:07:53.116Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "aa909843770d5f92",
+          "date": "2026-10-19T13:08:50.707Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:09:57.736Z"
+      }
+    },
+    {
+      "id": "gen-jokes-450e90a4a5",
+      "kind": "jokes",
+      "text": "Why did the elephant bring a suitcase? For its trunk!",
+      "status": "pending",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:07:53.116Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "19655e6538abbdcb",
+          "date": "2026-10-19T13:08:50.961Z"
+        }
+      }
+    },
+    {
+      "id": "gen-jokes-a12078e18f",
+      "kind": "jokes",
+      "text": "What do you call a dog that tells jokes? A funny bone!",
+      "status": "pending",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:07:53.116Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "d43a6b95a349f7c7",
+          "date": "2026-10-19T13:08:51.229Z"
+        }
+      }
+    },
+    {
+      "id": "gen-jokes-028ac7807a",
+      "kind": "jokes",
+      "text": "Why did the monkey fall from the tree? He was picking bananas!",
+      "status": "pending",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:07:56.752Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "11843ddd610d56f2",
+          "date": "2026-10-19T13:08:51.452Z"
+        }
+      }
+    },
+    {
+      "id": "gen-jokes-7ebe886a45",
+      "kind": "jokes",
+      "text": "Why did the fish blush? It saw the ocean's bottom!",
+      "status": "pending",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:07:56.752Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "99ec0b215c6df7e9",
+          "date": "2026-10-19T13:08:51.704Z"
+        }
+      }
+    },
+    {
+      "id": "gen-jokes-f176affeed",
+      "kind": "jokes",
+      "text": "Why did the teddy bear say no to dessert? It was already stuffed!",
+      "status": "pending",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:07:56.752Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "7ccebb21032240c1",
+          "date": "2026-10-19T13:08:51.966Z"
+        }
+      }
+    },
+    {
+      "id": "gen-jokes-9398def05f",
+      "kind": "jokes",
+      "text": "What did the tree wear to the pool? Swim trunks!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:07:56.752Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "bda4c92d82413257",
+          "date": "2026-10-19T13:08:52.229Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:09:57.736Z"
+      }
+    },
+    {
+      "id": "gen-jokes-447771c93f",
+      "kind": "jokes",
+      "text": "Why do cows have bells? Because their horns do not work!",
+      "status": "pending",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:07:59.807Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "5a5bad79ac36f912",
+          "date": "2026-10-19T13:08:52.599Z"
+        }
+      }
+    },
+    {
+      "id": "gen-jokes-f0a0d15610",
+      "kind": "jokes",
+      "text": "What do you call a bear with a cold? A stuffy bear!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:07:59.807Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "6d3075e0e182aa81",
+          "date": "2026-10-19T13:08:52.900Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:09:57.736Z"
+      }
+    },
+    {
+      "id": "gen-jokes-f69a1fc96c",
+      "kind": "jokes",
+      "text": "What do you call a fake spaghetti? An impasta!",
+      "status": "pending",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:07:59.807Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "6451c2d4e36f23d2",
+          "date": "2026-10-19T13:08:53.124Z"
+        }
+      }
+    },
+    {
+      "id": "gen-jokes-fe9ac71228",
+      "kind": "jokes",
+      "text": "What do you call a dog that does not bark? A hush puppy!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:07:59.807Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "668887831bf8074e",
+          "date": "2026-10-19T13:08:53.396Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:09:57.736Z"
+      }
+    },
+    {
+      "id": "gen-jokes-9a20ba17e5",
+      "kind": "jokes",
+      "text": "What do you call a pig that does magic? A ham star!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:07:59.807Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "8f56f05ceb384c7c",
+          "date": "2026-10-19T13:08:53.672Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:09:57.736Z"
+      }
+    },
+    {
+      "id": "gen-jokes-a77e064167",
+      "kind": "jokes",
+      "text": "Why did the duck go to the bank? To get some quackers!",
+      "status": "pending",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:07:59.807Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "a1c47a5d6884a661",
+          "date": "2026-10-19T13:08:53.955Z"
+        }
+      }
+    },
+    {
+      "id": "gen-jokes-c929ed2f64",
+      "kind": "jokes",
+      "text": "Why did the orange stop rolling? It got juice!",
+      "status": "pending",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:07:59.807Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "5ac1d44ce05be87a",
+          "date": "2026-10-19T13:08:54.205Z"
+        }
+      }
+    },
+    {
+      "id": "gen-jokes-6e4fa9e5f6",
+      "kind": "jokes",
+      "text": "What do you call a bear with a bad cold? A stuffy nose!",
+      "status": "pending",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:08:06.732Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "d8ff06c63397369f",
+          "date": "2026-10-19T13:08:54.411Z"
+        }
+      }
+    },
+    {
+      "id": "gen-jokes-d4d740d9d6",
+      "kind": "jokes",
+      "text": "What do you call a dog that tells jokes? A comedy hound!",
+      "status": "pending",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:08:06.732Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "d468bf9b606a1fcd",
+          "date": "2026-10-19T13:08:54.699Z"
+        }
+      }
+    },
+    {
+      "id": "gen-jokes-937631895b",
+      "kind": "jokes",
+      "text": "What do you call a cat who loves to bowl? An alley cat!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:08:06.732Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "090b7f2a0fb4eec3",
+          "date": "2026-10-19T13:08:54.911Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:09:57.736Z"
+      }
+    },
+    {
+      "id": "gen-jokes-c2d56e2a27",
+      "kind": "jokes",
+      "text": "Why did the bird bring a ladder to the tree? To reach new heights!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:08:06.732Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "3bf68b4a82a30cab",
+          "date": "2026-10-19T13:08:55.225Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:09:57.736Z"
+      }
+    },
+    {
+      "id": "gen-jokes-82b2fcca31",
+      "kind": "jokes",
+      "text": "What do you call a dinosaur with no legs? A fall!",
+      "status": "pending",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:08:06.732Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "8bca70e28ee9ebcb",
+          "date": "2026-10-19T13:08:55.497Z"
+        }
+      }
+    },
+    {
+      "id": "gen-jokes-19f995b17f",
+      "kind": "jokes",
+      "text": "Why did the monkey go to space? To see the ape-solute view!",
+      "status": "pending",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:08:06.732Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "c9d423dc115af5ee",
+          "date": "2026-10-19T13:08:55.689Z"
+        }
+      }
+    },
+    {
+      "id": "gen-jokes-3dda2a9283",
+      "kind": "jokes",
+      "text": "What do you call a fish without eyes? A fsh!",
+      "status": "pending",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:08:06.732Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "5c26f2ee784c3825",
+          "date": "2026-10-19T13:08:55.952Z"
+        }
+      }
+    },
+    {
+      "id": "gen-jokes-f987fb1f10",
+      "kind": "jokes",
+      "text": "What do you call a bear with a big nose? A snout!",
+      "status": "pending",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:08:06.732Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "8204b05470eb481d",
+          "date": "2026-10-19T13:08:56.234Z"
+        }
+      }
+    },
+    {
+      "id": "gen-jokes-ab2ae0fdab",
+      "kind": "jokes",
+      "text": "What do you call a dog magician? A paw-ditioner!",
+      "status": "pending",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:08:06.732Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "aa6abdd68597c8b2",
+          "date": "2026-10-19T13:08:56.549Z"
+        }
+      }
+    },
+    {
+      "id": "gen-jokes-9b78faa08c",
+      "kind": "jokes",
+      "text": "What do you call a duck that flies over an ocean? A flying duck!",
+      "status": "pending",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:08:06.732Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "0c4648d1d3af5ac4",
+          "date": "2026-10-19T13:08:56.786Z"
+        }
+      }
+    },
+    {
+      "id": "gen-jokes-e08fff0399",
+      "kind": "jokes",
+      "text": "Why did the elephant wear green sneakers? To match his hat!",
+      "status": "pending",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:08:10.022Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "2b28d0243cd29f0e",
+          "date": "2026-10-19T13:08:57.112Z"
+        }
+      }
+    },
+    {
+      "id": "gen-jokes-8f0453b22f",
+      "kind": "jokes",
+      "text": "Why do birds fly south for the winter? It is easier than walking!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:08:10.022Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "d178ec0d672660ed",
+          "date": "2026-10-19T13:08:57.412Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:09:57.736Z"
+      }
+    },
+    {
+      "id": "gen-jokes-7df114746b",
+      "kind": "jokes",
+      "text": "Why did the belt go to jail? It held up a pair of pants!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:08:13.711Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "3cee89cc2bf3d376",
+          "date": "2026-10-19T13:08:57.688Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:09:57.736Z"
+      }
+    },
+    {
+      "id": "gen-jokes-d6c5bede5d",
+      "kind": "jokes",
+      "text": "Why did the spider go to the computer? To make a website!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:08:13.711Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "6ac3111e0870c4db",
+          "date": "2026-10-19T13:08:57.931Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:09:57.736Z"
+      }
+    },
+    {
+      "id": "gen-jokes-65a710bc30",
+      "kind": "jokes",
+      "text": "Why did the scarecrow laugh? He heard a funny crop!",
+      "status": "pending",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:08:17.145Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "748108bb724b38de",
+          "date": "2026-10-19T13:08:58.192Z"
+        }
+      }
+    },
+    {
+      "id": "gen-jokes-77418b2327",
+      "kind": "jokes",
+      "text": "Why did the cookie go to the moon? To see the Milky Way!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:08:17.145Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "55b9337a4545fe23",
+          "date": "2026-10-19T13:08:58.407Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:09:57.736Z"
+      }
+    },
+    {
+      "id": "gen-jokes-0f19f4ef94",
+      "kind": "jokes",
+      "text": "Why do birds fly south for the winter? It's too far to walk!",
+      "status": "pending",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:08:17.145Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "10d7672e944e5139",
+          "date": "2026-10-19T13:08:58.680Z"
+        }
+      }
+    },
+    {
+      "id": "gen-jokes-4dcb14625c",
+      "kind": "jokes",
+      "text": "Why did the cow go to outer space? To see the moooon!",
+      "status": "pending",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:08:17.145Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "13ab0041af4efd92",
+          "date": "2026-10-19T13:08:58.958Z"
+        }
+      }
+    },
+    {
+      "id": "gen-jokes-54ae314ada",
+      "kind": "jokes",
+      "text": "What do you call a bear that's still in bed? A sleepy bear!",
+      "status": "pending",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:08:17.145Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "f9ea8c0862b0568e",
+          "date": "2026-10-19T13:08:59.281Z"
+        }
+      }
+    },
+    {
+      "id": "gen-jokes-4714f317f4",
+      "kind": "jokes",
+      "text": "Why did the chicken join the band? Because she loved to drumstick!",
+      "status": "pending",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:08:17.145Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "b27337cdb8bb2fcf",
+          "date": "2026-10-19T13:08:59.570Z"
+        }
+      }
+    },
+    {
+      "id": "gen-jokes-906434ad03",
+      "kind": "jokes",
+      "text": "Why did the orange stop rolling? Because it ran out of juice!",
+      "status": "pending",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:08:17.145Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "b97655e2f88383ad",
+          "date": "2026-10-19T13:08:59.883Z"
+        }
+      }
+    },
+    {
+      "id": "gen-jokes-c2e551b201",
+      "kind": "jokes",
+      "text": "Why do lions eat raw meat? Because they don't know how to cook!",
+      "status": "pending",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:08:17.145Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "2bafb8591531497e",
+          "date": "2026-10-19T13:09:00.133Z"
+        }
+      }
+    },
+    {
+      "id": "gen-jokes-3d8422f41a",
+      "kind": "jokes",
+      "text": "What do you call a can that's always sleepy? A tired can!",
+      "status": "pending",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:08:17.145Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "f4f7543afafa084e",
+          "date": "2026-10-19T13:09:00.411Z"
+        }
+      }
+    },
+    {
+      "id": "gen-jokes-7bb9a62125",
+      "kind": "jokes",
+      "text": "Why did the fish go to the movie? To see the jellyfish!",
+      "status": "pending",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:08:20.043Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "d4479383b0e80775",
+          "date": "2026-10-19T13:09:00.671Z"
+        }
+      }
+    },
+    {
+      "id": "gen-jokes-e5f6553bb6",
+      "kind": "jokes",
+      "text": "What do you call a pig that does karate? A pork chop!",
+      "status": "pending",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:08:20.043Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "c6acc4869c9b4511",
+          "date": "2026-10-19T13:09:00.955Z"
+        }
+      }
+    },
+    {
+      "id": "gen-jokes-d4fa239a5f",
+      "kind": "jokes",
+      "text": "Why did the lion go to the computer? To visit the website!",
+      "status": "pending",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:08:20.043Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "abd75e7e11993024",
+          "date": "2026-10-19T13:09:01.266Z"
+        }
+      }
+    },
+    {
+      "id": "gen-jokes-f01affaad9",
+      "kind": "jokes",
+      "text": "What do you call a dinosaur with three eyes? A tricera-see!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:08:20.043Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "8eee0c5a008ca0cc",
+          "date": "2026-10-19T13:09:01.535Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:09:57.736Z"
+      }
+    },
+    {
+      "id": "gen-jokes-682f3af5fe",
+      "kind": "jokes",
+      "text": "What do you call a baby cow? A calf!",
+      "status": "pending",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:08:20.043Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "d9800e9de9a69e3c",
+          "date": "2026-10-19T13:09:01.796Z"
+        }
+      }
+    },
+    {
+      "id": "gen-jokes-2e745a3406",
+      "kind": "jokes",
+      "text": "What do you call a dog with a fever? A hot dog!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:08:20.043Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "49e4624eada86b8a",
+          "date": "2026-10-19T13:09:02.129Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:09:57.736Z"
+      }
+    },
+    {
+      "id": "gen-jokes-33f606ac05",
+      "kind": "jokes",
+      "text": "Why did the cat wear a bow tie? Because it's purr-fect!",
+      "status": "pending",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:08:22.865Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "7fcbe71d32b43443",
+          "date": "2026-10-19T13:09:02.437Z"
+        }
+      }
+    },
+    {
+      "id": "gen-jokes-15e62612cc",
+      "kind": "jokes",
+      "text": "Why did the chicken cross the playground? To get to the other slide!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:08:22.865Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "9bdf01c775d6dabf",
+          "date": "2026-10-19T13:09:02.704Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:09:57.736Z"
+      }
+    },
+    {
+      "id": "gen-jokes-a2ac47d665",
+      "kind": "jokes",
+      "text": "What do you call a sad strawberry? A blueberry!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:08:22.865Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "e6fa630599275e34",
+          "date": "2026-10-19T13:09:02.937Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:09:57.736Z"
+      }
+    },
+    {
+      "id": "gen-jokes-39582c1685",
+      "kind": "jokes",
+      "text": "Why did the apple stop? It ran out of juice!",
+      "status": "pending",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:08:25.567Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "dac456f6d3cba602",
+          "date": "2026-10-19T13:09:03.247Z"
+        }
+      }
+    },
+    {
+      "id": "gen-jokes-1c9ece1047",
+      "kind": "jokes",
+      "text": "What did the astronaut say to the moon? I'm over the moon!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:13:18.717Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "a7172a8b7fb30898",
+          "date": "2026-10-19T13:20:58.905Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.455Z"
+      }
+    },
+    {
+      "id": "gen-jokes-fc0c0443dc",
+      "kind": "jokes",
+      "text": "Why did the computer go on a diet? To lose some bytes!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-lite-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:13:35.896Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "dc5b7e3a51c3151a",
+          "date": "2026-10-19T13:20:59.184Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.458Z"
+      }
+    },
+    {
+      "id": "gen-jokes-4ba76cc7b3",
+      "kind": "jokes",
+      "text": "Why did the pencil get a job? To make a point!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:13:43.022Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "fa2058ee5f8f3dc9",
+          "date": "2026-10-19T13:20:59.486Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.458Z"
+      }
+    },
+    {
+      "id": "gen-jokes-1ac66e0f9a",
+      "kind": "jokes",
+      "text": "Why did the robot take a nap? To recharge its batteries!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-lite-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:13:33.337Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "b77b9f68d130fa98",
+          "date": "2026-10-19T13:20:59.751Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.458Z"
+      }
+    },
+    {
+      "id": "gen-jokes-91afce8607",
+      "kind": "jokes",
+      "text": "Why did the sheep go to space? To become an astro-baa!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:15:24.181Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "d1f0aa448f7ae083",
+          "date": "2026-10-19T13:20:59.998Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.458Z"
+      }
+    },
+    {
+      "id": "gen-jokes-b0776cb70a",
+      "kind": "jokes",
+      "text": "What do you call a cow in space? An udder planet!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:15:08.778Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "84b0fe4bf6387e43",
+          "date": "2026-10-19T13:21:00.322Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.458Z"
+      }
+    },
+    {
+      "id": "gen-jokes-8860760b52",
+      "kind": "jokes",
+      "text": "Why did the teacher wear sunglasses? Because her students were so bright!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:14:54.556Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "8dc4c1b7ead4277e",
+          "date": "2026-10-19T13:21:00.628Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.458Z"
+      }
+    },
+    {
+      "id": "gen-jokes-c6f2dee5ad",
+      "kind": "jokes",
+      "text": "What do you call a dinosaur that is great at math? A calcula-raptor!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:14:42.822Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "2a942873ce645007",
+          "date": "2026-10-19T13:21:00.886Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.458Z"
+      }
+    },
+    {
+      "id": "gen-jokes-cf6145d422",
+      "kind": "jokes",
+      "text": "Why did the ruler get a timeout? It was being too bossy!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:14:54.556Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "8c02084cf26c32cc",
+          "date": "2026-10-19T13:21:01.115Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.458Z"
+      }
+    },
+    {
+      "id": "gen-jokes-68df63b4e8",
+      "kind": "jokes",
+      "text": "What do you call a robot that sings? A la-ser!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:14:42.822Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "d7230d83bb3089ab",
+          "date": "2026-10-19T13:21:01.477Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.459Z"
+      }
+    },
+    {
+      "id": "gen-jokes-8d92ec2bc0",
+      "kind": "jokes",
+      "text": "Why did the crayon go to the party? To draw a crowd!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:17:09.552Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "df6ab9210c6461f8",
+          "date": "2026-10-19T13:21:01.756Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.459Z"
+      }
+    },
+    {
+      "id": "gen-jokes-022a780b97",
+      "kind": "jokes",
+      "text": "Why did the lion bring a notebook? To take roar notes!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:17:12.167Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "b563d278fed6940a",
+          "date": "2026-10-19T13:21:02.076Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.459Z"
+      }
+    },
+    {
+      "id": "gen-jokes-0ff6937fd0",
+      "kind": "jokes",
+      "text": "What do fish use for money? Sand dollars!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:13:13.418Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "c4786ff6adab5a22",
+          "date": "2026-10-19T13:21:02.368Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.459Z"
+      }
+    },
+    {
+      "id": "gen-jokes-c035a1a0ab",
+      "kind": "jokes",
+      "text": "What do you call a funny fish? A clownfish!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:13:13.418Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "46f5a76ae87f3c5f",
+          "date": "2026-10-19T13:21:02.604Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.459Z"
+      }
+    },
+    {
+      "id": "gen-jokes-4af7a3b468",
+      "kind": "jokes",
+      "text": "Why do fish live in salt water? Because pepper makes them sneeze!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:13:13.418Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "1750452fe3194609",
+          "date": "2026-10-19T13:21:02.830Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.459Z"
+      }
+    },
+    {
+      "id": "gen-jokes-8db432e09c",
+      "kind": "jokes",
+      "text": "Why did the clam go to the party? Because it wanted to shellebrate!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:13:17.111Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "9de0424eaa333c58",
+          "date": "2026-10-19T13:21:03.145Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.459Z"
+      }
+    },
+    {
+      "id": "gen-jokes-ed6f490733",
+      "kind": "jokes",
+      "text": "Why did the boat get a haircut? To look more shipshape!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-lite-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:13:36.041Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "2b3b4234da170b5c",
+          "date": "2026-10-19T13:21:03.486Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.459Z"
+      }
+    },
+    {
+      "id": "gen-jokes-968ae9b7e1",
+      "kind": "jokes",
+      "text": "Why did the puddle go to the party? To make a splash!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-lite-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:13:36.041Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "87bc46ed4395c159",
+          "date": "2026-10-19T13:21:03.805Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.459Z"
+      }
+    },
+    {
+      "id": "gen-jokes-09169bfd88",
+      "kind": "jokes",
+      "text": "Why did the fish go to the beach? To catch some rays!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-lite-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:13:40.774Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "805a1a021527da60",
+          "date": "2026-10-19T13:21:04.117Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.459Z"
+      }
+    },
+    {
+      "id": "gen-jokes-34fbb2ade8",
+      "kind": "jokes",
+      "text": "Why did the weather go to art class? To make a rain-bow!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:13:44.634Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "a886e2bc230bd945",
+          "date": "2026-10-19T13:21:04.333Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.459Z"
+      }
+    },
+    {
+      "id": "gen-jokes-cd57f59e43",
+      "kind": "jokes",
+      "text": "What do snowmen eat for breakfast? Frosted flakes!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:13:44.634Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "7e7c57d2205f7be9",
+          "date": "2026-10-19T13:21:04.538Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.459Z"
+      }
+    },
+    {
+      "id": "gen-jokes-4054413a0b",
+      "kind": "jokes",
+      "text": "What do snowmen eat for lunch? Iceberg lettuce!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:13:48.801Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "3130101fa8d0a4da",
+          "date": "2026-10-19T13:21:04.845Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.459Z"
+      }
+    },
+    {
+      "id": "gen-jokes-0534cba30d",
+      "kind": "jokes",
+      "text": "What do you call a funny mountain? Hill-arious!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:13:48.801Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "0d83179474abe5bd",
+          "date": "2026-10-19T13:21:05.117Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.459Z"
+      }
+    },
+    {
+      "id": "gen-jokes-2a3657a8af",
+      "kind": "jokes",
+      "text": "What do trees say to each other in spring? Leaf me alone!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-lite-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:13:54.722Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "99e809de9cae85b5",
+          "date": "2026-10-19T13:21:05.395Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.459Z"
+      }
+    },
+    {
+      "id": "gen-jokes-4c5255533e",
+      "kind": "jokes",
+      "text": "What do you call a wet bear? A drizzly bear!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:13:48.801Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "0801ffe34ffc1968",
+          "date": "2026-10-19T13:21:05.637Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.459Z"
+      }
+    },
+    {
+      "id": "gen-jokes-80c0926f44",
+      "kind": "jokes",
+      "text": "Why did the fish bring a ladder? To go up a few scales!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-lite-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:13:36.041Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "91947c6c1891b5a5",
+          "date": "2026-10-19T13:21:05.845Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.459Z"
+      }
+    },
+    {
+      "id": "gen-jokes-899d3ecde2",
+      "kind": "jokes",
+      "text": "Why did the wave say to the beach? Long time no sea!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:15:05.638Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "28400f6495d3b691",
+          "date": "2026-10-19T13:21:06.116Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.459Z"
+      }
+    },
+    {
+      "id": "gen-jokes-e0c981165e",
+      "kind": "jokes",
+      "text": "What did the ocean say to the boat? Nothing, it just waved!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:15:09.090Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "0be52f0163bd9a54",
+          "date": "2026-10-19T13:21:06.389Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.459Z"
+      }
+    },
+    {
+      "id": "gen-jokes-dbdb67b882",
+      "kind": "jokes",
+      "text": "What do you call a boat with a cold? Achoo-ser!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:15:05.638Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "8f73d485236aa6db",
+          "date": "2026-10-19T13:21:06.675Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.459Z"
+      }
+    },
+    {
+      "id": "gen-jokes-7fdb758bf4",
+      "kind": "jokes",
+      "text": "Why did the ship get a job? It wanted to earn some sail-ary!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:15:05.638Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "72e2e98762a447b5",
+          "date": "2026-10-19T13:21:06.982Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.459Z"
+      }
+    },
+    {
+      "id": "gen-jokes-2983afaa46",
+      "kind": "jokes",
+      "text": "How do clouds talk to each other? With thunder-phones!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:15:18.304Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "6542fa4f651d5e2d",
+          "date": "2026-10-19T13:21:07.265Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.459Z"
+      }
+    },
+    {
+      "id": "gen-jokes-40ab94c9a5",
+      "kind": "jokes",
+      "text": "What's a raindrop's favorite type of music? Shower tunes!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:15:18.304Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "0b79a5d669b8d407",
+          "date": "2026-10-19T13:21:07.499Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.459Z"
+      }
+    },
+    {
+      "id": "gen-jokes-c5d77ff820",
+      "kind": "jokes",
+      "text": "What do you call a penguin in the desert? Lost!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:15:26.750Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "a8452086880b2a89",
+          "date": "2026-10-19T13:21:07.700Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.459Z"
+      }
+    },
+    {
+      "id": "gen-jokes-527898c4ac",
+      "kind": "jokes",
+      "text": "How do trees get on the internet? They log in!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:15:32.331Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "950635adebbe8d01",
+          "date": "2026-10-19T13:21:07.925Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.459Z"
+      }
+    },
+    {
+      "id": "gen-jokes-e1336be414",
+      "kind": "jokes",
+      "text": "What did the dirt say to the seed? Lettuce grow together!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:15:32.331Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "689e6227a7dc3027",
+          "date": "2026-10-19T13:21:08.137Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.459Z"
+      }
+    },
+    {
+      "id": "gen-jokes-e2046e8218",
+      "kind": "jokes",
+      "text": "What do you call a snowman in July? A puddle!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:17:35.431Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "9f8b3c0216999476",
+          "date": "2026-10-19T13:21:08.496Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.459Z"
+      }
+    },
+    {
+      "id": "gen-jokes-4b59f2575e",
+      "kind": "jokes",
+      "text": "Why do bees buzz? Because they do not know the words!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:17:42.164Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "bdd171d1a1c88af3",
+          "date": "2026-10-19T13:21:08.773Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.459Z"
+      }
+    },
+    {
+      "id": "gen-jokes-daf3d69bd7",
+      "kind": "jokes",
+      "text": "Why did the sun wear sunglasses? To keep its cool!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:17:20.235Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "5e3f0e80db1d1424",
+          "date": "2026-10-19T13:21:09.117Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.459Z"
+      }
+    },
+    {
+      "id": "gen-jokes-6b486b3b2b",
+      "kind": "jokes",
+      "text": "What do you call a sea turtle that flies? A shell-a-copter!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:17:23.592Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "c74b817f6de0d0f8",
+          "date": "2026-10-19T13:21:09.655Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.459Z"
+      }
+    },
+    {
+      "id": "gen-jokes-fe5ab29346",
+      "kind": "jokes",
+      "text": "What do you call a duck that tells jokes? A quack up artist!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:13:13.330Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "b79c6eb31a777f94",
+          "date": "2026-10-19T13:21:09.863Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.460Z"
+      }
+    },
+    {
+      "id": "gen-jokes-50ccf1cf33",
+      "kind": "jokes",
+      "text": "Why did the frog call his bank? He lost his lilypads!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:13:13.330Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "8aec9f731af71c25",
+          "date": "2026-10-19T13:21:10.074Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.460Z"
+      }
+    },
+    {
+      "id": "gen-jokes-dbb00e8e92",
+      "kind": "jokes",
+      "text": "Why did the sheep cross the river? To get to the ewe side!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-lite-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:14:02.712Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "c9bbc725ebc86ede",
+          "date": "2026-10-19T13:21:10.310Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.460Z"
+      }
+    },
+    {
+      "id": "gen-jokes-531ac6cfd2",
+      "kind": "jokes",
+      "text": "Why did the bird go to the library? To get a book of tweets!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:13:13.330Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "6a7bf70799682468",
+          "date": "2026-10-19T13:21:10.554Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.460Z"
+      }
+    },
+    {
+      "id": "gen-jokes-82242170ef",
+      "kind": "jokes",
+      "text": "Why did the dog do homework? To be a smarty paws!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:13:13.330Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "46f9f4c2ecd150ef",
+          "date": "2026-10-19T13:21:10.922Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.460Z"
+      }
+    },
+    {
+      "id": "gen-jokes-b04d44695d",
+      "kind": "jokes",
+      "text": "Why did the rabbit go to the party? To have a hoppy time!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:13:16.342Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "6503683baaafcf26",
+          "date": "2026-10-19T13:21:11.157Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.460Z"
+      }
+    },
+    {
+      "id": "gen-jokes-68065df894",
+      "kind": "jokes",
+      "text": "What do you call a cat who loves to sing? A purr-former!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:13:19.978Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "1d485b197b0a27f6",
+          "date": "2026-10-19T13:21:11.434Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.461Z"
+      }
+    },
+    {
+      "id": "gen-jokes-f9a11b1a1d",
+      "kind": "jokes",
+      "text": "What do you call a cold dog? A pupsicle!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:13:26.480Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "63b4f7fe041a8463",
+          "date": "2026-10-19T13:21:11.699Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.461Z"
+      }
+    },
+    {
+      "id": "gen-jokes-84d6723f75",
+      "kind": "jokes",
+      "text": "What do you call a lion that is a good singer? A roar star!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:13:23.475Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "811ed63fccda714d",
+          "date": "2026-10-19T13:21:11.947Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.461Z"
+      }
+    },
+    {
+      "id": "gen-jokes-ca1c46106a",
+      "kind": "jokes",
+      "text": "Why did the ladybug play hide and seek? Because it was spotted!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-lite-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:13:44.526Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "a53e4b367004f43f",
+          "date": "2026-10-19T13:21:12.304Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.461Z"
+      }
+    },
+    {
+      "id": "gen-jokes-5cf558dbe7",
+      "kind": "jokes",
+      "text": "How do bears greet each other? With a big bear hug!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:13:56.439Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "d1a3d59535c1d5d4",
+          "date": "2026-10-19T13:21:12.560Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.461Z"
+      }
+    },
+    {
+      "id": "gen-jokes-b7d1fc26fb",
+      "kind": "jokes",
+      "text": "Why did the cat open a garden? To grow purr-tatoes!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-lite-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:14:02.712Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "5d92ee446ed5f5d9",
+          "date": "2026-10-19T13:21:12.868Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.461Z"
+      }
+    },
+    {
+      "id": "gen-jokes-958610671a",
+      "kind": "jokes",
+      "text": "What do you call a chicken that tells jokes? A comedi-hen!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:13:19.978Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "38e63cf22ec82a0e",
+          "date": "2026-10-19T13:21:13.103Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.461Z"
+      }
+    },
+    {
+      "id": "gen-jokes-1fff64c611",
+      "kind": "jokes",
+      "text": "Why did the monkey go to space? To visit the ape-stronauts!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:13:13.330Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "c93417e1e1818a2a",
+          "date": "2026-10-19T13:21:13.401Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.461Z"
+      }
+    },
+    {
+      "id": "gen-jokes-e0ad788f4b",
+      "kind": "jokes",
+      "text": "Why did the bird take a bath? To feel tweet and clean!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-lite-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:13:44.526Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "7ed54e6e1b5ba191",
+          "date": "2026-10-19T13:21:13.672Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.461Z"
+      }
+    },
+    {
+      "id": "gen-jokes-ee1367cd80",
+      "kind": "jokes",
+      "text": "What do you call a sheep that tells jokes? A baa-ha-ha!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-lite-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:14:02.712Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "76a0ff3791476e61",
+          "date": "2026-10-19T13:21:14.013Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.461Z"
+      }
+    },
+    {
+      "id": "gen-jokes-d1dfeec645",
+      "kind": "jokes",
+      "text": "Why did the apple join a gym? To get a core workout!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:13:13.710Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "ae5c03e94ff1f92d",
+          "date": "2026-10-19T13:21:14.228Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.461Z"
+      }
+    },
+    {
+      "id": "gen-jokes-acaa087070",
+      "kind": "jokes",
+      "text": "What did the egg say to the pan? You crack me up!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:14:02.904Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "c0c571bc5a6e90ff",
+          "date": "2026-10-19T13:21:14.497Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.461Z"
+      }
+    },
+    {
+      "id": "gen-jokes-52b0c87036",
+      "kind": "jokes",
+      "text": "What did the apple say to the orange? You peel me happy!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:14:02.904Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "5ad1fd69b3c72c9d",
+          "date": "2026-10-19T13:21:14.748Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.461Z"
+      }
+    },
+    {
+      "id": "gen-jokes-53f47b07d6",
+      "kind": "jokes",
+      "text": "Why did the cheese get an award? It was grate!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:13:49.148Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "c16e4b81c7f0d2ac",
+          "date": "2026-10-19T13:21:14.966Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.461Z"
+      }
+    },
+    {
+      "id": "gen-jokes-67f7328376",
+      "kind": "jokes",
+      "text": "Why did the bread get a ticket? It was loafing around!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:13:49.148Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "ca6db12dbc8b51b5",
+          "date": "2026-10-19T13:21:15.251Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.461Z"
+      }
+    },
+    {
+      "id": "gen-jokes-58d1dac333",
+      "kind": "jokes",
+      "text": "Why did the spoon go to the kitchen party? To stir things up!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:14:02.904Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "8d5ce7df9d1e4813",
+          "date": "2026-10-19T13:21:15.514Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.461Z"
+      }
+    },
+    {
+      "id": "gen-jokes-cbfc4c8484",
+      "kind": "jokes",
+      "text": "Why did the cookie go to the moon? It wanted to be an astronut!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:13:49.148Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "5a73f2702cd42c68",
+          "date": "2026-10-19T13:21:15.789Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.461Z"
+      }
+    },
+    {
+      "id": "gen-jokes-18980b0268",
+      "kind": "jokes",
+      "text": "Why did the cookie join the circus? To do some acro-crumbs!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-lite-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:13:40.059Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "8a31f8a18882e831",
+          "date": "2026-10-19T13:21:16.027Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.461Z"
+      }
+    },
+    {
+      "id": "gen-jokes-44b6d7c4ea",
+      "kind": "jokes",
+      "text": "Why did the lettuce invite the tomato to dinner? To ketchup with him!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:13:23.044Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "2cb0ba89ea5a4fca",
+          "date": "2026-10-19T13:21:16.299Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.461Z"
+      }
+    },
+    {
+      "id": "gen-jokes-34aec20399",
+      "kind": "jokes",
+      "text": "Why did the mushroom go to the party? Because he was a fun-gi!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:13:20.642Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "0bc7e65e30f26f73",
+          "date": "2026-10-19T13:21:16.553Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.461Z"
+      }
+    },
+    {
+      "id": "gen-jokes-c498e09871",
+      "kind": "jokes",
+      "text": "What do you call a cat at a birthday party? A purr-ty animal!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-lite-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:14:10.785Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "20a78bb208f3bbd0",
+          "date": "2026-10-19T13:21:16.852Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.461Z"
+      }
+    },
+    {
+      "id": "gen-jokes-5f8ac0ec75",
+      "kind": "jokes",
+      "text": "What do you call a cookie that can’t stop laughing? A snickerdoodle!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-lite-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:13:40.059Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "6ff6bd2f3a89ebb4",
+          "date": "2026-10-19T13:21:17.127Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.461Z"
+      }
+    },
+    {
+      "id": "gen-jokes-6516659e3d",
+      "kind": "jokes",
+      "text": "What do you call an ice cream that tells jokes? A laugh-sicle!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-lite-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:13:44.962Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "674f4defce1e2573",
+          "date": "2026-10-19T13:21:17.407Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.461Z"
+      }
+    },
+    {
+      "id": "gen-jokes-dd6b2ba430",
+      "kind": "jokes",
+      "text": "What do you call a vegetable that's a musician? A corn-ductor!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:13:13.710Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "f820f318a54b8cd8",
+          "date": "2026-10-19T13:21:17.619Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.461Z"
+      }
+    },
+    {
+      "id": "gen-jokes-654a568da2",
+      "kind": "jokes",
+      "text": "Why did the onion go to the spa? To get a peeling treatment!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:13:13.710Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "45a40a30fc00198a",
+          "date": "2026-10-19T13:21:18.004Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.461Z"
+      }
+    },
+    {
+      "id": "gen-jokes-268079686d",
+      "kind": "jokes",
+      "text": "Why did the bread go to the dentist? It needed a filling!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:14:02.904Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "ab270972537d32ce",
+          "date": "2026-10-19T13:21:18.380Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.461Z"
+      }
+    },
+    {
+      "id": "gen-jokes-5e922a2767",
+      "kind": "jokes",
+      "text": "What do you call a birthday cake that tells jokes? A pun-cake!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-lite-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:14:07.866Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "74be5becb8c64f88",
+          "date": "2026-10-19T13:21:18.587Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.461Z"
+      }
+    },
+    {
+      "id": "gen-jokes-cb7868039b",
+      "kind": "jokes",
+      "text": "What do you call a flying elephant? A jumbo jet!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:13:41.577Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "d286c326196616f2",
+          "date": "2026-10-19T13:21:18.793Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.461Z"
+      }
+    },
+    {
+      "id": "gen-jokes-3d7e921bb6",
+      "kind": "jokes",
+      "text": "Why did the bike go to the playground? To have a wheely good time!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-lite-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:13:48.747Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "0a19dee8ab9ec9bf",
+          "date": "2026-10-19T13:21:19.006Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.461Z"
+      }
+    },
+    {
+      "id": "gen-jokes-8b853a42a8",
+      "kind": "jokes",
+      "text": "Why did the ball join the playground game? To roll with it!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-lite-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:13:48.747Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "95552d12e9c7cc8a",
+          "date": "2026-10-19T13:21:19.272Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.461Z"
+      }
+    },
+    {
+      "id": "gen-jokes-816c1abe28",
+      "kind": "jokes",
+      "text": "Why did the playground ball feel happy? Because it bounced back!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-lite-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:13:48.747Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "6f93671b7b4ff12b",
+          "date": "2026-10-19T13:21:19.564Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.461Z"
+      }
+    },
+    {
+      "id": "gen-jokes-c62444f575",
+      "kind": "jokes",
+      "text": "What do you call a bike with a cold? A sniffle-cycle!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-lite-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:13:52.602Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "f3802f1bf34d24f2",
+          "date": "2026-10-19T13:21:19.837Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.461Z"
+      }
+    },
+    {
+      "id": "gen-jokes-328988a2b9",
+      "kind": "jokes",
+      "text": "What do you call a sleepy shoe? A slipper!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:13:56.531Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "2b8ae0a2890528a2",
+          "date": "2026-10-19T13:21:20.106Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.461Z"
+      }
+    },
+    {
+      "id": "gen-jokes-943923ae6d",
+      "kind": "jokes",
+      "text": "What did the glove say to the hand? Let's keep in touch!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:13:56.531Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "a516d3fee02cb44e",
+          "date": "2026-10-19T13:21:20.314Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.461Z"
+      }
+    },
+    {
+      "id": "gen-jokes-c0798feb4b",
+      "kind": "jokes",
+      "text": "Why did the bunny wear a nightcap? So it wouldn't hop in its sleep!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-lite-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:14:02.611Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "7b23a5687445002b",
+          "date": "2026-10-19T13:21:20.598Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.461Z"
+      }
+    },
+    {
+      "id": "gen-jokes-a43ef08419",
+      "kind": "jokes",
+      "text": "What do you call a sleeping giraffe? A tall tale!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-lite-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:14:02.611Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "59170916a3bf18dd",
+          "date": "2026-10-19T13:21:20.872Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.461Z"
+      }
+    },
+    {
+      "id": "gen-jokes-77d0199a48",
+      "kind": "jokes",
+      "text": "Why did the squirrel bring a pillow to bed? To have a nutty dream!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-lite-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:14:02.611Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "3242b2d29d9147ff",
+          "date": "2026-10-19T13:21:21.162Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.461Z"
+      }
+    },
+    {
+      "id": "gen-jokes-1af0bc52ac",
+      "kind": "jokes",
+      "text": "Why did the frog wear slippers? To leap into bed!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-lite-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:14:04.797Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "2dc52a6ba476105a",
+          "date": "2026-10-19T13:21:21.414Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.462Z"
+      }
+    },
+    {
+      "id": "gen-jokes-325641b83a",
+      "kind": "jokes",
+      "text": "What do you call a lazy kangaroo? A pouch potato!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:14:11.771Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "4a9141d7e4fb4924",
+          "date": "2026-10-19T13:21:21.677Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.462Z"
+      }
+    },
+    {
+      "id": "gen-jokes-b674fe8dc7",
+      "kind": "jokes",
+      "text": "Why did the football player bring string? To tie the game!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:14:11.771Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "095296cbc1820b39",
+          "date": "2026-10-19T13:21:21.935Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.462Z"
+      }
+    },
+    {
+      "id": "gen-jokes-26b6ed3e21",
+      "kind": "jokes",
+      "text": "Why did the cat join the football team? It was good at chasing balls!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:14:11.771Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "e1b22201c5ea100d",
+          "date": "2026-10-19T13:21:22.193Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.462Z"
+      }
+    },
+    {
+      "id": "gen-jokes-696ece6bca",
+      "kind": "jokes",
+      "text": "Why did the flute go to the library? To find some notes!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-lite-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:13:35.227Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "afd63a7f3b25e031",
+          "date": "2026-10-19T13:21:22.493Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.462Z"
+      }
+    },
+    {
+      "id": "gen-jokes-18fa57ba76",
+      "kind": "jokes",
+      "text": "Why did the teddy bear get an award? Because it was stuffed with talent!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:13:22.333Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "a9c15b8e52a6d9d0",
+          "date": "2026-10-19T13:21:22.743Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.462Z"
+      }
+    },
+    {
+      "id": "gen-jokes-3745b2fc39",
+      "kind": "jokes",
+      "text": "Why did the doll go to the party? To have a ball!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-pro-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:13:22.333Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "640236113e736e7d",
+          "date": "2026-10-19T13:21:23.013Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.462Z"
+      }
+    },
+    {
+      "id": "gen-jokes-ca84be8833",
+      "kind": "jokes",
+      "text": "What do you call a sleeping cat? A cat-napper!",
+      "status": "approved",
+      "generatedWith": {
+        "model": "apac.amazon.nova-lite-v1:0",
+        "region": "ap-south-1",
+        "date": "2026-10-19T13:14:02.611Z",
+        "promptVersion": "1.1.0"
+      },
+      "safety": {
+        "local": {
+          "ok": true,
+          "reasons": []
+        },
+        "guardrail": {
+          "verdict": "pass",
+          "triggered": [],
+          "id": "1kcus2m06r9m",
+          "version": "1",
+          "source": "OUTPUT",
+          "textHash": "3e579aae18feae2f",
+          "date": "2026-10-19T13:21:23.270Z"
+        }
+      },
+      "review": {
+        "reviewer": "Project owner (approved in chat, 2026-10-19)",
+        "date": "2026-10-19T13:21:23.462Z"
       }
     }
   ]

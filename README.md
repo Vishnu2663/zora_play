@@ -4,7 +4,7 @@
 
 **Talk. Play. Dance. Learn.** Zora Play is a friendly buddy who lives on your TV. Children (about 3 to 8) use the Fire TV remote to make their buddy dance, sing, play games, learn the alphabet, make music and take calming breaths. There are four buddies to choose from: Zora the baby dragon, Mimi the kitten, Bruno the pup and Teddy the bear, each with its own name and voice.
 
-It works fully offline, has no account, no ads and no analytics, and the buddy only ever says lines from a fixed, reviewed list.
+It works offline, has no account, no ads and no analytics, and the buddy says lines from a fixed, reviewed list. The one online feature is optional: when the TV is online, **Tell me a joke** can fetch a brand-new, safety-checked, voiced joke written live by Amazon Bedrock (for ages 3 to 8, in simple words; it asks the service on every press while the TV is connected to Wi-Fi, and with no connection it tells one of 131 stored jokes straight away; a grown-up can switch it off in Settings).
 
 Built for the Amazon Developer Hackathon 2026: **Fire TV track** (runs on Fire OS as a web app in an Android WebView), with the **AWS Builder** mini challenge (Amazon Bedrock, Guardrails and CloudWatch, used at build time).
 
@@ -35,7 +35,8 @@ Built for the Amazon Developer Hackathon 2026: **Fire TV track** (runs on Fire O
 - **Feelings-aware:** "I'm sad" makes the buddy supportive and offers a dragon breath or a game.
 - **Privacy guard:** if a child tries to say a name, address or number, the buddy says it's private and nothing is stored.
 - **Sleep mode and wind-down timer:** "Go to sleep" puts the buddy to bed; after the time a parent sets, the sky turns to night and the buddy suggests the lullaby.
-- **AI-assisted, human-approved content:** extra jokes, riddles, animal facts, chat replies and bedtime lines are written with Amazon Bedrock at build time, checked by a Bedrock Guardrail, and approved by a person (see [How AWS is used](#how-aws-is-used-aws-builder-mini-challenge)).
+- **Live AI jokes, with a safe fallback:** press Tell me a joke and, when online, Amazon Bedrock writes a new joke on the spot and Amazon Polly speaks it in the buddy's voice (about 2 to 4 seconds). If the TV is offline, the call is slow, or anything looks unsafe, a stored joke is told instead.
+- **AI-assisted, human-approved content:** the stored jokes, riddles, animal facts, chat replies and bedtime lines are written with Amazon Bedrock at build time, checked by a Bedrock Guardrail, and approved by a person (see [How AWS is used](#how-aws-is-used-aws-builder-mini-challenge)).
 
 ## Architecture in one picture
 
@@ -94,7 +95,7 @@ The same `dist/index.html` is also what a Vega OS project would load (`npm run b
 
 - Unit tests (152) and typecheck: pass.
 - Desktop browser (Chromium): every screen, the Talk section, the buddies and the intro.
-- Android TV emulator (`FireTV_API30`), Fire OS WebView: install, launch, intro and home screen.
+- Android TV emulator (`FireTV_API30`), Fire OS WebView: install, launch, intro, home screen, the Talk jokes, and the no-Wi-Fi fallback.
 - Not yet tested on a physical Fire TV device in this repository's history.
 
 ## Zora Play's speaking voice
@@ -113,7 +114,7 @@ When a supported speech API is available, implement one `VoiceAdapter` and call 
 
 ## Privacy & safety
 
-No account, ads, analytics, network calls, chat, or browsing. Nothing is persisted except the chosen buddy (a local setting on the device): settings and scales live in memory only. The parser is an allowlist; unknown input never triggers anything but a friendly "I don't know that one" with suggestions. The buddy never echoes arbitrary words. Personal-info patterns trigger a privacy reply and are not stored.
+No account, ads, analytics, chat, or browsing. The only network call is the optional fresh joke (Settings > Fresh jokes online): one small request that carries only the buddy's id, never any child information, and it can be switched off. Nothing is persisted except the chosen buddy (a local setting on the device): settings and scales live in memory only. The parser is an allowlist; unknown input never triggers anything but a friendly "I don't know that one" with suggestions. The buddy never echoes arbitrary words. Personal-info patterns trigger a privacy reply and are not stored.
 
 This is not a legal compliance review. Before publishing to the Appstore, review Amazon's requirements for apps directed at children and your local children's privacy law.
 
@@ -179,7 +180,7 @@ MIT — see [LICENSE](LICENSE). Zora Play, his artwork, songs and sounds are ori
 
 ## The buddy and the tour test
 
-- The four buddies (Zora, Mimi, Bruno, Teddy) are flat SVG characters (`src/web/Milo.tsx`), with the skin colours from `src/core/avatars.ts`. The avatar faces and the Dance Maker / Says move pictures use the same skins.
+- The four buddies (Zora, Mimi, Bruno, Teddy) are flat SVG drawings (`src/web/Milo.tsx`) with the skin colours from `src/core/avatars.ts`. One pose engine animates all of them, so every move works for every buddy. There is no 3D and no WebGL, so they look the same on every TV.
 - `npm run build && npm run tour` drives every screen like a remote in headless Chrome (focus, layout, errors, every game, settings, then a random-key "monkey" run). It exits with code 1 if anything fails.
 
 ## Audio sequencing: tv-audio-flow

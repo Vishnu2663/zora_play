@@ -280,9 +280,9 @@ export async function checkWithGuardrail(client, { id, version }, text, source =
  * Bad JSON and bad lines are retried. Returns { lines, stats }.
  */
 export async function generateLines(client, opts) {
-  const { kind, count, model, region, guardrail, seen, sample = [], animals = [], maxAttempts = 5, backoff = {}, log = () => {}, now = () => new Date() } = opts;
+  const { kind, count, model, region, guardrail, seen, sample = [], animals = [], topics, maxAttempts = 5, backoff = {}, log = () => {}, now = () => new Date() } = opts;
   if (!KINDS.includes(kind)) throw new Error(`Unknown kind "${kind}". Use one of: ${KINDS.join(', ')}`);
-  const ctx = { animals, avoid: sample };
+  const ctx = { animals, avoid: sample, topics };
   const lines = [];
   const stats = { attempts: 0, badJson: 0, rejected: 0, dupes: 0, guardrailBlocked: 0 };
   while (lines.length < count && stats.attempts < maxAttempts) {

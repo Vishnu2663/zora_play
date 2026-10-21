@@ -1,8 +1,9 @@
 # AWS Bedrock content pipeline
 
-Zora Play is an offline TV app for children aged 3 to 8. It must never call a cloud service while a child uses it.
-We use **Amazon Bedrock at build time only** to write new kid-friendly lines, check them, and let a human approve them.
-The approved lines ship inside the app as ordinary text plus pre-recorded voice clips.
+Zora Play is a TV app for children aged 3 to 8 that works offline. We use Amazon Bedrock in two ways:
+
+1. **At build time**: Bedrock writes new kid-friendly lines, they are checked, and a human approves them. The approved lines ship inside the app as ordinary text plus pre-recorded voice clips. This is the main content pipeline below.
+2. **At run time, for one button**: when the TV is online, **Tell me a joke** can fetch a brand-new joke, written live by Bedrock and spoken by Amazon Polly. See [Live jokes at run time](#live-jokes-at-run-time). If the TV is offline, the call is slow, or the joke looks unsafe, a stored, reviewed joke is told instead.
 
 ## AWS services used
 
@@ -11,7 +12,35 @@ The approved lines ship inside the app as ordinary text plus pre-recorded voice 
 | **Amazon Bedrock, Converse API** | Writes new jokes, riddles, animal facts, chat replies and bedtime lines as strict JSON. Models: Amazon Nova Lite (most kinds) and Amazon Nova Pro (jokes), through the `apac.` inference profiles. | `scripts/bedrock-generate.mjs`, `scripts/lib/bedrock-lib.mjs` |
 | **Amazon Bedrock Guardrails** | A child-safety guardrail (`zora-play-kids`) is applied to the model's output during generation, and again to every line with the `ApplyGuardrail` API before a human sees it. | `scripts/bedrock-check.mjs`, `scripts/bedrock-guardrail-setup.md` |
 | **Amazon CloudWatch Logs** | Bedrock model invocation logging writes every call (prompt, reply, token counts, latency, which guardrail stopped it) to the log group `/aws/bedrock/modelinvocations`. | Bedrock console, Settings |
+| **AWS Lambda + Amazon API Gateway** | The live-joke service (`infra/joke-service`): an HTTP endpoint that runs one function per joke request, rate-limited. | `infra/joke-service/` |
+| **Amazon Polly** | Speaks a live joke in a voice that fits the chosen buddy (question and answer as two mp3 clips). | `infra/joke-service/index.mjs` |
 | **AWS IAM** | Standard credentials chain (`AWS_PROFILE` or environment variables); no keys in the repo. Policy in `scripts/bedrock-guardrail-setup.md`. | n/a |
+
+## Live jokes at run time
+
+```
+ Fire TV app (Tell me a joke)                      AWS (ap-south-1, Polly in us-east-1)
+ ----------------------------                      ------------------------------------
+ GET https://<api>.execute-api.../?buddy=bear  -->  API Gateway (rate limit: 2/s, burst 5)
+   only the buddy's id is sent                        '-> Lambda zora-play-joke
+                                                          1. Bedrock Converse (Nova Pro) writes ONE joke as JSON,
+                                                             Guardrail attached to the output
+                                                          2. our rules (one question, 14 words or fewer, plain letters,
+                                                             banned words) + ApplyGuardrail on the final text
+                                                          3. Polly speaks the question and the answer (mp3)
+ shows the joke, plays the audio, laughs        <--  { question, answer, audioQuestion, audioAnswer }
+ on ANY problem: tells a stored joke instead
+```
+
+- **Why not call Bedrock straight from the app?** That would need AWS keys inside the APK, where anyone could extract them. The app only knows a public URL; the function holds the permissions (a least-privilege role: `bedrock:InvokeModel` on the Nova models, `bedrock:ApplyGuardrail` on our guardrail, `polly:SynthesizeSpeech`).
+- **Privacy:** the request carries only the buddy's id. Nothing about the child is sent or stored. Lambda logs record the joke text and timing, nothing else.
+- **Ages 3 to 8:** the prompt asks for a joke that suits both a 3 and an 8 year old, in everyday words, with nothing scary, romantic, medical or rude. The same rules then check every joke: one question, at most 14 words, plain letters only, no word of four or more syllables, no blocked words (the same list as the build pipeline), no questions about the child. They live in `infra/joke-service/rules.mjs` (function) and `src/core/liveJoke.ts` (TV), and a test keeps the two identical.
+- **Safety, three layers:** the Guardrail on Bedrock's output, those rules in the function, and the same rules again on the TV. Any failure means a stored joke is told.
+- **Connected or not:** while the TV is connected to Wi-Fi, every press asks the service for a new joke. With no connection (or Settings has the feature off) the button tells a stored joke straight away, with no waiting. If one request fails or takes longer than 5 seconds, that press tells a stored joke, and the next press asks again.
+- **Cost and abuse:** the API is rate limited; each joke is roughly one short Nova Pro call and two short Polly calls. Set an AWS budget alert.
+- **Settings:** a grown-up can switch it off (Settings > Fresh jokes online).
+- **Code and deploy:** `infra/joke-service/index.mjs` and `deploy.sh` (creates only `zora-play-*` resources; safe to re-run). Run `bash infra/joke-service/deploy.sh` with `AWS_REGION`, `GUARDRAIL_ID` and `GUARDRAIL_VERSION` set.
+- **Measured:** about 1.7 to 4 seconds per joke, with voice; the app waits at most 5 seconds before falling back.
 
 ## Why Bedrock
 
@@ -120,25 +149,6 @@ On Windows with Git Bash, set `MSYS_NO_PATHCONV=1` before AWS CLI commands that 
 Every generated line carries `generatedWith` (model, region, date, prompt version). Each output file's `metadata` also stores the system prompt.
 The prompts ask for strict JSON, simple English, and the safety rules above; per-kind task text and JSON shapes are in `bedrock-prompts.mjs`.
 
-## Easy jokes (prompt 1.2.0)
-
-Tell-me-a-joke now needs much easier jokes for 3 to 5 year olds. Prompt version `1.2.0` asks Bedrock for jokes of 10 words or
-fewer whose funny part is a silly picture or sound (no puns that need reading or spelling), and the local rule limit for jokes is
-12 words. To make a new batch, on the machine that has the AWS profile:
-
-```bash
-export AWS_PROFILE=zora-play AWS_REGION=ap-south-1 BEDROCK_GUARDRAIL_ID=<id> BEDROCK_GUARDRAIL_VERSION=1
-export BEDROCK_MODEL_ID=apac.amazon.nova-pro-v1:0
-npm run bedrock:generate -- --kind=jokes --count=25
-npm run bedrock:check
-npm run bedrock:review -- --reviewer="Your Name"     # approve only the easiest; reject puns
-npm run bedrock:import
-npm run voice:phrases && python scripts/gen-voice.py --model <piper model> --only-missing
-npm test && npm run build
-```
-
-Old, harder jokes can be rejected in the same review (`review-lines.mjs`) so only easy ones stay in `src/core/generatedLines.ts`.
-
 ## Review workflow
 
 1. Generate → lines are `pending`.
@@ -213,8 +223,8 @@ Not verified: that the model's facts are right (a human checks each one), and th
 
 ## Text for Devpost: "AWS Builder" mini challenge
 
-Zora Play is a fully offline kids' TV buddy for Fire OS, so it can never call a cloud service while a child is using it. We use
-AWS only at build time: Amazon Bedrock (Converse API with Amazon Nova Lite and Nova Pro), Bedrock Guardrails, and CloudWatch
+Zora Play is a kids' TV buddy for Fire OS that works fully offline, with one optional online feature (live jokes through a small Lambda that uses Bedrock and Polly; any problem falls back to stored jokes). We use
+AWS at build time for the stored content, and at run time for that one button: Amazon Bedrock (Converse API with Amazon Nova Lite and Nova Pro), Bedrock Guardrails, and CloudWatch
 invocation logging. A small Node pipeline asks a Bedrock model, through the Converse API, for new jokes, riddles,
 animal facts, chat replies and bedtime lines in strict JSON. Every line is checked by our own child-safety rules and by an Amazon
 Bedrock Guardrail (ApplyGuardrail: high content filters, denied topics, word and PII filters), then a human approves or rejects it.

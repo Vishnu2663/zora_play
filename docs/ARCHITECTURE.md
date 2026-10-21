@@ -13,7 +13,7 @@
 | Content and games | `src/core/games.ts`, `rhymes.ts`, `band.ts`, `alphabet.ts`, `talk.ts`, `responses.ts`, `generatedLines.ts` | Pure game logic, the band note scheduler (currently unused by the screen), the Talk replies, all the buddy's lines; injectable RNG and clock |
 | Platform host | `firetv/` (Android WebView wrapper, package `com.zoraplay.firetv`); optional `vega/App.tsx` | Loads the built page from bundled assets, maps Back and Play/Pause keys, pauses audio when the app leaves the screen |
 
-No backend. Everything runs on the device and offline. The Fire OS app has no INTERNET permission. (The brain class keeps its original name, `MiloBrain`.)
+Everything runs on the device and works offline. The one exception is the optional live joke: the Fire OS app has the INTERNET permission only for that, and sends a single small request (the buddy's id) to a small AWS service (`infra/joke-service`: API Gateway, a Lambda function, Amazon Bedrock and Amazon Polly). The app checks the reply again (`src/core/liveJoke.ts`) and, on any problem, tells a stored joke instead. (The brain class keeps its original name, `MiloBrain`.)
 
 ## Request flow
 
@@ -62,4 +62,4 @@ Extra jokes, riddles, animal facts, chat replies and bedtime lines are written a
 
 ## Session data
 
-In memory: current screen, character snapshot, last intent + params (never the text), current rhyme, game state, scales, settings. The only things kept on the device are local settings: the chosen buddy (`zora.avatar`), the 3D or flat choice (`zora.render`) and, if a grown-up enables it, the device-voice check result. Closing the app clears everything else.
+In memory: current screen, character snapshot, last intent + params (never the text), current rhyme, game state, scales, settings. The only things kept on the device are local settings: the chosen buddy (`zora.avatar`) and, if a grown-up enables it, the device-voice check result. Closing the app clears everything else.

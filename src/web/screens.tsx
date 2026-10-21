@@ -581,6 +581,7 @@ export function Parents({ ctx }: { ctx: Ctx }) {
     // only offered once the device voice has been verified (or in developer mode): a row that does nothing is confusing
     ...(s.dev || readTtsVerified() ? [['Device voice', !readTtsVerified() ? 'Not verified' : s.systemTts ? 'On' : 'Off', () => { if (readTtsVerified()) set({ systemTts: !s.systemTts }); else ctx.say(SAY.sayWhat[0]); }] as [string, string, () => void]] : []),
     ['Motion', s.motion === 'full' ? 'Full' : 'Gentle', () => set({ motion: s.motion === 'full' ? 'gentle' : 'full' })],
+    ['Fresh jokes online', s.liveJokes ? 'On' : 'Off', () => set({ liveJokes: !s.liveJokes })],
     ['Wind-down timer', s.windDownMin ? `${s.windDownMin} min` : 'Off', () => set({ windDownMin: cycle([0, 15, 30, 45] as const, s.windDownMin) })],
   ];
   return (
@@ -598,8 +599,8 @@ export function Parents({ ctx }: { ctx: Ctx }) {
           <h3>Privacy & safety</h3>
           <ul>
             <li>No account, no ads, no analytics, no chat with strangers, no web browsing.</li>
-            <li>Works fully offline. Nothing is sent anywhere.</li>
-            <li>Zora Play only says lines from a fixed, reviewed list.</li>
+            <li>Works offline. Only the optional "Fresh jokes online" setting goes online, and it sends nothing about your child: just a request for a joke.</li>
+            <li>Zora Play says reviewed lines. A fresh online joke is also safety-checked, and if anything looks wrong a stored joke is told instead.</li>
             <li>If a child shares a name, address or number, Zora Play says it's private. Nothing is kept.</li>
             <li>Almost nothing is saved. Settings and shiny scales reset when the app closes. Only your chosen buddy is remembered on this TV.</li>
           </ul>
