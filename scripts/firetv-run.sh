@@ -6,7 +6,7 @@
 # and on the Fire Stick: Developer Options > ADB Debugging ON.
 set -euo pipefail
 cd "$(dirname "$0")/.."
-PKG=com.zoraplay.tv
+PKG=com.zoraplay.firetv
 APK=firetv/app/build/outputs/apk/debug/app-debug.apk
 
 command -v adb >/dev/null || { echo "adb not found: brew install android-platform-tools"; exit 1; }

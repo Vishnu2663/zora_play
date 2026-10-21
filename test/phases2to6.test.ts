@@ -125,7 +125,7 @@ test('avatars: Dino, Cat, Dog, Bear - distinct, all six animation states, safe p
 
 test('the selected avatar is what is rendered: the character component and every screen read it', () => {
   const app = src('src/web/App.tsx');
-  assert.match(app, /<Buddy avatar=\{avatar\}/, 'the one character component on every screen gets the avatar');
+  assert.match(app, /<Milo avatar=\{avatar\}/, 'the one character component on every screen gets the avatar');
   const milo = src('src/web/Milo.tsx');
   assert.match(milo, /AVATARS\[avatar\]\.skin/, 'renderer draws from the registry skin, not hard-coded dragon colours');
   assert.match(milo, /skin\.ears/); assert.match(milo, /skin\.wings/);

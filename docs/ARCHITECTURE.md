@@ -5,13 +5,13 @@
 | Layer | Where | Responsibility |
 |---|---|---|
 | Presentation | `src/web/App.tsx`, `screens.tsx`, `screensNew.tsx`, `icons.tsx`, `styles.css` | 1920×1080 stage scaled to the screen, speech bubble, particles, screens, focus visuals, the opening scene |
-| Buddy drawing | `src/web/Milo3D.tsx`, `buddy3d.ts`, `snapshots.ts` (3D, Three.js); `src/web/Milo.tsx` (flat SVG fallback) | The four buddies (Zora, Mimi, Bruno, Teddy). 3D by default; the flat buddy when a TV has no WebGL or is too slow. `snapshots.ts` makes the small pictures (faces, move strips); the opening-scene strips are pre-drawn files in `public/intro/` |
+| Buddy drawing | `src/web/Milo.tsx` (flat SVG), `icons.tsx` (faces, move pictures, opening cast) | The four buddies (Zora, Mimi, Bruno, Teddy), drawn as light 2D SVG characters that run smoothly on every Fire TV stick |
 | Input | `src/web/focus.ts`, `src/web/voice.ts`, Talk buttons | Remote keys → spatial navigation, Back, Play/Pause; voice seam |
 | Intent engine | `src/core/normalize.ts`, `parser.ts`, `registry.ts`, `brain.ts` | Normalize → parse → allowlist → resolve with session context → Reaction |
 | Character | `src/core/character.ts`, `avatars.ts` | State machine with safety caps; the buddy registry (names, taglines, skin colours) |
 | Speech and audio | `src/core/speechQueue.ts`, `phrases.ts`, `src/web/speech.ts`, `audio.ts`, `clips.ts`, `audioFlow.ts`, `src/core/flowAdapter.ts`, `packages/tv-audio-flow` | Recorded voice clips through one queue; sung songs, animal recordings and music; synthesized effects and instruments; one-sound-at-a-time sequencing |
 | Content and games | `src/core/games.ts`, `rhymes.ts`, `band.ts`, `alphabet.ts`, `talk.ts`, `responses.ts`, `generatedLines.ts` | Pure game logic, the band note scheduler (currently unused by the screen), the Talk replies, all the buddy's lines; injectable RNG and clock |
-| Platform host | `firetv/` (Android WebView wrapper, package `com.zoraplay.tv`); optional `vega/App.tsx` | Loads the built page from bundled assets, maps Back and Play/Pause keys, pauses audio when the app leaves the screen |
+| Platform host | `firetv/` (Android WebView wrapper, package `com.zoraplay.firetv`); optional `vega/App.tsx` | Loads the built page from bundled assets, maps Back and Play/Pause keys, pauses audio when the app leaves the screen |
 
 No backend. Everything runs on the device and offline. The Fire OS app has no INTERNET permission. (The brain class keeps its original name, `MiloBrain`.)
 
@@ -31,7 +31,7 @@ The Talk section's conversation starters skip the parser: each is a fixed set of
 23 states: `IDLE, LISTENING, THINKING, SPEAKING, HAPPY, LAUGHING, DANCING, ROBOT_DANCE, SINGING, JUMPING, WAVING, CLAPPING, SPINNING, SIDESTEPPING, HANDSUP, POINTING, BOUNCING, SLEEPING, CELEBRATING, CONFUSED, SUPPORTIVE, BREATHING, STOPPING`.
 
 - Entry: `enter(state, now, {durationMs, style, speedIndex})` bumps a `seq` so re-entering restarts the animation.
-- Animation: `computePose()` in `Milo.tsx` maps state + time + speed to a pose each frame; both the flat and the 3D buddy draw from the same pose, so all four buddies share one set of animations.
+- Animation: `computePose()` in `Milo.tsx` maps state + time + speed to a pose each frame; all four buddies draw from the same pose, so they share one set of animations.
 - Exit: bounded states return to `returnTo` (usually IDLE) when `tick()` passes `until`.
 - Cancellation: `ANY → STOPPING (400 ms) → IDLE`.
 - Valid transitions: `SLEEPING` only allows HAPPY (wake), STOPPING, IDLE.

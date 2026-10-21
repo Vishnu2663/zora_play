@@ -16,22 +16,18 @@ export interface BuddyLookKinds { eyes: EyeKind; mouth: MouthKind; brows: BrowKi
 
 export interface Pose {
   x: number; y: number; rot: number; sx: number; sy: number;
-  /** Turn around the vertical axis, in radians (the 3D buddy really turns; the flat SVG one squashes sx instead). */
-  yaw: number;
   /** Flat buddy only: angle of a turn on the spot (radians). The flat drawing turns like a real body (face slides round to the side) instead of flipping like paper. */
   spin: number;
-  /** Tip forward / backward (a somersault), in radians. 3D only; the flat buddy turns in the plane instead. */
-  pitch: number;
   head: number; tail: number; wing: number; armL: number; armR: number;
   belly: number; mouth: MouthKind; eyes: EyeKind; brows: BrowKind;
   lookX: number; lookY: number; mouthScale: number;
 }
 
-const BASE: Pose = { x: 0, y: 0, rot: 0, sx: 1, sy: 1, yaw: 0, spin: 0, pitch: 0, head: 0, tail: 0, wing: 0, armL: 12, armR: 12, belly: 1, mouth: 'smile', eyes: 'open', brows: 'none', lookX: 0, lookY: 0, mouthScale: 1 };
+const BASE: Pose = { x: 0, y: 0, rot: 0, sx: 1, sy: 1, spin: 0, head: 0, tail: 0, wing: 0, armL: 12, armR: 12, belly: 1, mouth: 'smile', eyes: 'open', brows: 'none', lookX: 0, lookY: 0, mouthScale: 1 };
 const TAU = Math.PI * 2;
 const S = Math.sin;
 
-export function computePose(state: CharacterState, t: number, speed: number, style: string, reduced: boolean, breathT: number, threeD = false): Pose {
+export function computePose(state: CharacterState, t: number, speed: number, style: string, reduced: boolean, breathT: number): Pose {
   const k = reduced ? 0.4 : 1; // movement amplitude
   const p: Pose = { ...BASE };
   // Gentle life everywhere.
@@ -93,8 +89,7 @@ export function computePose(state: CharacterState, t: number, speed: number, sty
     case 'SPINNING': {
       if (reduced) { p.rot = S(t * 8) * 6; p.mouth = 'open'; break; }
       const turn = Math.min(t / 1.4, 1);
-      if (threeD) p.yaw = turn * TAU; // a real turn around the body
-      else { p.spin = turn * TAU; p.sx = 1 - 0.1 * Math.abs(Math.sin(p.spin)); }
+      p.spin = turn * TAU; p.sx = 1 - 0.1 * Math.abs(Math.sin(p.spin));
       p.y = -S(turn * Math.PI) * 40;
       p.armL = 90; p.armR = 90; p.wing = 30; p.tail = 30; p.mouth = 'open'; p.eyes = 'happy';
       break;
@@ -105,7 +100,7 @@ export function computePose(state: CharacterState, t: number, speed: number, sty
       const a = ue * TAU;
       p.x = 170 * S(a) * k; p.y = -82 * (1 - Math.cos(a)) * k;
       p.rot = 12 * Math.cos(a) * k; p.wing = 38 + S(t * 28) * 26; p.armL = 55; p.armR = 55; p.tail = S(t * 6) * 18;
-      if (threeD) p.yaw = 0.5 * S(a); p.mouth = 'open'; p.eyes = 'happy';
+      p.mouth = 'open'; p.eyes = 'happy';
       break;
     }
     case 'SOMERSAULT': { // Mimi: crouch, jump and flip once, land
@@ -113,14 +108,14 @@ export function computePose(state: CharacterState, t: number, speed: number, sty
       const v = Math.max(0, Math.min(1, (u - 0.2) / 0.6));
       const crouch = u < 0.2 ? S((u / 0.2) * Math.PI / 2) : u > 0.8 ? Math.max(0, 1 - (u - 0.8) / 0.1) * 0.8 : 0;
       p.y = -125 * S(v * Math.PI) * k; p.sy = 1 - crouch * 0.13; p.sx = 1 + crouch * 0.07;
-      if (threeD) p.pitch = v >= 1 ? 0 : v * TAU; else p.rot = v >= 1 ? 0 : v * 360;
+      p.rot = v >= 1 ? 0 : v * 360;
       p.armL = 60; p.armR = 60; p.tail = S(t * 9) * 20; p.mouth = 'open'; p.eyes = 'happy';
       break;
     }
     case 'TAILCHASE': { // Bruno: spins twice, faster and faster, with little hops and a wagging tail, then settles
       const u = Math.min(t / 2.8, 1);
       const turns = 2 * (u * u * (3 - 2 * u));
-      if (threeD) p.yaw = turns * TAU; else { p.spin = turns * TAU; p.sx = 1 - 0.1 * Math.abs(Math.sin(p.spin)); }
+      p.spin = turns * TAU; p.sx = 1 - 0.1 * Math.abs(Math.sin(p.spin));
       p.y = -Math.abs(S(t * 9)) * 16 * k; p.tail = S(t * 26) * 38; p.armL = 50; p.armR = 50; p.mouth = 'open'; p.eyes = 'happy';
       break;
     }
@@ -141,7 +136,7 @@ export function computePose(state: CharacterState, t: number, speed: number, sty
     case 'POINTING': { // turns towards the choices and points at them with one arm, a small nudge now and then
       const ease = Math.min(1, t / 0.4);
       p.armR = 100 * ease + S(t * 4) * 5 * ease; p.armL = 8; p.head = -6 * ease; p.lookX = 8 * ease; p.mouth = 'open'; p.eyes = 'happy';
-      if (threeD) p.yaw = 0.55 * ease; else p.rot = 3 * ease;
+      p.rot = 3 * ease;
       break;
     }
     case 'HANDSUP': { // both hands held high, happy sway
@@ -287,7 +282,7 @@ export function Milo({ machine, mood, talkingUntil, reduced, breathStart, avatar
         const kk = 1 - Math.exp(-dtS * 26);
         for (const key of SMOOTH2D) smooth[key] = smooth[key] + (target[key] - smooth[key]) * kk;
       }
-      const pose: Pose = { ...smooth, spin: target.spin, yaw: target.yaw, pitch: target.pitch, mouth: target.mouth, eyes: target.eyes, brows: target.brows };
+      const pose: Pose = { ...smooth, spin: target.spin, mouth: target.mouth, eyes: target.eyes, brows: target.brows };
       const R = refs.current;
       const set = (n: string, v: string) => R[n]?.setAttribute('transform', v);
 

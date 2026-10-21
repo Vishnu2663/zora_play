@@ -17,7 +17,7 @@ Zora Play is a TV buddy for ages 3 to 8: pick Zora, Mimi, Bruno or Teddy, then d
 
 **What it does.** Four buddies (Zora the baby dragon, Mimi the kitten, Bruno the pup, Teddy the bear), each with its own look and voice. Dance Studio and Dance Maker, a Rhyme Room with five sung songs and karaoke highlighting, three games (Shape Match, Zora Says, Animal Sounds with 11 real recordings), Alphabets (26 letters), a Band with 10 instruments, a Talk section with conversation starters and 16 phrase buttons, Calm breaths, shiny-scale rewards, and a grown-ups Settings area with a wind-down timer. Everything is driven by the Fire TV remote.
 
-**How we built it.** A platform-agnostic TypeScript core (intent parser, allowlist registry, session brain, character state machine, pure game engines, band sequencer) with 152 unit tests, and a React TV UI with our own D-pad focus navigation. The buddies are 3D models drawn with Three.js, with a flat fallback when a TV has no WebGL. Speech is recorded voice clips (263 lines for each of four buddies, generated offline with Piper); a small sequencing library keeps speech, songs and animal sounds from ever overlapping. The app is one self-contained web page that runs inside an Android WebView on Fire OS (`firetv/`, package `com.zoraplay.tv`).
+**How we built it.** A platform-agnostic TypeScript core (intent parser, allowlist registry, session brain, character state machine, pure game engines, band sequencer) with 152 unit tests, and a React TV UI with our own D-pad focus navigation. The buddies are 3D models drawn with Three.js, with a flat fallback when a TV has no WebGL. Speech is recorded voice clips (263 lines for each of four buddies, generated offline with Piper); a small sequencing library keeps speech, songs and animal sounds from ever overlapping. The app is one self-contained web page that runs inside an Android WebView on Fire OS (`firetv/`, package `com.zoraplay.firetv`).
 
 **How we used AWS.** The app on the TV never touches AWS. At build time we use Amazon Bedrock (Converse API, Amazon Nova Lite and Nova Pro) to write new jokes, riddles, animal facts, chat replies and bedtime lines as strict JSON. A Bedrock Guardrail checks the model's output and then every line again with `ApplyGuardrail`; our own local rules check length and words; a person approves or rejects each line. Of 45 generated lines, all 45 passed the guardrail, 28 were approved and 17 rejected by a human, and the 28 are in the app with voice. Bedrock model invocation logging writes every call to CloudWatch Logs. Details and evidence: `docs/aws-bedrock.md`.
 
@@ -37,7 +37,7 @@ Zora Play is a TV buddy for ages 3 to 8: pick Zora, Mimi, Bruno or Teddy, then d
 
 1. `npm install`, `npm test` (152 tests, no AWS needed).
 2. `npm run build && npm run serve`, then open http://localhost:8080 and use arrows, Enter and Esc.
-3. Fire OS: follow "Put it on Fire TV (Fire OS)" in the README (`npm run build:firetv`, `./gradlew assembleDebug`, `adb install`, launch `com.zoraplay.tv/com.miloplay.tvbuddy.firetv.MainActivity`). An Android TV emulator also works.
+3. Fire OS: follow "Put it on Fire TV (Fire OS)" in the README (`npm run build:firetv`, `./gradlew assembleDebug`, `adb install`, launch `com.zoraplay.firetv/com.miloplay.tvbuddy.firetv.MainActivity`). An Android TV emulator also works.
 4. AWS pipeline: see `docs/aws-bedrock.md` and `.env.example`. Judges do not need AWS to run the app: the approved lines are already in the repository.
 
 ## Product feedback (required, per tool)

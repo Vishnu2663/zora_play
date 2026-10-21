@@ -7,11 +7,11 @@ android {
     compileSdk 35
 
     defaultConfig {
-        applicationId 'com.zoraplay.tv'
+        applicationId 'com.zoraplay.firetv'
         minSdk 22          // Fire OS 5 (API 22) and newer
         targetSdk 35
-        versionCode 11
-        versionName '0.4.0'
+        versionCode 12
+        versionName '0.4.1'
     }
 
     buildTypes {

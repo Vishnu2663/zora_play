@@ -271,17 +271,3 @@ test('dance maker: its own song starts with the dance, follows the dance speed, 
   assert.match(screens, /ctx\.musicHold\.current = false; ctx\.musicTempo\.current = null/, 'Stop / leaving releases the music');
 });
 
-test('3D buddy: one model for the stage and the small pictures, driven by the same pose; flat buddy is the fallback', () => {
-  const m3 = src('src/web/Milo3D.tsx'); const b3 = src('src/web/buddy3d.ts'); const snap = src('src/web/snapshots.ts'); const milo = src('src/web/Milo.tsx'); const icons = src('src/web/icons.tsx');
-  assert.match(b3, /export function createBuddy\(avatar: AvatarId\)/);
-  assert.match(m3, /computePose\(s\.state, t, m\.speed, s\.style, red, now - bs\.current, true\)/, 'same state machine and poses');
-  assert.match(m3, /Math\.exp\(-dt \* 20\)/, 'poses glide: eased towards the target every frame');
-  assert.match(m3, /const fail = useCallback/, 'one stable failure callback, so the 3D scene is not rebuilt on every app update');
-  assert.match(m3, /return <Milo \{\.\.\.props\} \/>/, 'flat SVG buddy when 3D is not available');
-  assert.match(m3, /webglcontextlost/); assert.match(m3, /too slow/, 'a slow device falls back for good');
-  assert.match(milo, /if \(threeD\) p\.yaw = turn \* TAU/, 'spin is a real turn in 3D');
-  assert.match(icons, /export function AvatarFace\(/); assert.match(icons, /useMoveStrip/); assert.match(snap, /createBuddy\(avatar\)/);
-  assert.match(src('src/web/App.tsx'), /<Buddy avatar=\{avatar\}/);
-  assert.equal(webglCheckedOnce(m3), true, 'the WebGL test context is opened only once');
-});
-function webglCheckedOnce(code: string): boolean { return /if \(webglChecked !== null\) return webglChecked;/.test(code); }

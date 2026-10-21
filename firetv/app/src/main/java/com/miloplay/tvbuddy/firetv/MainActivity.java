@@ -85,7 +85,9 @@ public class MainActivity extends Activity {
         web.setFocusableInTouchMode(true);
         web.requestFocus();
         String q = getIntent() != null ? getIntent().getStringExtra("q") : null; // debug only: adb ... --es q "?perf=nosky"
-        web.loadUrl(START_URL + (q != null && q.startsWith("?perf=") ? q : ""));
+        // The TV app always shows the light, flat buddies (?2d): smooth on every Fire TV stick, from the 1 GB ones up.
+        // (Debug: adb ... --es q "?perf=nosky" adds a perf switch.)
+        web.loadUrl(START_URL + "?2d" + (q != null && q.startsWith("?perf=") ? "&" + q.substring(1) : ""));
         ui.postDelayed(this::reveal, 6000); // safety net: never stay on the splash
     }
 

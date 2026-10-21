@@ -574,18 +574,6 @@ button { font-family: inherit; }
 .rhyme-shelf .rhyme-scroll { padding-bottom: 14px !important; }
 .rhyme-shelf .more-pill.down { bottom: 7px; } .rhyme-shelf .more-pill.up { top: 7px; }
 
-/* ---- 3D buddy: the canvas reaches above the old drawing box so jumps and the wings are not cut off ---- */
-.milo3d { inset: auto; left: -190px; top: -256px; width: 1040px; height: 960px; max-width: none; pointer-events: none; }
-
-/* ---- 3D pictures: face portraits and the move strips (frames play while the card is hovered / focused) ---- */
-.face3d { display: block; object-fit: contain; filter: drop-shadow(0 6px 8px rgba(0,0,0,.18)); }
-.mv3d { background-repeat: no-repeat; }
-@keyframes mv3d-play { from { background-position-x: 0; } to { background-position-x: calc(var(--mv-w) * -1); } }
-.move-btn:hover .mv3d, .move-btn:focus .mv3d, .slot.now .mv3d { animation: mv3d-play var(--mv-dur) steps(var(--mv-n)) infinite; }
-.reduced .mv3d { animation: none !important; }
-.buddy-chip { display: inline-flex; align-items: center; margin-right: 6px; }
-.buddy-chip .face3d { margin: -6px 0; }
-
 /* ---- production polish: nothing may stick out of its panel ---- */
 .settings { gap: 8px; } .setting { padding: 9px 22px; font-size: 24px; white-space: nowrap; }
 .help-grid { min-height: 0; gap: 14px; } .help-card { padding: 12px 22px; } .help-card h3 { font-size: 26px; margin-bottom: 2px; } .help-item { font-size: 22px; line-height: 1.25; }
@@ -616,11 +604,10 @@ button { font-family: inherit; }
 :is(.talk-chip, .setting, .help-card, .avatar-card, .inst, .move-btn, .choice, .abc-key):nth-child(n+7) { animation-delay: .46s; }
 
 /* icons float gently, each on its own beat */
-.tile > svg, .tile > .emoji, .avatar-card .face3d, .game > svg, .game > div { animation: bobby 3.4s ease-in-out infinite; }
+.tile > svg, .tile > .emoji, .avatar-card > svg, .game > svg, .game > div { animation: bobby 3.4s ease-in-out infinite; }
 .tiles > :nth-child(2) > svg, .tiles > :nth-child(2) > .emoji { animation-delay: -.7s; } .tiles > :nth-child(3) > svg { animation-delay: -1.4s; }
 .tiles > :nth-child(4) > svg { animation-delay: -2.1s; } .tiles > :nth-child(5) > svg { animation-delay: -2.8s; } .tiles > :nth-child(6) > svg { animation-delay: -.35s; }
-.avatar-card:nth-child(2) .face3d { animation-delay: -.8s; } .avatar-card:nth-child(3) .face3d { animation-delay: -1.6s; } .avatar-card:nth-child(4) .face3d { animation-delay: -2.4s; }
-
+.avatar-card:nth-child(2) 
 /* a soft light sweeps across the tile that has the focus */
 .tile, .setting, .chip, .talk-chip { position: relative; overflow: hidden; }
 .tile:focus::after, .chip:focus::after, .talk-chip:focus::after { content: ''; position: absolute; top: -20%; bottom: -20%; left: 0; width: 38%; background: linear-gradient(90deg, rgba(255,255,255,0), rgba(255,255,255,.45), rgba(255,255,255,0)); animation: sheen 1.8s ease-in-out infinite; pointer-events: none; }
@@ -632,13 +619,13 @@ button { font-family: inherit; }
 .abc-card { transform-origin: 50% 100%; }
 
 .reduced .panel > *, .reduced .talk-chip, .reduced .setting, .reduced .help-card, .reduced .avatar-card, .reduced .inst, .reduced .move-btn, .reduced .choice, .reduced .abc-key, .reduced .chip,
-.reduced .tile > svg, .reduced .tile > .emoji, .reduced .avatar-card .face3d, .reduced .rhyme-card.playing .rc-play, .reduced .karaoke.compact .k-line.now { animation: none !important; }
+.reduced .tile > svg, .reduced .tile > .emoji, .reduced .avatar-card > svg, .reduced .rhyme-card.playing .rc-play, .reduced .karaoke.compact .k-line.now { animation: none !important; }
 .reduced .tile:focus::after, .reduced .chip:focus::after, .reduced .talk-chip:focus::after { display: none; }
 
 .chat-row { gap: 12px !important; }
 
 /* ======================= Opening scene: a little show while the app wakes up ======================= */
-.intro { animation: introfade .45s 3s forwards !important; overflow: hidden; }
+.intro { animation: none !important; overflow: hidden; } /* the opening stays until the app says it is done (introLeaving fades it over Home), so there is never an empty gap */
 @keyframes ray-spin { to { transform: translate(-50%, -50%) rotate(360deg); } }
 @keyframes ray-in { from { opacity: 0; } to { opacity: 1; } }
 @keyframes balloon-up { 0% { transform: translateY(0) rotate(-4deg); opacity: 0; } 12% { opacity: 1; } 50% { transform: translateY(-620px) translateX(var(--sway)) rotate(5deg); } 100% { transform: translateY(-1250px) translateX(calc(var(--sway) * -1)) rotate(-4deg); opacity: 1; } }
@@ -676,7 +663,7 @@ button { font-family: inherit; }
 /* ---- opening: the whole cast, evenly spaced; the stage buddy appears only once the app is ready ---- */
 .stage.intro-on .milo-area { opacity: 0 !important; animation: none !important; }
 @keyframes arrive { from { opacity: 0; transform: scale(.7) translateY(40px); } to { opacity: 1; transform: none; } }
-.stage.intro-done .milo-area { animation: arrive .7s cubic-bezier(.2, 1.3, .4, 1) both; }
+.stage.intro-done .milo-area { animation: arrive .45s cubic-bezier(.2, 1.3, .4, 1) both; }
 .intro-cast { position: absolute; left: 40px; right: 40px; bottom: 168px; display: flex; justify-content: space-evenly; align-items: flex-end; }
 .cast-member { display: flex; flex-direction: column; align-items: center; gap: 2px; opacity: 0; animation: popin .6s cubic-bezier(.2, 1.3, .4, 1) both; }
 .cast-flat { position: relative; }
@@ -684,9 +671,7 @@ button { font-family: inherit; }
 .cast-flat .mood-glow { display: none; }
 .cast-flat + .cast-name { margin-top: 16px; }
 .cast-name { margin-top: -18px; font-size: 40px; font-weight: 900; color: #fff; text-shadow: 0 4px 0 rgba(0, 0, 0, .25); }
-.cast-anim { animation: mv3d-play var(--mv-dur) steps(var(--mv-n)) infinite }
-.reduced .cast-anim { animation: none; }
-
+.reduced 
 /* ---- opening scene, round 2: a rainbow over the cast and a little star that hops from friend to friend ---- */
 @keyframes rainbow-in { from { opacity: 0; transform: scale(.55); } to { opacity: .9; transform: none; } }
 @keyframes hop-star {
@@ -708,16 +693,10 @@ button { font-family: inherit; }
   clip-path: inset(0 0 50% 0); animation: rainbow-in 1s .5s cubic-bezier(.2, 1.2, .4, 1) forwards; }
 .intro-hop { position: absolute; left: 0; top: 0; width: 56px; height: 56px; opacity: 0; background: #FFD23F; filter: drop-shadow(0 0 14px rgba(255, 210, 63, .95));
   clip-path: polygon(50% 0, 62% 36%, 100% 38%, 70% 60%, 82% 100%, 50% 76%, 18% 100%, 30% 60%, 0 38%, 38% 36%); animation: hop-star 3.2s .5s cubic-bezier(.4, 0, .5, 1) both; }
-.cast-member:nth-child(1) .cast-anim { animation: mv3d-play var(--mv-dur) steps(var(--mv-n)) infinite, cast-bump .55s .88s both; }
-.cast-member:nth-child(2) .cast-anim { animation: mv3d-play var(--mv-dur) steps(var(--mv-n)) infinite, cast-bump .55s 1.65s both; }
-.cast-member:nth-child(3) .cast-anim { animation: mv3d-play var(--mv-dur) steps(var(--mv-n)) infinite, cast-bump .55s 2.42s both; }
-.cast-member:nth-child(4) .cast-anim { animation: mv3d-play var(--mv-dur) steps(var(--mv-n)) infinite, cast-bump .55s 3.19s both; }
-.cast-anim { transform-origin: 50% 100%; }
-.cast-name { margin-top: -14px; -webkit-text-stroke: 3px rgba(70, 35, 12, .6); paint-order: stroke fill; }
+.cast-member:nth-child(1) .cast-member:nth-child(2) .cast-member:nth-child(3) .cast-member:nth-child(4) .cast-name { margin-top: -14px; -webkit-text-stroke: 3px rgba(70, 35, 12, .6); paint-order: stroke fill; }
 .intro-tag span { -webkit-text-stroke: 2.5px rgba(70, 35, 12, .55); paint-order: stroke fill; text-shadow: 0 5px 0 rgba(0, 0, 0, .2); }
 .reduced .intro-rainbow, .reduced .intro-hop { display: none; }
-.reduced .cast-member .cast-anim { animation: none !important; }
-.intro-rainbow { -webkit-mask-image: linear-gradient(to bottom, #000 0, #000 41%, transparent 49.5%); mask-image: linear-gradient(to bottom, #000 0, #000 41%, transparent 49.5%); }
+.reduced .cast-member .intro-rainbow { -webkit-mask-image: linear-gradient(to bottom, #000 0, #000 41%, transparent 49.5%); mask-image: linear-gradient(to bottom, #000 0, #000 41%, transparent 49.5%); }
 
 
 /* ---- opening scene, round 3: toy blocks (A B C * 1 2 3 heart) drop in and bounce instead of the rainbow ---- */
@@ -792,3 +771,4 @@ button { font-family: inherit; }
 /* The opening waits (hidden and paused) until the page has settled; see introGo in App.tsx. */
 .stage.intro-on:not(.intro-go) .intro { visibility: hidden; }
 .stage.intro-on:not(.intro-go) .intro *, .stage.intro-on:not(.intro-go) .milo-area { animation-play-state: paused !important; }
+

@@ -27,3 +27,6 @@ credentials
 # Vega wrapper: assets are a copy of dist/ made at build time
 vega-app/assets/
 vega-app/buildinfo.json
+
+# sample demo video made locally (large)
+demo-output/

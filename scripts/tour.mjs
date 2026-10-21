@@ -68,8 +68,7 @@ const state = () => evalJS(`(() => {
     if (r.width < 2 || r.height < 2) continue;
     if (r.right > sb.right + 2 || r.left < sb.left - 2 || r.bottom > sb.bottom + 2 || r.top < sb.top - 2) out.push((el.className && el.className.baseVal === undefined ? el.className : el.tagName) + ' ' + Math.round(r.right) + 'x' + Math.round(r.bottom));
   }
-  const canvas = document.querySelector('canvas.milo3d');
-  const px = canvas ? Number(canvas.dataset.frames || 0) : null;
+  const px = null;
   return { focus: f && f !== document.body ? (f.getAttribute('data-fkey') || f.className || f.tagName) : null, overflow: out.slice(0, 6), buddyPixels: px, text: document.body.innerText.length, title: (document.querySelector('.panel h1, .panel .panel-title, .panel h2') || {}).innerText || null };
 })()`);
 

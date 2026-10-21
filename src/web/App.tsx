@@ -9,7 +9,7 @@ import type { CharacterState, Intent, Mood, ParsedCommand, Screen } from '../cor
 import { audio } from './audio.ts';
 import { FocusMemory, ensureFocus, nextInDirection, toRemoteKey } from './focus.ts';
 import { IntroCast, PartyBalloons, Scale } from './icons.tsx';
-import { Buddy } from './Milo3D.tsx';
+import { Milo } from './Milo.tsx';
 import { audioChannel } from './audioFlow.ts';
 import { rhymeBeatAction, isRhymeActionState } from '../core/rhymeActions.ts';
 import { revealInScroller } from './screens.tsx';
@@ -493,7 +493,7 @@ export function App() {
     const rn = (window as unknown as { ReactNativeWebView?: { postMessage: (s: string) => void } }).ReactNativeWebView;
     // two frames later, so the first thing seen after the splash is a painted page
     requestAnimationFrame(() => requestAnimationFrame(() => rn?.postMessage(JSON.stringify({ type: 'ready' }))));
-    const t = setTimeout(endIntro, prefersReduced ? 900 : 3400);
+    const t = setTimeout(endIntro, prefersReduced ? 900 : 3800);
     return () => clearTimeout(t);
   }, [introGo, endIntro, prefersReduced]);
 
@@ -664,7 +664,7 @@ export function App() {
               </div>
             )}
           </div>
-          <Buddy avatar={avatar} lowFps={intro} machine={brain.machine} mood={mood} talkingUntil={talkingUntil} reduced={reduced} breathStart={breathStart} />
+          <Milo avatar={avatar} lowFps={intro} machine={brain.machine} mood={mood} talkingUntil={talkingUntil} reduced={reduced} breathStart={breathStart} />
           <div className="particles">
             {particles.map((p) => (
               <span key={p.id} className={`pt pt-${p.kind}`} style={{ left: p.x, top: p.y, width: p.s, height: p.s, animationDelay: `${p.d}s` }}><ParticleGlyph kind={p.kind} /></span>

@@ -2,8 +2,6 @@
 import React, { useMemo, useRef } from 'react';
 import type { AnimalId, ShapeId } from '../core/games.ts';
 import { AVATARS, type AvatarId } from '../core/avatars.ts';
-import { useBigStrip, useFacePicture, useIntroStrip, useMoveStrip } from './snapshots.ts';
-import { want3D } from './Milo3D.tsx';
 import { Milo } from './Milo.tsx';
 import { CharacterMachine } from '../core/character.ts';
 import type { CharacterState } from '../core/types.ts';
@@ -234,7 +232,7 @@ export function Flame({ lit, size = 46 }: { lit: boolean; size?: number }) {
 }
 
 /** Static face of an avatar for pickers and previews (drawn from the same registry skin as the animated character). */
-export function AvatarFace2D({ avatar, size = 200 }: { avatar: AvatarId; size?: number }) {
+export function AvatarFace({ avatar, size = 200 }: { avatar: AvatarId; size?: number }) {
   const k = AVATARS[avatar].skin;
   const ear = (side: 1 | -1) => {
     const m = (v: number) => (side === 1 ? v : 100 - v);
@@ -264,7 +262,7 @@ export function AvatarFace2D({ avatar, size = 200 }: { avatar: AvatarId; size?: 
  * like an action emoji. The pose is static; the move's animation plays when the card is hovered / focused with the remote
  * (see styles.css, .demo-*). The arms, feet and whole figure are separate groups so those animations move them.
  */
-export function MoveDemo2D({ move, avatar, size = 120 }: { move: string; avatar: AvatarId; size?: number }) {
+export function MoveDemo({ move, avatar, size = 120 }: { move: string; avatar: AvatarId; size?: number }) {
   const k = AVATARS[avatar].skin;
   const uid = React.useId().replace(/:/g, '');
   const mark = (c: string) => ({ stroke: c, strokeWidth: 3.2, strokeLinecap: 'round' as const, fill: 'none' });
@@ -362,28 +360,6 @@ export function PartyBalloons() {
   );
 }
 
-/** The buddy's face: a 3D picture drawn from the 3D model (the flat drawing when 3D is not available). */
-export function AvatarFace({ avatar, size = 200 }: { avatar: AvatarId; size?: number }) {
-  const url = useFacePicture(avatar);
-  if (!url) return <AvatarFace2D avatar={avatar} size={size} />;
-  return <img className="face3d" src={url} width={size} height={size} alt="" aria-hidden="true" draggable={false} />;
-}
-
-/**
- * A 3D picture of the selected buddy doing a move. Standing still it shows the move's best pose; when the card is
- * hovered or focused with the remote, the frames play (see styles.css, .mv3d). Falls back to the flat figure.
- */
-export function MoveDemo({ move, avatar, size = 120 }: { move: string; avatar: AvatarId; size?: number }) {
-  const strip = useMoveStrip(avatar, move);
-  if (!strip) return <MoveDemo2D move={move} avatar={avatar} size={size} />;
-  const w = size * strip.frames;
-  return (
-    <div className={`demo demo-${move} mv3d`} aria-hidden="true"
-      style={{ width: size, height: size, backgroundImage: `url(${strip.url})`, backgroundSize: `${w}px ${size}px`, backgroundPosition: `${-size * strip.still}px 0`,
-        ['--mv-n' as string]: strip.frames, ['--mv-w' as string]: `${w}px`, ['--mv-dur' as string]: `${strip.ms}ms` }} />
-  );
-}
-
 /** Opening scene: all four buddies in a row, each doing a different move, evenly spaced. */
 export function IntroCast() {
   const cast: [AvatarId, string][] = [['dino', 'wave'], ['cat', 'jump'], ['dog', 'turn'], ['bear', 'handsup']];
@@ -396,7 +372,7 @@ export function IntroCast() {
 
 const CAST_STATE: Record<string, CharacterState> = { wave: 'WAVING', jump: 'JUMPING', turn: 'SPINNING', handsup: 'HANDSUP' };
 
-/** No 3D on this device: the same flat buddy the app uses (Milo.tsx), so the opening matches the screens after it. */
+/** The same flat buddy the app uses (Milo.tsx), so the opening matches the screens after it. */
 function CastFlat({ avatar, move, size }: { avatar: AvatarId; move: string; size: number }) {
   const machine = useMemo(() => {
     const m = new CharacterMachine(performance.now());
@@ -405,7 +381,7 @@ function CastFlat({ avatar, move, size }: { avatar: AvatarId; move: string; size
   }, [move]);
   const talkingUntil = useRef(0);
   const breathStart = useRef(0);
-  // Milo draws its own 660 px wide box; this one is centred in the cast slot and scaled so its feet sit where the 3D buddies' feet do.
+  // Milo draws its own 660 px wide box; this one is centred in the cast slot and scaled so its feet sit on the cast row.
   return (
     <div className="cast-flat" style={{ width: size, height: size }}>
       <Milo machine={machine} mood="happy" talkingUntil={talkingUntil} reduced={false} breathStart={breathStart} avatar={avatar} lowFps />
@@ -414,17 +390,10 @@ function CastFlat({ avatar, move, size }: { avatar: AvatarId; move: string; size
 }
 
 function CastMember({ avatar, move, delay }: { avatar: AvatarId; move: string; delay: number }) {
-  const pre = useIntroStrip(avatar, move); // pre-drawn pictures show at once; only if one is missing is it drawn live
-  const live = useBigStrip(avatar, move, pre.failed);
-  const strip = want3D() ? pre.strip ?? live : null;
   const size = 430;
   return (
     <div className="cast-member" style={{ animationDelay: `${delay}s` }}>
-      {strip
-        ? <div className="mv3d cast-anim" style={{ width: size, height: size, backgroundImage: `url(${strip.url})`, backgroundSize: `${size * strip.frames}px ${size}px`, ['--mv-n' as string]: strip.frames, ['--mv-w' as string]: `${size * strip.frames}px`, ['--mv-dur' as string]: `${strip.ms}ms` }} />
-        : want3D()
-          ? <div style={{ width: size, height: size }} /> /* 3D picture still being drawn: leave the spot empty rather than flash a different-looking drawing */
-          : <CastFlat avatar={avatar} move={move} size={size} />}
+      <CastFlat avatar={avatar} move={move} size={size} />
       <span className="cast-name">{AVATARS[avatar].name}</span>
     </div>
   );

@@ -14,7 +14,7 @@ Built for the Amazon Developer Hackathon 2026: **Fire TV track** (runs on Fire O
 
 | Feature | What it does |
 |---|---|
-| **My buddy** | Pick Zora, Mimi, Bruno or Teddy. Each has its own colours, name, and speaking voice (pitch and pace). The buddy is drawn in 3D with Three.js, with a flat fallback if the TV has no WebGL. |
+| **My buddy** | Pick Zora, Mimi, Bruno or Teddy. Each has its own colours, name, and speaking voice (pitch and pace). The buddies are light 2D SVG characters. |
 | **Dance Studio** | Wiggle, Robot, Silly and Slow dances with a real song. Faster and Slower change the animation timing and the music tempo (5 flame levels). Again and Stop. |
 | **Dance Maker** | The child picks 4 moves (wave, jump, side step, turn around, hands up, bounce) and the buddy performs that dance on a loop, at the speed they choose. |
 | **Sing (Rhyme Room)** | Five original sung songs with karaoke word highlighting. Play, Pause, Resume, Restart, Stop and the remote's Play/Pause key. When a song ends, the next one starts 2 seconds later while the Rhyme Room is open. |
@@ -58,7 +58,7 @@ Remote keys / Talk buttons / (future voice)
 Requires Node 22.18+ (built-in TypeScript type stripping is used for tests).
 
 ```bash
-npm install          # esbuild, react, react-dom, typescript, three
+npm install          # esbuild, react, react-dom, typescript,
 npm test             # 152 unit tests (node:test)
 npm run typecheck    # strict tsc on the core
 npm run typecheck:ui # typechecks the React UI too
@@ -72,7 +72,7 @@ Keyboard = remote: **arrows** move, **Enter** selects, **Esc/Backspace** is Back
 
 ## Put it on Fire TV (Fire OS)
 
-Zora Play runs as a web app inside an Android WebView (`firetv/`, package `com.zoraplay.tv`, minSdk 22 so Fire OS 5 and newer). The built `dist/` folder is copied into the app's assets and loaded from `file:///android_asset/index.html`.
+Zora Play runs as a web app inside an Android WebView (`firetv/`, package `com.zoraplay.firetv`, minSdk 22 so Fire OS 5 and newer). The built `dist/` folder is copied into the app's assets and loaded from `file:///android_asset/index.html`.
 
 You need the Android SDK (Android Studio installs it), JDK 17 and `adb`. A Fire TV device needs ADB debugging on (Settings > My Fire TV > Developer Options). The Android TV emulator also works.
 
@@ -83,7 +83,7 @@ echo "sdk.dir=<path to your Android SDK>" > local.properties   # once; use forwa
 ./gradlew assembleDebug                  # -> app/build/outputs/apk/debug/app-debug.apk
 adb connect <fire-tv-ip>:5555            # skip for an emulator that is already running
 adb install -r app/build/outputs/apk/debug/app-debug.apk
-adb shell am start -n com.zoraplay.tv/com.miloplay.tvbuddy.firetv.MainActivity
+adb shell am start -n com.zoraplay.firetv/com.miloplay.tvbuddy.firetv.MainActivity
 ```
 
 `bash scripts/firetv-run.sh <fire-tv-ip>` does the same steps in one go on a Mac or Linux machine (it finds the TV on your Wi-Fi if you leave the IP out).
@@ -93,8 +93,8 @@ The same `dist/index.html` is also what a Vega OS project would load (`npm run b
 ### What was tested where
 
 - Unit tests (152) and typecheck: pass.
-- Desktop browser (Chromium with WebGL): every screen, the Talk section, the 3D buddies and the intro.
-- Android TV emulator (`FireTV_API30`), Fire OS WebView: install, launch, intro and home screen. This emulator has no WebGL, so it shows the flat buddy.
+- Desktop browser (Chromium): every screen, the Talk section, the buddies and the intro.
+- Android TV emulator (`FireTV_API30`), Fire OS WebView: install, launch, intro and home screen.
 - Not yet tested on a physical Fire TV device in this repository's history.
 
 ## Zora Play's speaking voice
@@ -130,10 +130,10 @@ This is not a legal compliance review. Before publishing to the Appstore, review
 
 ```
 src/core/        parser, registry, brain, character state machine, games, rhymes, band, responses, talk
-src/web/         React TV UI: App shell, screens, 2D and 3D buddy, focus engine, audio, speech, voice seam
+src/web/         React TV UI: App shell, screens, 2D buddy, focus engine, audio, speech, voice seam
 test/            unit tests (node:test)
 scripts/         build, copy-to-firetv, Bedrock pipeline, voice and song generators, e2e and tour tests
-firetv/          Fire OS wrapper app (Android WebView), package com.zoraplay.tv
+firetv/          Fire OS wrapper app (Android WebView), package com.zoraplay.firetv
 packages/        tv-audio-flow: the audio sequencing library
 public/          audio (voice clips, songs, animal sounds) and the intro pictures
 voice/           phrase list, voice profiles and the AI-generated line files
@@ -177,10 +177,9 @@ A test (`test/bedrock-pipeline.test.ts`) fails if anything under `src/` mentions
 
 MIT — see [LICENSE](LICENSE). Zora Play, his artwork, songs and sounds are original to this project. Dependency licenses: [LICENSES.md](LICENSES.md).
 
-## 3D buddy, fallback and the tour test
+## The buddy and the tour test
 
-- The four buddies (Zora, Mimi, Bruno, Teddy) are real 3D models drawn with Three.js (`src/web/buddy3d.ts`), with the skin colours from `src/core/avatars.ts`. The avatar faces and the Dance Maker / Says move pictures are rendered from the same models.
-- If WebGL is missing, fails, or the device cannot keep about 18 frames a second, the app switches to the flat SVG buddy and remembers it (`localStorage zora.render = 2d`; open the app with `?2d` to force it).
+- The four buddies (Zora, Mimi, Bruno, Teddy) are flat SVG characters (`src/web/Milo.tsx`), with the skin colours from `src/core/avatars.ts`. The avatar faces and the Dance Maker / Says move pictures use the same skins.
 - `npm run build && npm run tour` drives every screen like a remote in headless Chrome (focus, layout, errors, every game, settings, then a random-key "monkey" run). It exits with code 1 if anything fails.
 
 ## Audio sequencing: tv-audio-flow

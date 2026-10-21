@@ -7,7 +7,7 @@ One repository holds everything:
 ```
 src/            the app (TypeScript + React)             -> bundled into dist/index.html
 public/         audio (voice clips, songs, animals), intro pictures -> copied into dist/
-firetv/         Fire OS wrapper app (Android WebView)    -> package com.zoraplay.tv
+firetv/         Fire OS wrapper app (Android WebView)    -> package com.zoraplay.firetv
 scripts/        build, copy, voice and song generators, Bedrock pipeline, tests
 vega/           reference WebView shell for the optional Vega OS path
 ```
@@ -29,7 +29,7 @@ npm run build:firetv              # build dist/ and copy it into the Fire OS app
 cd firetv
 ./gradlew assembleDebug           # needs local.properties with sdk.dir (forward slashes on Windows)
 adb install -r app/build/outputs/apk/debug/app-debug.apk
-adb shell am start -n com.zoraplay.tv/com.miloplay.tvbuddy.firetv.MainActivity
+adb shell am start -n com.zoraplay.firetv/com.miloplay.tvbuddy.firetv.MainActivity
 ```
 
 `bash scripts/firetv-run.sh <fire-tv-ip>` runs the same steps on a Mac or Linux machine and finds the TV on your Wi-Fi if you give no IP. A Fire TV needs ADB debugging on (Settings > My Fire TV > Developer Options). An Android TV emulator also works.
@@ -42,14 +42,11 @@ adb shell am start -n com.zoraplay.tv/com.miloplay.tvbuddy.firetv.MainActivity
 npm run build && npm run serve   # http://localhost:8080 — arrows/Enter/Esc = remote
 ```
 
-Open the page with `?2d` to force the flat buddy, as a TV without WebGL would show.
-
 ## Re-making the generated assets
 
 | Asset | When | Command |
 |---|---|---|
 | Voice clips | a line was added or changed | `npm run voice:phrases` then `python scripts/gen-voice.py --model ... --piper piper --only-missing` (see [VOICE.md](VOICE.md)) |
-| Opening-scene pictures (`public/intro/*.png`) | the 3D buddies or their moves changed | `python scripts/export-intro.py` (steps are in the file header) |
 | New AI-written lines | you want more jokes, facts and so on | the Bedrock pipeline in [aws-bedrock.md](aws-bedrock.md) |
 
 ## Optional: Vega OS
@@ -63,8 +60,8 @@ The same `dist/index.html` can be loaded by a Vega OS project made from the `veg
 | Unit tests | 152 of 152 pass | this machine |
 | Strict typecheck (core and UI) | pass | this machine |
 | Web build | pass | this machine |
-| Every screen, the Talk section, the 3D buddies, the intro | checked by hand | desktop Chromium with WebGL |
-| `./gradlew assembleDebug`, install, launch, intro and home screen | pass | Android TV emulator `FireTV_API30` (no WebGL, so the flat buddy) |
+| Every screen, the Talk section, the buddies, the intro | checked by hand | desktop Chromium with WebGL |
+| `./gradlew assembleDebug`, install, launch, intro and home screen | pass | Android TV emulator `FireTV_API30` |
 | Bedrock pipeline (generate, guardrail check, logging) | works; details in [aws-bedrock.md](aws-bedrock.md) | real AWS account, `ap-south-1` |
 | Remote-only end-to-end (`npm run e2e`) and tour (`npm run tour`) | scripts exist; not re-run for this version | — |
 | Running on a physical Fire TV | **not run** | — |
