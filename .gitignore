@@ -30,3 +30,15 @@ vega-app/buildinfo.json
 
 # sample demo video made locally (large)
 demo-output/
+
+# more safety: keys, keystores, tokens and local secrets (never commit these)
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+.npmrc
+.netrc
+secrets/
+*.secret
+service-account*.json
