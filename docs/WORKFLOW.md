@@ -51,13 +51,13 @@ npm run build && npm run serve   # http://localhost:8080 — arrows/Enter/Esc = 
 
 ## Optional: Vega OS
 
-The same `dist/index.html` can be loaded by a Vega OS project made from the `vegaWebview` template. `npm run build:vega` copies it into a sibling `MiloVega` folder (set `VEGA_PROJECT=/path/to/MiloVega` if it is somewhere else), and `npm run vega:check` confirms the `.vpkg` contains the latest build. That path was set up earlier and **has not been run for this version**; the shipped target is Fire OS.
+The same `dist/index.html` can be loaded by a Vega OS project made from the `vegaWebview` template. `npm run build:vega` copies it into a sibling `MiloVega` folder (set `VEGA_PROJECT=/path/to/MiloVega` if it is somewhere else), and `npm run vega:check` confirms the `.vpkg` contains the latest build. It has been built and run on the Vega Virtual Device (`vega-app/`); the shipped target is Fire OS.
 
 ## What was verified where
 
 | Check | Result | Where |
 |---|---|---|
-| Unit tests | 152 of 152 pass | this machine |
+| Unit tests | 167 of 167 pass | this machine |
 | Strict typecheck (core and UI) | pass | this machine |
 | Web build | pass | this machine |
 | Every screen, the Talk section, the intro | checked by hand | desktop Chromium |
@@ -65,8 +65,8 @@ The same `dist/index.html` can be loaded by a Vega OS project made from the `veg
 | Install, launch, home screen and live jokes (each press called the service) | pass | a real Fire TV (Amazon AFTMA08C15, Fire OS 7) |
 | Bedrock pipeline (generate, guardrail check, logging) | works; details in [aws-bedrock.md](aws-bedrock.md) | real AWS account, `ap-south-1` |
 | Remote-only end-to-end (`npm run e2e`) and tour (`npm run tour`) | scripts exist; not re-run for this version | — |
-| Running on a physical Fire TV | **not run** | — |
-| Running on the Vega Virtual Device | **not run** | — |
+| Every section used with the remote, recorded on video | pass | a real Fire TV Stick (Fire OS 7) |
+| `npm run build:vega`, `vega run-app`, every section used with the on-screen remote, recorded on video | pass | Vega Virtual Device, Vega SDK 0.24.12112, aarch64 debug package |
 
 ## Notes about the Fire OS wrapper
 

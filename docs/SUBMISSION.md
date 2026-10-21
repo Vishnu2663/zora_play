@@ -4,8 +4,7 @@
 
 **Deadline:** Friday Oct 23, 2026, 12:00 pm PT.
 **Primary track:** Fire TV (priority category: family entertainment).
-**Mini challenge:** AWS Builder (Amazon Bedrock, Bedrock Guardrails, CloudWatch Logs).
-Optional: Open Source mini challenge only if you add a separate open-source project or a contribution to a public repository; the main app alone does not count as "additional".
+**Mini challenges:** AWS Builder (Amazon Bedrock, Bedrock Guardrails, CloudWatch Logs, plus Lambda, API Gateway and Polly for the optional live joke) and Open Source (TV Audio Flow, `packages/tv-audio-flow`: MIT licence, README, 36 tests, examples). If the judges want the library as a separate project, publish `packages/tv-audio-flow` as its own public repository and link it in the submission.
 
 ## Elevator pitch (under 200 characters)
 
@@ -17,9 +16,9 @@ Zora Play is a TV buddy for ages 3 to 8: pick Zora, Mimi, Bruno or Teddy, then d
 
 **What it does.** Four buddies (Zora the baby dragon, Mimi the kitten, Bruno the pup, Teddy the bear), each with its own look and voice. Dance Studio and Dance Maker, a Rhyme Room with five sung songs and karaoke highlighting, three games (Shape Match, Zora Says, Animal Sounds with 11 real recordings), Alphabets (26 letters), a Band with 10 instruments, a Talk section with conversation starters and 16 phrase buttons, Calm breaths, shiny-scale rewards, and a grown-ups Settings area with a wind-down timer. Everything is driven by the Fire TV remote.
 
-**How we built it.** A platform-agnostic TypeScript core (intent parser, allowlist registry, session brain, character state machine, pure game engines, band sequencer) with 152 unit tests, and a React TV UI with our own D-pad focus navigation. The buddies are original flat SVG drawings that one pose engine animates, so they look the same on every TV. Speech is recorded voice clips (263 lines for each of four buddies, generated offline with Piper); a small sequencing library keeps speech, songs and animal sounds from ever overlapping. The app is one self-contained web page that runs inside an Android WebView on Fire OS (`firetv/`, package `com.zoraplay.tv`).
+**How we built it.** A platform-agnostic TypeScript core (intent parser, allowlist registry, session brain, character state machine, pure game engines, band sequencer) with 167 unit tests, and a React TV UI with our own D-pad focus navigation. The buddies are original flat SVG drawings that one pose engine animates, so they look the same on every TV. Speech is recorded voice clips (263 lines for each of four buddies, generated offline with Piper); a small sequencing library keeps speech, songs and animal sounds from ever overlapping. The app is one self-contained web page that runs inside an Android WebView on Fire OS (`firetv/`, package `com.zoraplay.tv`).
 
-**How we used AWS.** The app on the TV never touches AWS. At build time we use Amazon Bedrock (Converse API, Amazon Nova Lite and Nova Pro) to write new jokes, riddles, animal facts, chat replies and bedtime lines as strict JSON. A Bedrock Guardrail checks the model's output and then every line again with `ApplyGuardrail`; our own local rules check length and words; a person approves or rejects each line. Of 45 generated lines, all 45 passed the guardrail, 28 were approved and 17 rejected by a human, and the 28 are in the app with voice. Bedrock model invocation logging writes every call to CloudWatch Logs. Details and evidence: `docs/aws-bedrock.md`.
+**How we used AWS.** The app on the TV has no AWS SDK and no keys. At build time we use Amazon Bedrock (Converse API, Amazon Nova Lite and Nova Pro) to write new jokes, riddles, animal facts, chat replies and bedtime lines as strict JSON. A Bedrock Guardrail checks the model's output and then every line again with `ApplyGuardrail`; our own local rules check length and words; a person approves or rejects each line. Of 226 generated lines (206 jokes plus 20 others), a human approved 148 and rejected 17, 61 jokes are still waiting for review, and only the approved lines are in the app, voiced for all four buddies. One optional button also uses AWS at run time: when the TV is online, Tell me a joke calls API Gateway and a Lambda that asks Bedrock for one joke (Guardrail on the output, our own rules on top), speaks it with Amazon Polly in the buddy's voice, and falls back to a stored joke if anything fails or the TV is offline. Bedrock model invocation logging writes every call to CloudWatch Logs. Details and evidence: `docs/aws-bedrock.md`.
 
 **Challenges.** Honest voice: a Fire TV app cannot reliably receive microphone audio, so we built a clean `VoiceInputService` seam and shipped the Talk buttons instead of faking it. Making sound clear: one sound at a time, with music and effects ducked under speech. A weak-TV start-up: the opening scene uses the same light SVG buddies as the app, so it appears at once. The guardrail's prompt-attack filter blocked our own generation prompts until we used `guardContent` (found through the invocation log).
 
@@ -35,7 +34,7 @@ Zora Play is a TV buddy for ages 3 to 8: pick Zora, Mimi, Bruno or Teddy, then d
 
 ## Testing instructions (for judges)
 
-1. `npm install`, `npm test` (152 tests, no AWS needed).
+1. `npm install`, `npm test` (167 tests, no AWS needed).
 2. `npm run build && npm run serve`, then open http://localhost:8080 and use arrows, Enter and Esc.
 3. Fire OS: follow "Put it on Fire TV (Fire OS)" in the README (`npm run build:firetv`, `./gradlew assembleDebug`, `adb install`, launch `com.zoraplay.firetv/com.miloplay.tvbuddy.firetv.MainActivity`). An Android TV emulator also works.
 4. AWS pipeline: see `docs/aws-bedrock.md` and `.env.example`. Judges do not need AWS to run the app: the approved lines are already in the repository.
@@ -102,7 +101,7 @@ Zora Play is a TV buddy for ages 3 to 8: pick Zora, Mimi, Bruno or Teddy, then d
 - **Three.js** (tried and removed): we first built the buddies as 3D models, but WebGL is not available on every Fire TV or emulator, so we use flat SVG buddies that look the same everywhere.
 - **React and TypeScript** (TV UI and core logic) and **esbuild** (bundles the whole app into one `index.html`): fast builds and a single self-contained file that the WebView loads from bundled assets.
 - **Wikimedia Commons** (11 real animal recordings, public domain or CC0): sources and licenses are listed per file in `public/audio/MANIFEST.json`; four animals (cow, duck, pig, monkey) were left out because no suitable open recording was found.
-- **Node test runner and Playwright** (152 unit tests; remote-key end-to-end and tour scripts): the unit tests run in about a second.
+- **Node test runner and Playwright** (167 unit tests; remote-key end-to-end and tour scripts): the unit tests run in about a second.
 - **Android Studio SDK, Gradle and adb** and the **Android TV emulator**: see the Android entry above.
 
 ## Friction log (optional bonus, up to 10%)
@@ -118,13 +117,15 @@ Zora Play is a TV buddy for ages 3 to 8: pick Zora, Mimi, Bruno or Teddy, then d
 | Fire TV testing | The Android TV emulator has no WebGL | 3D buddies could not be checked there and could differ per device | Medium | Moved to flat SVG buddies | A Fire TV emulator image with GPU support |
 | Voice tooling | `piper_lite.py` crashed on Windows (JSON read as cp1252) | Voice generation stopped | Low | Read the file as UTF-8 | Always pass an encoding when reading JSON |
 
-## Checklist
+## Checklist (status on Oct 21, 2026)
 
-- [ ] GitHub repo (this folder is not a git repository yet): public with the MIT license visible, or private and shared with `testing@devpost.com` and the Amazon reviewers listed on the hackathon page (each person must accept the invitation within 7 days)
-- [ ] Demo video under 3 minutes, public on YouTube or Vimeo, in English, recorded on a real Fire TV or a Fire TV/Vega simulator (lead with the best material; no copyrighted music)
-- [ ] Screenshots from the device or emulator
-- [ ] Text description (above); the "built during the window" paragraph is already filled in
-- [ ] Product feedback for every tool (Fire OS, Android SDK, AWS, Kiro, Claude Code, ChatGPT, Suno, Piper), with the bracketed answers filled in
-- [ ] Tracks and mini challenges selected: Fire TV, AWS Builder
-- [ ] Optional: feature requests and the friction log (up to 10% bonus)
-- [ ] Redact the AWS account id in any log screenshot
+- [x] GitHub repo is public with the MIT licence visible: https://github.com/Vishnu2663/zora_play (checked: no keys, tokens or `.env` in the files or the history; commit author is the GitHub no-reply address)
+- [ ] Demo video: the 2:59 cut is made (real Fire TV Stick footage, then the Vega simulator, with voice-over and captions). **Upload it as public (or unlisted, if the form allows) on YouTube or Vimeo, in English, and paste the link.** Check it plays in a private window and is under 3:00.
+- [x] Screenshots from the device or emulator are in `screenshots/` (add 3 to 5 of them to the Devpost gallery)
+- [x] Text description (above); the "built during the window" paragraph is filled in
+- [ ] Product feedback for every tool (Fire OS, Android SDK, AWS, Kiro, Claude Code, ChatGPT, Suno, Piper): fill the bracketed answers above if any are left
+- [x] Tracks and mini challenges: Fire TV (primary), AWS Builder, Open Source (TV Audio Flow, in `packages/tv-audio-flow` with its own MIT licence, README, tests and examples)
+- [x] Optional: friction log (above) and feature requests (up to 10% bonus)
+- [x] No AWS account id, key or profile secret anywhere in the repo or the video (re-check any log screenshot before posting)
+- [ ] Recommended: publish `packages/tv-audio-flow` as its own public repository and add the link here and in the video description
+- [ ] Before the judging period: set an AWS budget alert and keep the live-joke service rate-limited, or switch it off (set its reserved concurrency to 0); the app then tells stored jokes

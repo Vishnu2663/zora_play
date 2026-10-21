@@ -6,7 +6,9 @@
 
 It works offline, has no account, no ads and no analytics, and the buddy says lines from a fixed, reviewed list. The one online feature is optional: when the TV is online, **Tell me a joke** can fetch a brand-new, safety-checked, voiced joke written live by Amazon Bedrock (for ages 3 to 8, in simple words; it asks the service on every press while the TV is connected to Wi-Fi, and with no connection it tells one of 131 stored jokes straight away; a grown-up can switch it off in Settings).
 
-Built for the Amazon Developer Hackathon 2026: **Fire TV track** (runs on Fire OS as a web app in an Android WebView), with the **AWS Builder** mini challenge (Amazon Bedrock, Guardrails and CloudWatch, used at build time).
+Built for the Amazon Developer Hackathon 2026: **Fire TV track** (runs on Fire OS as a web app in an Android WebView, also tested on the Vega Virtual Device), with two mini challenges: **AWS Builder** (Amazon Bedrock, Guardrails, CloudWatch, plus Lambda, API Gateway and Polly for the optional live joke) and **Open Source** ([TV Audio Flow](packages/tv-audio-flow), an MIT-licensed audio-sequencing library). See [Hackathon submission at a glance](#hackathon-submission-at-a-glance).
+
+Repository: https://github.com/Vishnu2663/zora_play
 
 ![Home](screenshots/01-home.png)
 
@@ -60,7 +62,7 @@ Requires Node 22.18+ (built-in TypeScript type stripping is used for tests).
 
 ```bash
 npm install          # esbuild, react, react-dom, typescript,
-npm test             # 152 unit tests (node:test)
+npm test             # 167 unit tests (node:test)
 npm run typecheck    # strict tsc on the core
 npm run typecheck:ui # typechecks the React UI too
 npm run build        # -> dist/index.html (one self-contained file) plus dist/audio and dist/intro
@@ -89,14 +91,27 @@ adb shell am start -n com.zoraplay.firetv/com.miloplay.tvbuddy.firetv.MainActivi
 
 `bash scripts/firetv-run.sh <fire-tv-ip>` does the same steps in one go on a Mac or Linux machine (it finds the TV on your Wi-Fi if you leave the IP out).
 
-The same `dist/index.html` is also what a Vega OS project would load (`npm run build:vega` copies it into a sibling `MiloVega` project; see [docs/WORKFLOW.md](docs/WORKFLOW.md)). The Vega path was set up earlier and has **not** been run for this version.
+### Run it on the Vega Virtual Device (Vega OS)
+
+The same `dist/index.html` is what the Vega app (`vega-app/`, a React Native Kepler WebView shell) loads. With the Vega SDK installed:
+
+```bash
+export VEGA_PROJECT=$PWD/vega-app
+npm run build:vega                      # build the web app and copy it into vega-app/assets
+cd vega-app && npm install && npm run build:debug
+vega virtual-device start               # boots the simulator (wait for "Virtual device ready")
+vega run-app build/aarch64-debug/zoraplayvega_aarch64.vpkg   # use the x86_64 .vpkg on an Intel Mac
+```
+
+The simulator window shows the app and an on-screen remote. See [docs/WORKFLOW.md](docs/WORKFLOW.md).
 
 ### What was tested where
 
-- Unit tests (152) and typecheck: pass.
+- Unit tests (167) and typecheck: pass.
 - Desktop browser (Chromium): every screen, the Talk section, the buddies and the intro.
 - Android TV emulator (`FireTV_API30`), Fire OS WebView: install, launch, intro, home screen, the Talk jokes, and the no-Wi-Fi fallback.
-- Not yet tested on a physical Fire TV device in this repository's history.
+- Physical Fire TV Stick (Fire OS 7): install, launch, every section and the live joke, recorded on video.
+- Vega Virtual Device (Vega SDK 0.24, aarch64 debug package): installed, launched and every section used with the on-screen remote.
 
 ## Zora Play's speaking voice
 
@@ -120,7 +135,6 @@ This is not a legal compliance review. Before publishing to the Appstore, review
 
 ## Known limitations
 
-- Not yet run on a physical Fire TV device (see "What was tested where").
 - No real voice input (see above).
 - The animal sounds are third-party recordings (public domain or CC0) that were chosen by title and checked for length and loudness; cow, duck, pig and monkey are not included because no suitable open recording was found.
 - Some AI-written jokes are weak; only the ones a person approved are in the app.
@@ -144,7 +158,10 @@ vega/App.tsx     reference WebView shell for the optional Vega OS path
 
 ## How AWS is used (AWS Builder mini challenge)
 
-The app on the TV is fully offline. AWS is used **at build time** to write and safety-check the extra lines Zora Play can say (jokes, riddles, animal facts, chat replies, bedtime lines).
+The app on the TV has no AWS SDK and no keys. AWS is used in two ways:
+
+1. **At build time** (the main use): Amazon Bedrock writes the extra lines Zora Play can say (jokes, riddles, animal facts, chat replies, bedtime lines), a Bedrock Guardrail checks them, and a person approves each one. Approved lines ship inside the app as plain text and recorded voice clips.
+2. **At run time, for one optional button**: when the TV is online, **Tell me a joke** can fetch a brand-new joke (`infra/joke-service`: API Gateway, then a Lambda that calls Bedrock with a Guardrail on the output and speaks the joke with Amazon Polly). Only the buddy's id is sent. If the TV is offline, the call is slow or anything looks unsafe, a stored joke is told instead. A grown-up can switch it off in Settings.
 
 ```
  BUILD TIME (developer laptop)                                                RUN TIME (Fire TV, offline)
@@ -168,11 +185,30 @@ The app on the TV is fully offline. AWS is used **at build time** to write and s
 | Amazon Bedrock (Converse API) | Writes lines as strict JSON with Amazon Nova Lite and Nova Pro |
 | Amazon Bedrock Guardrails | Child-safety filters and denied topics on the model output, then again on every line (`ApplyGuardrail`) |
 | Amazon CloudWatch Logs | Bedrock model invocation logging: prompts, replies, token counts, latency |
+| AWS Lambda + Amazon API Gateway | The optional live-joke service (`infra/joke-service`), rate limited and with a small concurrency cap |
+| Amazon Polly | Speaks a live joke in a voice that fits the chosen buddy |
 | AWS IAM | Standard credentials; no keys in the repo (`.env.example` lists the variables) |
 
-Real results: 45 lines generated and checked, 45 of 45 passed the guardrail, a human approved 28 and rejected 17, and the 28 are in the app. The guardrail blocked every unsafe test line we tried. We also found and fixed a real problem: the guardrail's prompt-attack filter was blocking our own prompts. The fix, the logs and all details are in [docs/aws-bedrock.md](docs/aws-bedrock.md); guardrail settings are in [scripts/bedrock-guardrail-setup.md](scripts/bedrock-guardrail-setup.md).
+Real results: 226 lines generated and checked (206 jokes plus 20 riddles, animal facts, chat replies and bedtime lines); a human approved 148, rejected 17, and 61 jokes are still waiting for review. Only the approved lines are in the app, voiced for all four buddies. The guardrail blocked every unsafe test line we tried. We also found and fixed a real problem: the guardrail's prompt-attack filter was blocking our own prompts. The fix, the logs and all details are in [docs/aws-bedrock.md](docs/aws-bedrock.md); guardrail settings are in [scripts/bedrock-guardrail-setup.md](scripts/bedrock-guardrail-setup.md).
 
-A test (`test/bedrock-pipeline.test.ts`) fails if anything under `src/` mentions the AWS SDK, so the offline promise is enforced. Run the checks with `npm test` (no AWS needed).
+A test (`test/bedrock-pipeline.test.ts`) fails if anything under `src/` mentions the AWS SDK; the one optional online call in the app is a plain HTTPS request (`src/web/liveJoke.ts`), and every reply is checked again on the device (`src/core/liveJoke.ts`). Run the checks with `npm test` (no AWS needed).
+
+## Hackathon submission at a glance
+
+| Requirement | Where it is met |
+|---|---|
+| **Primary track: Fire TV** | A kids' buddy app that runs on Fire OS (Fire TV Stick) as a web app in an Android WebView (`firetv/`), driven only by the remote. Also runs on the Vega Virtual Device (`vega-app/`). |
+| **Mini challenge: AWS Builder** | Amazon Bedrock (Converse API, Nova Lite and Nova Pro) plus Guardrails and CloudWatch, and Lambda, API Gateway and Polly for the live joke. See [How AWS is used](#how-aws-is-used-aws-builder-mini-challenge) and [docs/aws-bedrock.md](docs/aws-bedrock.md). |
+| **Mini challenge: Open Source** | [packages/tv-audio-flow](packages/tv-audio-flow): MIT licence, README, 36 tests, runnable examples; it keeps speech, songs and animal sounds from overlapping and lets Back cancel instantly. |
+| **Public repo with an open-source licence** | This repository, MIT ([LICENSE](LICENSE)). |
+| **Demo video (under 3 minutes)** | Real Fire TV Stick footage, then the Vega simulator, then both mini challenges. Script and notes: [docs/DEMO-SCRIPT.md](docs/DEMO-SCRIPT.md). |
+| **How to test it** | `npm install && npm test && npm run build && npm run serve` (no AWS account needed), or install the APK as described above. |
+| **Honest AI use** | See [Credits and AI use](#credits-and-ai-use) and [docs/SUBMISSION.md](docs/SUBMISSION.md). |
+| **No secrets** | No keys, tokens or `.env` in the repository; only `.env.example` with empty placeholders. Build-time AWS access uses your own AWS profile. |
+
+## Open source: TV Audio Flow
+
+`packages/tv-audio-flow` is a small, dependency-free TypeScript library (MIT) for TV apps that play many sounds: a sequence of clips, delays and actions where each step starts only when the previous one really ended, and one shared channel lets only one sequence play at a time, so a new session never overlaps an old one and a Back key cancels everything at once. It has 36 tests (race conditions, pause and resume, typed errors), two runnable examples (`npm run examples`), a README, a changelog and a contributing guide. Run `cd packages/tv-audio-flow && npm install && npm run check`.
 
 ## License
 

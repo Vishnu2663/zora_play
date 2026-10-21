@@ -52,5 +52,14 @@
   "devDependencies": {
     "@types/node": "^22.20.5",
     "typescript": "~5.9.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vishnu2663/zora_play.git",
+    "directory": "packages/tv-audio-flow"
+  },
+  "homepage": "https://github.com/Vishnu2663/zora_play/tree/master/packages/tv-audio-flow",
+  "bugs": {
+    "url": "https://github.com/Vishnu2663/zora_play/issues"
   }
 }
