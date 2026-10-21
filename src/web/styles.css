@@ -671,7 +671,6 @@ button { font-family: inherit; }
 .cast-flat .mood-glow { display: none; }
 .cast-flat + .cast-name { margin-top: 16px; }
 .cast-name { margin-top: -18px; font-size: 40px; font-weight: 900; color: #fff; text-shadow: 0 4px 0 rgba(0, 0, 0, .25); }
-.reduced 
 /* ---- opening scene, round 2: a rainbow over the cast and a little star that hops from friend to friend ---- */
 @keyframes rainbow-in { from { opacity: 0; transform: scale(.55); } to { opacity: .9; transform: none; } }
 @keyframes hop-star {
